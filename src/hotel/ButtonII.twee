@@ -1,0 +1,15 @@
+:: Button II {"position":"407,1367","size":"100,100"}
+(set: $button to it +1)
+
+Du zappelst in deinen Fesseln, krümmst deinen Rücken, während du deinen Hintern in die Laken drückst und sie leicht verschiebst. Wenn du hart an allen vier Fesseln ziehst und das Manöver wiederholst, bewegen sich die Laken tatsächlich. Ein bisschen.
+
+(if: $button > 1)[Der Fortschritt ist langsam, aber merklich. Du schaffst das.]
+
+(if: $button > 2)[Du schluckst schwer und machst eine kurze Pause. Der Knebel lässt dich sabbern, aber das Panel hat dafür gesorgt, dass es nirgendwo anders hingehen kann.]
+
+(if: $button > 3)[Bleib dran, du hast es fast geschafft.]
+
+(if: $button > 4)[Mit einer letzten Bewegung bekommst du das Laken frei und es sammelt sich zu einer rauen Kugel am Fußende des Bettes. Alles was du jetzt tun müsst, ist es auf den Boden zu werfen ... und tada! [[Erfolg!->Button III]].]
+
+[[Weiter so.->Button II]]
+[[Du hast es satt, vielleicht solltest du versuchen, dich zu befreien?->Ring II]]

@@ -1,0 +1,8 @@
+:: Ring IV [Debt] {"position":"780,1935","size":"100,100"}
+(set: $debt to it + 35)
+(set: $debtRing to true)
+Die Schrauben ziehen sich schließlich heraus und damit ist dein linker Arm und die dazugehörige Manschette plötzlich frei. Ein rauer Fleck bleibt im Holz des Bettpfostens zurück, aber mit deiner neu gewonnenen Freiheit ist es nicht schwer, die anderen Fesseln zu lösen.
+
+Die Manschetten folgen, und bevor du es bemerkst, kannst du nach oben greifen und deine Handfläche gegen den Countdown für die Selbstfreigabe drücken. Er geht auf Null zurück und verschwindet dann vollständig. Es bleibt nur die Zeit, als du dich zur Bettkante bewegst.
+
+[[Es ist Zeit herauszufinden, was los ist.->LOOKING AROUND]]

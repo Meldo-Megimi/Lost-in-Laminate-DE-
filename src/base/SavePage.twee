@@ -1,0 +1,84 @@
+:: SavePage
+---------------------
+Speichere oder lade dein Spiel!
+---------------------
+Wenn Du dein Spiel gespeichert oder geladen hast, verwende den unten stehenden Link, um zu deinem letzten Platz zurückzukehren.
+In Internet Explorer- und Edge-Browser kann möglicherweise nicht gespeichert werden, wenn du die herunterladbare Version von Lost in Laminate verwendest.
+---------------------
+**Aktuell geladener Spielstand:** (print: $SaveName)
+
+**Speicherplatz Status:**
+Speicherplatz A: (if: (saved-games:) contains "file A")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz B: (if: (saved-games:) contains "file B")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz C: (if: (saved-games:) contains "file C")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz D: (if: (saved-games:) contains "file D")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz E: (if: (saved-games:) contains "file E")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz F: (if: (saved-games:) contains "file F")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz G: (if: (saved-games:) contains "file G")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz H: (if: (saved-games:) contains "file H")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz I: (if: (saved-games:) contains "file I")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz J: (if: (saved-games:) contains "file J")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz K: (if: (saved-games:) contains "file K")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz L: (if: (saved-games:) contains "file L")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz M: (if: (saved-games:) contains "file M")[Platz belegt](else:)[*leerer Platz*]
+Speicherplatz N: (if: (saved-games:) contains "file N")[Platz belegt](else:)[*leerer Platz*]
+
+{(link: "((Speichere dein Spiel in Speicherplatz A.))")[
+  (if: (save-game: "file A"))[Spiel gespeichert im Speicherplatz A!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz A speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz B))")[
+  (if: (save-game: "file B"))[Spiel gespeichert im Speicherplatz B!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz B speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz C))")[
+  (if: (save-game: "file C"))[Spiel gespeichert im Speicherplatz C!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz C speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz D))")[
+  (if: (save-game: "file D"))[Spiel gespeichert im Speicherplatz D!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz D speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz E))")[
+  (if: (save-game: "file E"))[Spiel gespeichert im Speicherplatz E!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz E speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz F))")[
+  (if: (save-game: "file F"))[Spiel gespeichert im Speicherplatz F!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz F speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz G))")[
+  (if: (save-game: "file G"))[Spiel gespeichert im Speicherplatz G!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz G speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz H))")[
+  (if: (save-game: "file H"))[Spiel gespeichert im Speicherplatz H!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz H speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz I))")[
+  (if: (save-game: "file I"))[Spiel gespeichert im Speicherplatz I!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz I speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz J))")[
+  (if: (save-game: "file J"))[Spiel gespeichert im Speicherplatz J!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz J speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz K))")[
+  (if: (save-game: "file K"))[Spiel gespeichert im Speicherplatz K!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz K speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz L))")[
+  (if: (save-game: "file L"))[Spiel gespeichert im Speicherplatz L!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz L speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz M))")[
+  (if: (save-game: "file M"))[Spiel gespeichert im Speicherplatz M!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz M speichern.]
+]}
+{(link: "((Speichere dein Spiel in Speicherplatz N))")[
+  (if: (save-game: "file N"))[Spiel gespeichert im Speicherplatz N!]
+  (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz N speichern.]
+]}
+
+---------------------
+(link: "Kehre zum Spiel zurück!")[(go-to: (history:)'s last)]

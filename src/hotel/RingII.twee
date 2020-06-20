@@ -1,0 +1,7 @@
+:: Ring II {"position":"255,1365","size":"100,100"}
+Du bleibst dran. Wärend du mit der Hand hin und her schwingst, ziehen deine anderen Gliedmaßen gelegentlich fruchtlos an deinen Fesselungen. Diese geben nicht nach, und ehrlich gesagt hast du das Gefühl, dass die Schwachstelle vielleicht nicht so schwach ist-- sie rührt sich auch nicht. Zehn Minuten vergehen und dein Arm schmerzt.
+
+[[Weiter so.->Ring III]]
+[[Vielleicht sollte ich es mit dem Knopf versuchen?->Button I]]
+
+(Set: $ring to 0)

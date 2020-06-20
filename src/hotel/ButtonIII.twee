@@ -1,0 +1,9 @@
+:: Button III {"position":"407,1516","size":"100,100"}
+Auf dem Spiegel gegenüber erscheinen weiße Buchstaben:
+
+//Zimmerservice rufen: Bitte bestätigen?//
+
+Scheisse. Sie können mich nicht so sehen! Gebunden und hilflos! Aber sie könnten mich sicherlich befreien ...
+
+[[Bestätigen!->ButtonIV]]
+[[Nein, ich werde mich selbst befreien!->Ring II]]

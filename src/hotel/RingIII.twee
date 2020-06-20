@@ -1,0 +1,15 @@
+:: Ring III {"position":"256,1512","size":"100,100"}
+(set: $ring to it +1)
+
+Du arbeitest weiter am d-Ring, hin und her, hin und her. Dein Arm tut weh und bald bist du ins Schwitzen gekommen. Aber hin und wieder springt ein bisschen Metall heraus oder die Schrauben verschieben sich nur ein bisschen.
+
+(if: $ring > 2)[Dieses verdammte Ding will einfach nicht nachgeben ...]
+
+(if: $ring > 5)[Du schließt deine Augen und stöhnst in deinen Knebel, während du weiter hin und her ziehst. Du scheinst jetzt engagiert zu sein, musst dich aber fragen: Wie viel schwieriger könnte es sein, diesem Knopf zu erreichen?]
+
+(if: $ring > 11)[Du arbeitest jetzt wirklich daran. Der Knebel verhindert dein Keuchen und zwingt dich dazu nur durch die Nase zu atmen, was es schwierig macht weiterzumachen. Es dauert jetzt fast eine Stunde.]
+
+(if: $ring > 16)[Du stöhnst wieder und kannst deinen Arm nicht fühlen. Fast anderthalb Stunden sind vergangen, aber du lässt nicht locker und krümmst deinen Rücken, während du gleichzeitig hart an all deinen Fesseln ziehst... und mit einem //schnippen// gibt der d-Ring nach. Du bist [[frei!->Ring IV]]]
+
+[[Arbeite weiter am Ring!->Ring III]]
+[[Sie können noch immer mit der Taste versuchen.->Button I]]

@@ -1,0 +1,23 @@
+:: Button VII {"position":"224,2114","size":"100,100"}
+<img src="img/G0lGB6M.png" width="55%" height="55%">
+
+"Verstanden, ich trete jetzt ein." Die Tür öffnet sich und lässt eine Frau in deinem Alter herein, die eine Hotelangestelltenuniform trägt-- aber von ausgefallenem Stil und Schnitt. Die Uniform der Frau ist aus glattem, glänzendem Material, ähnlich wie dein jetzt zerknittertes Bettlaken, äußerst eng. Ihr Bleistiftrock schmiegt sich an breite Hüften, während ein Korsett ihren Mittelteil umarmt und ein violettes Oberteil das oben auftaucht. Sie ist ziemlich vollbusig und das lila Material ist halbtransparent, so dass sie einen klaren Blick auf ihre gepiercten Brustwarzen hat. 
+(set: $methelp to true)
+Zumindest seid ihr //beide// ein bisschen entblößt, denkst du, errötest trotzdem, als sie sich im Raum umsieht. In Anbetracht deiner Situation ist ihre Reaktion ziemlich zurückhaltend - sie lächelt nur strahlend, die Hände vor sich gefaltet. Du bemerkst, dass ihre Handgelenke durch eine Kette zwischen ihnen verbunden sind und ein dickes Halsband ihren Hals umgibt.
+
+"Ich sehe, dass Sie sich auf eine längere Zeit von Self-Bondage einlassen", bemerkt sie und schaut scharf auf den Countdown, der auf die Wand projiziert wird. "Angesichts der Tatsache, dass sich Ihre Check-out-Zeit nähert, scheint das unglücklich zu sein. Ich würde es bedauern, Ihnen zusätzliche Gebühren in Rechnung zu stellen zu müssen."
+
+Ihr Lächeln deutet darauf hin, dass sie es in wahrheit genießen würde.
+
+"Um Ihre Servicebedürfnisse richtig zu ermitteln, müssen wir Ihren Knebel entfernen. Ich kann dies gegen eine geringe Gebühr von 20 Credits tun. Bitte heben Sie Ihr Kinn an, wenn dies akzeptabel ist."
+
+[[Es ist nicht so, dass du eine Wahl hast. Hebe dein Kinn.->Lift Chin]]
+[["Mmmpgh!?" (Ich muss bezahlen!?)->"Mmmpgh!?" (I need to pay!?)]]
+
+
+:: "Mmmpgh!?" (I need to pay!?) {"position":"293,2258","size":"100,100"}
+Die Augen des Mädchens funkeln. "Wir bemühen uns, unseren Gästen einen angenehmen Aufenthalt zu ermöglichen. Die vorzeitige Beendigung der selbst auferlegten oder sonstigen Knechtschaft erfordert daher eine geringe Gebühr. Wir würden es bedauern, wenn Sie den Verlust des Vergnügens bedauern, den ein so frühes Ende schließlich verursachen könnte."
+
+Wieder schaut sie lächelnd auf den Countdown. "Fünfundvierzig Stunden sind für einen Offworlder ziemlich ehrgeizig, Ma'am. Und Sie haben noch zwölf Stunden Zeit. //Glücklicherweise...//"
+
+[[Gut, hebe dein Kinn wie gewünscht an.->Lift Chin]]

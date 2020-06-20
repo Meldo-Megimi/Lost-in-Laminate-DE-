@@ -1,0 +1,103 @@
+:: Load
+*Dein Körper geht, während dein Geist aufwacht, eine steigende Flut des Bewusstseins ...*
+
+{**Slot A:**
+(if: (saved-games:) contains "file A")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file A")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot B:**
+(if: (saved-games:) contains "file B")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file B")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot C:**
+(if: (saved-games:) contains "file C")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file C")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot D:**
+(if: (saved-games:) contains "file D")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file D")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot E:**
+(if: (saved-games:) contains "file E")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file E")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot F:**
+(if: (saved-games:) contains "file F")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file F")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot G:**
+(if: (saved-games:) contains "file G")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file G")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot H:**
+(if: (saved-games:) contains "file H")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file H")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot I:**
+(if: (saved-games:) contains "file I")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file I")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot J:**
+(if: (saved-games:) contains "file J")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file J")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot K:**
+(if: (saved-games:) contains "file K")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file K")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot L:**
+(if: (saved-games:) contains "file L")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file L")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot M:**
+(if: (saved-games:) contains "file M")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file M")]
+]
+(else:)[
+  *leerer Platz*
+]}
+{**Slot N:**
+(if: (saved-games:) contains "file N")[
+  (link: "((Lade dein gespeichertes Spiel))")[(load-game: "file N")]
+]
+(else:)[
+  *leerer Platz*
+]}
+
+[[Du irrst dich, stattdessen ist ein Neuanfang erforderlich. Kehre zum Anfang aller Dinge zurück.->Startup]]

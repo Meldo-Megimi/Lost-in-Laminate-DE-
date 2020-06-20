@@ -1,0 +1,16 @@
+:: Button VI {"position":"132,1990","size":"100,100"}
+"Ah", antwortet die Stimme auf deinen gedämpften Gruß. "Ich höhre, dass du geknebelt bist. Zwei Stöhnen, wenn du meinen Dienst benötigst, eines, wenn du es nicht tust."
+
+Sie ist an solche Situationen wohl eindeutig gewöhnt.
+
+[[Zweimal stöhnen, für den Service!->Button VII]]
+[[Einmal stöhnen, du wirst dich selbst befreien.->Button VIB]]
+
+
+:: Button VIB [Debt Late] {"position":"396,1975","size":"100,100"}
+Das Geräusch der Frau vor der Tür wird leiser, und damit jede Chance sie könnte dir helfen. Stattdessen muss deine Aufmerksamkeit jetzt auf den losen d-Ring gerichtet werden. Du hast ziemlich viel Zeit mit dem Knopf verschwendet, hoffentlich tut es dir später nicht leid.
+
+(set: $debt to it + 50)
+(Set: $ring to 0)
+(set: $debtChangeEscape to true)
+[[Beginne mit der Arbeit am d-Ring.->Button B]]

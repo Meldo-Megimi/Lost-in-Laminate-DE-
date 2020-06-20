@@ -1,0 +1,15 @@
+:: CatCheat
+Möchtest du, dass auch Corinth versklavt wurde?
+
+[[Ja->CatCheatYes]]
+[[Nein->CatCheatNo]]
+
+:: CatCheatYes
+Okay!
+(set: $CorSlave to true)
+Gehe zum Catgirl Ende: (link:"Klick mich!")[(go-to:"CatgirlEnd")]
+
+:: CatCheatNo
+Okay!
+(set: $CorSlave to false)
+Gehe zum Catgirl Ende: (link:"Klick mich!")[(go-to:"CatgirlEnd")]

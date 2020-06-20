@@ -1,0 +1,6 @@
+:: RestartPage
+Wenn du *Lost in Laminate* neu startest, wird jeder nicht gespeicherte Fortschritt gelöscht. Bitte stelle sicher, dass du, falls gewünscht, gespeichert hast bevor du einen Neustart durchführst. Wenn du jetzt nicht neu starten oder laden möchtest, verwenden einfach den Zurückpfeil des Spiels, um dorthin zurückzukehren, wo du warst.
+
+Durch einen Neustart wird das Spiel gelöscht und du kannst auf die Ladeseite am Anfang zugreifen.
+
+(link: "ZURÜCK ZUM START")[(reload:)]

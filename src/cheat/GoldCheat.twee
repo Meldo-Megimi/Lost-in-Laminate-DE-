@@ -1,0 +1,9 @@
+:: GoldCheat
+(set: $GoldCheat to true) Lade...
+
+(colour: yellow)[Almalee-Modus aktiviert!:] 10.000 Credits hinzugefügt!
+
+(Lieferung nach Verlassen des Hotels.)
+(Set: $debt to 0) (Set: $Wardrobe to false)(set: $Slave to false)(set: $Blue to false)(set: $Smoke to false)(set: $Sec to false)(set: $Brand to false)(set: $IsSlave to false)(set: $Nun to false)(set: $showcredits to false)(set: $showgear to false)(set: $showstatus to false)(set: $LevelFix to false)(set: $DaemonEnd to false)(set: $PrisonerEnd to false)(set: $Servant to false)(set: $Status to 0)(set: $Ending to 0)(set: $debtShower to false)(set: $SaveName to "None")
+[[Beginne am Anfang.->Elevator]]
+

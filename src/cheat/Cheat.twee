@@ -1,0 +1,8 @@
+:: Cheat
+(set: $Cheat to (prompt: "Gib den Cheat Code ein:", ""))
+
+(if: $Cheat is "Gloss")[Richtiger Cheat Code eingegeben!
+
+[[Weiter zur Entwicklungskonsole->Cheat 2]]](else:)[Falscher Code. Spiele das Spiel durch, um am Ende einen Cheat-Code freizuschalten, oder besuche uns auf Discord, um ihn zu erhalten!
+[[Zurück.->Startup]]]
+
