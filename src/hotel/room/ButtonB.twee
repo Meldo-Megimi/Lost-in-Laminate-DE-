@@ -1,4 +1,4 @@
-:: Button B {"position":"471,2147","size":"100,100"}
+:: Button B
 (set: $ring to it +1)
 
 Du arbeitest weiter am d-Ring, hin und her, hin und her. Dein Arm tut weh und bald bist du ins Schwitzen gekommen. Aber hin und wieder springt ein bisschen Metall heraus oder die Schrauben verschieben sich nur ein bisschen.

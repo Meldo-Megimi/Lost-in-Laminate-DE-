@@ -1,4 +1,4 @@
-:: Wake {"position":"407.6666666666667,316.3333333333333","size":"100,100"}
+:: Wake
 Dein Bewusstsein kommt langsam, ein interstellarer Drag-Motor läuft nach viel zu langer Zeit ungestartet an. Jede Umdrehung des Geistes bringt dich nur ein //bisschen// mehr zu Sinnen. Das Verlangen nach Verständnis ist natürlich, aber andere Symptome treten auf. Zuerst? ''Schmerzen.'' Ein Kopfschmerz, der die Ferrotitan Führungslinie des Weges nach oben zerreissen konnte.
 (Set: $debt to 0) (Set: $Wardrobe to false)(set: $Slave to false)(set: $Blue to false)(set: $Smoke to false)(set: $Sec to false)(set: $Brand to false)(set: $IsSlave to false)(set: $Nun to false)(set: $showcredits to false)(set: $showgear to false)(set: $showstatus to false)(set: $LevelFix to false)(set: $DaemonEnd to false)(set: $PrisonerEnd to false)(set: $Servant to false)(set: $Status to 0)(set: $Ending to 0)(set: $debtShower to false)(set: $SaveName to "None")(set: $GoldCheat to false)
 [[Moment... Weg nach oben?->Elevator]]

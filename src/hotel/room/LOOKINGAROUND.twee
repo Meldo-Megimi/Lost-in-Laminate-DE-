@@ -1,0 +1,13 @@
+:: LOOKING AROUND
+<img src="img/NGiox2N.png" width="75%" height="75%">
+
+Du bewegst dich in die Mitte des Raums und drehst dich langsamm im Kreis, während du dir die Szene deiner kurzfristigen Amnesie betrachtest. Du bist auf Torei, du bist hergekommen, um einen Deal zu machen-- das ist so ziemlich alles, was du weißt. Hier muss etwas sein, um die Lücken zu füllen!
+
+Das Zimmer selbst ist so weiß und makellos, wie du es von deinem Standpunkt von dem Bett aus gesehen hast. Es gibt nur wenige Möbel, die einen eleganten, modernen Look haben. Auch erleichtert es dir die Suche erheblich, sodass die wenigen Dinge, die nicht dazu gehörten, umso deutlicher herausragen.
+
+[[Das Glasgerät dort drüben wurde auf den Stuhl geworfen.->Hotel Glass]]
+[[Die Gegenstände auf dem Nachttisch werde ich durchsuchen.->Hotel Nightstand]]
+[[Dort drüben liegt eine Broschüre auf dem Tisch.->Hotel Table]]
+[[Vielleicht liefert das Einschalten des Fernsehgeräts einige Informationen?->Hotel TV]]
+[[Ein Badezimmer ist angeschlossen, das sollte ich erkunden.->Hotel Bathroom]]
+(If: $unlockdoor and $memloss is true)[[[Mit deiner kleinen Kartensammlung kannst du jetzt gehen.->Leave Correct]]](else:)[[Vergiss das, ich muss JETZT HIER RAUS!->Hotel Leave]]

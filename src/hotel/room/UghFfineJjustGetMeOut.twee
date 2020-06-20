@@ -1,0 +1,14 @@
+:: "Ugh, fine, just get me out!" [Debt]
+(set: $debt to it + 30)
+(set: $debtHelp to true)
+"Ihre Gesamtgebühr für diese Interaktion beträgt jetzt (print: $debt) Credits", tällert sie und lächelt immer noch. Wir machen gerne Geschäfte mit Ihnen. Einen Moment."
+
+Sie greift nach deinen Fesseln und beginnt an deinen Handgelenken. Befreit, kannst du beginnen, die Manschetten selbst abzuziehen, während sie sich zu deinen Knöcheln begibt. Es dauert nur wenige Augenblicke, bis deine Tortur endgültig beendet ist.
+
+"Fertig", meint das Zimmermädchen und erhebt sich vom Bett, um ihre Hand gegen die Uhr auf dem Nachttisch zu drücken. Der Selbstentriegelungsbefehl wird auf Null heruntergefahren und endet dann in einem roten Blitz.
+
+"Die Check-out-Zeit ist in weniger als einer Stunde", fährt das Zimmermädchen fort. "Bitte sammeln Sie Ihre Sachen und kommen Sie zu mir an die Rezeption, wenn Sie bereit sind."
+
+Sie verweilt nicht und geht durch die einzige Tür. Du bleibst zurück. Nackt, vielleicht beschämt, aber befreit.
+
+[[Es ist Zeit, sich umzusehen.->LOOKING AROUND]]

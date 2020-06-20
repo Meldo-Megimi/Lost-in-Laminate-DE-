@@ -104,68 +104,7 @@ Lost in Laminate
           tw-story {
             padding: 0 10px;
           }
-			}
         }
-
-
-:: Lift Chin [Debt]
-(set: $debt to it + 20)
-
-"Excellent," the servant grins.  "The 20 credit charge will been added to your account.  Now, allow me to assist."
-
-She approaches the side of the bed, placing one knee upon it to loom over you.  It's impossible to ignore her chest made so visible beneath the violet material.
-
-Your gag is not locked, and removing it simply requires the necessary straps be undone.  Pulling it free, a trail of drool lingers from the ball to your tongue before it snaps.  Carefully the servant sets it aside, her gaze returning to you again.
-
-"Now, how may I assist?"
-
-[["Thank you, I need the rest of my restraints undone!"->She Unlocks]]
-[["I need answers!"]]
-
-
-:: "I need answers!"
-"I'm afraid that is not entirely within my capacity to give," she replies, gently pushing a bit of your blonde hair from your eyes.  "We are a small establishment, and I will be required back at the front desk shortly.  You will need to stop there to check out, so perhaps we can talk at length then?"
-
-She looks down the long expanse of your exposed body, her smile returning.  "For now, would I be correct to assume you need your restraints to be undone?"
-
-[["Yes."->She Unlocks]]
-
-
-:: She Unlocks
-The servant nods.  "I understand.  Once again, I am required to inform you that a charge to your account would be made to end your bondage early.  Another 30 credits."
-
-[["Ugh, fine, just get me out!"]]
-
-
-:: "Ugh, fine, just get me out!" [Debt]
-(set: $debt to it + 30)
-(set: $debtHelp to true)
-"Your total charge for this interaction is now (print: $debt) credits," she chimes, still smiling.  We appreciate your business.  One moment."
-
-Reaching up, she begins to undo your restraints, starting at your wrists.  Freed, you're able to begin pulling off the cuffs themselves as she moves to your ankles.  It takes only a few more moments for your ordeal to finally conclude.  
-
-"Done," the servant concludes, rising from the bed to press her hand against the clock controls atop the nightstand.  The self-unlock command rolls down to zero, then terminates in a flash of red.
-
-"Checkout time is less than an hour away," the servant continues.  "Please collect your things and join me at the front counter when you are ready."
-
-She does not linger, exiting through the only door.  You're left in her wake.  Naked, perhaps ashamed, but freed.
-
-[[It's time to look around.->LOOKING AROUND]]
-
-
-:: LOOKING AROUND
-<img src="img/NGiox2N.png" width="75%" height="75%">
-
-You move to the center of the room, turning in a slow circle as you look upon the scene of your short-term amnesia.  You're on Torei, you came here to make a deal-- that's pretty much all you know.  There has to be something here to fill in the gaps!
-
-The room itself is as white and pristine as you saw from your vantage upon the bed.  Furnishings are few and far between, providing a slick, modern look.  It also helps make your search much easier, allowing those few things that did not belong to stick out all the more clearly.
-
-[[The glass device over there, discarded on the chair.->Hotel Glass]]
-[[The items on the nightstand, I will search those.->Hotel Nightstand]]
-[[There is a brochure of some sort on the table over there.->Hotel Table]]
-[[Perhaps turning on the TV will provide some information?->Hotel TV]]
-[[A bathroom is attached, I should explore that.->Hotel Bathroom]]
-(If: $unlockdoor and $memloss is true)[[[With your small collection of cards, you could now leave.->Leave Correct]]](else:)[[Forget this, I need to LEAVE NOW!->Hotel Leave]]
 
 
 :: Hotel Nightstand
@@ -21634,55 +21573,6 @@ Did you *really* want to eat this all, however?  It would leave you horny, certa
 
 [[Finish your meal.->CatEatAll]]
 [[Leave the last bit.->CatEatEnd]]
-
-
-:: Hotel Glass
-<img src="img/y67txhy.png" width="75%" height="75%">
-
-Your memory may be shoddy, but you remember these at least: *glass* devices, the ubiquitous handheld alternative to more bulky computers.  Rectangular in shape, with gently rounded edges, the transparent unit lights up with lettering inside at your touch.
-
-If you were hoping for more information on yourself, or even just an existent extranet connection, you’re sorely disappointed.  You recall that Torei largely operated outside of the galactic information network, and that was ignoring the significant delays and cost such communication demanded given the remoteness of the system.  As to the device in your hand, it appears to have been recently wiped clean.  The only non-standard file on the system appears to be a copy of “The Blagger’s Guide to Torei,” automatically installed while connected to the local network.
-
-You don’t have the time or inclination to read what appears to be a meaty manual, but a couple topics do jump out to you:
-
-[[Read the entry, “Torean Reproduction, or: where are all the men?!”->GlassRepro]]
-[[Read the entry, “Rewriting Gender, the Torean Way"->GlassTrans]]
-[[Read the entry, “Ringdoms, Neither Ring-Shaped nor Kingdoms (Usually?)"->GlassRing]]
-[[That's enough reading for now.->LOOKING AROUND]]
-
-
-:: GlassRepro
-**Torean Reproduction, or: where are all the men?!**
-
-*We may have as yet failed to find other sentient life in the abyssal reaches of space, but variations do exist among us humans, and the planet Torei’s particular history is no exception.  One needs only walk down the street to recognize the most immediate peculiarity of the Torean people, and that is the predominance of women.  Official population counts put the male to female ration at 1-to-10, a rate achieved largely to their natural physiology.*
-
-*Torean men are Haploid, while Torean women are Diploid.  As we do not expect the average reader to have focused all that much in biology class, in short this means that sexual intercourse between men and women always produce a female child.  In turn, if a women goes without fertilization in this manner, she will eventually give birth to a male child (over a far longer period of time, and if birth control is not utilized, which gets into biomedical topics that could fill a thousand other entries).  This also means that Torean men do not have fathers, and are instead inheriting genetically from their mother’s fathers (thus their grandfathers.)*
-
-*Confused yet?  Bumblebees (which incidentally like most insects are not found on Torei) reproduce in a similar manner, and that hive-like structure may best explain WHY this occurs.  For that, one must look to the progenitors of Torean civilization, their eternal polar AIs…*
-
-[[Return to the index.->Hotel Glass]]
-
-
-:: GlassTrans
-**Rewriting Gender, the Torean Way **
-
-*The planet Torei is renowned for its biomedical capabilities, but of more interest for many is how that intersects with cultural tendencies towards gender.  It is true that men are generally seen more favorably planetside, if only because they are rarer, and thus more predisposed towards wealth.  One would perhaps think that imbalance leads to strict limitations on gender, but the truth is far different indeed.*
-
-*Transitioning between genders is relatively easy (if expensive) on Torei, for offworlders one needs only reach the planet and book an appointment (or several, depending on the breadth of said transition) with the Ministry of Improvements.  Male-to-female changes are straightforward, capable of even achieving reproductive capability if Torean physiology is adopted, but prospective patients should be wary: Torean laws apply far differently towards women, and registration with the Ministry of Wombs should not be taken lightly.  Few Toreans utilize this procedure however, as male slaves are far more valuable, and free males rarely wish to relinquish any bit of their power.  Female-to-male changes are similar in cost, but the with added economic consideration that any additional value earned from joining the relatively rare ranks of men on the planet is generally offset by the cost of the procedure in the first place.*
-
-[[Return to the index.->Hotel Glass]]
-
-
-:: GlassRing
-**Ringdoms, Neither Ring-Shaped nor Kingdoms (Usually?)**
-
-*Comparable to nation-states, Ringdoms are the foundational political unit that dominate the largely habitable ring around equatorial Torei.  Despite the name they do indeed come in all manner of shapes and sizes, along with an equally myriad variation in government types.  Kingdoms, republics, theocracies, and commonwealths, as well as everything in between run from what’s called the “Mountainous” region surrounding the singular Space Elevator, and the Antipodes, the region on the far side of the planet.
-
-Talking in generalities about Ringdoms is always dangerous, but one can at least say that those nearest the space elevator are the most familiar in manner to offworlders and travelers.  Galactic-level amenities are common, representation with offworld trade groups can provide some manner of diplomatic protection, and local governments are generally progressive (at least by Torean standards).  In turn, the Antipodes are often fiercely traditional, with technological adoption varying widely.  
-
-The Ringdom of Aekora, in which you now stand, is in the Mountainous region, but does not abut the space elevator directly.  It is a Diarchy, ruled by a pair of Diarchs elected to the positions.  While technically open to any Torean-born Aekoran citizen, in practice these positions have split between the richest two families in the Ringdom—the Naram-Sin, and the Sargon.*
-
-[[Return to the index.->Hotel Glass]]
 
 
 :: Guide
