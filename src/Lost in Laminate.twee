@@ -107,25 +107,6 @@ Lost in Laminate
         }
 
 
-:: Hotel Nightstand
-The nightstand follows the general decorating rules whomever designed this room had landed upon: smooth lines, bright white, little extraneous decoration.  Projected against the wall the clock still marked time, but your focus falls upon the four items below it.  All are small rectangular cards, splayed in a fan-like fashion, but that's where the similarities end.
-
-The first is an Aekoran identification passcard, your own image printed upon the front.  Various identifying features are noted underneath, alongside an expiration date of late tonight.  It appears your time on Torei had been drawing to an end.  The most prominent component of the card, however, is the bright red lettering along the top: **FREEWOMB**.
-(set: $Status to 1)(set: $showstatus to true)(set: $unlockdoor to true)
-The second card is actually a ticket for an ascent of the planet's space elevator, the Way Up.  Prepaid, and dated for midnight tonight.  Only your name is listed.
-
-The third is a hotel keycard, obviously linked to your room. It's broken in half, the holostrip along the back missing a good chunk.  By itself, this probably wouldn't work.
-
-The final card is more of an enigma.  Rectangular and card like, the material is smooth and reflective.  There are no words, nothing besides a black expanse that encapsulated the entire thing.  Flipping it over, you recognize your own handwriting in a white pen:
-
-*'Tomorrow.  Dusk.  The deal is on.  I can't...'*
-
-The words seem to sit uneasily upon the card, droplets of ink upon a midnight pond.  And... is that movement?
-
-[[What's the Way Up, again?->Elevator II]]
-[[Examine the black card more closely.->Black Card]]
-
-
 :: Hotel Table
 The table is clinically white, like much of the room.  Picking up the brochure, you see that it's for a hotel of some sort-- that it was for the very building in which you stand is made clear as soon as you recognize the decor of one of the rooms pictured on the front.
 
@@ -234,22 +215,6 @@ Shit.  You really should have seen this coming.  There must be a keycard around 
 [[Panic solves nothing.  Keep looking around.->LOOKING AROUND]]
 
 
-:: Elevator II
-The memory is cloaked in a web of blackened synapses, lying at the very edge of the abyss that you recognize as your short term memory, but fragments do come through.  You're seated upon a plush bench seat, hand pressed to the glass of the capsule roaring downward towards a planet that stretches towards the horizon.  Far less convenient then landing directly, but you know that isn't possible.  Men defied the Gods of the this world once, but do so again at their own peril.  This is the only way.
-
-[[Of course.  Now that black card, is it moving?->Black Card]]
-
-
-:: Black Card
-The surface of the black card shifts, a pond disturbed. Equally obsidian letters rise, hardly visible until you turn the card, utilizing its own glossy reflection to view what had arisen from the depthless deep.  Words.
-
-//356 Cross Street, Grand Aekora.  Dusk.//
-
-The words linger, but only momentarily.  As readily as they had emerged, the letters eventually sink back into the abyss.  Running your finger over the surface of the black card returns only the sensation of a smooth surface, unblemished besides your own comparably uncivilized scrawl.  To call the experience eerie would be to understate the situation greatly.
-
-[[There is a story here, though.  Focus.  Put this all together.]]
-
-
 :: Leave Correct
 Finally, you carefully hold the pieces of your keycard together.  Pressing them to the door, a purple light briefly flashes and the door's lock audibly clicks.  You're out.
 
@@ -262,24 +227,6 @@ You look left, then right.
 (if: $Wardrobe is true)[[[You remember that mention of a 'Wardrobe Device' being somewhere nearby, out your door and to the right.  Worth a try.->Wardrobe I]]]
 [[Light pours into a larger room visible at the end of the wall to your left.  That has to be the front desk.  Make for it.->NudeFront]]
 [[The way to your right appears to end abruptly further down the way, but you could still head that direction.->Wardrobe Alt]]
-
-
-:: There is a story here, though.  Focus.  Put this all together.
-Competing narratives become apparent.  On one hand, you have your ticket for the Way Up, and the expiration of your passcard.  You must have been planning to leave tomorrow.
-
-On the other hand, the black card and your troubled white scrawl.  The card had given a date and place, that's obvious.  You're a prospector, this *must* have been the deal you came to make.  The contact you could not recall, a meeting scheduled to acquire the technology you traveled all this way to acquire.  But what of what you had written yourself?
-
-*'Tomorrow.  Dusk.  The deal is on.  I can't...'*
-
-A warning?  If only you could remember!  And what of the predicament you had awoken to?  Bound and gagged, perhaps by your own hand.  With a self-release timer counting down, intended to *just* overshoot dusk.  That would mean you would have missed the meet for the deal, but would have given you enough time to make the trip back to the elevator.  
-
-(if: $memloss is true)[The Mem-Burn you found in the bathroom provided further evidence of a concerted effort to prevent your attending the deal.  Bound and gagged, forced to wait until tomorrow, unable to recall *anything*?  You would have missed it for sure.]
-
-Had you tried to prevent yourself from making the deal?  Why go to such lengths?  
-
-(if: $memloss is true)[Answers do not come, but at least you have both portions of the keycard.  Leaving your room is now possible.]
-
-[[Collect the cards, and move back towards the center of the room.->LOOKING AROUND]]
 
 
 :: Mem Loss

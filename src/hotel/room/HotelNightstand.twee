@@ -1,0 +1,17 @@
+:: Hotel Nightstand
+Der Nachttisch folgt der Dekoration dieses Raums: glatte Linien, strahlend weiß, wenig extra Dekoration. Gegen die Wand wird noch immer die Zeit Projiziert, aber dein Fokus richtet sich auf die vier Elemente darunter. Alle sind kleine rechteckige Karten, die fächerartig gespreizt sind, aber hier enden die Ähnlichkeiten.
+
+Die erste ist eine Aekoran-Identifikationskarte, auf deren Vorderseite dein eigenes Bild gedruckt ist. Darunter befinden sich verschiedene Identifikationsmerkmale sowie ein Ablaufdatum, heute Abend. Es scheint, dass deine Zeit auf Torei zu Ende geht. Die auffälligste Komponente der Karte ist jedoch die leuchtend rote Beschriftung oben: **FREISCHOSS**.
+(set: $Status to 1)(set: $showstatus to true)(set: $unlockdoor to true)
+Die zweite Karte ist eigentlich eine Eintrittskarte für den Zugang zum Weltraumaufzug des Planeten, dem Weg nach oben. Vorausbezahlt und auf heute Abend, Mitternacht datiert. Nur dein Name wird aufgelistet.
+
+Die dritte ist eine Hotelschlüsselkarte, die offensichtlich mit deinem Zimmer verbunden ist. Sie ist in zwei Hälften zerbrochen, dem Holostreifen entlang des Rückens fehlt ein gutes Stück. So wird sie wahrscheinlich nicht funktionieren.
+
+Die letzte Karte ist eher ein Rätsel. Das Material ist rechteckig und kartenartig, glatt und reflektierend. Es gibt keine Worte, nichts außer einer schwarzen Fläche, die das Ganze umgibt. Wenn du sie umdrehst, erkennst du deine eigene Handschrift in einem weißen Stift:
+
+*'Morgen. Abenddämmerung. Der Deal läuft. Ich kann nicht...'*
+
+Die Worte scheinen unruhig auf der Karte zu sitzen, Tintentropfen auf einem Mitternachtsteich. Und ... ist das Bewegung?
+
+[[Was ist der Weg nach oben nochmal?->Elevator II]]
+[[Untersuche die schwarze Karte genauer.->Black Card]]

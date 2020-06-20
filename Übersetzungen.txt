@@ -1,5 +1,9 @@
+prospector  ->  Prospektor
 Ringdoms    ->  Ringdomänen
 Offworlder  ->  Aussenweltler
+Freewomb    ->  Freischoss
+Way Up      ->  Weg nach oben
+Mem-Burn    ->  Mem-Burn
                 Ministerium für Gebärmütter
                 Ministerium für Verbesserungen
 
