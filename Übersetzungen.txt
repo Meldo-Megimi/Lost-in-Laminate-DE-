@@ -1,9 +1,13 @@
-prospector  ->  Prospektor
-Ringdoms    ->  Ringdomänen
-Offworlder  ->  Aussenweltler
-Freewomb    ->  Freischoss
-Way Up      ->  Weg nach oben
-Mem-Burn    ->  Mem-Burn
+prospector      ->  Prospektor
+Ringdoms        ->  Ringdomänen
+Wardrobe devices->  Garderobengeräte
+Offworlder      ->  Aussenweltler
+Freewomb        ->  Freischoss
+Way Up          ->  Weg nach oben
+Mem-Burn        ->  Mem-Burn
+TRUANT OFFICER  ->  TRUANT BEAMTE
+SLAVE CODE      ->  SKLAVENCODE
+Diarch's Choice ->  Diarch's Wahl
                 Ministerium für Gebärmütter
                 Ministerium für Verbesserungen
 

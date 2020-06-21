@@ -1,0 +1,10 @@
+:: Hotel Table
+Der Tisch ist klinisch weiß, wie ein Großteil des Raumes. Als du die Broschüre in die Hand nimmst, erkennst du, dass sie für ein Hotel ist-- genau das Gebäude in dem du stehst, was du erkennst sobald du die Einrichtung eines der auf der Vorderseite abgebildeten Zimmer erkennst.
+
+Anscheinend wohnst du im Diarch's Wahl, einem kleinen Hotel am Stadtrand von Grand Aekora, der Hauptstadt der Ringdomäne von Aekora. Zu den Annehmlichkeiten zählen ein schneller Zimmerservice, kostenlose Garderobengeräte vor Ort, eine große Auswahl an Weinen und das, was als "sichere Sklavenlagerung" bezeichnet wird.
+
+Die Erwähnung der Garderobenmaschine weckt zumindest dein Interesse, auch wenn dich die Beschreibung verwirrt. Es scheint eine Art öffentlicher Kleiderschrank zu sein? Zumindest würde es deine derzeitige Nacktheit beenden.
+
+Er ist draußen, den Flur hinunter und rechts.
+(Set: $Wardrobe to true)
+[[Du solltest dich noch etwas weiter umschauen.->LOOKING AROUND]]

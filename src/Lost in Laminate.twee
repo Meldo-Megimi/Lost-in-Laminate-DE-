@@ -107,33 +107,6 @@ Lost in Laminate
         }
 
 
-:: Hotel Table
-The table is clinically white, like much of the room.  Picking up the brochure, you see that it's for a hotel of some sort-- that it was for the very building in which you stand is made clear as soon as you recognize the decor of one of the rooms pictured on the front.
-
-Apparently you're staying at Diarch's Choice, a small hotel located on the outskirts of Grand Aekora, the capital of the Ringdom of Aekora.  Amenities include prompt room service, on-site complimentary Wardrobe devices, a wide selection of wines, and what's referred to as 'secure slave storage'.
-
-Mention of the Wardrobe machine at least perks your interest, even if the description confuses.  It appears to be a public closet of some sort?  At least it would improve upon your current nudity.
-
-It's outside, down the hallway and to the right.
-(Set: $Wardrobe to true)
-[[You should look around some more.->LOOKING AROUND]]
-
-
-:: Hotel TV
-Retrieving the remote from the floor, this time you ignore the large red button along the top labeled //Room Service// and instead settle for a simpler option: //On.//
-
-The large mirror reveals itself to be the television as well once the silvery facade fades, replaced instead by a news channel.  A primly dressed woman in glossy red form-fitting material smiles into the camera, a collar pulled tight around her throat boldly proclaiming her to be 'Property of TNN'.
-
-"Welcome back to the Torean News Network," she greets, as bright and chipper as her outfit.  "As always, my name is Anna Karis and these are your top stories for the Ringdom of Aekora."
-
-The camera flickers, the canned introduction replaced by a recording of the same woman, sitting slightly differently.  It must be presumed they produce customized programs for each region of Torei.
-
-"The Prime Markets are once again trending towards a record year, as imports from the elevator-adjacent Ringdoms continue to increase.  First time indenture rates have increased by 3% among leading sectors, and forecasts expect the boom to only continue as travel to Torei expands further."
-
-[[Keep Watching.->TV2]]
-[[Turn off the TV, and look elsewhere.->LOOKING AROUND]]
-
-
 :: Hotel Bathroom
 Padding into the bathroom you're met with a small room, walls and ceiling covered in albaster tiles.  A sonic shower, the sort that used compressed sound waves to pull dirt and grime from the body without water, occupies one corner.  Another mirror covers the wall, while a small door of some sort is found opposite-- a sleeve visible, caught in the mechanism!
 
@@ -148,25 +121,6 @@ You make for the door, ready to leave whatever happened in this room behind.  It
 
 [[You are right, I'll look around again.->LOOKING AROUND]]
 [[No, I'm leaving NOW.->Early Exit]]
-
-
-:: TV2
-The woman shifts her papers, the cuffs upon her wrists glinting in the studio lights.
-
-"Moving on, following the dust storm arriving this afternoon, expect at least another three days of sunshine for your local forecast.  The trend from the polar AIs to reduce cloud production continues to result in an unnaturally clear spring, with some concern rising from the Lichen Belt regarding water shortages.  Historical analysis has led experts to assure those affected that the AIs vary their production seemingly at random, but never enough to endanger crop yields..."
-
-[[Keep Watching.->TV3]]
-[[Turn off the TV, and look elsewhere.->LOOKING AROUND]]
-
-
-:: TV3 [Debt]
-Another shifting of the papers, as the chipper tone turns more serious.
-
-"And for our final item, Torei News Network would like to remind our viewers that the two week overlap between last year's Slave Codes and this year's revisions has ended.  While most adjustments to the Codes are minor, of significance this year are those changes regarding assistance provided to runaway slaves: penalties up to and including enslavement have been doubled.  Non-interaction clauses with polar Daemons have also been strengthened.  By Diarchs' decree, this is Anna Karis for Torei News Network, signing off."  
-
-A good bit of time has passed.
-(set: $debt to it + 20) (set: $debtTV to true)
-[[Turn off the TV, and look elsewhere.->LOOKING AROUND]]
 
 
 :: Bath Chute

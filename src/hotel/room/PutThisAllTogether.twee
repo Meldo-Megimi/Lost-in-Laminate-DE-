@@ -1,13 +1,13 @@
 :: There is a story here, though.  Focus.  Put this all together.
-Sich wiedersprechende Geschichten scheinbar. Einerseits hast du dein Ticket für den Weg nach oben und den Ablauf deiner Passkarte. Du musst geplant haben, morgen zu verschwinden.
+Sich wiedersprechende Geschichten scheinbar. Einerseits hast du dein Ticket für den Weg nach oben und den Ablauf deiner Identifikationskarte. Du musst geplant haben, morgen zu verschwinden.
 
-Andererseits die schwarze Karte und dein beunruhigendes weißes Gekrizel. Die Karte hat ein Datum und einen Ort angegeben, das ist offensichtlich. Du bist ein Prospektor, das *muss* der Deal gewesen sein, den du gemacht hast. Der Kontakt, an den du dich nicht erinnern kannst, ein Treffen, bei dem die Technologie übergeben werden sollte, für die du diese ganze Reise gemacht hast. Aber was ist mit dem, was du selbst geschrieben hast?
+Andererseits die schwarze Karte und dein beunruhigendes weißes Gekrizel. Die Karte hat ein Datum und einen Ort angegeben, das ist offensichtlich. Du bist ein Prospektor, das *muss* der Deal gewesen sein, den du gemacht hast. Der Kontakt, an den du dich nicht erinnern kannst, ein Treffen, bei dem die Technologie erworben werden sollte, für die du diese ganze Reise gemacht hast. Aber was ist mit dem, was du selbst geschrieben hast?
 
 *'Morgen. Abenddämmerung. Der Deal läuft. Ich kann nicht...'*
 
-Eine Warnung? Wenn du dich nur erinnern könntest! Und was ist mit der Situation, in der du aufgewacht bist? Angekettet und geknebelt, vielleicht von dir selbst. Mit einem Countdown für die Selbstauslösung, der die Abenddämmerung geplant *gerade so* überschreitet. Das würde bedeuten, dass du das Treffen für den Deal verpasst hättest, aber genug Zeit gehabt hättest, um zum Fahrstuhl zurückzukehren.
+Eine Warnung? Wenn du dich doch nur erinnern könntest! Und was ist mit der Situation, in der du aufgewacht bist? Angekettet und geknebelt, vielleicht von dir selbst. Mit einem Countdown für die Selbstauslösung, der die Abenddämmerung *gerade so* überschreitet. Das würde bedeuten, dass du das Treffen für den Deal verpasst hättest, aber genug Zeit, um zum Fahrstuhl zurückzukehren.
 
-(if: $memloss is true)[Dan Mem-Burn, den du im Badezimmer gefunden hast, ist ein weiterer Beweis für eine konzertierte Anstrengung, um zu verhindern, dass du an dem Geschäft teilnimmst. Angekettet und geknebelt, gezwungen, bis morgen zu warten, nicht in der Lage, sich an *irgendetwas* zu erinnern? Du hättest es sicher verpasst.]
+(if: $memloss is true)[Der Mem-Burn, den du im Badezimmer gefunden hast, ist ein weiterer Beweis für eine konzertierte Anstrengung, um zu verhindern, dass du an dem Geschäft teilnimmst. Angekettet und geknebelt, gezwungen, bis morgen zu warten, nicht in der Lage, sich an *irgendetwas* zu erinnern? Du hättest es sicher verpasst.]
 
 Hattest du versucht, dich daran zu hindern, den Deal zu machen? Warum so weit gehen?
 

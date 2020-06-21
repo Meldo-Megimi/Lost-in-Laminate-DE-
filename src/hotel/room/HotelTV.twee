@@ -1,0 +1,32 @@
+:: Hotel TV
+Als du die Fernbedienung vom Boden aufhebst, ignorierst du diesmal den oberen großen roten Knopf mit der Bezeichnung //Zimmerservice// und entscheidest dich stattdessen für eine einfachere Option: //Ein.//
+
+Der große Spiegel entpuppt sich auch als Fernseher, sobald die silberne Fassade verblasst und stattdessen durch einen Nachrichtensender ersetzt wird. Eine formell gekleidete Frau in glänzend rotem, körperbetontem Material lächelt in die Kamera. Ein Halsband ist fest um ihren Hals gezogen und proklamiert sie dreist als 'Eigentum von TNN'.
+
+"Willkommen zurück im Torean Nachrichten Netzwerk", grüßt sie, so hell und lebhaft wie ihr Outfit. "Wie immer, ich heiße Anna Karis und dies sind deine Top-Themem für die Ringdomäne von Aekora."
+
+Die Kamera flackert, die vorgefertigte Einführung wird durch eine Aufnahme derselben Frau ersetzt, die etwas anders sitzt. Es muss davon ausgegangen werden, dass sie maßgeschneiderte Programme für jede Region von Torei erstellen.
+
+"Die Hauptmärkte tendieren erneut zu einem Rekordjahr, da die Importe aus den an Aufzüge angrenzenden Ringdomänen weiter zunehmen. Zum ersten Mal sind die Vertrags-Raten in den führenden Sektoren um 3% gestiegen, und Prognosen gehen davon aus, dass sich der Boom fortsetzt da Reisen nach Torei weiter ansteigen."
+
+[[Schaue weiter.->TV2]]
+[[Schalte den Fernseher aus und suche woanders weiter.->LOOKING AROUND]]
+
+
+:: TV2
+Die Frau wechselt ihre Papiere und die Manschetten an ihren Handgelenken funkeln in den Studioleuchten.
+
+"Nächstes Thema, nach dem Staubsturm, der heute Nachmittag eintrifft können Sie mindestens drei weitere Sonnentage für Ihre lokale Region erwarten. Der Trend der polaren KIs zur Reduzierung der Wolkenproduktion führt weiterhin zu einem unnatürlich klaren Frühling, wobei der Flechtengürtel einige Bedenken in Bezug auf Wasserknappheit hat. Historische Analysen haben Experten dazu veranlasst, den Betroffenen zu versichern, dass die KIs ihre Produktion scheinbar zufällig variieren, aber niemals genug, um die Ernteerträge zu gefährden..."
+
+[[Schaue weiter.->TV3]]
+[[Schalte den Fernseher aus und suche woanders weiter.->LOOKING AROUND]]
+
+
+:: TV3 [Debt]
+Ein weiterer wechsel der Papiere, während der Ton ernster wird.
+
+"Und für unser letztes Thema möchte Torei Nachrichten Netzwerk unsere Zuschauer daran erinnern, dass die zweiwöchige Überlappung zwischen den Sklavencodes des letzten Jahres und den diesjährigen Überarbeitungen beendet ist. Während die meisten Anpassungen des Codes geringfügig sind, ist in diesem Jahr die Änderungen in Bezug auf die Unterstützung für entlaufene Sklaven von Bedeutung: Die Strafen bis einschließlich der Versklavung wurden verdoppelt. Die Nicht-Interaktionsklauseln mit den polaren Dämonen wurden ebenfalls verstärkt. Laut Diarchs Dekret, dies ist Anna Karis für Torei Nachrichten Netzwerk, die sich abmeldet."  
+
+Ein einiges an Zeit vergangen.
+(set: $debt to it + 20) (set: $debtTV to true)
+[[Schalte den Fernseher aus und suche woanders weiter.->LOOKING AROUND]]

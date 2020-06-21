@@ -23,7 +23,7 @@ Speicherplatz L: (if: (saved-games:) contains "file L")[Platz belegt](else:)[*le
 Speicherplatz M: (if: (saved-games:) contains "file M")[Platz belegt](else:)[*leerer Platz*]
 Speicherplatz N: (if: (saved-games:) contains "file N")[Platz belegt](else:)[*leerer Platz*]
 
-{(link: "((Speichere dein Spiel in Speicherplatz A.))")[
+{(link: "((Speichere dein Spiel in Speicherplatz A))")[
   (if: (save-game: "file A"))[Spiel gespeichert im Speicherplatz A!]
   (else:)[Entschuldigung, ich konnte dein Spiel nicht in Speicherplatz A speichern.]
 ]}
