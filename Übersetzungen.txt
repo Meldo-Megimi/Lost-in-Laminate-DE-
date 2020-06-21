@@ -8,6 +8,7 @@ Mem-Burn        ->  Mem-Burn
 TRUANT OFFICER  ->  TRUANT BEAMTE
 SLAVE CODE      ->  SKLAVENCODE
 Diarch's Choice ->  Diarch's Wahl
+Slave Rated     ->  Sklaven-Klassifiziert
                 Ministerium für Gebärmütter
                 Ministerium für Verbesserungen
 

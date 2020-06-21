@@ -1,0 +1,12 @@
+:: Leave Correct
+Schließlich hälst du die Teile deiner Schlüsselkarte vorsichtig zusammen. Wenn du sie an die Tür drückst, blinkt kurz ein lila Licht und die Tür entriegelt sich hörbar. Du bist draußen.
+
+Und immer noch nackt. Wenn du in dein Zimmer zurückblickst, weißt du, dass du gründlich warst. Mit welcher Kleidung du auch immer nach Torei gekommen bist, sie ist weg. Dich an die Rezeption zu wenden, scheint die offensichtliche Lösung zu sein, wenn auch etwas peinlich. Angesichts des Rufs des Planeten ist deine Situation aber sicherlich nicht einzigartig.
+
+Du öffnest die Tür und gehst mit den Karten in der Hand hinaus. Der Flur draußen hat die selbe saubere Ästhetik, die dein Zimmer gezeigt hat, aber das Farbschema ist ein anderes - hier dominiert Lila, der Boden in einem dunklen Farbton, der Teppich, einem der Immergrün ähnelt. Zum Glück ist der Flur ruhig, ohne dass eine Seele in Sicht ist.
+
+Du siehst nach links und dann nach rechts.
+
+(if: $Wardrobe is true)[[[Du erinnerst dich an die Erwähnung eines "Garderobengeräts", das sich irgendwo in der Nähe befindet, rechterhand. Ist einen Versuch wert.->Wardrobe I]]]
+[[Licht strömt in einen größeren Raum, der am Ende des Flurs zu deiner Linken sichtbar ist. Das muss die Rezeption sein. Geh dort hin.->NudeFront]]
+[[Der Weg zu deiner Rechten scheint weiter unten plötzlich zu enden, aber do kannst trotzdem in diese Richtung gehen.->Wardrobe Alt]]

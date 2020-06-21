@@ -1,0 +1,16 @@
+:: Wardrobe III
+*Sie haben sich entschieden, unseren vorab zugewiesenen Katalog zu durchsuchen*, informiert dich der Bildschirm. *Alle Einkäufe sind endgültig. Garderoben-Kleidung hat unter normalen Nutzungsbedingungen für einen Zeitraum von 24 Stunden ab dem Zeitpunkt der Anwendung eine Garantie. Bitte denken Sie daran, Torei sauber zu halten und hart geformtes Zubehör an jedem anderen Garderobengerät ordnungsgemäß zu recyceln.*
+
+Der Text wird nach oben geschoben und durch eine Nachricht oben und fünf verlockende Optionen darunter ersetzt.
+
+Das Guthaben Ihrer Diarch's Wahl lautet derzeit: Negativ (print: $debt) credits.
+
+*Kontensalden können an der Rezeption besprochen werden und müssen vor Verlassen des Hotels auf Null gesetzt werden.*
+
+Bitte wählen Sie ein Kostüm für weitere Informationen:
+
+[[Klassischer 8-Punkt-Catsuit, Metallic Blau (Kostenlos!)->Blue Cat]]
+[[Klassischer rauchgrauer Catsuit und Geschirr (Kostenlos!)->Smoke Cat]]
+[[Branded Ballet Catsuit, werbefinanziert (-50 Credits, wenn mindestens zehn Stunden getragen)->Branded Cat]]
+[[Sexretariatsfreude (+50 Kreditgebühr)->Sec Cat]]
+[[Sklaven-Klassifiziertes Umhüllungskostüm, (+150 Kreditgebühr)->Slave Cat]]

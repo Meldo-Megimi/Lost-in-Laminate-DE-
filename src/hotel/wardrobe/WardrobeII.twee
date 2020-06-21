@@ -1,0 +1,11 @@
+:: Wardrobe II
+Das Durchqueren des Raumes ist keine große Anstrengung, man kann ja kaum einen Schritt machen, bevor man gegen die gegenüberliegende Wand stößt. Der helle Bildschirm begrüßt dich mit einem plötzlichen Blitz, deine Augen tränen und einige Momente hektisches blinzeln, bevor du wieder auf den kleinen Bildschirm schauen kannst.
+
+*Vielen Dank für Ihren Aufenthalt im Diarch's Wahl Hotel. Dies ist ein Laminat-Garderobengerät der Klasse III, das mittels kundenspezifischen ROMs der Klasse III produzieren kann. Wenn Sie ein kundenspezifisches ROM haben, das Sie verwenden möchten, fügen Sie jetzt bitte Ihren Clip ein.*
+
+Es dauert einige Sekunden, während die letzte Befehlszeile blinkt. Sobald sich herausstellt, dass du kaum eine Ahnung hast, was das bedeutet, geschweige denn ein "kundenspezifisches ROM", fährt die Maschine fort.
+
+*Sie haben sich nicht für die Verwendung eines kundenspezifisches ROM entschieden. Möchten Sie in unserem vorab zugewiesenen Sortiment verfügbarer Laminat-Kleidung stöbern?*
+
+[[Ja, endlich! Ausrüstung! Kleider! Wähle das aus.->Wardrobe III]]
+[[Ich denke... vielleicht sollte ich hier raus. Mach dich auf den Weg zur Tür.->Wardrobe Bad Exit]]
