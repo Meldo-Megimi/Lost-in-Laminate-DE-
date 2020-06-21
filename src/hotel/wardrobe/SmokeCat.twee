@@ -1,0 +1,73 @@
+:: Smoke Cat
+<img src="img/WEdo76r.jpg" width="30%" height="30%">
+
+The screen displays a model wearing the selected outfit.  It's sleek, form-fitting, and rendered entirely in a material labeled as *laminate*.  The suit is also clearly semi-transparent, the thickened black strip between the legs that contained a zipper providing a modicum of decency, but it's hard to imagine wearing something from throat to toes that covered *less.* 
+
+Accessories are listed as a set of black wrist-gloves, five inch heeled stiletto boots, and the pictured upper body harness, waist belt, and thigh cuffs.  Those last three are marked as 'restraint ready'.
+
+Matching makeup is included, and the cost is listed as FREE.
+
+A seperate warning lists the various restraints as "time-locked".
+
+[[Dieses muss reichen. Zumindest ist es kostenlos? Bestätige deine Bestellung.->Smoke Confirm]]
+[[Dies ist nicht das richtige für mich, gehe zurück zum Hauptmenü.->Wardrobe III]]
+
+
+:: Smoke Confirm
+*Bestellung... bestätigt. Viel Spaß.*
+
+The display winks out of existence, and for the briefest of moments you are left to ponder your decision.  Your revery is broken by the quiet whirl of machines moving, however, as you notice the various strangely shaped tiles along the walls kicking out.  Appendages emerge, mechanical arms of several different kinds.  You don't have time to catalog them, hell, you barely have time to gasp before they seize you.  At wrist and ankle, and around the throat, padded rings snap against and then around your soft flesh.  Then the grip, legs forced apart as your arms are lifted above your head.  Had they not also supported, you would have certainly fallen.  
+
+[["What the hell!? Get these off of me!"->Resist Smoke]]
+[[Keep your cool.  Wait it out.->Smoke Confirm2]]
+
+
+:: Resist Smoke [Debt]
+You pull against the restraining arms, eyes wide as other devices emerge from the walls.  Compared to your earlier experience on your own bed, these at least have some give-- your first yank of the arm nearly sends you tumbling over, but the arm momentarily loses grip on you entirely.
+
+This *can* be escaped!
+
+If not for the arm behind you, waiting silently.  You do not see it, but you certainly *feel* the sudden snap of electricty that bursts upon your rear, pain receptors announcing the experience with a unified yelp that matches the sound that emerges from your own lips.
+
+*REMAIN STILL.*
+
+The display had returned to life to deliver the command, the cold steel of what you can only imagine to be a cattle prod still poised against her buttocks.  You take a deep breath... and settle back as the arm restraint returns.
+
+*Minor damage has been recorded to Arm 5-L-6. A 20 credit charge has been made to your account.*
+(set: $debt to it + 20)
+(set: $debtResist to true)
+[[Well, that didn't work.->Smoke Confirm2]]
+
+
+:: Smoke Confirm2
+The urge is there to close your eyes, as if ignorance could prevent what was about to occur.  But your confidence holds, allowing you the only seat in the house as the show begins. Further mechanical arms and implements emerge, the largest being a ring wide enough that it barely fit the small room.  It hovers above you, a far too large halo, before the device descends.
+
+Nozzles built into the ring emit a pungent substance as soon as it descends past your neck.  For a moment you think it paint, and it does adhere like the stuff, but the sensation is fleeting-- as following the emitters a white-light laser passes over the freshly applied material, and it flash-cools.  What had been a thick spray is now a thin, slick, glossy material.  Cold upon your skin, but already your body is warming it up.  Torei's all but sacred material, its most readily available substance: **laminate.**
+
+Thus your suit is quiet literally printed on, first applying inky black but growing semi-transparent (and thus *smokey*) once flash-cooled.  The ring descending bit by bit, rendering soft flesh into equally soft but so very *different* laminate.  Secondary arms follow it down, providing spot treatment along seams and friction points-- although often the effect is for merely aesthetic purposes.  Sometimes that takes the form of a second application of laminate, other times it lingers to produce something more substantial-- such as the black strip and zipper between your legs, the tiny metal components pre-formed and merely placed by the rapid-fire staccato movements of a particuarly agile mechanized arm.
+
+You're given no time to rest as the base layer concludes, the ring rapidly ascending as other arms move into the space to begin work on your accessories.  Your black gloves are printed, while a longer period is required for the Wardrobe to build up the necessary thickness required of your thigh cuffs, belt and harness.  The last seems far too lose, but another pass of the setting laser causes the material to constrict hugging tight to your shoulders and the space below your chest. Again the metal hardpoints are installed last, emerging fully formed from hidden storage components.  A far less expensive option then flash-casting steel.
+
+The final componenent of your outfit comes with the sensation of your own feet rising, the sensation unequal and focused primarily at your heel.  Without the restraint arms you would have toppled over, but they hold you tight, tall heels being extruded into place.  Black laminate follows, coating your feet and providing the anchor on which laces are quickly assembled.
+
+Almost as an afterthought, the promised makeup is applied last.  Mechanical arms seize your head, holding it tight as nozzles approach your face.  A quick blast of air instinctively causes your eyes to close, and in that brief moment the Wardrobe does its work.  Your eyelids have been substantially darkened, stylish wingtips form at the outer edges.  Pores and blemishes have been rendered impotent as well, while your cheekbones have been highlighted.  And your lips are now a dark black, the white of your teeth blinding against them as you gasp slightly.
+
+Then, with a final flash of white light and a conclusive hiss, the armatures withdraw.
+
+[["Wow."->Smoke III]]
+[["The transparency is kind of... eye catching?"->Smoke III]]
+[["That was **terrifying!**"->Smoke III]]
+
+
+:: Smoke III
+You take a deep breath, watching the semi-transparent material covering your chest gently rise and fall.  Your nipples are hard, and clearly visible you note immediately.  The sensation is almost otherwordly, light pressure upon your body from to toe to throat, a lover's embrace you cannot escape.  Excepting the zipper between your legs, there is no point of entrance, no direct break in the experience.  Only smooth laminate, and the sweet scent of lingering rubber.
+
+Running a hand down the slick material reveals laminate to laminate contact to be almost frictionless.  It's almost too easy to forget your own hand as it glides along your hip.  The gentle *click* of the metal studded into your cuffs provide a more consistent narrative, as does the more authoritative snap of your heeled boot as you shift a bit in the Wardrobe's small confines.
+
+A sudden light breaks your self examination as the Wardrobe's display flicks back into existence, a final sentence emerging upon it.
+
+*Your dressing order has now been completed.  If this machine is functioning under slave protocols, you may be held until a legally recognized owner or agent arrives to collect you.  Otherwise, the door will open shortly.  Watch your step, and enjoy...*
+
+The doors open as promised, ushering you back out into the dim light of the far corridor.  Your path towards the Front Desk is now clear.
+(set: $Smoke to true)
+[[Make your way there.->Wardrobe End]]

@@ -9,6 +9,7 @@ TRUANT OFFICER  ->  TRUANT BEAMTE
 SLAVE CODE      ->  SKLAVENCODE
 Diarch's Choice ->  Diarch's Wahl
 Slave Rated     ->  Sklaven-Klassifiziert
+slave protocols ->  Sklaven Protokoll
                 Ministerium für Gebärmütter
                 Ministerium für Verbesserungen
 

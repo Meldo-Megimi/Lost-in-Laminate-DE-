@@ -1,0 +1,73 @@
+:: Blue Cat
+<img src="img/UD5UqLx.jpg" width="30%" height="30%">
+
+Der Bildschirm zeigt ein Modell mit dem ausgewählten Kostüm. Es ist geschmeidig, figurbetont und vollständig aus einem Material mit der Bezeichnung *Laminat* gefertigt. Selbst im künstlichem Licht scheint das Design mit den Metallic-Schattierungen zu funkeln, die in das glänzende Material eingearbeitet sind. Schwarze Handschuhe und knöchelhohe Stiefel sind ebenfalls sichtbar, die letzteren mit 5-Zoll-Stilleto-Absätzen.
+
+Die '8-Punkt'-Beschreibung aus dem vorherigen Menü weist auf das Vorhandensein von acht Bondage-fähigen Zubehörteilen aus schwarzem Laminat hin. Zwei Handgelenksmanschetten, zwei Bizepsmanschetten, zwei Fußfesseln, der Gürtel um die Taille und ein Halsband um den Hals.
+
+Passendes Make-up ist enthalten und es wird als KOSTENLOS gelistet.
+
+In einer separaten Warnung werden die verschiedenen Einschränkungen als "zeitlich gesperrt" aufgeführt.
+
+[[Dieses muss reichen. Zumindest ist es kostenlos? Bestätige deine Bestellung.->Blue Confirm]]
+[[Dies ist nicht das richtige für mich, gehe zurück zum Hauptmenü.->Wardrobe III]]
+
+
+:: Blue Confirm
+*Bestellung... bestätigt. Viel Spaß.*
+
+Das Display verschwindet und für den kurzen Moment kannst du über deine Entscheidung nachdenken. Deine Träumerei wird jedoch durch den leisen Wirbel der sich bewegenden Maschinen unterbrochen, als du bemerkst, dass die verschiedenen seltsam geformten Fliesen an den Wänden herausspringen. Gliedmassen kommen hervor, mechanische Arme verschiedenster Art. Du hast keine Zeit, sie zu katalogisieren, verdammt noch mal, du hast kaum Zeit, nach Luft zu schnappen, bevor sie dich ergreifen. Um Handgelenk, Knöchel sowie um den Hals schnappen gepolsterte Ringe gegen und dann um dein weiches Fleisch. Dann werden mit Gewalt deine Beine auseinander gedrückt, während deine Arme über den Kopf gehoben werden. Hätten sie dich nicht auch gestützt, wärest du sicherlich gefallen.  
+
+[["Was zum Teufel!? Lasst mich los!"->Resist Blue]]
+[[Bleib ruhig. Warte es ab.->Blue Confirm2]]
+
+
+:: Resist Blue [Debt]
+Du ziehst mit großen Augen an den Haltearmen, während weitere Arme aus den Wänden auftauchen. Im Vergleich zu deiner früheren Erfahrung auf deinem eigenen Bett haben diese zumindest einiges zu tun-- ein erster Ruck mit deinem Arm lässt dich fast umkippen, aber der Haltearm lässt dich für einen Moment los.
+
+Diesem *kann* man entkommen!
+
+Wäre da nicht der Arm hinter dir, still wartend. Du siehst ihn nicht, aber du *fühlst* natürlich das plötzliche Knacken von Elektrizität, das auf deinen Rücken springt. Schmerzrezeptoren verkünden die Erfahrung in einem einheitlichen Aufschrei, der dem Klang entspricht, der aus deinen eigenen Lippen kommt.
+
+*HALTEN SIE STILL.*
+
+Das Display ist wieder zum Leben erwacht um den Befehl zu erteilen. Der kalten Stahl dessen, was du dir nur als Viehtreiber vorstellen kannst ist immer noch an deinem Gesäß. Du atmest tief ein... und lehnst dich zurück, während der Haltearm zurückkehrt.
+
+*Geringfügige beschädigung an Arm 5-L-6 festgestellt. Ihr Konto wurde mit 20 Credits belastet.*
+(set: $debt to it + 20)
+(set: $debtResist to true)
+[[Nun, das hat nicht funktioniert.->Blue Confirm2]]
+
+
+:: Blue Confirm2
+Der Drang ist da, die Augen zu schließen, als könnte Unwissenheit verhindern, was passieren würde. Aber dein Vertrauen bleibt bestehen und du hast den einzigen Platz im Haus, wenn die Show beginnt. Weitere mechanische Arme und Instrumente erscheinen, wobei das größte ein Ring ist, so breit, dass er kaum in den kleinen Raum passt. Es schwebt über dir, ein viel zu großer Heiligenschein, bevor die Vorrichtung sinkt.
+
+In den Ring eingebaute Düsen geben eine penetrante Substanz ab, sobald sie an deinem Hals vorbei ist. Für einen Moment denkst du, das Zeug, es lakiert und es klebt, aber das Gefühl ist flüchtig - es folgt ein Weißlichtlaser, er läuft über das frisch aufgetragene Material und es kühlt blitzschnell ab. Was zuerst eine dichte Gischt war, ist jetzt ein dünnes, glattes, glänzendes Material. Kalt auf deiner Haut, aber schon erwärmt dein Körper es. Toreis alles andere als heiliges Material, seine am leichtesten verfügbare Substanz: **Laminat.**
+
+So wird dein metallisch blauer Anzug im wahrsten Sinne des Wortes gedruckt, wobei der Ring Stück für Stück runterfährt und weiches Fleisch mit dem ebenso weichen, aber sehr unterschiedlichen Laminat überzieht. Sekundärarme folgen ihm nach unten und bieten eine Punktbehandlung entlang der Nähte und Reibungspunkte-- obwohl der Effekt häufig nur ästhetischen Zwecken dient. Manchmal erfolgt dies in Form einer zweiten Anwendung von Laminat, manchmal verweilt es, um etwas Wesentlicheres zu produzieren-- wie den Reißverschluss zwischen deinen Beinen, die winzigen Metallkomponenten, die vorgeformt und lediglich plaziert durch die Schnellfeuer-Stakkato-Bewegungen von einem besonders agilem mechanisierten Arm.
+
+Du bekommst keine Zeit zum Ausruhen, als die Basisschicht fertig ist. Der Ring steigt schnell auf, während sich die anderen Arme in dem Raum bewegen, um mit der Arbeit an deinem Zubehör zu beginnen. Deine schwarzen Handschuhe werden gedruckt, während die Garderobe einen längeren Zeitraum benötigt, um die für deine acht Rückhaltepunkte erforderliche Dicke aufzubauen. Diese sind an Knöcheln, Handgelenken, Bizeps, Taille und Hals befestigt. Wieder werden die Metall-Befestigungspunkte zuletzt installiert und erscheinen vollständig aus versteckten Speicherkomponenten. Eine weitaus kostengünstigere Option als Blitz-Gussstahl.
+
+Die letzte Komponente deines Kostüms kommt mit dem Gefühl, dass deine Füße hochgehoben werden, das Gefühl ist unterschiedlich und hauptsächlich auf deine Fersen konzentriert. Ohne die Haltearme wärst du umgefallen, aber sie halten dich fest, hohe Absätze werden extrudiert. Es folgt schwarzes Laminat, das deine Füße beschichtet und den Anker bildet, auf dem die Schnürsenkel schnell montiert werden.
+
+Fast wie eine nachträgliche Idee wird das versprochene Make-up zuletzt aufgetragen. Mechanische Arme ergreifen deinen Kopf und halten ihn fest, während sich Düsen deinem Gesicht nähern. Ein kurzer Luftstoß lässt dich instinktiv die Augen schließen, und in diesem kurzen Moment erledigt die Garderobe ihre Arbeit. Deine Augenlider sind abgedunkelt, und die Ecken funkeln mit metallisch blauen Flecken, die zu deinem Anzug passen. Poren und Schönheitsfehler wurden ebenfalls abgeschwächt, während deine Wangenknochen hervorgehoben wurden. Und deine Lippen sind jetzt dunkelblau, das Weiß deiner Zähne blendet gegen sie, während du leicht nach Luft schnappst.
+
+Dann ziehen sich die Instrumente mit einem letzten weißen Lichtblitz und einem abschließenden Zischen zurück.
+
+[["Wow."->Blue III]]
+[["Das war... unglaublich."->Blue III]]
+[["Das war **erschreckend!**"->Blue III]]
+
+
+:: Blue III
+Du atmest tief ein und beobachtest, wie das glänzend blaue Material, das deine Brust bedeckt, sanft steigt und fällt. Die Empfindung ist fast jenseitig, leichter Druck auf deinen Körper vom Zeh bis zum Hals, die Umarmung eines Liebhabers, der du nicht entkommen kannst. Mit Ausnahme des Reißverschlusses zwischen deinen Beinen gibt es keinen Einstiegspunkt, keine direkte Unterbrechung der Erfahrung. Nur glattes Laminat und der süße Duft von verweilendem Gummi.
+
+Wenn du mit einer Hand über das glatte Material fährst, ist die Berührung zwischen Laminat und Laminat nahezu reibungslos. Es ist fast zu leicht, deine eigene Hand zu vergessen, wenn sie über deine Hüfte gleitet. Das sanfte *Klicken* des Metalls an deinen Manschetten sorgt für eine beständige Erfahrung, ebenso wie das Respekt einflößende Klacken deines Absatzes, wenn du dich ein wenig in den bescheidenen Grenzen der Garderobe bewegst.
+
+Ein plötzliches Licht unterbricht deine Selbstprüfung, als das Display der Garderobe wieder zum Leben erwacht und ein letzter Satz darauf erscheint.
+
+*Ihre Kostüm Bestellung ist nun abgeschlossen. Wenn diese Maschine unter Sklaven Protokoll betreiben wird, können Sie so lange festgehalten werden, bis ein gesetzlich anerkannter Eigentümer oder Agent eintrifft, um Sie abzuholen. Andernfalls öffnet sich die Tür in Kürze. Achten Sie auf Ihren Weg und viel Spaß...*
+
+Die Türen öffnen sich wie versprochen und führen dich zurück ins trübe Licht des Korridors. Dein Weg zur Rezeption ist jetzt frei.
+(set: $Blue to true)
+[[Gehe dorthin.->Wardrobe End]]

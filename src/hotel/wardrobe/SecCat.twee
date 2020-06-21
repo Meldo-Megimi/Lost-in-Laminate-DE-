@@ -1,0 +1,72 @@
+:: Sec Cat
+<img src="img/mEoSzB3.jpg" width="30%" height="30%">
+
+The screen displays a model wearing the selected outfit.  It's sleek, form-fitting, and rendered entirely in a material labeled as *laminate*.  Unlike some of the other available options, this design is at least somewhat comparable to offworld norms-- if one ignored the glossy material used, and tight cut of the shirt above.
+
+Accessories are listed as the pictured pair of four inch open-front pumps, and the peplum skirt around the waist.
+
+Matching makeup is include, and the cost is listed as being 50 additional credits.
+
+[[It's certainly the most normal, if a bit pricy.  Confirm this choice.->Sec Confirm]]
+[[This isn't the selection for me, go back to the main menu.->Wardrobe III]]
+
+
+:: Sec Confirm [Debt]
+*Bestellung... bestätigt. Viel Spaß.*
+
+The display winks out of existence, and for the briefest of moments you are left to ponder your decision.  Your revery is broken by the quiet whirl of machines moving, however, as you notice the various strangely shaped tiles along the walls kicking out.  Appendages emerge, mechanical arms of several different kinds.  You don't have time to catalog them, hell, you barely have time to gasp before they seize you.  At wrist and ankle, and around the throat, padded rings snap against and then around your soft flesh.  Then the grip, legs forced apart as your arms are lifted above your head.  Had they not also supported, you would have certainly fallen.  
+(set: $debt to it + 50)
+(set: $debtSec to true)
+[["What the hell!? Get these off of me!"->Resist Sec]]
+[[Keep your cool.  Wait it out.->Sec Confirm2]]
+
+
+:: Resist Sec [Debt]
+You pull against the restraining arms, eyes wide as other devices emerge from the walls.  Compared to your earlier experience on your own bed, these at least have some give-- your first yank of the arm nearly sends you tumbling over, but the arm momentarily loses grip on you entirely.
+
+This *can* be escaped!
+
+If not for the arm behind you, waiting silently.  You do not see it, but you certainly *feel* the sudden snap of electricty that bursts upon your rear, pain receptors announcing the experience with a unified yelp that matches the sound that emerges from your own lips.
+
+*REMAIN STILL.*
+
+The display had returned to life to deliver the command, the cold steel of what you can only imagine to be a cattle prod still poised against her buttocks.  You take a deep breath... and settle back as the arm restraint returns.
+
+*Minor damage has been recorded to Arm 5-L-6. A 200 credit charge has been made to your account.*
+(set: $debt to it + 20)
+(set: $debtResist to true)
+[[Well, that didn't work.->Sec Confirm2]]
+
+
+:: Sec Confirm2
+The urge is there to close your eyes, as if ignorance could prevent what was about to occur.  But your confidence holds, allowing you the only seat in the house as the show begins. Further mechanical arms and implements emerge, the largest being a ring wide enough that it barely fit the small room.  It hovers above you, a far too large halo, before the device descends.
+
+Nozzles built into the ring emit a pungent substance as soon as it descends past your neck.  For a moment you think it paint, and it does adhere like the stuff, but the sensation is fleeting-- as following the emitters a white-light laser passes over the freshly applied material, and it flash-cools.  What had been a thick spray is now a thin, slick, glossy material.  Cold upon your skin, but already your body is warming it up.  Torei's all but sacred material, its most readily available substance: **laminate.**
+
+Thus your outfit is quiet literally printed on, first applying bright white but transitioning to an equally vibrant shade of red as it passes your waist and forms a stylish pencil skirt.  The ring descending bit by bit, rendering soft flesh into equally soft but so very *different* laminate.  Secondary arms follow it down, providing spot treatment along seams and friction points-- although often the effect is for merely aesthetic purposes.  Sometimes that takes the form of a second application of laminate, other times it lingers to produce something more substantial-- such as the small folded collar just beneath your chin, or the buttons that almost immediately strain to keep your bust constained by your bodice.
+
+You're given no time to rest as the base layer concludes, the ring rapidly ascending as other arms move into the space to begin work on your accessories.  The peplum skirt you saw pictured is thus formed, starting with the belt at your waist.  Small pre-forged rivets are sunk into the still molton laminate before it is sealed, as is the belt loop that is seated directly over your naval.  Still held in place, small arms flair the laminate that extends over your rear, achieving the look most of the galaxy would label as *slutty* but Torei saw as merely coquettish.
+
+The final componenent of your outfit comes with the sensation of your own feet rising, the sensation unequal and focused primarily at your heel.  Without the restraint arms you would have toppled over, but they hold you tight, tall heels being extruded into place.  More red laminate follows, coating your feet excepting the stylish hole at the very front.
+
+Almost as an afterthought, the promised makeup is applied last.  Mechanical arms seize your head, holding it tight as nozzles approach your face.  A quick blast of air instinctively causes your eyes to close, and in that brief moment the Wardrobe does its work.  Your eyelids have been darkened, a crimson secondary coat added that flashed only when light slid across it.  Pores and blemishes have been rendered impotent as well, while your cheekbones have been highlighted.  And your lips are now a poignant, inviting red.
+
+Then, with a final flash of white light and a conclusive hiss, the armatures withdraw.
+
+[["Wow."->Sec III]]
+[["At least its... vaguely office-ready?"->Sec III]]
+[[That was **terrifying!**"->Sec III]]
+
+
+:: Sec III
+You take a deep breath, watching the milky white material covering your chest gently rise and fall.  The sensation is almost otherwordly, light pressure upon most of your body, a lover's embrace you cannot escape.  Your legs shift uneasily, the skirt's presence having diminished how far you could step.  Smooth laminate would dictate so much now, and you clearly recognize a lingering hint of a sweet rubber scent.
+
+Running a hand down the slick material of your tiny peplum skirt reveals laminate to laminate contact to be almost frictionless as it glides along your longer pencil skirt.  Your arms are almost chilly in comparison to the warmth the laminate provides as well.  It nearly feels like a regret, you realize with velvet red lips pursed in consideration, that you had not chosen a more... enclosing option.
+
+A sudden light breaks your self examination as the Wardrobe's display flicks back into existence, a final sentence emerging upon it.
+
+*Your dressing order has now been completed.  If this machine is functioning under slave protocols, you may be held until a legally recognized owner or agent arrives to collect you.  Otherwise, the door will open shortly.  Watch your step, and enjoy...*
+
+The doors open as promised, ushering you back out into the dim light of the far corridor.  Your path towards the Front Desk is now clear.
+(set: $Sec to true)
+[[Make your way there.->Wardrobe End]]
