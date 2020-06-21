@@ -107,68 +107,6 @@ Lost in Laminate
         }
 
 
-:: Hotel Bathroom
-Padding into the bathroom you're met with a small room, walls and ceiling covered in albaster tiles.  A sonic shower, the sort that used compressed sound waves to pull dirt and grime from the body without water, occupies one corner.  Another mirror covers the wall, while a small door of some sort is found opposite-- a sleeve visible, caught in the mechanism!
-
-[[Finally, clothes!->Bath Chute]]
-[[You should really check yourself in the mirror.->Bath Mirror]]
-(if: $debtShower is false)[[[A quick shower would do you good.->Hotel Shower]]]
-[[You decide to return to the larger room instead.->LOOKING AROUND]]
-
-
-:: Hotel Leave
-You make for the door, ready to leave whatever happened in this room behind.  It's only upon approaching the door that you realize you're still very much nude, and who *knows* what awaits beyond that portal.  Your room may be full of mysteries, but you had least had come to grips with it.  A brash rush into the world beyond seems ill-advised.
-
-[[You are right, I'll look around again.->LOOKING AROUND]]
-[[No, I'm leaving NOW.->Early Exit]]
-
-
-:: Bath Chute
-Moving to the door you grab the sleeve, the material synthetic wool, in a deep emerald color.  Holding it so that it wouldn't slip away, you open the door, revealing a chute of some sort-- and the charred end of the sleeve, where it had once undoubtedly been a full shirt.
-
-You've found a garbage chute, you realize quickly.  And probably the last evidence of your clothing.  Did someone burn your clothing?  Did you?  Why would you do that?
-
-[[You wish you could remember.->Hotel Bathroom]]
-
-
-:: Bath Mirror
-Stepping up to the mirror, you lean in, examining your reflection with a discerning eye.  Honestly... you could look much worse, especially for one suffering from such a case of short-term amnesia.
-
-Natural aesthetics certainly help.  By any standard, you're quite beautiful.  High cheekbones, full lips, a nose upturned just //so.//  Your blonde hair is a bit all over the place, but the way it falls upon your shoulders and down your back remains alluring.  Your eyes are piercing as well, so very green.
-
-And you're not hurt, of that you can be sure.  Checking your nude form over, you look for puncture marks, wounds, anything to explain your lost memories.  You find nothing, your skin smooth and unmolested.  
-
-[[Is there something resting in the sink?->Mem Loss]]
-[[There is nothing more to see here  Step back.->Hotel Bathroom]]
-
-
-:: Hotel Shower
-You approach the shower stall, its frosted glass door opening with a smooth pull.  It certainly will feel good to allow the machine to do its work.
-
-Stepping up to the small console that controls the shower, you realize the shortest recommended setting is for a good twenty minutes.  Are you in a hurry to leave?
-
-[[Nope, let's do this.->Take Shower]]
-[[Yes! You better not.->Hotel Bathroom]]
-
-
-:: Take Shower [Debt Late]
-(set: $debt to it + 50)
-(set: $debtShower to true)
-The feeling is nothing short of wonderful.  Once the machine starts, the world beyond, the confusion, your lost memories, everything-- it all fades away.  Replaced by a warm //hum//, the shower coaxing the dirt and grime from you, as readily as anything worrying.  Time slips away as well, gliding away with each rolling vibration that emanates from the machine.  But it cannot go forever, and indeed, the automated timer does eventually run out. 
-
-You spent a considerable bit of time, but you are refreshed-- it *must* be worth it.
-
-[[Return to the Bathroom->Hotel Bathroom]]
-
-
-:: Early Exit
-The door is locked.
-
-Shit.  You really should have seen this coming.  There must be a keycard around here somewhere.
-
-[[Panic solves nothing.  Keep looking around.->LOOKING AROUND]]
-
-
 :: Leave Correct
 Finally, you carefully hold the pieces of your keycard together.  Pressing them to the door, a purple light briefly flashes and the door's lock audibly clicks.  You're out.
 
@@ -181,18 +119,6 @@ You look left, then right.
 (if: $Wardrobe is true)[[[You remember that mention of a 'Wardrobe Device' being somewhere nearby, out your door and to the right.  Worth a try.->Wardrobe I]]]
 [[Light pours into a larger room visible at the end of the wall to your left.  That has to be the front desk.  Make for it.->NudeFront]]
 [[The way to your right appears to end abruptly further down the way, but you could still head that direction.->Wardrobe Alt]]
-
-
-:: Mem Loss
-Reaching down, you indeed find something: a crumpled bit of packaging.  Straightening out the cardboard, a smaller chunk of plastic slides out.  You recognize it as a stereotypical hotel keycard, or at least a fragment of one.  The holostrip along the back is broken, by itself it wouldn't function.
-(set: $memloss to true)
-It's the packaging that's more intriguing, however.  *Mem-Burn*, it labels itself as you read the fine print aloud.  "WARNING: active ingredients will cause memory loss ranging from temporary to permanent, depending on dose.  Use with CAUTION."
-
-The package is empty, but at least one part of your mystery situation becomes clear.  This has to be why your short-term memory was little more than a gaping wound, black and empty, like a missing tooth.  Why would you have done this to yourself?  
-
-(If: $unlockdoor is true)[It had to be tied to the collection of cards you had found upon the nightstand.  Bound and gagged, your memory wiped clean-- had you not broken free early, you would have undoubtedly missed the meeting the black card promised.  Troubling.  At the very least, you have both portions of the keycard now.  Leaving your room is now possible.]
-
-[[There is nothing more to see here.  Hold onto the keycard fragment, and step back.->Hotel Bathroom]]
 
 
 :: Wardrobe I

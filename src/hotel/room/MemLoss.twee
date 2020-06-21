@@ -1,0 +1,10 @@
+:: Mem Loss
+Als du nach unten greifst, findest du tatsächlich etwas: ein zerknittertes Stück Verpackung. Beim glätten des Kartons rutscht ein kleineres Stück Plastik heraus. Du erkennst es als stereotype Hotelschlüsselkarte oder zumindest als Fragment davon. Der Holostreifen entlang des Rückens ist gebrochen, so wird sie nicht funktionieren.
+(set: $memloss to true)
+Es ist jedoch die Verpackung, die faszinierender ist. *Mem-Burn*, steht darauf, und das Kleingedruckte, das du laut vorliest. "WARNUNG: Wirkstoffe verursachen je nach Dosis einen Gedächtnisverlust von vorübergehend bis dauerhaft. Verwendung mit VORSICHT."
+
+Die Pakung ist leer, aber mindestens ein Teil deiner mysteriösen Situation wird klar. Dies muss der Grund sein, warum dein Kurzzeitgedächtnis kaum mehr als eine klaffende Wunde ist, schwarz und leer, wie ein fehlender Zahn. Warum hättest du dir das angetan?  
+
+(If: $unlockdoor is true)[Es muss mit der Kartensammlung zusammenhängen, die du auf dem Nachttisch gefunden hast. Angekettet und geknebelt löschte sich dein Gedächtnis-- hättest du dich nicht zu früh befreit, hättes du zweifellos das Treffen verpasst, das die schwarze Karte versprochen hatte. Beunruhigend. Zumindest hast du jetzt beide Teile der Schlüsselkarte. Das Verlassen deines Zimmers ist jetzt möglich.]
+
+[[Hier gibt es nichts weiter zu sehen. Halte das Schlüsselkartenfragment fest und tritt zurück.->Hotel Bathroom]]

@@ -1,0 +1,45 @@
+:: Hotel Bathroom
+Als du ins Badezimmer gehst, stehst du in einem kleinen Raum, Wände und Decken, die mit Alabasterfliesen bedeckt sind. Eine Schalldusche, bei der komprimierte Schallwellen verwendet wurden, um Schmutz und Dreck ohne Wasser von dem Körper zu entfernen, nimmt eine Ecke ein. Ein weiterer Spiegel bedeckt eine Wand, während sich gegenüber eine kleine Tür befindet - in der sichtbar ein Ärmel eingeklemmt ist!
+
+[[Endlich Kleidung!->Bath Chute]]
+[[Du solltest dich wirklich im Spiegel überprüfen.->Bath Mirror]]
+(if: $debtShower is false)[[[Eine kurze Dusche würde dir gut tun.->Hotel Shower]]]
+[[Du beschließt, stattdessen in den größeren Raum zurückzukehren.->LOOKING AROUND]]
+
+
+:: Bath Chute
+Du gehst zur Tür, greifst dir den Ärmel, das Material ist tief smaragdgrüne synthetische Wolle. Du hälst ihn so dass er nicht verrutscht und öffnest die Tür, und enthüllst eine Art Rutsche-- und das verkohlte Ende des Ärmels, was zweifellos einmal ein komplettes Hemd war.
+
+Du hast einen Müllschlucker gefunden, das merkst du schnell. Und wahrscheinlich den letzten Beweis für deine Kleidung. Hat jemand deine Kleidung verbrannt? Hast du? Warum würdest du das tun?
+
+[[Du wünschtest, du könntest dich erinnern.->Hotel Bathroom]]
+
+
+:: Bath Mirror
+Du tritst vor den Spiegel, beugst dich vor und untersuchst dein Spiegelbild mit scharfen Augen. Ehrlich gesagt ... du könntest viel schlimmer aussehen, besonders für jemanden, der an einem solchen Fall von kurzfristiger Amnesie leidet.
+
+Natürliche Ästhetik hilft sicherlich. In jeder Hinsicht bist du ziemlich schön. Hohe Wangenknochen, volle Lippen, eine hohe Nase. Dein blondes Haar ist ein bisschen zerzaust, aber die Art und Weise, wie es auf deine Schultern und deinen Rücken fällt, bleibt verlockend. Deine Augen sind ebenfalls durchdringend, und sehr grün.
+
+Und du bist nicht verletzt, da kannst du dir sicher sein. Während du deine nackte Gestalt überprüfst, suchst du nach Einstichstellen, Wunden und allem, was deine verlorenen Erinnerungen erklärt. Du findest nichts, deine Haut ist glatt und unbeschädigt.
+
+[[Ist da etwas in der Spüle?->Mem Loss]]
+[[Hier gibt es nichts weiter zu sehen. Tritt zurück.->Hotel Bathroom]]
+
+
+:: Hotel Shower
+Du näherst dich der Duschkabine, deren Milchglastür sich mit einem sanften Zug öffnet. Es wird sich sicherlich gut anfühlen, wenn die Maschine ihre Arbeit erledigt.
+
+Als du zu der kleinen Konsole gehst, die die Dusche steuert, stellst du fest, dass die kürzeste empfohlene Zeit gut zwanzig Minuten beträgt. Hast du es eilig zu gehen?
+
+[[Nein, lass uns das machen.->Take Shower]]
+[[Ja! Du besser nicht.->Hotel Bathroom]]
+
+
+:: Take Shower [Debt Late]
+(set: $debt to it + 50)
+(set: $debtShower to true)
+Das Gefühl ist einfach wunderbar. Sobald die Maschine startet, die Welt dahinter, die Verwirrung, deine verlorenen Erinnerungen, alles - einfach alles verschwindet. Ersetzt durch ein warmes //Brummen//, entfernt die Dusche deinen Schmutz und Dreck, so schnell wie alles, was dich beunruhigt. Die Zeit vergeht und gleitet mit jeder rollenden Vibration, die von der Maschine ausgeht. Aber es kann nicht ewig andauern, und tatsächlich läuft der automatisierte Timer irgendwann aus.
+
+Du hast lange gebraucht, aber du bist erfrischt - es *muss* sich gelohnt haben.
+
+[[Zurück ins Badezimmer->Hotel Bathroom]]

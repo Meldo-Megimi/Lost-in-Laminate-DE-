@@ -1,0 +1,13 @@
+:: Hotel Leave
+Du gehst zur Tür und bist bereit, alles, was in diesem Raum passiert ist, zurück zu lassen. Erst als du dich der Tür näherst, stellst du fest, dass du immer noch sehr nackt bist und wer *weiß*, was hinter diesem Portal auf dich wartet. Dein Zimmer mag voller Geheimnisse sein, aber du hast es wenigstens in den Griff bekommen. Ein wildes Rausstürmen in die Welt dahinter scheint nicht ratsam.
+
+[[Du hast recht, ich werde mich erst weiter umsehen.->LOOKING AROUND]]
+[[Nein, ich gehe JETZT.->Early Exit]]
+
+
+:: Early Exit
+Die Tür ist verschlossen.
+
+Scheisse. Das hättest du wirklich kommen sehen können. Irgendwo hier muss eine Schlüsselkarte sein.
+
+[[Panik hilft nicht. Schau dich weiter um.->LOOKING AROUND]]
