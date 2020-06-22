@@ -5,11 +5,11 @@ Offworlder      ->  Aussenweltler
 Freewomb        ->  Freischoss
 Way Up          ->  Weg nach oben
 Mem-Burn        ->  Mem-Burn
-TRUANT OFFICER  ->  TRUANT BEAMTE
+TRUANT OFFICER  ->  Justizvollzugsbeamte
 SLAVE CODE      ->  SKLAVENCODE
 Diarch's Choice ->  Diarch's Wahl
 Slave Rated     ->  Sklaven-Klassifiziert
 slave protocols ->  Sklaven Protokoll
                 Ministerium für Gebärmütter
                 Ministerium für Verbesserungen
-
+Ministry of Truants ->  Ministerium für Schuldner

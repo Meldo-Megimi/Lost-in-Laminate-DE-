@@ -1,0 +1,88 @@
+:: Front Q
+"Es wäre mir ein Vergnügen", nickt sie.  "Wie kann ich Ihnen helfen?"
+
+Wenn jemand weiß, was dir passiert ist, dann ist es wahrscheinlich diese Frau. Sie *scheint* mit dir vertraut zu sein.
+
+[["Können Sie mir irgendetwas über diese Fahrkarte für den Aufzug sagen?"->"Is there anything you can tell me about this elevator ticket?"]]
+[["Kennen Sie 356 Cross Street, Grand Aekora?"->"Have you heard of 356 Cross Street, Grand Aekora?"]]
+[["Sie erwähnten ein... 'Ministerium für Schuldner'? Was ist das für ein Ministerium?"->Min Q]]
+[["Sie haben es eben schon gesagt, und es steht auf meiner Identifikationskarte. Was genau ist ein Freischoss?"->Freewomb Q]] 
+(if: $Blue is true or $Smoke is true)[[["Ähm, ist das Tragen von Manschetten... so wie wir, normal?"->CUFFS]]]
+(if: $Brand is true)[[["Gibt es etwas, was ich gegen diese Schuhe tun kann?  Die bringen mich um."->SHOES]]]
+(if: $Slave is true)[[["Gibt es etwas, was ich gegen diese Maske tun kann? Ich kann kaum atmen."->MASK]]]
+(if: $AskAddress and $AskTicket is true)[[["Ich glaube, ich gehe in diesen... privaten Nachtclub, sagten Sie? Oder vielleicht werde ich einfach ein für alle Mal von dieser Welt verschwinden. Aber ich nehme an, wir sollten stattdessen über meine Schulden sprechen."->Debt Q]]]
+
+
+:: "Is there anything you can tell me about this elevator ticket?"
+Du gibst ihr das Ticket, aber sie hält die Hand in höflicher Ablehnung hoch. "Das Reisen an Bord des Wegs nach oben ist Sklaven strengstens verboten, Ma'am. Ebenso entsprechende Utensilien. Der Besitz einer Fahrkarte, auch nur für einige Augenblicke, wäre ein schweres Vergehen meinerseits. Ich würde es lieber nicht riskieren, dass ein Justizvollzugsbeamter hereinspaziert, wenn das in Ordnung ist? Sie brauchen mir nur die Bestätigungsnummer oben vorzulesen".
+
+Du tust es, und sie wiederholt es, um sicherzustellen, dass ihre Dateneingabe korrekt war. Das ist sie.
+
+"Diese Fahrkarte ist gültig, und der zugewiesene Transport ist pünktlich. Sieht nach einer späten Abfahrtszeit heute Abend aus." Sie blickt zu dir zurück. "Sie verlassen Torei schon? Wie schade."
+(set: $AskTicket to true)
+[["Ich habe noch weitere Fragen."->Front Q]]
+
+
+:: "Have you heard of 356 Cross Street, Grand Aekora?"
+"Nein." antwortet sie, wenig hilfreich. Nachdem sie wieder zu ihrem Computer zurückrutscht, bemüht sie sich schnell, diese Antwort zu verbessern. "Können Sie mir diese Adresse noch einmal sagen?
+(set: $AskAddress to true)
+Es dauert nur wenige Augenblicke, bis sie die relevanten Informationen abgerufen hat. "Ah! Hier ist es. Scheint ein... eine Art Nachtclub zu sein?  Allerdings tief in der Innenstadt von Grand Aekora. Wir befinden uns gerade am Stadtrand, falls Sie sich nicht mehr daran erinnern. Es gibt mehrere Möglichkeiten, dorthin zu gelangen. Zug, Kutsche, und natürlich immer die Leine."
+
+[[Gut zu wissen, nehme ich an. Darf ich noch etwas anderes fragen?->Front Q]]
+
+
+:: Min Q
+Das Mädchen nickt begeistert. "Ja, Torei hat einen Haufen Ministerien. Nicht jede Ringdomäne hat alle, aber Aekora hat die meisten-- und damit ist das Ministerium der Schuldner gemeint. Stellen Sie sie sich wie unsere Polizei vor, aber so wie ich das verstehe, habt ihr Aussenweltler nicht viele Gesetze für Frauen, richtig?"
+
+Sie scheint auf eine Antwort zu warten, aber du bist dir nicht sicher, ob du überhaupt eine hast. Gesetze für Frauen?
+
+Schließlich macht sie einfach weiter. "Nun, wir haben, Ma'am. Es gibt *jede Menge*. Viel zu viele, als daß ich sie durchgehen könnte. Gewöhnlich rate ich Freischoss-Gästen wie Ihnen, Ihren Ausweis immer bei sich zu tragen und bei Reisen nach Einbruch der Dunkelheit vorsichtig zu sein. Sie sind sehr streng, was die Ausgangssperre betrifft, und es ist wirklich am besten, wenn Sie einfach versuchen, die Beamten gänzlich zu meiden."
+
+Wieder zeigt sie auf dein Kostüm. "(if: $Blue is true)[Wenn Sie ihnen nicht ausweichen, deshalb haben Sie Manschetten an diesem Anzug.] (if: $Smoke is true)[Wenn Sie ihnen nicht ausweichen, sind diese Oberschenkelmanschetten nicht die einzigen, die Sie tragen werden.] (if: $Brand is true)[Ich würde nicht empfehlen, unter normalen Umständen vor ihnen wegzulaufen, aber mit Ihren Absätzen? Halten Sie einfach die Augen unten, Ma'am.] (if: $Sec is true)[Das Kostüm, für das Sie sich entschieden haben, ist vielleicht sogar das beste, um sich anzupassen. Toreanisch, aber offensichtlich mit einer Agentur. Justizvollzugsbeamte ignorieren Sie vielleicht.] (if: $Slave is true)[Wenn Sie das tragen, *werden* Sie von ihnen angehalten werden. Sklavengesetze sind viel strenger, und obwohl Sie ein Freischoss sind, werden sie das nicht wissen, bis sie Ihre Identifikationskarte überprüft haben.]"
+
+[["Danke für den Ratschlag."->Front Q]]
+
+
+:: Freewomb Q
+"Gute Frage, Ma'am! Das ist eine wichtige Frage, die man hier auf Torei stellen muss. Technisch gesehen gibt es hier auf Torei zwei Klassen von Frauen, aber ich denke eigentlich, dass es drei sind. Es gibt Freischoss wie Sie", sie greift nach oben und tippt an ihr Halsband. "Und es gibt Sklavinnen wie mich. Dazwischen, in dieser dritten Klasse, sind Dienstmädchen, die unter Vertrag stehen. Gewöhnlich handelt es sich technisch gesehen um Freischoss, aber sie erfüllen Verträge oder arbeiten Schulden ab. Es gibt viele Möglichkeiten, sich auf Torei zu verschulden, besonders für Außenweltler, die nicht vorsichtig sind. Also passen Sie darauf auf".
+
+Ihr Blick entfernt sich für einen Moment, ihr Lächeln wird breiter. "Viele Toreaner würden argumentieren, dass das Halsband eines Sklaven hier das einfachere Leben ist."
+
+(if: $Blue is true or $Slave is true)[[["Ich bin ein Freischoss... aber ich habe ein Halsband?"->Collar Q]]]
+[["Das ergibt... eine gewisse Art von Sinn, nehme ich an. Aber ich habe noch andere Fragen."->Front Q]]
+
+
+:: Collar Q
+(if: $Blue is true)["Ah," antwortet die Bedienstete und hält einen behandschuhten Finger hoch. "Das ist etwas anderes. Sie haben die Wahl, auch wenn Ihrer gerade eine Zeitschaltuhr hat. Sklaven haben keine."] (if: $Slave is true)["Ah," antwortet die Bedienstete und hält einen behandschuhten Finger hoch. Das Violett ist so viel heller als dein eigenes Schwarz. "Das ist anders. Irgendwann werden Sie aus diesem Halsband und diesem Kostüm herausgelassen... wenn Sie das wünschen. Ein richtiger Sklave würde diese Wahl nicht selbst treffen dürfen."]
+
+[["Ich hab's. Ich habe weitere Fragen?"->Front Q]]
+
+
+:: CUFFS
+Das Mädchen hebt ihre eigenen gefesselten Handgelenke hoch und blickt dann zu denen, die fest am deinem Körper befestigt sind. "Oh ja", behauptet sie bereitwillig. "Bestimmte Arten werden natürlich von bestimmten Leuten verlangt, aber die meisten können welche tragen. Ein Freischoss wie Sie selbst macht das gewöhnlich."
+
+Sie neigt ihren Kopf hin und her, ihr Pony wiegt sich wie ein Pendel. "Ehrlich gesagt habe ich nicht erwartet, dass eine Frau wie Sie welche trägt, aber angesichts Ihrer finanziellen Situation... Sie haben doch die Schlösser daran bemerkt, oder? Sie werden sich in ein paar Stunden lösen. Das aekoranische Gesetz verlangt dies für kostenlose Garderobenbesuche. Das Ministerium für Schuldner behauptet, dass es den Umgang mit Rumlungerern und Vagabunden erleichtert. Sie sind normalerweise die einzigen, die die kostenlosen Sachen tragen."
+
+Es dauert einen langen Moment, bis sie nach Luft schnappt. "Nicht, dass ich damit etwas andeuten wollte, Ma'am!"
+
+[["Schon gut, lassen Sie uns einfach auf meine anderen Fragen zurückkommen."->Front Q]]
+
+
+:: SHOES
+Die Hausangestellte schüttelt den Kopf. "Ich fürchte nicht, Ma'am. Haben Sie das Kleingedruckte gelesen, als Sie diese Auswahl trafen?"
+
+Ihr Lächeln kehrt zurück. "Wahrscheinlich nicht. Niemand tut das. Aber ich wurde oft genug danach gefragt, um zu wissen, dass es da drin vorkommt. Zeitschlösser sind im Lieferumfang enthalten, damit Sie Ihren Werbevertrag nicht rückgängig machen. Sie sind auch an Ihrem Korsett, falls Sie es noch nicht bemerkt haben. Ich bin mir allerdings nicht sicher, warum sie sich für Ballettaufführungen entschieden haben. Gewöhnlich sind es die Außenweltler, die sich für die Werbekostüme entscheiden. Und Ballettaufführungen sind für diese Art von Leuten überhaupt nicht geeignet. Uuh! Vielleicht ist das Teil der Werbung! Sie wissen schon, einen Außenweltler darin kämpfen zu sehen, gebrandmarkt mit der Werbung eines großen Sklavenhändlers? Das macht die bessere Investition deutlich!"  
+
+Sie zuckt mit den Achseln, und du wechselst von einem Fuß auf den anderen und versuchst, *en pointe* vor ihr zu bleiben.  "Die Toreaner gehen nicht darauf ein, weil wir wissen, daß es viel lukrativer ist, *sich selbst* zu verkaufen, als nur für ein paar Stunden seine Kleidung. Dieser Tipp ist kostenlos."
+
+[["Gut... kommen wir auf meine anderen Fragen zurück."->Front Q]]
+
+
+:: MASK
+"Kann ich mir das genauer ansehen?" fragt sie als Antwort und gestikuliert dich nach vorne. Nach einem Moment des Zögerns näherst du dich, wobei dein Haltungshalsband dafür sorgt, dass du nicht viel tun kannst, während ihre Hände mit den Handschuhen an den Rändern deiner Maske entlang gleiten. Es dauert nur ein oder zwei Sekunden, bis sie zu einem Schluss kommt.
+
+"Verzeihung, Ma'am. Ich fürchte, nein. Ich schätze, das letzte Update hat das Regelventil an der Seite entfernt. Sie sind da drin, bis die Zeitschlösser auslösen, das war schon immer Standard. Aber wie es aussieht, haben die jüngsten Gesetzesänderungen es Ihnen schwerer gemacht."
+
+Du trittst zurück und die Absätze klicken auf den Marmorboden, während sie fortfährt. Es ist schwer, das Stöhnen zu unterdrücken, das von deinen sich verschiebenden Einführungen kommt. "Ich kann Ihnen nur sagen, dass das Design hier in Aekora bei weitem das häufigste ist. Meistens als standardisierte Uniform für Sklaven, aber... trotzdem. Sie haben eine Menge Forschung in sie gesteckt. Dieser Atemregler wird Sie auf der Kippe halten, aber er wird Sie nicht ersticken."
+
+[["...großartig. Lassen Sie uns einfach auf meine anderen Fragen zurückkommen."->Front Q]]

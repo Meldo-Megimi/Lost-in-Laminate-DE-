@@ -1,6 +1,6 @@
 :: Footer [footer]
 (append: ?SideBar)[\
-(if: $showstatus is true)[Status: (if: $Status is 1)[(colour: #e61919)[FREISCHOSS]](if: $Status is 2)[(colour: #e5e619)[SKLAVENCODE]](if: $Status is 3)[(colour: #888)[SKLAVIN]](if: $Status is 4)[(colour: magenta)[DAEMON]](if: $Status is 5)[(color: orange)[TRUANT]](if: $Status is 6)[(color: navy)[TRUANT BEAMTE]](if: $Status is 7)[(color: lime)[FREI]]]
+(if: $showstatus is true)[Status: (if: $Status is 1)[(colour: #e61919)[FREISCHOSS]](if: $Status is 2)[(colour: #e5e619)[SKLAVENCODE]](if: $Status is 3)[(colour: #888)[SKLAVIN]](if: $Status is 4)[(colour: magenta)[DAEMON]](if: $Status is 5)[(color: orange)[SCHULDNERIN]](if: $Status is 6)[(color: navy)[Justizvollzugsbeamte]](if: $Status is 7)[(color: lime)[FREI]]]
 (if: $showcredits is true)[Credits: $debt]
 (if: $showgear is true)[[[Deine Ausrüstung->Gear]]]
 [[Speichere Spiel->SavePage]]

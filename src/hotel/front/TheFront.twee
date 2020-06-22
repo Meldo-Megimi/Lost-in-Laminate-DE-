@@ -1,0 +1,34 @@
+:: The Front
+<img src="img/G0lGB6M.png" width="55%" height="55%">
+
+Natürliches Licht sticht scharfe Linien auf den Marmorboden des kleinen Atriums, in das du eintrittst. Säulen an allen vier Ecken erheben sich zu einer vertieften Decke, die der in deinem Raum sehr ähnlich ist. Eine andere Glastür geht eindeutig nach draußen, und nachdem du geblendet von diesem Portal blinzelst, wendest du sich stattdessen dem einzigen anderem bemerkenswerten Objekt zu: einer Frau, die hinter einem transparenten Schreibtisch sitzt.
+
+(if: $methelp is true)["Nochmals Hallo!" Sie grüßt lächelnd. Es ist die Frau von vorhin, vielleicht die einzige Angestellte des Hotels. Ihre Uniform hat sich nicht verändert, seit du sie das letzte Mal gesehen hast. Der unbestimmte Geschäftschnitt wird durch die Transparenz ihres violetten Oberteils unanständig. Ihre gepiercten Brustwarzen glitzern im Licht.](else:)[Die Frau ist etwa in deinem Alter und trägt eine Hotelangestellteuniform-- aber von ausgefallenem Stil und Schnitt. Die Uniform der Frau ist aus glattem, glänzendem Material. Ihr Bleistiftrock schmiegt sich an ihre breite Hüften, während ein Korsett ihren Mittelteil umarmt und ein violettes Oberteil das oben auftaucht. Sie ist ziemlich vollbusig und das lila Material ist halbtransparent, so dass du einen klaren Blick auf ihre gepiercten Brustwarzen hast. Ihre bunt bemalten Lippen öffnen sich, als sie dich begrüßt. "Guten Tag, Ma'am! Bitte treten Sie an die Theke."]
+
+(if: $Blue is true)[Sie blickt mit einem kritischen Auge über dein Kostüm, die kurze Kette, die ihre Manschetten am Handgelenk miteinander verbindet, klirrt, wenn sie in deine Richtung zeigt. "Ich sehe, Sie haben die Torei-Mode angenommen, wie wunderbar, Ma'am! Ich bin sicher, dass Ihre Kleidung in den letzten Tagen für die Außenwelt recht stilvoll war, aber es spricht doch etwas für... lokale Bräuche, nicht wahr? Aber hören Sie mir zu, ich nehme an, Sie wollen auschecken?"] (if: $Smoke is true)[Sie blickt mit einem kritischen Auge über dein Kostüm, die kurze Kette, die ihre Manschetten am Handgelenk miteinander verbindet, klirrt, wenn sie in deine Richtung zeigt. "Ich sehe, Sie haben die Torei-Mode angenommen, wie wunderbar, Ma'am! Und eine besonders... sehenswerte noch dazu, hm? Ich bin sicher, dass Ihre Kleidung in den letzten Tagen für die Außenwelt recht stilvoll war, aber es spricht doch etwas für... lokale Bräuche, nicht wahr?  Aber ich nehme an, Sie wollen auschecken?"] (if: $Brand is true)[Sie blickt mit einem kritischen Auge über dein Kostüm, die kurze Kette, die ihre Manschetten am Handgelenk miteinander verbindet, klirrt, wenn sie in deine Richtung zeigt. "Wie ich sehe, haben Sie sich der Werbebekleidung unterworfen. Danise Incorporated ist eine gut angesehene, wenn auch kleine Sklavenhandelsfirma. Sie hätten es viel schlimmer treffen können, als von ihnen als Warenzeichen benutzt zu werden. Ich bin sicher, dass Ihre Kleidung der letzten Tage für die Außenwelt recht stilvoll war, aber es spricht doch etwas für... lokale Bräuche, nicht wahr? Aber die Schuhe sind interessant. Keine Sorge, nur wenige Leute mögen Ballettschuhe, aber man gewöhnt sich an sie.  Irgendwie... aber hören Sie mein Geschwafel, ich nehme an, Sie wollen auschecken, Ma'am?"] (if: $Sec is true)[Sie blickt mit einem kritischen Auge über dein Kostüm, die kurze Kette, die ihre Manschetten am Handgelenk miteinander verbindet, klirrt, wenn sie in deine Richtung zeigt. "Ich sehe, Sie haben die Torei-Mode angenommen, wie wunderbar, Ma'am! Und eine besonders... professionelle noch dazu! Es sieht recht befreiend aus, das muss ich zugeben. Aber einem Freischoss sind solche Dinge erlaubt, nehme ich an. Ihre Kleidung der letzten Tage muss für die Außenwelt recht stilvoll sein, aber es spricht doch etwas für... lokale Bräuche, nicht wahr? Ah, aber ich nehme an, Sie wollen auschecken?"] (if: $Slave is true)[Sie schaut mit weit aufgerissenen Augen über dein Kostüm, die kurze Kette, die ihre Manschetten am Handgelenk miteinander verbindet, klirrt, während ihr Lächeln sich weiter verbreitert und nur noch zu tiefer Belustigung führt. "Wie ich sehe, haben Sie... recht bereitwillig die toreanische Kultur angenommen, Ma'am! Das ist ein sehr ehrgeiziges Kostüm für eine Aussenweltlerin. Sogar für einen Freischoss, hier in Aekora tragen wir Sklaven diese Art von Kleidung. Aber sehr lustig..." Sie zwinkert. "und Teuer. Vielleicht sollten wir über Ihr Auschecken sprechen?"]
+
+[["Ja, vielleicht sollten wir."->Front II]]
+(if: $Brand is true)[[["Warten Sie, es gibt schlechtere Markenoptionen als Sklavenhändler?"->Front Brand]]]
+(if: $Slave is true)[[["Warte, du bist eine Sklavin...?"->AskAskSlave]]]
+
+
+:: Front Brand
+"Oh sicher", zwitschert die Hausangestellte, während du eine Hand auf ihren Schreibtisch legst, um dein Gleichgewicht zu halten. "Viele Marken, die *wissen*, dass sie so ziemlich alles über den Anzug sagen können, dem Sie sich unterzogen haben.  Also benutzen sie es, um die Aufmerksamkeit der Leute zu bekommen, Ma'am. Stellen Sie sich vor, Sie hätten **Schlampe** auf Ihren Oberschenkeln eingeprägt, so dass die Leute Ihnen beim Vorbeigehen zusehen. Dann sehen sie die *wirkliche* Werbung auf Ihrem Hintern."
+
+Sie schaut über die Firmensymbole auf Ihren eigenen Körper. "Du hattest Glück, dieses ist einfach irgendwie cool. Mir gefällt das Lippenlogo."
+
+[["Nun, gut... reden wir über das Auschecken."->Front II]]
+
+
+:: AskAskSlave
+Die Frau nickt, eine behandschuhte Hand hebt sich zu dem Band, das um ihren Hals gelegt ist. Es ist fast unnötig, da die Kette auch ihre Handgelenke verbindet.
+
+"Ja, Ma'am. Seit ich mich selbst verkauft habe, als ich die Volljährigkeit erreicht hatte. Es kann für Aussenweltler schwer zu verstehen sein, aber es ist alles, worauf ich mich gefreut habe. Ein Halsband bietet Sicherheit, die man als Frau auf Torei nirgendwo anders bekommt."
+
+Sie lehnt sich über den Tisch und schaut wieder einmal auf dein Ganzkörperkostüm. "Aber ich *mag* es auch. Die Kontrolle zu verlieren... das ist etwas anderes..."
+
+Ihr Lächeln ist breit. "Ist es nicht.?"
+
+Du atmest tief durch und bemühst dich, deine Stöpsel zu ignorieren.
+
+[["Lass uns einfach... über das Auschecken reden."->Front II]]

@@ -1,0 +1,23 @@
+:: Front Q Start
+"Das macht Sinn", lächelt die Frau. "Sie haben sich vor zwei Tagen eine Bestellung von Mem-Burn auf Ihr Zimmer liefern lassen."
+
+*Du hast?*
+(set: $MemQ to true)
+[["Bei Ihnen klingt das wie eine gewöhnliche Sache."->"You make that sound like a common thing."]]
+[["Wirklich?! Und Sie sind sicher, dass ich es war?"->What Q]]
+
+
+:: "You make that sound like a common thing."
+"Vielleicht ist es nicht *gewöhnlich*", räumt sie mit einem Achselzucken ein. "Aber es ist nicht so selten. Gerüchte besagen, dass die aktiven Bestandteile von den KIs stammen, aber es ist vollkommen sicher. Manche Leute benutzen es gerne, um die Zeit die sie in einem Halsband zu verbringen wirklich... zu intensivieren. Bei anderen hilft es, sie aufzulockern.  Der letzte Teil scheint doch funktioniert zu haben, oder? (if: $Blue is true)[Es hat Sie in diesen Catsuit gebracht, und Sie tragen ihn so gut!] (if: $Smoke is true)[Es hat Sie in diesen durchsichtigen Catsuit gebracht, das ist ein toreanisches Markenzeichen!] (if: $Brand is true)[Es hat Sie in dieses Markenzeichen-Anzug gebracht, nicht wahr?] (if: $Sec is true)[Es hat Sie dazu gebracht, Ihr Aussehen auf etwas mehr Toreanisches zu ändern.] (if: $Slave is true)[Ich muss es noch einmal sagen: Ich hätte wirklich nie erwartet, Sie in einem Sklaven-Klassifiziertem Kostüm zu sehen. Es ist ein ganz außergewöhnlicher Tag, an dem ein Gast strikter gebunden ist als ich.]"
+
+[[...richtig. Nun, Sie sind sicher, dass ICH es war, der den Auftrag erteilt hat?->What Q]]
+
+
+:: What Q
+"Ah, nun, das würde ich nicht direkt sagen. Ich war lediglich im Dienst, als der Liefersklave ankam. Ich wies ihr den Weg zu Ihrem Zimmer. Ich nehme an, jeder hätte den Auftrag geben können."
+
+Sie richtet ihre Aufmerksamkeit auf ihren Computer und ruft ein paar Dateien auf, bevor sie weitermacht. "Sie haben vor etwa einer Woche allein eingecheckt und bis heute im Voraus bezahlt. Wenn es hilft, ich bin häufiger hier im Dienst als nicht. Ich habe Sie ein paar Mal kommen und gehen sehen, aber Sie sind nie mit jemandem zurückgekommen, den ich bemerkt hätte. Die meisten Leute *versuchen* zumindest ein wenig von der toreanischen Erfahrung, wenn sie auch hier bleiben, aber Sie nicht. Ich hätte Sie nicht für jemanden gehalten, der sich für Mem-Burn entscheidet.  Nicht bis jetzt."
+
+Es ist nicht viel, aber dein Selbstbild ist zumindest ein *bisschen* klarer.  Dies mag ein guter Zeitpunkt sein, um alle Fragen zu stellen, die dir in den Sinn kommen, und es gibt auch noch die Sache mit deinen Schulden zu klären.
+
+[["Nun, vielen Dank, nehme ich an. Kann ich noch ein paar andere Fragen stellen?"->Front Q]]

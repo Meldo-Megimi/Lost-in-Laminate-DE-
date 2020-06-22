@@ -35,149 +35,77 @@ Lost in Laminate
 
 :: Story Stylesheet [stylesheet]
 /* SCHIGGY */
-        :root {
-          --c1: #141d26;
-          --c2: rgb(247, 247, 247);
-          --px1: 5rem;
-        }
+  :root {
+    --c1: #141d26;
+    --c2: rgb(247, 247, 247);
+    --px1: 5rem;
+  }
 
-        tw-story {
-          font-size: 20px;
-          font-family: "Lato", sans-serif;
-          background: var(--c1);
-          color: var(--c2);
-          overflow: auto;
-          height: 100%;
-          width: 100%;
-          padding-top: 0;
-        }
-		tw-link, .enchantment-link {
-		color: #c51f5d;
-		}
+  tw-story {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    background: var(--c1);
+    color: var(--c2);
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    padding-top: 0;
+  }
 
-		tw-link:hover, .enchantment-link:hover {
-		color: #c51f5d;
-		}
+  tw-link, .enchantment-link {
+    color: #c51f5d;
+  }
 
-		.visited {
-		color: #751036;
-		}
+  tw-link:hover, .enchantment-link:hover {
+    color: #c51f5d;
+  }
 
-		.visited:hover {
-		color: #751036;
-		}
+  .visited {
+    color: #751036;
+  }
 
-        tw-story {
-          -webkit-touch-callout: text; /* iOS Safari */
-          -webkit-user-select: text; /* Safari */
-          -khtml-user-select: text; /* Konqueror HTML */
-          -moz-user-select: text; /* Old versions of Firefox */
-          -ms-user-select: text; /* Internet Explorer/Edge */
-          user-select: text; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
-        }
+  .visited:hover {
+    color: #751036;
+  }
 
-        tw-sidebar {
-          border-bottom: 2px solid white;
-          background: var(--c1);
-          z-index: 5;
-          position: sticky;
-          top: 0;
-          left: 0;
-          width: 100%;
-          display: flex;
-          justify-content: space-evenly;
-          align-items: center;
-          margin-bottom: var(--px1);
-        }
+  tw-story {
+    -webkit-touch-callout: text; /* iOS Safari */
+    -webkit-user-select: text; /* Safari */
+    -khtml-user-select: text; /* Konqueror HTML */
+    -moz-user-select: text; /* Old versions of Firefox */
+    -ms-user-select: text; /* Internet Explorer/Edge */
+    user-select: text; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+  }
 
-        img {
-          display: block;
-          margin: 0 0px;
-          margin-left: auto;
-          margin-right: auto;
-          padding-top: 0.5rem;
-          max-width: 100%;
-          height: auto;
-        }
+  tw-sidebar {
+    border-bottom: 2px solid white;
+    background: var(--c1);
+    z-index: 5;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: var(--px1);
+  }
 
-        @media (max-width: 800px) {
-          tw-story {
-            padding: 0 10px;
-          }
-        }
+  img {
+    display: block;
+    margin: 0 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5rem;
+    max-width: 100%;
+    height: auto;
+  }
 
-
-:: Wardrobe End
-Slowly, you make your way down the carpeted hallway, one hand trailing on the nearest wall as you adapt to what the Wardrobe device made of you.
-
-(if: $Blue is true)[Just *walking* in laminate is an experience unto itself.  Your glossy blue catsuit positively gleams as waves of light roll across it with each step, in turn highlighting your curvaceous silhouette.  The heels are taller than most you had experienced, but after a few steps you achieve a comfortable gait, their height naturally inducing you to kick out your hips with each foot placed forward.  Certainly they were helping with your posture.  It's a strange cocktail of embarrassing and empowering to be so covered, yet exposed.  Could you really wear this in public?  It's not like other options present themselves.] (if: $Smoke is true)[Just *walking* in laminate is an experience unto itself.  Your semi-transparent smokey catsuit positively gleams as waves of light roll across it with each step, in turn highlighting your curvaceous silhouette.  A modicum of decency is preserved by the strip of black between your legs, but you can see both nipples and skin beneath, and that will certainly require some time to get used to.  The heels are taller than most you had experienced as well, but after a few steps you achieve a comfortable gait, their height naturally inducing you to kick out your hips with each foot placed forward.  Certainly they were helping with your posture.  It's a strange cocktail of embarrassing and empowering to be so covered, yet utterly exposed.  Could you really wear this in public?  It's not like other options present themselves.] (if: $Brand is true)[Just *walking* in laminate is an experience unto itself.  Your heavily branded catsuit positively gleams as waves of light roll across it with each step, in turn highlighting your curvaceous silhouette.  The heels are another level of trial altogether, and while you do have some experience with stilettos that only keeps you from falling.  You simply cannot manage more then a halting, fawn-like procession forward.  You're almost helpless, although certainly they were helping with your posture.  It's a strange cocktail of embarrassing and empowering to be so covered, yet exposed.  Advertising your submission to the Wardrobe and the suit, for mere credits, so readily.  Could you really wear this in public?  It's not like other options present themselves.] (if: $Sec is true)[Just *walking* in laminate is an experience unto itself.  Your secretarial uniform positively gleams as waves of light roll across it with each step, in turn highlighting your curvaceous silhouette.  The heels are taller than most you had experienced, but after a few steps you achieve a comfortable gait, their height naturally inducing you to kick out your hips with each foot placed forward.  Certainly they were helping with your posture.  It's a strange cocktail of embarrassing and empowering to be wearing a design so nearly normal, yet perverted towards Torean fetish.  Could you really wear this in public?  It's not like other options present themselves.] (if: $Slave is true)[Just *walking* in laminate is an experience unto itself.  Your glossy black catsuit positively gleams as waves of light roll across it with each step, in turn highlighting your curvaceous silhouette.  The heels are taller than most you had experienced, but after a few steps you achieve a comfortable gait, their height naturally inducing you to kick out your hips with each foot placed forward.  Certainly they were helping with your posture.  Little prepares you for the shifting sensation of your inserts, however, and soon you're panting through the regulation of your mask.  The cumulative effects are particularly frustrating-- each step shifts your plugs, causing you to all but gasp.  You try to breath deeply afterward, but your mask prevents that, and the corset colludes as well.  You've barely made it a few steps before your hand drifts absentmindedly to your legs...]
-(set: $showgear to false)
-(if: $Blue is true or $Sec is true or $Smoke is true or $Brand is true)[[[Pass through the glass barrier between the rooms and the Front Office.->The Front]]]
-
-(if: $Slave is true)[[[It feels so good...->Slave Pause]]]
-
-
-:: The Front
-<img src="img/G0lGB6M.png" width="55%" height="55%">
-
-Natural light stabs sharp lines onto the marble floor of the small atrium you emerge into, columns at all four corners rising to a recessed ceiling very similar to the one within your room.  Another glass door clearly leaves outside, but blinking away the overexposure from that portal, you instead turn towards the only other object of note: a woman, seated behind a transparent desk.
-
-(if: $methelp is true)["Hello again!" She greets, smiling.  It's the woman from before, perhaps the hotel's only employee.  Her unifrom has not changed since you last saw her, the vaguely business cut to it made lewd by the transparency of her violet top.  Her pierced nipples glint in the light.](else:)[The woman is somewhere near your own age, wearing a hotel worker's uniform-- but of an outlandish style and cut.  Rendered in slick, glossy material, the woman's uniform is utterly tight.  Her pencil skirt hugs wide hips, while a corset embraces her midsection, allowing a violet bodice that emerges above.  She's quite busty, and the purple material is semi-transparent, allowing a clear view of her pierced nipples.  Her brightly painted lips open as she greets you.  "Good day, Ma'am!  Please, step up to the counter."]
-
-(if: $Blue is true)[She looks over your outfit with a discerning eye, the short chain linking her wrist cuffs together clinking as she gestures in your direction.  "I see you've embraced Torei fashion, how wonderful, ma'am!  Your attire the last few days must be quite stylish offworld, I'm sure, but there is something to be said for... local customs, is there not?  But listen to me, I imagine you wish to check out?] (if: $Smoke is true)[She looks over your outfit with a discerning eye, the short chain linking her wrist cuffs together clinking as she gestures in your direction.  "I see you've embraced Torei fashion, how wonderful, ma'am!  And a particularly... visible one at that, hm?  Your attire the last few days must be quite stylish offworld, I'm sure, but there is something to be said for... local customs, is there not?  But I imagine you wish to check out?] (if: $Brand is true)[She looks over your outfit with a discerning eye, the short chain linking her wrist cuffs together clinking as she gestures in your direction.  "I see you've submitted to advert-wear.  Danise Incorporated is a well regarded, if small, slave trading firm.  You could have done much worse to be branded by them.  Your attire the last few days must be quite stylish offworld, I'm sure, but there is something to be said for... local customs, is there not?  The shoes are interesting, though.  Don't worry, few people enjoy ballet heels, but you get used to them.  Sort of... but listen to me ramble, I imagine you wish to check out, ma'am?] (if: $Sec is true)[She looks over your outfit with a discerning eye, the short chain linking her wrist cuffs together clinking as she gestures in your direction.  "I see you've embraced Torei fashion, how wonderful, ma'am!  And a particularly... professional one at that!  It looks quite liberting, I must admit.  Freewombs are allowed such things, though, I suppose.  Your attire the last few days must be quite stylish offworld, but there is something to be said for... local customs, is there not?  Ah, but I imagine you wish to check out?] (if: $Slave is true)[She looks over your outfit with widened eyes, the short chain linking her wrist cuffs together clinking as her smile only widens to the point of deep amusement.  "I see you have... quite readily embraced Torean culture, ma'am!  That is a very ambitious outfit for an offworlder.  Even for a freewomb, here in Aekora us slaves wear that sort of gear.  Very fun though..." She winks.  "Expensive too.  Perhaps we should discuss your checking out?"]
-
-[["Yes, perhaps we should."->Front II]]
-(if: $Brand is true)[[["Wait, there are worse brand options then slavers?"->Front Brand]]]
-(if: $Slave is true)[[["Wait, you're a slave...?->AskAskSlave]]]
-
-
-:: Front II [Debt]
-"Sure!" The girl enthuses, sliding to her left, where a haptic computer is projected in the space above that portion of the desk.  Torean script emerges as she pulls up your account, but basic security measures ensure you can't make out anything from your vantage anyway.
-
-"First off, your keycard?"
-
-With a bit of reluctance, you slide the twined pieces across the transparent desk to her.  She eyes the broken card for a moment, but her smile never fades.
-
-"Well," she notes, collecting the pieces and tossing them in a nearby trash bin.  "You will be charged for keycard replacement, I hope that is acceptable, ma'am?  It's only 20 credits.  How were you intended to address your outstanding balance?  I do not have account on record.  Credit chit, perhaps?"
-(set: $debtCard to true) (set: $debt to it +20)
-[["Well, you see... I'm not sure that I have any money."->Front III]]
-
-
-:: Front Brand
-"Oh sure," the servant chirps, as you lean a hand upon her desk to keep your balance.  "Lots of brands, they *know* they can say just about anything on that suit you submitted to.  So they use it to get the attention of folks, ma'am.  Imagine having **Slut** branded on your thighs, so that people watch you walk past.  Then they see the *real* advert on your ass."
-
-She looks over the corporate symbols upon your own body.  "You got lucky, that one is just kind of cool.  I like the lip logo."
-
-[["Right, well... let's talk about checking out?"->Front II]]
-
-
-:: Front III
-The servant sets her hands down upon the desk, her cuffs clinking gently upon it.  Must be glass.
-
-"I... see.  This establishment is fitted with industry standard automated observation protocols, for guest protection of course.  And I am seeing several such charges on your account resulting from that program.  I hope you understand that I cannot advise leaving the premises with an active balance?  That would require I contact the Ministry of Truants on your behalf, and you *are* a freewomb."
-
-The way she says it, that doesn't sound good.  Yet her smile returns.
-
-"Given our frequent offworlder guests, however, we do feature a robust debt relief program.  Would you like to explore those options?  Or I would be happy to answer any other questions you may have at this time, as long as you remain within this building."
-
-[["What exactly do you mean by 'debt relief'?"->FrontQQ]]
-[["I DO have questions.  Several.  I can't recall anything from the last week!"->Front Q Start]]
-[["Let's talk about my debt."->Debt Avoid]]
-
-
-:: Front Q
-"It would be my pleasure," she nods.  "How can I assist you?"
-
-If anyone knows about what happened to you, it seems likely it would be this woman.  She certainly *seems* familiar with you.
-
-[["Is there anything you can tell me about this elevator ticket?"]]
-[["Have you heard of 356 Cross Street, Grand Aekora?"]]
-[["Did you mention a... 'Ministry of Truants?' What's that?"->Min Q]]
-[["You said it just before, and it's on my identity card.  What exactly is a freewomb?"->Freewomb Q]] 
-(if: $Blue is true or $Smoke is true)[[["Um, is wearing cuffs... as we are, normal?"->CUFFS]]]
-(if: $Brand is true)[[["Is there anything I can do about these shoes?  They're killing me."->SHOES]]]
-(if: $Slave is true)[[["Is there anything I can do about this mask? I can barely breathe."->MASK]]]
-(if: $AskAddress and $AskTicket is true)[[["I think I might be heading for that... private nightclub, you said?  Or maybe I'll just get off this world once and for all. But I suppose we should discuss my debts instead."->Debt Q]]]
+  @media (max-width: 800px) {
+    tw-story {
+      padding: 0 10px;
+    }
+  }
 
 
 :: Debt Q
@@ -185,76 +113,6 @@ If anyone knows about what happened to you, it seems likely it would be this wom
 
 [["Wait, I do have a few more questions.->Front Q]]
 [["Sounds good to me, read them."->Debt Read]]
-
-
-:: "Is there anything you can tell me about this elevator ticket?"
-You offer her the ticket, but she holds up a hand in polite refusal.  "Travel aboard the Way Up is strictly prohibited to slaves, ma'am. Related paraphernalia too. Possession of a ticket, even for a few moments, would be a grave offense on my part.  I'd rather not chance a Truant Officer strolling in, if that is alright?  You need only read me the confirmation number up top."
-
-You do, which she reads back, making sure her data entry was correct.  It is.
-
-"That ticket is valid, and the assigned carriage is on time.  Departure time of late tonight, looks like."  She looks back to you.  "Leaving Torei already?  Shame."
-(set: $AskTicket to true)
-[["I've got more questions."->Front Q]]
-
-
-:: "Have you heard of 356 Cross Street, Grand Aekora?"
-"No." She replies, most unhelpfully.  But sliding back over to her computer, she quickly makes an effort to improve upon that answer.  "Can you give me that address one more time?
-(set: $AskAddress to true)
-It takes only a few moments for her to pull up the relevent information.  "Ah!  Here it is.  Seems to be a... nightclub, of some sort?  Deep in downtown Grand Aekora, though.  We're located in the outskirts right now, if you can't remember that.  Couple ways to get there.  Train, carriage, and always the Lead."
-
-[[Good to know, I suppose.  Can I ask something else?->Front Q]]
-
-
-:: Min Q
-The girl nods enthusiastically.  "Yeah, Torei has a bunch of Ministries.  Not every Ringdom has them all, but Aekora does have most-- and that means the Ministry of Truants.  Think of them like our police, but as I understand it, you offworlders don't have many laws for women, right?"
-
-She seems to be waiting for a response, but you're not sure you even have one.  Laws for women?
-
-Eventually she just continues.  "Well we do, ma'am.  There are a *lot*.  Way too many for me to go over.  Usually I just advise freewomb guests like yourself to always keep your identification permit with you, and to be careful traveling after dark.  They're very strict about curfew, and really, its best to just try and avoid the Officers altogether."
-
-Again she gestures towards your oufit.  "(if: $Blue is true)[If you don't avoid them, that's why you've got cuffs on that suit.] (if: $Smoke is true)[If you don't avoid them, those thigh cuffs won't be the only ones you're stuck wearing.] (if: $Brand is true)[I wouldn't suggest running from them in regular circumstances, but with your heels?  Just keep your eyes down, ma'am.] (if: $Sec is true)[That outfit you chose might be the best for blending in, actually.  Torean, but clearly with some agency.  Truant Officers might ignore you.] (if: $Slave is true)[Wearing that, you *will* be stopped by them.  Slave laws are much more strict, and while you are a freewomb they won't know that until they check your card.]"
-
-[["Thanks for the advice."->Front Q]]
-
-
-:: Freewomb Q
-"Good question, ma'am!  That is an important one to know, here on Torei.  Technically there are two classes of women here on Torei, but I really think of them as being three.  There are freewombs like yourself," she reaches up, tapping her collar.  "And there are slaves, like myself.  In between, that third class, are indentured servants.  Usually technically freewombs, but serving contracts or working off debt.  There are lots of ways to fall into debt on Torei, especially for offworlders who aren't careful.  So watch out for that."
-
-Her eyes grow distant for a moment, her smile widening.  "Many Toreans would argue a slave's collar is the easier life, here."
-
-(if: $Blue is true or $Slave is true)[[["I'm a Freewomb... but I do have a collar?"->Collar Q]]]
-[[That makes... a certain sort of sense, I suppose.  But I have other questions."->Front Q]]
-
-
-:: Front Q Start
-"That makes sense," the woman smiles.  "You did have an order of Mem-Burn delivered to your room two days ago."
-
-*You did?*
-(set: $MemQ to true)
-[["You make that sound like a common thing."]]
-[["I did?! And you're sure it was me?->What Q]]
-
-
-:: What Q
-"Ah, well, I wouldn't exactly say that.  I was merely on duty when the delivery slave arrived.  Directed her to your room.  I suppose anyone could have made the order."
-
-She shifts her attention to her computer, pulling up a few files before continuing.  "You checked in alone about a week ago, prepaid up to today.  If it helps, I'm here on duty more often then not.  Saw you come and go a few times, but you never returned with anyone that I noticed.  Most folk at least *try* a bit of the Torean experience when staying here too, but you didn't.  Wouldn't think you the sort to go for Mem-Burn.  Not until now."
-
-It isn't much, but your sense of self is at least a *bit* clearer.  This may be a good time to ask any questions that come to mind, and there is the matter of your debt to address as well.
-
-[["Well, thank you I supposed.  Can I ask some other questions?->Front Q]]
-
-
-:: "You make that sound like a common thing."
-"Perhaps its not *common*," she allows, with a shrug of sloped shoulders.  "But it's not all that rare.  Rumor has it the active compounds came from the AIs, but its perfectly safe.  Some folk like to use it to really make some time in a collar... intense.  For others, it helps loosen them up.  That last bit seems to have worked, right?  (if: $Blue is true)[It got you into that catsuit, and you wear it so well!] (if: $Smoke is true)[It got you into that see-through catsuit, those are a Torean staple!] (if: $Brand is true)[It got you into that branded suit, didn't it?] (if: $Sec is true)[It got you to update your look to something more Torean, after all.] (if: $Slave is true)[Because I must say it again, I really never expected to see you in slave-rated gear. Its a rare day when a guest is more strictly bound then I am.]"
-
-[[...right.  Well, you're sure it was ME that made the order?->What Q]]
-
-
-:: Collar Q
-(if: $Blue is true)["Ah," the servant responds, holding up a gloved finger. "That's different.  You get to choose, even if yours has a timer right now.  Slaves don't.] (if: $Slave is true)["Ah," the servant responds, holding up a gloved finger. The purple is so much brighter then your own black.  "That's different.  You eventually will be allowed out of that collar and suit... if you desire that.  A proper slave would not get to make that choice themselves."]
-
-[["Got it.  I have other questions?"->Front Q]]
 
 
 :: Debt Read
@@ -281,30 +139,10 @@ Reaching up to run a hand through her hair requires her to shift her other arm a
 [["You mentioned some sort of debt relief, though?"->Debt Options]]
 
 
-:: AskAskSlave
-The woman nods, a gloved hand rising to the band secured around her neck.  It's almost unnecessary, given the chain also linking her wrists.
-
-"Yes ma'am. Since I sold myself once I hit majority.  It can be hard for offworlders to understand, but it is all I looked forward to.  There is security in a collar you can't get elsewhere on Torei, as a woman."
-
-She leans across the table, once again eyeing your full enclosure suit.  "But I came to *like* it, too.  Losing control... it's something else..."
-
-Her smile is wide.  "Isn't it.?"
-
-You take a deep breath, trying hard to ignore your plugs.
-
-[["Let's just... talk about checking out."->Front II]]
-
-
 :: Debt Options
 "Yes!" The girl replies.  "My Master, the proprietor of this establishment, understands that given the frequency of our guests not born to Torei, registering a proper debt contract with the Ministry of Truants to collect on your account would be bothersome for all parties involved.  Instead, I am authorized to write off portions of your outstanding debt if you accept certain... temporary strictures.  We hope such an arrangement provides a learning experience for Freewombs such as yourself."
 
 [["What kind of... learning experiences are we talking about, here?"->Debt Options 2]]
-
-
-:: Debt Avoid
-"I would be happy you," she smiles.  "But talking credits can be a most tiring affair.  I would recommend we explore any other topics that interest you first, ma'am.  Did you by chance have an idea of where you intend to travel next?"
-
-[["Actually, I have some other questions for you. I can't recall anything from the last week..."->Front Q Start]]
 
 
 :: Debt Options 2
@@ -540,36 +378,6 @@ You moan, but lift your rear as demanded. (if: $Slave is true)[For some reason, 
 (if: $debt is > 0)[[["Please stop, I can't!->Strike Refuse]]]
 (if: $debt is > 0)[[["(print: $Strike)!"->Strike Counter]]]
 (if: $debt is <= 0)[[["That's... all of it, right?"->Strike End]]]
-
-
-:: CUFFS
-The girl raises her own chained wrists, then looks to those clasped firmly upon your own body.  "Oh yes," she asserts, readily.  "Certain sorts are required of certain folk, of course, but most anyone can wear some.  Freewombs such as yourself commonly do."
-
-She tips her head back and forth, bangs swaying pendulum like.  "Honestly I didn't expect a woman such as yourself to wear some, but given your financial situation... you did notice the locks on them, right?  They will come off in a few hours.  Aekoran law requires that for any freebies at a Wardrobe.  Ministry of Truants asserts it makes dealing with loiters and vagabonds easier.  They're usually the only sort to wear the free stuff."
-
-It takes her a long moment to gasp.  "Not that I was suggesting anything, ma'am!"
-
-[["None taken, let's just get back to my other questions.->Front Q]]
-
-
-:: SHOES
-The servant shakes her head.  "Afraid not, ma'am.  Did you read all the fine print when you made that selection?"
-
-Her smile returns.  "Probably not.  No one does.  I've been asked about it enough to know that it's in there, though.  Timed locks are included, so you don't go back on your advertising contract.  They're on your corset too, if you haven't noticed.  Not sure why they went with ballets, though.  Usually its offworlders who go for the advert-suits.  And ballets aren't friendly to those sorts at all.  Ooo! Maybe that's part of the advertisement!  You know, seeing an offworlder struggling in ballets, branded with a big slaver's ad?  Makes the better investment clear!"  
-
-She shrugs and you shift from one foot to the other, trying to remain *en pointe* before her.  "Toreans don't go for it because we know it's much more lucrative to sell *yourself* instead of just your clothes for a few hours, ma'am.  That tip is free."
-
-[["Right... let's just get back to my other questions.->Front Q]]
-
-
-:: MASK
-"Can I take a closer look?" She asks in response, gesturing you forward.  After a moment's hesitation you approach, your posture collar ensuring you can't do much as her gloved hands glide along the edges of your mask.  It takes her only a second or two for a conclusion to be reached.
-
-"Sorry, ma'am.  Afraid not.  I guess the latest update removed the regulation valve on the side.  You're in there until the timed locks give out, that's always been standard.  But looks like the recent law revisions decided to make it harder on you."
-
-You step back, heels clicking upon the marble floor as she continues.  It's hard to suppress the moan that comes from your shifting inserts.  "Only thing I can tell you is that design is by far the most common, here in Aekora.  Mostly as a standardized uniform for slaves, but... still.  They put a lot of research into them.  That breath regulator will keep you on the edge, but it won't suffocate you."
-
-[["...great. Let's just get back to my other questions.->Front Q]]
 
 
 :: Strike Refuse
@@ -13001,15 +12809,6 @@ Passing by them as quickly as possible, if only to escape their muffled moans-- 
 (set: $Servant to true)
 
 [[VIPArrest9]]
-
-
-:: FrontQQ
-The attendant smiles.  "The details vary considerably, but given your previous lack of interest in Torean culture... we would make efforts to ensure that you get to experience the joys of your gender."
-
-Her wording is vague, and it doesn't improve.  "If your debts are high enough, we would also ensure that *others* would enjoy your experience, so to speak.  But we can discuss that further, after we address any other questions you might have-- and just how extensive your debt it."
-
-[["Okay, let's talk about me-- I can't remember anything!"->Front Q Start]]
-[["Let's talk about my debt."->Debt Avoid]]
 
 
 :: CustomsArrive

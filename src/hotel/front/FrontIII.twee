@@ -1,0 +1,27 @@
+:: Front III
+Die Hausangestellte legt ihre Hände auf den Schreibtisch, ihre Manschetten klirren sanft darauf.  Es muss Glas sein.
+
+"Ich... verstehe. Diese Einrichtung ist mit automatisierten Beobachtungsprotokollen nach Industriestandard ausgestattet, natürlich zum Schutz der Gäste. Und ich sehe mehrere solcher Gebühren auf Ihrem Konto, die aus diesem Programm resultieren. Ich hoffe, Sie verstehen, dass ich Ihnen nicht raten kann, das Gelände mit einem aktiven Saldo zu verlassen? Das würde erfordern, dass ich mich in Ihrem Namen an das Ministerium für Schuldner wende, und Sie *sind* ein Freischoss."
+
+So wie sie das sagt, klingt das nicht gut. Doch ihr Lächeln kehrt zurück.
+
+"Angesichts unserer häufigen Aussenweltlichen Gäste verfügen wir jedoch über ein umfassendes Schuldenerlassprogramm.  Möchten Sie diese Möglichkeiten sondieren? Oder ich beantworte gerne alle anderen Fragen, die Sie zu diesem Zeitpunkt haben, solange Sie sich in diesem Gebäude aufhalten."
+
+[["Was genau verstehen Sie unter 'Schuldenerlass'?"->FrontQQ]]
+[["Ich HABE Fragen. Mehrere. Ich kann mich an nichts aus der letzten Woche erinnern!"->Front Q Start]]
+[["Reden wir über meine Schulden."->Debt Avoid]]
+
+
+:: FrontQQ
+Die Hausangestellte lächelt. "Die Einzelheiten sind sehr unterschiedlich, aber angesichts Ihres früheren mangelnden Interesses an der toreanischen Kultur... würden wir uns bemühen, dafür zu sorgen, dass Sie die Freuden Ihres Geschlechts erleben können."
+
+Ihre Formulierung ist vage, und es verbessert sich nicht. "Wenn Ihre Schulden hoch genug sind, würden wir auch dafür sorgen, dass *andere* sozusagen in den Genuss Ihrer Erfahrung kommen. Aber wir können das weiter besprechen, nachdem wir auf andere Fragen eingegangen sind, die Sie vielleicht haben-- und wie hoch Ihre Schulden sind."
+
+[["Okay, reden wir über mich-- Ich kann mich an nichts erinnern!"->Front Q Start]]
+[["Reden wir über meine Schulden."->Debt Avoid]]
+
+
+:: Debt Avoid
+"Es würde mich freuen", lächelt sie. "Aber Abrechnungen können eine sehr ermüdende Angelegenheit sein. Ich würde empfehlen, dass wir andere Themen, die Sie interessieren, zuerst behandeln, Ma'am. Haben Sie zufällig eine Idee, wohin Sie als nächstes reisen wollen?"
+
+[["Tatsächlich habe ich noch einige andere Fragen an Sie. Ich kann mich an nichts aus der letzten Woche erinnern..."->Front Q Start]]

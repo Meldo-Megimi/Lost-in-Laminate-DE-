@@ -1,0 +1,10 @@
+:: Front II [Debt]
+"Sicher!" Das Mädchen ist begeistert und gleitet nach links, wo ein haptischer Computer in den Raum über diesen Teil des Schreibtisches projiziert wird. Ein Torean-Skript taucht auf, als sie dein Konto aufruft, aber grundlegende Sicherheitsvorkehrungen sorgen dafür, dass du aus deinem Blickwinkel sowieso nichts erkennen kannst.
+
+"Zunächst einmal, Ihre Schlüsselkarte?"
+
+Mit etwas Widerwillen schiebst du ihr die in zwei Stücke zerbrochene Karte über den durchsichtigen Schreibtisch zu. Sie betrachtet die zerbrochene Karte einen Moment lang, aber ihr Lächeln verblasst nie.
+
+"Nun", bemerkt sie, sammelt die Bruchstücke ein und wirft sie in einen nahe gelegenen Mülleimer. "Der Austausch der Schlüsselkarte wird Ihnen in Rechnung gestellt, ich hoffe, das ist akzeptabel, Ma'am? Es sind nur 20 Credits. Wie wollen Sie Ihren ausstehenden Betrag begleichen? Ich habe kein Konto in den Akten. Vielleicht ein Scheck?"
+(set: $debtCard to true) (set: $debt to it +20)
+[["Nun, wissen Sie... Ich bin mir nicht sicher, ob ich Geld habe."->Front III]]
