@@ -1,0 +1,22 @@
+:: Debt Read
+"Verstanden, Ma'am." Das Mädchen betätigt einen Schalter an der Konsole ihres Computers, ein rahmenförmiges Quadrat auf ihrem Schreibtisch erwacht zum Leben, während Zahlen darüber gleiten. (if: $Blue is true)[Deine schwarzen Absätze klappern gegen den Boden, als du aufstehst, um zu schauen.] (if: $Smoke is true)[Deine schwarzen Absätze klappern gegen den Boden, als du aufstehst, um zu schauen.] (if: $Brand is true)[Deine Ballettabsätze lassen dich beinahe umkippen, aber du schaffst es, dich auf dem Schreibtisch abzustützen, während du dich zum Schauen vornüberbeugst.] (if: $Sec is true)[Deine roten Pumps klappern gegen den Boden, als du aufstehst, um zu schauen.] (if: $Slave is true)[Deine Stilletostiefel klappern gegen den Boden, als du aufstehst und durch das Glas deiner Maske schaust.]
+
+"Ihr aktueller geschuldeter Betrag: (print: $debt) credits."
+
+Sie hebt eine Hand und listet auf, wie du dorthin gekommen bist, wobei sie jedes Mal einen Finger hebt:
+(if: $debtRing is true)["Ein automatischer Scan Ihres Zimmers ergab einen gebrochenen D-Ring an Ihrem Bett.  Dieses Holz ist importiert, daher müssen wir eine Gebühr von 35 Credits erheben."]
+(if: $debtHelp is true)["Ich bin sicher, Sie erinnern sich an die beiden Forderungen, die Sie akzeptierten, als ich Sie von Ihrer Selbstbeschränkung befreite. Das waren insgesamt 50 Credits."]
+(if: $debtChangeEscape is true)["Ihre Service-Taste wurde ausgelöst, aber Sie haben nicht geantwortet. Vielleicht hätten Sie das tun sollen, denn durch die Zeit, die Sie danach brauchten, um hierher zu kommen, kamen Sie zu spät zum Auschecken. Das kostet Sie 50 Credits."]
+(if: $debtShower is true)["Die Schalldusche in Ihrem Zimmer verzeichnete heute eine längere Nutzung. Angenommen, das waren Sie, kamen Sie dadurch zu spät zum Auschecken. Das kostet Sie 50 Credits."]
+(if: $debtTV is true)["Der Fernseher in Ihrem Zimmer berichtete ein gutes Stück Zeit, die heute eingeschaltet war. Leider kam diese zusätzliche Zeit nach dem Ende der Abrechnungsperiode und bescherte Ihnen somit eine Strafe von 20 Credits."]
+(if: $debtFrontNude is true)["Sie betraten nackt diesen Rezeptionsbereich, der nach den Anstandsgesetzen von Aekoran als öffentlicher Bereich ausgewiesen ist. Das bedeutete eine Strafe von 30 Credits."]
+(if: $debtBrand is true)["Ihre Wahl der Unterwerfung in einem Advert-Wear-Catsuit brachte Ihnen 50 Credits ein, eine gute Wahl. Nochmals Entschuldigung für diese Stiefel."]
+(if: $debtSec is true)["Für die Auswahl des Kostüms Sexretariatsfreude aus unserem Garderobengerät wurde eine Gebühr von 50 Credits erhoben."]
+(if: $debtSlave is true)["Ihre Auswahl eines Sklaven-Klassifizierten Ganzkörperkostüms hat eine beträchtliche Gebühr von 150 Credits gekostet". In der Zwischenzeit versuchst du, deine Hüften und damit auch deine Stöpsel nicht zu sehr zu bewegen.]
+(if: $debtResist is true)["Während Ihres kürzlichen Ankleidens wurden von unserem Garderobengerät geringfügige Schäden gemeldet. Das macht eine Strafe von 20 Credits."]
+(if: $debtResist2 is true)["Das Garderobengerät hat die Verwendung seines Unterwerfungssystems während Ihrer Installation in den als Sklaven-Klassifiziertes Kostüm mitgeteilt. Das Gesetz von Aekoran verlangt in einem solchen Fall eine Geldstrafe von 20 Credits."]
+(if: $debtCard is true)["Und... schließlich gab es noch die 20 Credit Strafe für den Ersatz Ihrer Keycard, wie wir bereits besprochen haben."]
+
+Um mit der Hand durch ihr Haar zu fahren, muss sie auch den anderen Arm bewegen, wobei die Kette zwischen ihren Handgelenken ein Hindernis ist, das sie kaum zu bemerken scheint. "Zusammen-- (print: $debt) Credits. Das ist (if: $debt is <= 50)[eigentlich gar nicht so schlecht."](if: $debt is > 50 and <= 100)[schon etwas mehr, ma'am."](if: $debt is > 100 and <= 200)[ziemlich hoch, fürchte ich."](if: $debt is > 200)[eine sehr ernste ausstehende Forderung."]
+
+[["Sie haben aber auch eine Art von Schuldenerlass erwähnt?"->Debt Options]]

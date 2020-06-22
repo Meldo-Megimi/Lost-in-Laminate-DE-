@@ -13,6 +13,13 @@ Wenn jemand weiß, was dir passiert ist, dann ist es wahrscheinlich diese Frau. 
 (if: $AskAddress and $AskTicket is true)[[["Ich glaube, ich gehe in diesen... privaten Nachtclub, sagten Sie? Oder vielleicht werde ich einfach ein für alle Mal von dieser Welt verschwinden. Aber ich nehme an, wir sollten stattdessen über meine Schulden sprechen."->Debt Q]]]
 
 
+:: Debt Q
+"Richtig, Ihre Schulden."  Die Hausangestellte schiebt sich hinter ihren Schreibtisch und holt die relevanten Akten und Zahlen zurück.  "Damit Ihnen alles klar ist, Ma'am, könnte ich die Gebühren und Bußgelder auflisten, die Ihrem Konto beigefügt worden sind?  Dann können wir darüber diskutieren, sie auf Null zu setzen... wenn Sie mit Ihren Fragen fertig sind, natürlich."
+
+[["Moment, ich habe noch ein paar Fragen."->Front Q]]
+[["Hört sich gut an, lesen Sie sie."->Debt Read]]
+
+
 :: "Is there anything you can tell me about this elevator ticket?"
 Du gibst ihr das Ticket, aber sie hält die Hand in höflicher Ablehnung hoch. "Das Reisen an Bord des Wegs nach oben ist Sklaven strengstens verboten, Ma'am. Ebenso entsprechende Utensilien. Der Besitz einer Fahrkarte, auch nur für einige Augenblicke, wäre ein schweres Vergehen meinerseits. Ich würde es lieber nicht riskieren, dass ein Justizvollzugsbeamter hereinspaziert, wenn das in Ordnung ist? Sie brauchen mir nur die Bestätigungsnummer oben vorzulesen".
 

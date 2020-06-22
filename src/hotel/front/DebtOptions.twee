@@ -1,0 +1,65 @@
+:: Debt Options
+"Ja!" antwortet das Mädchen. "Mein Meister, der Eigentümer dieser Einrichtung, versteht, dass angesichts der Häufigkeit unserer Gäste, die nicht in Torei geboren sind, die Registrierung eines ordnungsgemäßen Schuldverhältnisses mit dem Ministerium für Schuldner zum Einzug von Forderungen von Ihrem Konto für alle beteiligten Parteien lästig wäre. Stattdessen bin ich befugt, Teile Ihrer ausstehenden Schulden abzuschreiben, wenn Sie bestimmte... vorübergehende Einschränkungen akzeptieren. Wir hoffen, dass eine solche Vereinbarung eine Lernerfahrung für einen Freischoss wie Sie selbst ist."
+
+[["Über welche Art von... Lernerfahrungen reden wir hier?"->Debt Options 2]]
+
+
+:: Debt Options 2
+"Nun, lassen Sie uns die Liste abarbeiten und sehen, was von Ihnen verlangt wird, hm? Das funktioniert so, dass wir umso weiter gehen müssen, je mehr Sie uns schulden. Mal sehen..."
+
+Ihr Finger läuft auf der vor ihr liegenden Anzeigefläche nach oben und gleitet daran entlang, bis sie plötzlich stehen bleibt. "Bei Ihrer Verschuldung haben Sie sich für einen Tag auf jeden Fall eine Fesselkette verdient. Sind Sie mit einem solchen Gegenstand vertraut?"
+
+Du schüttelst den Kopf und erntet ein Lächeln von dem Mädchen.
+(set: $Level to 1) (set: $debt to it - 75)
+"(if: $Blue is true)[Wir werden die bereits vorhandenen Fußfesseln verwenden, dazwischen müssen Sie eine kurze Kette mit einer Länge von einem Fuß laufen lassen. Wie Sie sich vorstellen können, wird das Ihren Gang ziemlich stark einschränken.] (if: $Smoke is true)[Wir stellen Ihnen Fußfesseln aus demselben schwarzen Laminat zur Verfügung wie die an Ihren Oberschenkeln, Ma'am. Dann müssen wir eine kurze Kette zwischen ihnen verlaufen lassen, die einen Fuß lang ist. Wie Sie sich vorstellen können, wird das Ihren Gang ziemlich stark einschränken.](if: $Brand is true)[Wir stellen Fußfesseln passend zu Ihrem Advert-Anzug in einem roten Laminat zur Verfügung, Ma'am. Dann müssen wir zwischen ihnen eine kurze Kette von einem Fuß Länge verlaufen lassen. Wie Sie sich vorstellen können, wird das Ihren Gang ziemlich stark einschränken.  Das Gleichgewicht mit Ihren Ballettstiefeln zu halten, wird Ihnen sicher schwer fallen.](if: $Sec is true)[Wir stellen Ihnen einen professionellen Satz Fußfesseln aus dem gleichen roten Laminat wie Ihrem Rock zur Verfügung, Ma'am. Dann müssen wir eine kurze Kette zwischen ihnen laufen lassen, die einen Fuß lang ist. Wie Sie sich vorstellen können, wird das Ihren Gang ziemlich stark einschränken.](if: $Slave is true)[Wir stellen für Sklaven zugelassene Fußfesseln aus demselben versilberten Laminat zur Verfügung wie Ihr Haltungshalsband, Ma'am. Dann müssen wir eine kurze Kette zwischen ihnen laufen lassen, die einen Fuß lang ist. Wie Sie sich vorstellen können, wird das Ihren Gang ziemlich stark einschränken.]"
+
+(if: $debt is <= 0)["Die gute Nachricht ist, dass ihre Schlösser rechtzeitig entriegelt werden, und das ist alles, was wir von Ihnen verlangen werden! Gute Arbeit, dass Sie während Ihres Aufenthalts hier keine allzu großen Schulden gemacht haben, Ma'am."](if: $debt is >= 1)[Das wird Ihre Schulden auf (print: $debt), reduzieren, aber das ist natürlich nicht Null. Wir werden Stufe zwei diskutieren müssen."]
+
+(if: $debt is <= 0)[[["Das ist... schön zu hören, nehme ich an."->Debt End]]](if: $debt is >= 1)[[["Stufe zwei?"->Level Two]]]
+
+
+:: Level Two
+Die Hausangestellte scrollt auf ihrem Bildschirm nach unten.  "Die zweite Stufe des Schuldenerlasses erfordert die Installation einer zeitgesteuerten Armbinde.  Ich nehme an, dass angesichts des Mem-Burn eine Erklärung erforderlich sein wird?"
+
+Sie wartet nicht auf eine Antwort, die sie offensichtlich unbedingt geben will.
+
+(set: $Level to it + 1) (set: $debt to it - 50)
+"(if: $Blue is true)[Stellen Sie sich vor, Sie legen Ihre Arme hinter Ihren Rücken Ellbogen an Ellbogen, Handfläche an Handfläche. Dann legen wir eine schwarze Laminathülle darüber, die sicherstellt, dass Ihre Arme zusammenbleiben und sicher hinter Ihrem Rücken zusammengebunden werden. Ich muss Sie warnen, längeres Tragen ist nicht angenehm.] (if: $Smoke is true)[Stellen Sie sich vor, Sie legen Ihre Arme hinter Ihren Rücken Ellbogen an Ellbogen, Handfläche an Handfläche. Dann legen wir eine schwarze Laminathülle darüber, die sicherstellt, dass Ihre Arme zusammenbleiben und sicher hinter Ihrem Rücken zusammengebunden werden. Ich muss Sie warnen, längeres Tragen ist nicht angenehm.] (if: $Brand is true)[Stellen Sie sich vor, Sie legen Ihre Arme hinter Ihren Rücken Ellbogen an Ellbogen, Handfläche an Handfläche. Dann legen wir eine Laminathülle darüber und stellen sicher, dass Ihre Arme zusammen bleiben und sicher hinter Ihrem Rücken zusammengebunden werden. Angesichts Ihrer Werbeanbringung wird das Design auf den Armen Ihres Anzugs in einer etwas größeren Größe auf der Hülle reproduziert, wenn man die Größe der Hülle berücksichtigt. Ich muss Sie warnen, längeres Tragen ist nicht angenehm.] (if: $Sec is true)[Stellen Sie sich vor, Sie legen Ihre Arme hinter Ihren Rücken Ellbogen an Ellbogen, Handfläche an Handfläche. Wir werden dann eine rote Laminathülle darüber legen, so dass Ihre Arme zusammenbleiben und sicher hinter Ihrem Rücken zusammengebunden werden. Ich muss Sie warnen, längeres Tragen ist nicht angenehm.] (if: $Slave is true)[Stellen Sie sich vor, Sie legen Ihre Arme hinter Ihren Rücken Ellbogen an Ellbogen, Handfläche an Handfläche. Dann legen wir einen schwarzen Laminat-Sklavenärmel über sie, so dass Ihre Arme zusammenbleiben und sicher hinter Ihrem Rücken zusammengebunden werden. Ich muss Sie warnen, das Sklaven-Design ist absichtlich so gestaltet, dass es unbequem ist.]"
+
+Ihre Augen blitzen aufgeregt auf. "Wie offensichtlich sein sollte, werden Ihre Arme in einer solchen Situation ziemlich nutzlos sein. (if: $debt is <= 0)["Aber die gute Nachricht ist, dass das alles ist, was wir von Ihnen verlangen werden!  Es wird keine leichte Erfahrung für Sie sein, aber es scheint durchaus beherrschbar zu sein, Ma'am.](if: $debt is >= 1)[Das wird Ihre Schulden auf (print: $debt) reduzieren, aber offensichtlich sind wir noch immer auf der Jagd nach der erforderlichen Null. Damit sind wir bei Stufe drei."]
+
+(if: $debt is <= 0)[[["Das ist... schön zu hören, nehme ich an."->Debt End]]](if: $debt is >= 1)[[["Was werden Sie jetzt mit mir machen?"->Level Three]]]
+
+
+:: Level Three
+(set: $Level to it + 1) (set: $debt to it - 50)
+
+"Die letzte unserer *Standard* Schuldenerlassstufen ist nur für umfangreiche Schuldner... wie Sie, Madam." Es ist klar, dass sie versucht, respektvoll zu sein, aber der Bereich, den sie abdecken muss, macht das schwierig.
+
+"Hier auf Torei, das müssen Sie verstehen, sind Schulden etwas, das sehr ernst genommen wird. Jeden Tag müssen Freischoss wie Sie feststellen, dass ihre Schulden schwerer wiegen als ihre Verdienstmöglichkeiten. Es folgt unweigerlich der Bankrott, und unter solchen Umständen ist Versklavung die übliche Folge. Wir sind bereit, Ihnen Ihre Schulden ungeachtet dessen zu erlassen, aber eine... dauerhaftere Lektion wird erforderlich sein. Mehr darf ich nicht sagen, erst nach der Installation."
+
+Ihre Augen kehren zu ihrer Konsole zurück, die Lippen nachdenklich geschürzt. "Diese Schuldabschreibung bringt Sie auf (print: $debt). (if: $debt is <= 0)[Die gute Nachricht ist, dass Ihr Konto auf Null gestellt wird und dies alles sein wird, was von Ihnen verlangt wird.](if: $debt is >= 1)[Und dennoch haben Sie noch einen offenen Saldo. Es scheint, dass wir über Stufe vier diskutieren müssen.]"
+
+(if: $debt is <= 0)[[["Lass uns... lass uns einfach weitermachen, nehme ich an."->Debt End]]](if: $debt is >= 1)[[["Stufe... vier?"->Level Four]]]
+
+
+:: Level Four
+Die Hausangestellte nickt. "Stufe vier ist ganz einfach. Angesichts Ihrer Verschuldung müssen Sie bestraft werden, und diese Bestrafung wird aufgezeichnet, damit das Hotel einen Teil seiner Verluste in Ihrem Namen wieder gutmachen kann. Eine übliche Korrekturmaßnahme der Aekoraner ist die Anwendung einer Reitgerte auf einen Schuldner, wobei die genaue Platzierung in unserem Ermessen liegt. Normalerweise ist es der Hintern. Pro Schlag werden 5 Credits abgezogen. Bei Ihrem Restsaldo von... (print: $debt), haben Sie (print: $debt / 5) Schläge vor sich."
+(set: $Level to it + 1)
+Sie hält inne, ihre Hände auf dem Schreibtisch zwischen euch, während sie sich nach vorne beugt. "Darf ich fragen-- haben Sie *versucht*, die Forderungen zu erhöhen, als Sie *wußten*, daß Sie die Credits nicht haben?"
+
+[["Nein."->Level Four No]]
+[["..."->Level Four Yes]]
+[["...ja."->Level Four Yes]]
+
+
+:: Level Four No
+Das Mädchen setzt sich zurück in den Stuhl und reibt mit einer Hand abwesend ihre eigene gepiercte Brustwarze. "Was immer Sie sagen, Ma'am..."
+
+[["Wollten... wir nicht darüber reden, wie ich von meinen Schulden befreit werde?"->Debt End]]
+
+
+:: Level Four Yes
+"Ich *wußte* es", strahlt sie. "Torei ist vielleicht doch ein Ort für Sie, Ma'am."
+
+[["...danke, aber was ist mit all meinen Schulden?"->Debt End]]
