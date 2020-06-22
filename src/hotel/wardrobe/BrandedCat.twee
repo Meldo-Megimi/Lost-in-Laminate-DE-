@@ -1,74 +1,74 @@
 :: Branded Cat
 <img src="img/vaDhUa4.jpg" width="30%" height="30%">
 
-Der Bildschirm zeigt ein Modell mit dem ausgewählten Kostüm. Es ist geschmeidig, figurbetont und vollständig aus einem Material mit der Bezeichnung *Laminat* gefertigt. The primary coloration is black, but Torean-script words are boldly emblazoned along the arms and thighs.  Translation indicates the name brand of a mid-tier Torean slave trading firm, as well as inviting others to 'submit to advert-wear to earn credits!'  It appears terribly degrading.
+Der Bildschirm zeigt ein Modell mit dem ausgewählten Kostüm. Es ist geschmeidig, figurbetont und vollständig aus einem Material mit der Bezeichnung *Laminat* gefertigt. Die primäre Farbe ist schwarz, aber die Wörter in Torean-Schrift prangen kühn entlang der Arme und Oberschenkel. Übersetzt zeigt die Namensmarke eine mittelständische Toreanische Sklavenhandelsfirma an und lädt andere ein, sich 'Advertis-Wear zu unterwerfen, um Credits zu verdienen'! Es wirkt furchtbar erniedrigend.
 
-Accesories are listed as the pictured corset, the design featuring 'real steel' boning custom-measured to both fit the wearer and match brand requirements, as well as the pictured shoes.  Those are labeled as 'ballet', and are clearly of a design that would make even standing upright a challenge-- much less walking!
+Als Zubehör ist das abgebildetes Korsett aufgeführt. Das Design verfügt über ein Gerippe aus 'echtem Stahl', das speziell auf die Bedürfnisse des Trägers und der Marke zugeschnitten ist, sowie auf die abgebildeten Schuhe. Diese sind als 'Ballett' gekennzeichnet und haben eindeutig ein Design, das selbst aufrechtes Stehen zu einer Herausforderung machen würde - ganz zu schweigen vom Laufen!
 
-Matching makeup is included, and the display is quick to remind you that wearing this outfit would automatically award 50 credits to your account.
+Passendes Make-up ist enthalten und das Display erinnert dich schnell daran, dass das Tragen dieses Kostüms deinem Konto automatisch 50 Credits einbringt.
 
-A seperate warning lists the various restraints as "time-locked".
+In einer separaten Warnung werden die verschiedenen Einschränkungen als "zeitlich gesperrt" aufgeführt.
 
-[[I'm not looking forward to those shoes, but this is the smart financial choice.  Confirm this selection->Brand Confirm]]
-[[I can't wear those shoes! Go back to the main menu.->Wardrobe III]]
+[[Ich freue mich nicht auf diese Schuhe, aber das ist eine kluge finanzielle Wahl. Bestätige diese Auswahl->Brand Confirm]]
+[[Ich kann diese Schuhe nicht tragen! Gehe zurück zum Hauptmenü.->Wardrobe III]]
 
 
 :: Brand Confirm [Debt]
 *Bestellung... bestätigt. Viel Spaß.*
 
-The display winks out of existence, and for the briefest of moments you are left to ponder your decision.  Your revery is broken by the quiet whirl of machines moving, however, as you notice the various strangely shaped tiles along the walls kicking out.  Appendages emerge, mechanical arms of several different kinds.  You don't have time to catalog them, hell, you barely have time to gasp before they seize you.  At wrist and ankle, and around the throat, padded rings snap against and then around your soft flesh.  Then the grip, legs forced apart as your arms are lifted above your head.  Had they not also supported, you would have certainly fallen.  
+Das Display verschwindet und für den kurzen Moment kannst du über deine Entscheidung nachdenken. Deine Träumerei wird jedoch durch den leisen Wirbel der sich bewegenden Maschinen unterbrochen, als du bemerkst, dass die verschiedenen seltsam geformten Fliesen an den Wänden herausspringen. Gliedmassen kommen hervor, mechanische Arme verschiedenster Art. Du hast keine Zeit, sie zu katalogisieren, verdammt noch mal, du hast kaum Zeit, nach Luft zu schnappen, bevor sie dich ergreifen. Um Handgelenk, Knöchel sowie um den Hals schnappen gepolsterte Ringe gegen und dann um dein weiches Fleisch. Dann werden mit Gewalt deine Beine auseinander gedrückt, während deine Arme über den Kopf gehoben werden. Hätten sie dich nicht auch gestützt, wärest du sicherlich gefallen.
 (set: $debt to it - 50)
 (set: $debtBrand to true)
-[["What the hell!? Get these off of me!"->Brand Resist]]
-[[Keep your cool.  Wait it out.->Brand Confirm2]]
+[["Was zum Teufel!? Lasst mich los!"->Brand Resist]]
+[[Bleib ruhig. Warte es ab.->Brand Confirm2]]
 
 
 :: Brand Resist [Debt]
-You pull against the restraining arms, eyes wide as other devices emerge from the walls.  Compared to your earlier experience on your own bed, these at least have some give-- your first yank of the arm nearly sends you tumbling over, but the arm momentarily loses grip on you entirely.
+Du ziehst mit großen Augen an den Haltearmen, während weitere Arme aus den Wänden auftauchen. Im Vergleich zu deiner früheren Erfahrung auf deinem eigenen Bett haben diese zumindest einiges zu tun-- ein erster Ruck mit deinem Arm lässt dich fast umkippen, aber der Haltearm lässt dich für einen Moment los.
 
-This *can* be escaped!
+Diesem *kann* man entkommen!
 
-If not for the arm behind you, waiting silently.  You do not see it, but you certainly *feel* the sudden snap of electricty that bursts upon your rear, pain receptors announcing the experience with a unified yelp that matches the sound that emerges from your own lips.
+Wäre da nicht der Arm hinter dir, still wartend. Du siehst ihn nicht, aber du *fühlst* natürlich das plötzliche Knacken von Elektrizität, das auf deinen Rücken springt. Schmerzrezeptoren verkünden die Erfahrung in einem einheitlichen Aufschrei, der dem Klang entspricht, der aus deinen eigenen Lippen kommt.
 
-*REMAIN STILL.*
+*HALTEN SIE STILL.*
 
-The display had returned to life to deliver the command, the cold steel of what you can only imagine to be a cattle prod still poised against her buttocks.  You take a deep breath... and settle back as the arm restraint returns.
+Das Display ist wieder zum Leben erwacht um den Befehl zu erteilen. Der kalten Stahl dessen, was du dir nur als Viehtreiber vorstellen kannst ist immer noch an deinem Gesäß. Du atmest tief ein... und lehnst dich zurück, während der Haltearm zurückkehrt.
 
-*Minor damage has been recorded to Arm 5-L-6. A 20 credit charge has been made to your account.*
+*Geringfügige beschädigung an Arm 5-L-6 festgestellt. Ihr Konto wurde mit 20 Credits belastet.*
 (set: $debt to it + 20)
 (set: $debtResist to true)
 [[Well, that didn't work.->Brand Confirm2]]
 
 
 :: Brand Confirm2
-The urge is there to close your eyes, as if ignorance could prevent what was about to occur.  But your confidence holds, allowing you the only seat in the house as the show begins. Further mechanical arms and implements emerge, the largest being a ring wide enough that it barely fit the small room.  It hovers above you, a far too large halo, before the device descends.
+Der Drang ist da, die Augen zu schließen, als könnte Unwissenheit verhindern, was passieren würde. Aber dein Vertrauen bleibt bestehen und du hast den einzigen Platz im Haus, wenn die Show beginnt. Weitere mechanische Arme und Instrumente erscheinen, wobei das größte ein Ring ist, so breit, dass er kaum in den kleinen Raum passt. Es schwebt über dir, ein viel zu großer Heiligenschein, bevor die Vorrichtung sinkt.
 
-Nozzles built into the ring emit a pungent substance as soon as it descends past your neck.  For a moment you think it paint, and it does adhere like the stuff, but the sensation is fleeting-- as following the emitters a white-light laser passes over the freshly applied material, and it flash-cools.  What had been a thick spray is now a thin, slick, glossy material.  Cold upon your skin, but already your body is warming it up.  Torei's all but sacred material, its most readily available substance: **laminate.**
+In den Ring eingebaute Düsen geben eine penetrante Substanz ab, sobald sie an deinem Hals vorbei ist. Für einen Moment denkst du, das Zeug, es lakiert und es klebt, aber das Gefühl ist flüchtig - es folgt ein Weißlichtlaser, er läuft über das frisch aufgetragene Material und es kühlt blitzschnell ab. Was zuerst eine dichte Gischt war, ist jetzt ein dünnes, glattes, glänzendes Material. Kalt auf deiner Haut, aber schon erwärmt dein Körper es. Toreis alles andere als heiliges Material, seine am leichtesten verfügbare Substanz: **Laminat.**
 
-Thus your suit is quiet literally printed on, the base layer a solid midnight black.  The ring descends bit by bit, rendering soft flesh into equally soft but so very *different* laminate.  Secondary arms follow it down, providing spot treatment along seams and friction points-- although most of their effort is focused upon the design work of the advertisements and designs now intended to grace your body.  Bold lines run from the white ring around the suit's collar, down your shoulders.  Other similar designs are placed upon your biceps and near the knee.  The largest are those on your hips (blocky letters spelling out a slaving firm's name), your chest (which features their vaguely triangular logo), and your back (which encourages others to 'submit to advert-wear today!).  A final arm lingers between your legs, working on the zipper located there, the tiny metal components pre-formed and merely placed by the rapid-fire staccato movements of a particuarly agile mechanized arm.
+So wird dein Anzug im wahrsten Sinne des Wortes aufgedruckt, die Basisschicht ein kräftiges Mitternachtsschwarz. Der Ring senkt sich Stück für Stück und weiches Fleisch wird mit dem ebenso weichen, aber sehr unterschiedlichen Laminat überzogen. Sekundärarme folgen ihm nach unten und bieten eine Punktbehandlung entlang der Nähte und Reibungspunkte-- obwohl sich der größte Teil ihrer Bemühungen auf die Designarbeit der Anzeigen und Muster konzentriert, die jetzt deinen Körper zieren sollen. Fettgedruckte Linien ziehen sich vom weißen Ring um den Kragen des Anzugs über deine Schultern. Andere ähnliche Designs befinden sich auf deinem Bizeps und in der Nähe des Knies. Die größten sind die auf deinen Hüften (Blockbuchstaben, in denen der Name einer Sklavenfirma angegeben ist), deine Brust (mit ihrem ungefähr dreieckigen Logo) und dein Rücken (was andere dazu ermutigt, 'unterwirf dich Advertis-Wear noch heute!'). Ein letzter Arm verweilt zwischen deinen Beinen und arbeitet an dem dort befindlichen Reißverschluss. Die winzigen Metallkomponenten sind vorgeformt und werden lediglich durch die Schnellfeuer-Stakkato-Bewegungen eines besonders agilem mechanisierten Arms plaziert.
 
-You're given no time to rest as the base layer concludes, the ring rapidly ascending as other arms move into the space to begin work on the most intensive component of your outfit: the corset.  Several times the arms work along your midsection, printing in thick black material, before pre-forged strips of steel emerge.  Those would be the bones that ensured a corset could trim the waist effectively, and once submerged into the thick material a final flash of light sets the material.  Its not until synthetic lacing is carefully worked in a pattern through the holes along your back that the device actually begins to function, however.  With every tug it grows tighter, never painful, but definitely uncomfortable.  By the time the Wardrobe concludes, your chest is thrust out in response, while your back is straight and breathing takes some effort.
+Du bekommst keine Zeit zum Ausruhen, als die Basisschicht fertig ist. Der Ring steigt schnell auf, während sich die anderen Arme in dem Raum bewegen, um mit der Arbeit an der intensivsten Komponente deines Kostüms zu beginnen: dem Korsett. Mehrmals arbeiten die Arme entlang deines Mittelteils und drucken ein dickes schwarzes Material, bevor vorgeschmiedete Stahlstreifen erscheinen. Dies ist das Gerippe, das dafür sorgt, dass das Korsett die Taille effektiv zurechtmachen kann, und sobald es in das dicke Material eingesetzt ist, härtet ein letzter Lichtblitz das Material. Erst als die synthetische Schnürung sorgfältig in einem Muster durch die Löcher entlang deines Rückens gefädelt wird, beginnt das Korsett tatsächlich zu funktionieren. Mit jedem Ruck wird es enger, nie schmerzhaft, aber definitiv unangenehm. Als die Garderobe fertig ist, ist deine Brust als Reaktion herausgehoben, während dein Rücken gerade ist und das Atmen einige Anstrengungen erfordert.
 
-The final componenent of your outfit comes with the sensation of your own feet rising, the sensation unequal and focused entirely at your heel.  Without the restraint arms you would have toppled over, but they hold you tight, towering stilleto heels being extruded into place.  Black laminate follows, coating your feet and providing the anchor on which laces are quickly assembled.  You are now permanently *en pointe*, or as anyone would immediately notice: on your toes.
+Die letzte Komponente deines Kostüms kommt mit dem Gefühl, dass deine Füße hochgehoben werden, das Gefühl ist unterschiedlich und hauptsächlich auf deine Fersen konzentriert. Ohne die Haltearme wärst du umgefallen, aber sie halten dich fest, hohe Absätze werden extrudiert. Es folgt schwarzes Laminat, das deine Füße beschichtet und den Anker bildet, auf dem die Schnürsenkel schnell montiert werden. Du bist jetzt permanent *en pointe* oder wie jeder sofort bemerkt: auf deinen Zehen.
 
-Almost as an afterthought, the promised makeup is applied last.  Mechanical arms seize your head, holding it tight as nozzles approach your face.  A quick blast of air instinctively causes your eyes to close, and in that brief moment the Wardrobe does its work.  Your eyelids have been darkened and your eyelashes extending, producing an alluring effect.  Pores and blemishes have been rendered impotent as well, while your cheekbones have been highlighted.  And your lips are now a warm red coloration, the triangular logo on your chest repeated in miniature at the center of your bottom lip.
+Fast wie eine nachträgliche Idee wird das versprochene Make-up zuletzt aufgetragen. Mechanische Arme ergreifen deinen Kopf und halten ihn fest, während sich Düsen deinem Gesicht nähern. Ein kurzer Luftstoß lässt dich instinktiv die Augen schließen, und in diesem kurzen Moment erledigt die Garderobe ihre Arbeit. Deine Augenlider sind abgedunkelt und deine Wimpern dehnen sich aus, was einen verführerischen Effekt erzeugt. Poren und Schönheitsfehler wurden ebenfalls abgeschwächt, während deine Wangenknochen hervorgehoben wurden. Und deine Lippen sind jetzt warmrot gefärbt, das dreieckige Logo auf deiner Brust wiederholt sich in Miniatur in der Mitte deiner Unterlippe.
 
-Then, with a final flash of white light and a conclusive hiss, the armatures withdraw.
+Dann ziehen sich die Instrumente mit einem letzten weißen Lichtblitz und einem abschließenden Zischen zurück.
 
 [["Wow."->Brand III]]
-[["I look like a glossy billboard!"->Brand III]]
-[[That was **terrifying!**"->Brand III]]
+[["Ich sehe aus wie eine glänzende Werbetafel!"->Brand III]]
+[["Das war **erschreckend!**"->Brand III]]
 
 
 :: Brand III
-You take a deep breath, watching the logo emblazoned upon the glossy material covering your chest gently rise and fall.  Your posture is ensured by the corset, while also making each breath a bit of an effort, at least until your body adapted.  The sensation of the laminate is almost otherwordly, light pressure upon your body from to toe to throat, a lover's embrace you cannot escape.  Excepting the zipper between your legs, there is no point of entrance, no direct break in the experience.  Only smooth laminate, and the sweet scent of lingering rubber.
+Du atmest tief ein und beobachtest, wie das Logo auf dem glänzenden Material auf deiner Brust sanft steigt und fällt. Deine Haltung wird durch das Korsett sichergestellt, während jeder Atemzug ein wenig anstrengend ist, zumindest bis sich dein Körper angepasst hat. Das Gefühl des Laminats ist fast jenseitig, leichter Druck auf deinen Körper vom Zeh bis zum Hals, die Umarmung eines Liebhabers, der du nicht entkommen kannst. Mit Ausnahme des Reißverschlusses zwischen deinen Beinen gibt es keinen Einstiegspunkt, keine direkte Unterbrechung der Erfahrung. Nur glattes Laminat und der süße Duft von verweilendem Gummi.
 
-Running a hand down the slick material reveals laminate to laminate contact to be almost frictionless.  It's almost too easy to forget your own hand as it glides along your hip-- as you bite your branded bottom lip.  The heels are far more noticable, as you're already swaying.  A hand on the tiled wall keeps you upright, but already an ache is building in toes so inexperienced.  You hope it will be worth the 50 credits subjecting yourself to them earned you.
+Wenn du mit einer Hand über das glatte Material fährst, ist die Berührung zwischen Laminat und Laminat nahezu reibungslos. Es ist fast zu leicht, deine eigene Hand zu vergessen, wenn sie über deine Hüfte gleitet-- als du dich auf deine Markenunterlippe beißt. Die Absätze sind viel spürbarer, da du bereits schwankst. Eine Hand an der gefliesten Wand hält dich aufrecht, aber schon baut sich ein Schmerz in den Zehen auf, die so unerfahren sind. Du hoffst, dass es die 50 Credits wert ist, die du dafür erhällst, dass du dich ihnen unterwirfst.
 
-A sudden light breaks your self examination as the Wardrobe's display flicks back into existence, a final sentence emerging upon it.
+Ein plötzliches Licht unterbricht deine Selbstprüfung, als das Display der Garderobe wieder zum Leben erwacht und ein letzter Satz darauf erscheint.
 
-*Your dressing order has now been completed.  If this machine is functioning under slave protocols, you may be held until a legally recognized owner or agent arrives to collect you.  Otherwise, the door will open shortly.  Watch your step, and enjoy...*
+*Ihre Kostüm Bestellung ist nun abgeschlossen. Wenn diese Maschine unter Sklaven Protokoll betreiben wird, können Sie so lange festgehalten werden, bis ein gesetzlich anerkannter Eigentümer oder Agent eintrifft, um Sie abzuholen. Andernfalls öffnet sich die Tür in Kürze. Achten Sie auf Ihren Weg und viel Spaß...*
 
-The doors open as promised, allowing you to shuffle awkwardly back out into the dim light of the far corridor.  Your path towards the Front Desk is now clear.
+Die Türen öffnen sich wie versprochen und ermöglichen es dir, unbeholfen ins trübe Licht des Korridors zurückzukehren. Dein Weg zur Rezeption ist jetzt frei.
 (set: $Brand to true)
-[[Make your way there.->Wardrobe End]]
+[[Gehe dorthin.->Wardrobe End]]
