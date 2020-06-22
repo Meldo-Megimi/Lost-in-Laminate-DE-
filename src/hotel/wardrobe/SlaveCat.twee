@@ -1,127 +1,136 @@
 :: Slave Cat
 <img src="img/7hkuAc4.jpg" width="30%" height="30%">
 
-The screen displays several models wearing the selected outfit, their uniformity only broken by their individual physical proportions.  It's sleek, form-fitting, and rendered entirely in a material labeled as *laminate*.  Midnight black and clearly uncomfortable to wear, the oufits nevertheless spark something deep within your subconscious.  A lost memory, perhaps?  No matter how much you pull at that strand, nothing surfaces.
+Der Bildschirm zeigt mehrere Modelle, die das ausgewählte Kostüm tragen. Ihre Einheitlichkeit wird nur durch ihre individuellen physischen Proportionen beeinträchtigt. Es ist geschmeidig, figurbetont und vollständig aus einem Material mit der Bezeichnung *Laminat* gefertigt. Mitternachtsschwarz und eindeutig unangenehm zu tragen, löst diees Kostüm dennoch etwas tief in deinem innerstem aus. Vielleicht eine verlorene Erinnerung? Egal wie stark du an diesem Strang ziehst, es taucht nichts auf.
 
-Flashing brightly, a warning is appended to this outfit: *This is a standardized Slave-Rated Wardrobe outfit, as described in the Aekoran Slave Codes, Chapter 812, subsection 10.  Wearing this uniform will subject all Slaves to High Protocol Laws as described in the Aekoran Slave Code, Chapter 679.  Freewombs wearing this uniform will be subjected to portions of the Slave Code, and certain liberties may be revoked.*
+Hell blinkend wird eine Warnung zu diesem Kostüm angezeigt: *Dies ist ein standardisiertes Garderobengerät-Kostüm mit Sklaven-Klassifizierung, wie in den Aekoranischen Sklavencodes, Kapitel 812, Unterabschnitt 10 beschrieben. Wenn Sie diese Uniform tragen, unterliegen alle Sklaven den Gesetzen des Hochprotokolls, wie beschrieben im Aekoranischen Sklavencode, Kapitel 679. Ein Freischoss, der diese Uniform trägt, unterliegt Teilen des Sklavencodes, und bestimmte Freiheiten könnten widerrufen sein.*
 
-Accessories are listed as the pictured corset, heels, regulation mask, posture collar, and (non-pictured) inserts.  The corset is noted as featuring 'real steel' boning, and is custom-measured to match standard Torean expectations of functional corsetry.  So too does the posture collar proudly proclaim its core as being 'real steel', as well as meeting all Aekoran slave law requirements.  The heels are listed as six inches in height, with one inch platforms.  The mask is simply described as rated for Torean storms, as well as regulating oxygen intake.  And the inserts?  Those are described as front and rear installation, custom-molded for maximum stimulation.  All devices feature 10 hour self-release locks.
+Als Zubehör wird das abgebildete Korsett, Absätze, Regulierungsmaske, Haltungskragen und (nicht abgebildete) Einführungen aufgeführt. Das Korsett ist mit einem Gerippe aus 'echtem Stahl' versehen und wird speziell angepasst, um den üblichen Torean-Erwartungen an ein funktionelles Korsett zu entsprechen. Auch das Haltungshalsband proklamiert stolz seinen Kern als 'echten Stahl' und erfüllt alle Anforderungen des aekoranischen Sklavengesetzes. Die Absätze sind als sechs Zoll hoch mit 1-Zoll-Plattformen aufgeführt. Die Maske wird einfach als für Toreanische Stürme geeignet beschrieben und reguliert die Sauerstoffaufnahme. Und die Einführungen? Diese werden als vordere und hintere Installation beschrieben, die für maximale Stimulation speziell geformt sind. Alle Geräte verfügen über 10-Stunden-Selbstentriegelungen.
 
-Makeup is included as well, while the price is listed as requiring an extra 150 credit fee.  You absolutely cannot understand why anyone would pay *more* for such things to be inflicted upon them.  Yet looking back up at those models, perhaps there is something that yearns within, to add a fifth  uniformally adorned and restrained woman to that lineup...
+Make-up ist ebenfalls enthalten, während als Preis eine zusätzliche Gebühr von 150 Credits angegeben ist. Du kannst absolut nicht verstehen, warum jemand *mehr* dafür bezahlen sollte, damit ihm solche Dinge zugefügt werden. Wenn du jedoch noch einmal auf die Modelle zurückblickst, gibt es doch vielleicht etwas, das sich danach sehnt, dieser Aufstellung eine fünfte, einheitlich dekorierte und gezügelte Frau hinzuzufügen ...
 
-[[You're not sure why... but this calls to you.  You hand shakes as you make for the Confirmation button...->Slave Confirm]]
-[[Why would I chose to subject myself to all of that!?  Go back to the main menu.->Wardrobe III]]
+[[Du weist nicht warum... aber das spricht dich an. Deine Hand zittert, während du auf die Bestätigungstaste drückst...->Slave Confirm]]
+[[Warum sollte ich mich all dem unterwerfen? Gehe zurück zum Hauptmenü.->Wardrobe III]]
 
 
 :: Slave Confirm [Debt]
-*Order... Confirmed.  Assume the position.*
+*Bestellung... bestätigt. Nehmen Sie die Position ein.*
 
-The display winks out of existence, and for the briefest of moments you are left to ponder your decision.  Your revery is broken by the quiet whirl of machines moving, however, as you notice the various strangely shaped tiles along the walls kicking out.  Appendages emerge, mechanical arms of several different kinds.  You don't have time to catalog them, hell, you barely have time to gasp before they seize you.  At wrist and ankle, and around the throat, padded rings snap against and then around your soft flesh.  Then the grip, legs forced apart as your arms are lifted above your head.  Had they not also supported, you would have certainly fallen.  
+Das Display verschwindet und für den kurzen Moment kannst du über deine Entscheidung nachdenken. Deine Träumerei wird jedoch durch den leisen Wirbel der sich bewegenden Maschinen unterbrochen, als du bemerkst, dass die verschiedenen seltsam geformten Fliesen an den Wänden herausspringen. Gliedmassen kommen hervor, mechanische Arme verschiedenster Art. Du hast keine Zeit, sie zu katalogisieren, verdammt noch mal, du hast kaum Zeit, nach Luft zu schnappen, bevor sie dich ergreifen. Um Handgelenk, Knöchel sowie um den Hals schnappen gepolsterte Ringe gegen und dann um dein weiches Fleisch. Dann werden mit Gewalt deine Beine auseinander gedrückt, während deine Arme über den Kopf gehoben werden. Hätten sie dich nicht auch gestützt, wärest du sicherlich gefallen. 
 (set: $debt to it + 150)
 (set: $debtSlave to true)
-[["What the hell!? Get these off of me!"->Resist Slave]]
-[[Keep your cool.  Wait it out.->Slave Confirm2]]
+[["Was zum Teufel!? Lasst mich los!"->Resist Slave]]
+[[Bleib ruhig. Warte es ab.->Slave Confirm2]]
 
 
 :: Resist Slave [Debt]
-You pull against the restraining arms, eyes wide as other devices emerge from the walls.  Compared to your earlier experience on your own bed, these at least have some give-- your first yank of the arm nearly sends you tumbling over, but the arm momentarily loses grip on you entirely.
+Du ziehst mit großen Augen an den Haltearmen, während weitere Arme aus den Wänden auftauchen. Im Vergleich zu deiner früheren Erfahrung auf deinem eigenen Bett haben diese zumindest einiges zu tun-- ein erster Ruck mit deinem Arm lässt dich fast umkippen, aber der Haltearm lässt dich für einen Moment los.
 
-This *can* be escaped!
+Diesem *kann* man entkommen!
 
-If not for the arm behind you, waiting silently.  You do not see it, but you certainly *feel* the sudden snap of electricty that bursts upon your rear, pain receptors announcing the experience with a unified yelp that matches the sound that emerges from your own lips.
+Wäre da nicht der Arm hinter dir, still wartend. Du siehst ihn nicht, aber du *fühlst* natürlich das plötzliche Knacken von Elektrizität, das auf deinen Rücken springt. Schmerzrezeptoren verkünden die Erfahrung in einem einheitlichen Aufschrei, der dem Klang entspricht, der aus deinen eigenen Lippen kommt.
 
-*REMAIN STILL.*
+*HALTEN SIE STILL.*
 
-The display had returned to life to deliver the command, the cold steel of what you can only imagine to be a cattle prod still poised against her buttocks.  You take a deep breath... and settle back as the arm restraint returns.
+Das Display ist wieder zum Leben erwacht um den Befehl zu erteilen. Der kalten Stahl dessen, was du dir nur als Viehtreiber vorstellen kannst ist immer noch an deinem Gesäß. Du atmest tief ein... und lehnst dich zurück, während der Haltearm zurückkehrt.
 
-*Minor damage has been recorded to Arm 5-L-6. A 20 credit charge has been made to your account.*
+*Geringfügige beschädigung an Arm 5-L-6 festgestellt. Ihr Konto wurde mit 20 Credits belastet.*
 (set: $debt to it + 20) (set: $debtResist to true)
-[[Well, that didn't work.->Slave Confirm2]]
+[[Nun, das hat nicht funktioniert.->Slave Confirm2]]
 
 
 :: Slave Confirm2
-The urge is there to close your eyes, as if ignorance could prevent what was about to occur.  Why *had* you chosen the most expensive, most intensive option?  But your confidence holds, allowing you the only seat in the house as the show begins. Further mechanical arms and implements emerge, the largest being a ring wide enough that it barely fit the small room.  It hovers above you, a far too large halo, waiting only for an attendant arm to strategically place your blonde hair before the device descends.
+Der Drang ist da, die Augen zu schließen, als könnte Unwissenheit verhindern, was passieren würde. Warum *hast* du die teuerste und intensivste Option gewählt? Aber dein Vertrauen bleibt bestehen und du hast den einzigen Platz im Haus, wenn die Show beginnt. Weitere mechanische Arme und Instrumente erscheinen, wobei das größte ein Ring ist, so breit, dass er kaum in den kleinen Raum passt. Es schwebt über dir, ein viel zu großer Heiligenschein, und wartet nur darauf, dass ein Begleitarm deine blonden Haare strategisch platziert, bevor die Vorrichtung sinkt.
 
-Nozzles built into the ring emit a pungent substance as soon as it descends past the crown of your head.  For a moment you think it paint, and it does adhere like the stuff, but the sensation is fleeting-- as following the emitters a white-light laser passes over the freshly applied material, and it flash-cools.  What had been a thick spray is now a thin, slick, glossy material.  Holes at your mouth, nose, and eyes are quickly excised.  Cold upon your skin, but already your body is warming it up.  Torei's all but sacred material, its most readily available substance: **laminate.**
+In den Ring eingebaute Düsen geben eine penetrante Substanz ab, sobald sie an der Krone deines Kopfes vorbeikommen. Für einen Moment denkst du, das Zeug, es lakiert und es klebt, aber das Gefühl ist flüchtig-- es folgt ein Weißlichtlaser, er läuft über das frisch aufgetragene Material und es kühlt blitzschnell ab. Was zuerst eine dichte Gischt war, ist jetzt ein dünnes, glattes, glänzendes Material. Löcher für Mund, Nase und Augen werden schnell herausgeschnitten. Kalt auf deiner Haut, aber schon erwärmt dein Körper es. Toreis alles andere als heiliges Material, seine am leichtesten verfügbare Substanz: **Laminat.**
 
-Thus your suit is quiet literally printed on, the base layer a solid midnight black.  The ring descends bit by bit, rendering soft flesh into equally soft but so very *different* laminate.  Secondary arms follow it down, providing spot treatment along seams and friction points-- although often the effect is for merely aesthetic purposes.  Sometimes that takes the form of a second application of laminate, other times it lingers to produce something more substantial-- such as the zipper between your legs, the tiny metal components pre-formed and merely placed by the rapid-fire staccato movements of a particuarly agile mechanized arm.
+So wird dein Anzug im wahrsten Sinne des Wortes aufgedruckt, die Basisschicht ein kräftiges Mitternachtsschwarz. Der Ring senkt sich Stück für Stück und weiches Fleisch mit dem ebenso weichen, aber sehr unterschiedlichen Laminat überzogen. Sekundärarme folgen ihm nach unten und bieten eine Punktbehandlung entlang der Nähte und Reibungspunkte-- obwohl der Effekt häufig nur ästhetischen Zwecken dient. Manchmal erfolgt dies in Form einer zweiten Anwendung von Laminat, manchmal verweilt es, um etwas Wesentlicheres zu produzieren-- wie den Reißverschluss zwischen deinen Beinen, die winzigen Metallkomponenten, die vorgeformt und lediglich plaziert durch die Schnellfeuer-Stakkato-Bewegungen von einem besonders agilem mechanisierten Arm.
 
-You're given no time to rest as the base layer concludes, the ring rapidly ascending as other arms move into the space to begin work on the most intensive component of your outfit: the corset.  Several times the arms work along your midsection, printing in thick black material, before pre-forged strips of steel emerge.  Those would be the bones that ensured a corset could trim the waist effectively, and once submerged into the thick material a final flash of light sets the material.  Its not until synthetic lacing is carefully worked in a pattern through the holes along your back that the device actually begins to function, however.  With every tug it grows tighter, never painful, but definitely uncomfortable.  By the time the Wardrobe concludes, your chest is thrust out in response, while your back is straight and breathing takes some effort.
+Du bekommst keine Zeit zum Ausruhen, als die Basisschicht fertig ist. Der Ring steigt schnell auf, während sich die anderen Arme in dem Raum bewegen, um mit der Arbeit an der intensivsten Komponente deines Kostüms zu beginnen: dem Korsett. Mehrmals arbeiten die Arme entlang deines Mittelteils und drucken ein dickes schwarzes Material, bevor vorgeschmiedete Stahlstreifen erscheinen. Dies ist das Gerippe, das dafür sorgt, dass das Korsett die Taille effektiv zurechtmachen kann, und sobald es in das dicke Material eingesetzt ist, härtet ein letzter Lichtblitz das Material. Erst als die synthetische Schnürung sorgfältig in einem Muster durch die Löcher entlang deines Rückens gefädelt wird, beginnt das Korsett tatsächlich zu funktionieren. Mit jedem Ruck wird es enger, nie schmerzhaft, aber definitiv unangenehm. Als die Garderobe fertig ist, ist deine Brust als Reaktion herausgehoben, während dein Rücken gerade ist und das Atmen einige Anstrengungen erfordert.
 
-Given the intended production of a full scale regulation mask, the promised makeup is applied next.  Mechanical arms seize your head, holding it tight as nozzles approach your face.  A quick blast of air instinctively causes your eyes to close, and in that brief moment the Wardrobe does its work.  Your eyelids have been darkened and your eyelashes extended, producing an alluring effect.  And your lips are now a bright red coloration, an interesting detail given what comes next.
+Angesichts der beabsichtigten Herstellung einer vollständigen Regulierungsmaske wird als nächstes das versprochene Make-up aufgetragen. Mechanische Arme ergreifen deinen Kopf und halten ihn fest, während sich Düsen deinem Gesicht nähern. Ein kurzer Luftstoß lässt dich instinktiv die Augen schließen, und in diesem kurzen Moment erledigt die Garderobe ihre Arbeit. Deine Augenlider sind abgedunkelt und deine Wimpern dehnen sich aus, was einen verführerischen Effekt erzeugt. Und deine Lippen haben jetzt eine leuchtend rote Färbung, ein interessantes Detail, wenn man bedenkt, was als nächstes kommt.
 
-That would be your mask, listed for *breath regulation*.  You already have been provided with a thin hood much akin to the rest of your catsuit, but this secondary mask is much thicker, several armatures working together to forge it upon your face.  A handful of metal components are integrated as well, but your field of vision had already been restricted enough that you barely notice.  Indeed, before you know it a curved glass panel is being placed just before your eyes, the laminate seals along the edge flash-cooling.
+Das wäre deine Maske, aufgelistet zur *Atemregulierung*. Du hast bereits eine dünne Kapuze erhalten, die dem Rest deines Catsuits sehr ähnlich ist, aber diese zweite Maske ist viel dicker. Mehrere Instrumente arbeiten zusammen, um sie auf deinem Gesicht zu fertigen. Eine Handvoll Metallkomponenten sind ebenfalls integriert, aber dein Sichtfeld ist bereits so eingeschränkt, dass du es kaum erkennst. Bevor du es merkst, wird eine gebogene Glasscheibe direkt vor deinen Augen platziert. Das Laminat dichtet beim abkühlen entlang der Kante ab.
 
-Your next breath, the first within your new enclosed environment, is thus harder.  *Much* harder.  You gasp, trying to suck in enough oxygen-- only for your corset's constriction to assert itself.  It's a devious combination, one you would have almost certainly cursed had not the machine (and thus your own focus) already shifted elsewhere.
+Dein nächster Atemzug, der erste in deiner neuen geschlossenen Umgebung, ist daher schwieriger. *Viel* schwieriger. Du schnappst nach Luft und versuchst, genug Sauerstoff einzusaugen-- nur damit sich die Verengung deines Korsetts durchsetzt. Es ist eine verschlagene Kombination, die du mit ziemlicher Sicherheit verflucht hättest, wenn sich die Maschine (und damit dein eigener Fokus) nicht bereits an eine andere Stelle verlagert hätte.
 
-Several attending arms move back up to your throat, casting thick laminate in yet another layer until several steel segments (much like those trimming your waist) are sunk into the material.  The Wardrobe was ensuring your head remained up, but you're hit with the immediate sensation that was no longer necessary-- the collar would ensure your posture going forward.
+Mehrere der Arme bewegen sich zurück zu deinem Hals und tragen dickes Laminat in eine weiteren Schichten auf, bis mehrere Stahlsegmente (ähnlich wie diejenigen, die deine Taille einfassen) in das Material versenkt sind. Die Garderobe sorgt dafür, dass dein Kopf oben bleibt, aber du wirst von dem sofortigen Gefühl getroffen, dass das nicht mehr notwendig ist-- das Halsband wird deine Haltung in Zukunft sicherstellen.
 
-Yet another componenent of your outfit comes with the sensation of your own feet rising, the sensation unequal and primarily at your heel.  Without the restraint arms you would have toppled over, but they hold you tight, tall stilleto heels and a thick platform for your toes being extruded into place.  Black laminate follows, coating your feet and providing the anchor on which laces are quickly assembled.
+Eine weitere Komponente deines Kostüms kommt mit dem Gefühl, dass deine Füße hochgehoben werden, das Gefühl ist unterschiedlich und hauptsächlich auf deine Fersen konzentriert. Ohne die Haltearme wärst du umgefallen, aber sie halten dich fest, Hohe Stöckelschuhe und eine dicke Plattform für deine Zehen werden extrudiert. Es folgt schwarzes Laminat, das deine Füße beschichtet und den Anker bildet, auf dem die Schnürsenkel schnell montiert werden.
 
-[[Is... is it over?->Slave Confirm3]]
+[[Ist... ist es vorbei?->Slave Confirm3]]
 
 
 :: Slave Confirm3
-No.  One last accessory remains, having been listed on the original selection as... **inserts**.
+Nein. Ein letztes Zubehör bleibt übrig, das in der Originalauswahl als ... **Einführungen** aufgeführt ist.
 
-Adrenaline shoots through your system as the Wardrobe realigns itself again, this time positioning two large arms, one before your lower torso, the other just behind it.  Long, thick cylinder-like forms begin to extrude from the arms, taking the shape of what you recognize quite immediately as masculine physiology.  As they work, another more nimble arm presses forward, seizing upon the only zipper on your suit.  A mathematically simple arc carries it down between your legs, exposing a set of holes matched so perfectly to the now fully formed dildos.  Your body tenses as a syrup-like lubricant is applied to each.
+Adrenalin schießt durch deinen Körper , während sich die Garderobe wieder neu ausrichtet. Diesmal positioniert sie zwei große Arme, einen vor deinem Unterleib und den anderen direkt dahinter. Lange, dicke zylinderartige Formen treten aus den Armen hervor und nehmen die Form an, die du sofort als männliche Physiologie erkennst. Während sie arbeiten, rückt ein weiterer flinker Arm nach vorne und greift nach dem einzigen Reißverschluss an deinem Anzug. Ein mathematisch einfacher Bogen trägt ihn zwischen deinen Beinen nach unten und legt eine Reihe von Löchern frei, die so perfekt auf die jetzt vollständig geformten Dildos abgestimmt sind. Dein Körper spannt sich an als sirupartiges Gleitmittel auf jeden aufgetragen wird.
 (set: $Slave to true)
-[[Focus on your breathing.->Slave III]]
-[["Get those things away from me!  HELP!"->SlaveResist]]
+[[Konzentriere dich auf deine Atmung.->Slave III]]
+[["Bring diese Dinger von mir weg! HILFE!"->SlaveResist]]
 
 
 :: SlaveResist [Debt]
-You pull hard against the arms still holding you, doing anything you could to pull your womanhood away from the lewd phallus all but ready to plunge inside.  Perhaps if you had *really* tried before, you could have escaped the Wardrobe's clutches.  Now?  Your mask ensures the effort quickly leaves you breathless, while your corset and collar prevent much in the way of squirming.
+Du ziehst hart an den Armen, die dich immer noch halten, und tust alles, um deine Weiblichkeit von dem unzüchtigen Phallus wegzuziehen, keinesfalls bereit das sie eingeführt werden. Vielleicht hättes du, wenn du es *wirklich* schon einmal versucht hättest, den Fängen der Garderobe entkommen können. Jetzt? Deine Maske sorgt dafür, dass die Anstrengung dich schnell atemlos macht, während dein Korsett und Halsband verhindern, dass du dich stark windest.
 
-And that's ignoring completely the sudden snap of electricty against your backside, a lingering arm providing harsh collective action.  You collapse back into your restraints as the display flashes its disapprovement.
+Und das ignoriert völlig das plötzliche Knacken von Elektrizität gegen deinen Hintern, ein zurückbleibender Arm, der harte kollektive Aktionen ermöglicht. Du fällst in deine Fesseln zurück, während das Display seine Missbilligung blinkt.
 
-*Submission to a slave-graded suit includes acceptable of certain slavery codes, despite your freewomb status.  A fee of 20 credits has been added to your account for this transgression.  It is recommended you focus on your breathing.*
+*Die Unterwerfung in einem Sklaven-Klassifizierten Umhüllungskostüm beinhaltet trotz Ihres Freischoss-Status die Akzeptanz bestimmter Sklaverei-Codes. Für diese Übertretung wurde Ihrem Konto eine Gebühr von 20 Credits hinzugefügt. Es wird empfohlen, dass Sie sich auf Ihre Atmung konzentrieren.*
 (set: $debt to it + 20) (set: $debtResist2 to true)
 
-[[It's not like you have a choice.->Slave III]]
+[[Es ist nicht so, dass du eine Wahl hast.->Slave III]]
 
 
 :: Slave III
-No further warning is given.  With sudden explosive action, the inserts drive forward.  They find the waiting holes readily enough, then twist, as if screwing their way into your body.  Despite yourself a moan escapes your ruby red (and masked) lips as you're pierced from both ends.  They plunge further, and further-- your mind screams for an end, your body assures you it cannot take anymore.  Yet it does.  Still further, further, further...
+Keine weitere Warnung. Plötzlich fahren Explosionsartig die Einführungen vorwärts. Sie finden die wartenden Löcher leicht genug und drehen sich dann, als würden sie sich in deinen Körper einschrauben. Trotz deiner selbst entweicht ein Stöhnen deinem rubinroten (und maskierten) Lippen, als du an beiden Enden durchbohrt wirst. Sie tauchen weiter und weiter ein-- dein Geist schreit nach einem Ende, dein Körper versichert dir, dass er nicht mehr kann. Aber es tut es. Immer weiter, weiter, weiter...
 
-Until you're hilted on the ends, hips swaying minutely as you try fruitlessly to adapt to the sensation.  It may be amusing in restrospect, if you ever allow yourself to remember this moment, how gentle the final arm is that pulls your zipper closed again.  A small padlock on the end is almost an afterthought.
+Bis du es am Schluss im Griff hast, schwanken deine Hüften etwas, während du erfolglos versuchst, dich an das Gefühl anzupassen. Im Nachhinein mag es amüsant sein, wenn du dir jemals erlaubst, dich an diesen Moment zu erinnern, wie sanft der letzte Arm war, der deinen Reißverschluss wieder schließt. Ein kleines Vorhängeschloss am Ende ist Fast wie eine nachträgliche Idee.
 
-Then, with a final flash of white light and a conclusive hiss, the armatures withdraw.
+Dann ziehen sich die Instrumente mit einem letzten weißen Lichtblitz und einem abschließenden Zischen zurück.
 
-You collapse to your knees, the short distance an altogether new experience as your inserts shift deep within your cunt and rear.  Again you moan, this time frustrated with yourself as you try to focus, breathing hard against the stricture of your mask.  It takes several minutes, but eventually you find yourself watching the tight, glossy material covering your chest gently rise and fall.  Your posture is ensured by the corset, while also making each breath a bit of an effort, at least until your body adapted.  The sensation of the laminate is almost otherwordly as well, light pressure upon your body from toe to head, a lover's embrace you cannot escape.  Excepting the zipper between your legs (and that is locked), there is no point of entrance, no direct break in the experience.  Only smooth laminate, and the labored sound of your own breathing.
+Du fällst auf die Knie, die kurze Strecke ist eine völlig neue Erfahrung, da sich deine Einführungen tief in deiner Fotze und im Hintern bewegen. Wieder stöhnst du, diesmal frustriert von dir selbst, während du versuchst dich zu konzentrieren und schwer gegen die Strenge deiner Maske zu atmen. Es dauert einige Minuten, aber irgendwann beobachtest du, wie das enge, glänzende Material, das deine Brust bedeckt, sanft steigt und fällt. Deine Haltung wird durch das Korsett sichergestellt, während jeder Atemzug ein wenig anstrengend ist, zumindest bis sich dein Körper angepasst hat. Das Gefühl des Laminats ist fast jenseitig, leichter Druck auf deinen Körper vom Zeh bis zum Kopf, die Umarmung eines Liebhabers, der du nicht entkommen kannst. Mit Ausnahme des Reißverschlusses zwischen deinen Beinen (und der ist verriegelt) gibt es keinen Einstiegspunkt, keine direkte Unterbrechung der Erfahrung. Nur glattes Laminat und das schwerfällige Geräusch deiner eigenen Atmung.
 
-Running a hand down the slick material reveals laminate to laminate contact to be almost frictionless.  It's almost too easy to forget your own hand as it glides along your thigh-- as a strong compulsion draws the limb inward, towards the nexus of your legs.  You resist... for the moment.  Instead you struggle back to your feet, biting your lip, pelvis thrusting slightly in reaction to the sensations within.  Your heels do not help matters, the effect of being forced onto your toes one that will certainly take some effort to combat.
+Wenn du mit einer Hand über das glatte Material fährst, ist die Berührung zwischen Laminat und Laminat nahezu reibungslos. Es ist fast zu leicht, deine eigene Hand zu vergessen, wenn sie über deinen Oberschenkel gleitet-- während ein starker Zwang das Glied nach innen in Richtung des Nexus deiner Beine zieht. Du widerstehst... für den Moment. Stattdessen rappelst du dich auf, beißt dir auf die Lippe und stösst leicht gegen das Becken, um auf die inneren Empfindungen zu reagieren. Deine Absätze helfen nicht weiter, die Folge, auf deine Zehen gezwungen zu werden, es wird einige Anstrengungen erfordern, um sie zu bekämpfen.
 
-A sudden light breaks your self examination as the Wardrobe's display flicks back into existence, a final sentence emerging upon it.
+Ein plötzliches Licht unterbricht deine Selbstprüfung, als das Display der Garderobe wieder zum Leben erwacht und ein letzter Satz darauf erscheint.
 
-*Your dressing order has now been completed.  If this machine is functioning under slave protocols, you may be held until a legally recognized owner or agent arrives to collect you.  Otherwise, the door will open shortly.  Watch your step, and enjoy...*
+*Ihre Kostüm Bestellung ist nun abgeschlossen. Wenn diese Maschine unter Sklaven Protokoll betrieben wird, können Sie so lange festgehalten werden, bis ein gesetzlich anerkannter Eigentümer oder Agent eintrifft, um Sie abzuholen. Andernfalls öffnet sich die Tür in Kürze. Achten Sie auf Ihren Weg und viel Spaß...*
 
-The doors open as promised, allowing you to shuffle awkwardly back out into the dim light of the far corridor.  Your path towards the Front Desk is now clear.
+Die Türen öffnen sich wie versprochen und ermöglichen es dir, unbeholfen ins trübe Licht des Korridors zurückzukehren. Dein Weg zur Rezeption ist jetzt frei.
 (set: $Status to 2)
-[[Make your way there.->Wardrobe End]]
+[[Gehe dorthin.->Wardrobe End]]
 
 
 :: Slave Pause
-Your rational mind certainly has some questions.  Perhaps the first is what compelled you to choose this particular design from that Wardrobe device.  But more readily?  Why you can't stop the fingers that slide along your corset, downward, below your naval.
+Dein rationaler Verstand hat natürlich einige Fragen. Die erste ist vielleicht, was hat dich dazu bewogen, dieses spezielle Kostüm aus dem Garderobengerät zu wählen. Aber zutreffender? Warum kannst du deine Finger, die entlang deines Korsetts nach unten, unter deinen Nabel gleiten, nicht aufhalten?
 
-The answer?  Your body knows what it wants.  It ignores your currently quite public position in the middle of a hallway as your legs give out, falling to your knees upon the floor.  Your more sensible hand moves to your mask, trying weakly to push it off, to free yourself from the strict breath regulation.  Your other, however, traces tantalizingly along the base of your front insert.  Hidden by the locked zipper, but accessible by mere touch nevertheless.
+Die Antwort? Dein Körper weiß, was er will. Er ignoriert deine derzeit recht öffentliche Position in der Mitte eines Flurs, während deine Beine nachgeben und du auf deine Knie fällst. Deine vernünftigere Hand bewegt sich zu deiner Maske und versucht schwach, sie abzureißen, um dich von der strengen Atemregulierung zu befreien. Deine andere folgt jedoch verlockend entlang der Basis Ihrer vorderen Einführung. Verborgen durch den verschlossenen Reißverschluss, aber dennoch durch bloße Berührung zugänglich.
 
-You moan quietly, eyes closing as you lean back onto your haunches...
+Du stöhnst leise und schließt die Augen, während du dich auf deine Hüften zurücklehnst...
 
-[[This was a terrible decision!  Turn back and get another outfit!->SlavePauseNo]]
-[[It feels... so... good...->Slave Pause II]]
-[[No... not... in a hallway...->Slave Pause II]]
+[[Das war eine schreckliche Entscheidung! Dreh um und hol dir ein anderes Kostüm!->SlavePauseNo]]
+[[Es fühlt sich... so... gut an...->Slave Pause II]]
+[[Nein... nicht... in einem Flur...->Slave Pause II]]
+
+
+:: SlavePauseNo
+Während du zurück zum Garderobengerät gehst, werden deine Stöpsel nur immer weiter verschoben. Die Anstrengung erweist sich ohnehin als völlig vergeblich, da sich die Tür nicht wieder von dir öffnen lässt.
+
+Stattdessen bleibt dir nur dein quälendes Verlangen ...
+
+[[Es fühlt sich... so... gut an...->Slave Pause II]]
+[[Nein... nicht... in einem Flur...->Slave Pause II]]
 
 
 :: Slave Pause II
-It doesn't matter what you *think* you want.  Your body knows what to do.
+Es spielt keine Rolle, was du *denkst*, was du willst. Dein Körper weiß, was zu tun ist.
 
-Nimble gloved fingers press into the laminate between your legs, shifting the cock buried there as a hiss of pleasure works through your mask regulators.  You can barely breath, but that's hardly necessary, not as waves of pleasure begin to roll up against your womanhood.  Overzealous motivations at first drive you into quite a bit of fumbling, but it doesn't take long for you to settle into a steady rhythm, pressing your thumb hard against the front plug as you lean further, driving the rear one into the back of your heel.  Somewhere along the way the hand at your mask travels downward, finding a far more *useful* purpose at your own breast, playing with the hardened bud as you wantonly pleasure yourself.
+Flinke behandschuhte Finger drücken in das Laminat zwischen deinen Beinen und verschieben den dort vergrabenen Schwanz, während ein Zischen des Vergnügens durch deinen Maskenregler schlüpft. Du kannst kaum atmen, aber das ist kaum notwendig, nicht wenn Wellen des Vergnügens gegen deine Weiblichkeit rollen. Übereifrige Motivation treiben dich zunächst in ein ziemliches Fummeln, aber es dauert nicht lange, bis du dich in einem gleichmäßigen Rhythmus befindest und deinen Daumen fest gegen den vorderen Stöpsel drückst, während du dich weiter zurück lehnst und den hinteren Stöpsel gegen deinen Absatz drückst. Irgendwann auf dem Weg bewegt sich die Hand von deiner Maske nach unten und findet einen weitaus *nützlicheren* Zweck an deiner eigenen Brust. Du spielt mit der verhärteten Knospe, während du dich schamlos vergnügst.
 
-The waves of ecstasy rise, eventually overtoppign you in a final tsunami of sensation.  Do you even truly experience it?  Already an amnesiac, you're not sure on this one-- all you recall is the sweet pulses from your cunt dissolving into static, everything going blank...
+Die Wellen der Ekstase steigen auf und überfluten dich schließlich in einem letzten Tsunami der Empfindungen. Erlebst du es überhaupt wirklich? Du hast bereits Amnesie und bist dir nicht sicher-- alles, woran du dich erinnerst, sind die süßen Impulse deiner Fotze, die sich in statische Aufladung auflösen, alles wird leer ...
 
-Until you rouse, a pile of black laminate gasping on the hotel hallway floor.  It takes you several long moments before you can pull yourself back to your knees, and from there your feet.  Your plugged cunt's aching desire had momentarily fled, but you are treated to the sensation of your own bodily juices shifting within.
+Bis du aufwachst, schnappt ein Haufen schwarzen Laminats auf dem Flur des Hotels nach Luft. Es dauert einige lange Momente, bis du dich wieder auf die Knie und von dort aus auf die Füße ziehen kannst. Das schmerzende Verlangen deiner verstöpselten Fotze ist für den Moment verflogen, aber du wirst mit dem Gefühl konfrontiert, dass sich deine eigenen Körpersäfte in dir bewegen.
 
-Wearily you push open the glass door to the lobby before you.
+Müde stoßt du die Glastür zur Lobby vor dir auf.
 
-[[Did that... really just happen?  Pull yourself together!->The Front]]
+[[Ist das... gerade wirklich passiert? Reiß dich zusammen!->The Front]]
