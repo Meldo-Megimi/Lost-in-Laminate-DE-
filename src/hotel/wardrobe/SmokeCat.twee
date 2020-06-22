@@ -1,13 +1,13 @@
 :: Smoke Cat
 <img src="img/WEdo76r.jpg" width="30%" height="30%">
 
-The screen displays a model wearing the selected outfit.  It's sleek, form-fitting, and rendered entirely in a material labeled as *laminate*.  The suit is also clearly semi-transparent, the thickened black strip between the legs that contained a zipper providing a modicum of decency, but it's hard to imagine wearing something from throat to toes that covered *less.* 
+Der Bildschirm zeigt ein Modell mit dem ausgewählten Kostüm. Es ist geschmeidig, figurbetont und vollständig aus einem Material mit der Bezeichnung *Laminat* gefertigt. Das Kostüm ist offensichtlich halbtransparent, der verdickte schwarze Streifen zwischen den Beinen, der einen Reißverschluss enthält, sorgt für ein wenig Anstand, aber es ist schwer vorstellbar, etwas vom Hals bis zu den Zehen zu tragen, das *weniger* bedeckt.
 
-Accessories are listed as a set of black wrist-gloves, five inch heeled stiletto boots, and the pictured upper body harness, waist belt, and thigh cuffs.  Those last three are marked as 'restraint ready'.
+Das Zubehör besteht aus schwarzen Handgelenkshandschuhen, Stöckelschuhen mit 5-Zoll-Absatz und dem abgebildeten Oberkörpergurt, Hüftgurt und Oberschenkelmanschetten. Die letzten drei sind als "Rückhaltebereit" gekennzeichnet.
 
-Matching makeup is included, and the cost is listed as FREE.
+Passendes Make-up ist enthalten und es wird als KOSTENLOS gelistet.
 
-A seperate warning lists the various restraints as "time-locked".
+In einer separaten Warnung werden die verschiedenen Einschränkungen als "zeitlich gesperrt" aufgeführt.
 
 [[Dieses muss reichen. Zumindest ist es kostenlos? Bestätige deine Bestellung.->Smoke Confirm]]
 [[Dies ist nicht das richtige für mich, gehe zurück zum Hauptmenü.->Wardrobe III]]
@@ -16,58 +16,58 @@ A seperate warning lists the various restraints as "time-locked".
 :: Smoke Confirm
 *Bestellung... bestätigt. Viel Spaß.*
 
-The display winks out of existence, and for the briefest of moments you are left to ponder your decision.  Your revery is broken by the quiet whirl of machines moving, however, as you notice the various strangely shaped tiles along the walls kicking out.  Appendages emerge, mechanical arms of several different kinds.  You don't have time to catalog them, hell, you barely have time to gasp before they seize you.  At wrist and ankle, and around the throat, padded rings snap against and then around your soft flesh.  Then the grip, legs forced apart as your arms are lifted above your head.  Had they not also supported, you would have certainly fallen.  
+Das Display verschwindet und für den kurzen Moment kannst du über deine Entscheidung nachdenken. Deine Träumerei wird jedoch durch den leisen Wirbel der sich bewegenden Maschinen unterbrochen, als du bemerkst, dass die verschiedenen seltsam geformten Fliesen an den Wänden herausspringen. Gliedmassen kommen hervor, mechanische Arme verschiedenster Art. Du hast keine Zeit, sie zu katalogisieren, verdammt noch mal, du hast kaum Zeit, nach Luft zu schnappen, bevor sie dich ergreifen. Um Handgelenk, Knöchel sowie um den Hals schnappen gepolsterte Ringe gegen und dann um dein weiches Fleisch. Dann werden mit Gewalt deine Beine auseinander gedrückt, während deine Arme über den Kopf gehoben werden. Hätten sie dich nicht auch gestützt, wärest du sicherlich gefallen.  
 
-[["What the hell!? Get these off of me!"->Resist Smoke]]
-[[Keep your cool.  Wait it out.->Smoke Confirm2]]
+[["Was zum Teufel!? Lasst mich los!"->Resist Smoke]]
+[[Bleib ruhig. Warte es ab.->Smoke Confirm2]]
 
 
 :: Resist Smoke [Debt]
-You pull against the restraining arms, eyes wide as other devices emerge from the walls.  Compared to your earlier experience on your own bed, these at least have some give-- your first yank of the arm nearly sends you tumbling over, but the arm momentarily loses grip on you entirely.
+Du ziehst mit großen Augen an den Haltearmen, während weitere Arme aus den Wänden auftauchen. Im Vergleich zu deiner früheren Erfahrung auf deinem eigenen Bett haben diese zumindest einiges zu tun-- ein erster Ruck mit deinem Arm lässt dich fast umkippen, aber der Haltearm lässt dich für einen Moment los.
 
-This *can* be escaped!
+Diesem *kann* man entkommen!
 
-If not for the arm behind you, waiting silently.  You do not see it, but you certainly *feel* the sudden snap of electricty that bursts upon your rear, pain receptors announcing the experience with a unified yelp that matches the sound that emerges from your own lips.
+Wäre da nicht der Arm hinter dir, still wartend. Du siehst ihn nicht, aber du *fühlst* natürlich das plötzliche Knacken von Elektrizität, das auf deinen Rücken springt. Schmerzrezeptoren verkünden die Erfahrung in einem einheitlichen Aufschrei, der dem Klang entspricht, der aus deinen eigenen Lippen kommt.
 
-*REMAIN STILL.*
+*HALTEN SIE STILL.*
 
-The display had returned to life to deliver the command, the cold steel of what you can only imagine to be a cattle prod still poised against her buttocks.  You take a deep breath... and settle back as the arm restraint returns.
+Das Display ist wieder zum Leben erwacht um den Befehl zu erteilen. Der kalten Stahl dessen, was du dir nur als Viehtreiber vorstellen kannst ist immer noch an deinem Gesäß. Du atmest tief ein... und lehnst dich zurück, während der Haltearm zurückkehrt.
 
-*Minor damage has been recorded to Arm 5-L-6. A 20 credit charge has been made to your account.*
+*Geringfügige beschädigung an Arm 5-L-6 festgestellt. Ihr Konto wurde mit 20 Credits belastet.*
 (set: $debt to it + 20)
 (set: $debtResist to true)
-[[Well, that didn't work.->Smoke Confirm2]]
+[[Nun, das hat nicht funktioniert.->Smoke Confirm2]]
 
 
 :: Smoke Confirm2
-The urge is there to close your eyes, as if ignorance could prevent what was about to occur.  But your confidence holds, allowing you the only seat in the house as the show begins. Further mechanical arms and implements emerge, the largest being a ring wide enough that it barely fit the small room.  It hovers above you, a far too large halo, before the device descends.
+Der Drang ist da, die Augen zu schließen, als könnte Unwissenheit verhindern, was passieren würde. Aber dein Vertrauen bleibt bestehen und du hast den einzigen Platz im Haus, wenn die Show beginnt. Weitere mechanische Arme und Instrumente erscheinen, wobei das größte ein Ring ist, so breit, dass er kaum in den kleinen Raum passt. Es schwebt über dir, ein viel zu großer Heiligenschein, bevor die Vorrichtung sinkt.
 
-Nozzles built into the ring emit a pungent substance as soon as it descends past your neck.  For a moment you think it paint, and it does adhere like the stuff, but the sensation is fleeting-- as following the emitters a white-light laser passes over the freshly applied material, and it flash-cools.  What had been a thick spray is now a thin, slick, glossy material.  Cold upon your skin, but already your body is warming it up.  Torei's all but sacred material, its most readily available substance: **laminate.**
+In den Ring eingebaute Düsen geben eine penetrante Substanz ab, sobald sie an deinem Hals vorbei ist. Für einen Moment denkst du, das Zeug, es lakiert und es klebt, aber das Gefühl ist flüchtig - es folgt ein Weißlichtlaser, er läuft über das frisch aufgetragene Material und es kühlt blitzschnell ab. Was zuerst eine dichte Gischt war, ist jetzt ein dünnes, glattes, glänzendes Material. Kalt auf deiner Haut, aber schon erwärmt dein Körper es. Toreis alles andere als heiliges Material, seine am leichtesten verfügbare Substanz: **Laminat.**
 
-Thus your suit is quiet literally printed on, first applying inky black but growing semi-transparent (and thus *smokey*) once flash-cooled.  The ring descending bit by bit, rendering soft flesh into equally soft but so very *different* laminate.  Secondary arms follow it down, providing spot treatment along seams and friction points-- although often the effect is for merely aesthetic purposes.  Sometimes that takes the form of a second application of laminate, other times it lingers to produce something more substantial-- such as the black strip and zipper between your legs, the tiny metal components pre-formed and merely placed by the rapid-fire staccato movements of a particuarly agile mechanized arm.
+So wird dein Anzug im wahrsten Sinne des Wortes gedruckt, zuerst wird Tintenschwarz auftragen, aber nach dem Blitz-Abkühlen wird es halbtransparent (und damit *rauchig*). Der Ring senkt sich Stück für Stück und weiches Fleisch wird mit dem ebenso weichen, aber sehr unterschiedlichen Laminat überzogen. Sekundärarme folgen ihm nach unten und bieten eine Punktbehandlung entlang der Nähte und Reibungspunkte-- obwohl der Effekt häufig nur ästhetischen Zwecken dient. Manchmal erfolgt dies in Form einer zweiten Anwendung von Laminat, manchmal verweilt es, um etwas Wesentlicheres zu produzieren-- wie den schwarzen Streifen und den Reißverschluss zwischen deinen Beinen, die winzigen Metallkomponenten, die vorgeformt und lediglich plaziert durch die Schnellfeuer-Stakkato-Bewegungen von einem besonders agilem mechanisierten Arm.
 
-You're given no time to rest as the base layer concludes, the ring rapidly ascending as other arms move into the space to begin work on your accessories.  Your black gloves are printed, while a longer period is required for the Wardrobe to build up the necessary thickness required of your thigh cuffs, belt and harness.  The last seems far too lose, but another pass of the setting laser causes the material to constrict hugging tight to your shoulders and the space below your chest. Again the metal hardpoints are installed last, emerging fully formed from hidden storage components.  A far less expensive option then flash-casting steel.
+Du bekommst keine Zeit zum Ausruhen, als die Basisschicht fertig ist. Der Ring steigt schnell auf, während sich die anderen Arme in dem Raum bewegen, um mit der Arbeit an deinem Zubehör zu beginnen. Deine schwarzen Handschuhe werden gedruckt, während die Garderobe einen längeren Zeitraum benötigt, um die erforderliche Dicke für deine Oberschenkelmanschetten, deinen Gürtel und deines Gurtzeugs aufzubauen. Der letzte scheint viel zu locker zu sein, aber ein weiterer Durchgang des Einstelllasers führt dazu, dass sich das Material zusammenzieht und sich eng an deine Schultern und dem Raum unter deiner Brust schmiegt. Wieder werden die Metall-Befestigungspunkte zuletzt installiert und erscheinen vollständig aus versteckten Speicherkomponenten. Eine weitaus kostengünstigere Option als Blitz-Gussstahl.
 
-The final componenent of your outfit comes with the sensation of your own feet rising, the sensation unequal and focused primarily at your heel.  Without the restraint arms you would have toppled over, but they hold you tight, tall heels being extruded into place.  Black laminate follows, coating your feet and providing the anchor on which laces are quickly assembled.
+Die letzte Komponente deines Kostüms kommt mit dem Gefühl, dass deine Füße hochgehoben werden, das Gefühl ist unterschiedlich und hauptsächlich auf deine Fersen konzentriert. Ohne die Haltearme wärst du umgefallen, aber sie halten dich fest, hohe Absätze werden extrudiert. Es folgt schwarzes Laminat, das deine Füße beschichtet und den Anker bildet, auf dem die Schnürsenkel schnell montiert werden.
 
-Almost as an afterthought, the promised makeup is applied last.  Mechanical arms seize your head, holding it tight as nozzles approach your face.  A quick blast of air instinctively causes your eyes to close, and in that brief moment the Wardrobe does its work.  Your eyelids have been substantially darkened, stylish wingtips form at the outer edges.  Pores and blemishes have been rendered impotent as well, while your cheekbones have been highlighted.  And your lips are now a dark black, the white of your teeth blinding against them as you gasp slightly.
+Fast wie eine nachträgliche Idee wird das versprochene Make-up zuletzt aufgetragen. Mechanische Arme ergreifen deinen Kopf und halten ihn fest, während sich Düsen deinem Gesicht nähern. Ein kurzer Luftstoß lässt dich instinktiv die Augen schließen, und in diesem kurzen Moment erledigt die Garderobe ihre Arbeit. Deine Augenlider sind deutlich abgedunkelt, und an den Außenkanten sind stilvolle Flügelspitzen. Poren und Schönheitsfehler wurden ebenfalls abgeschwächt, während deine Wangenknochen hervorgehoben wurden. Und deine Lippen sind jetzt schwarz, das Weiß deiner Zähne blendet gegen sie, während du leicht nach Luft schnappst.
 
-Then, with a final flash of white light and a conclusive hiss, the armatures withdraw.
+Dann ziehen sich die Instrumente mit einem letzten weißen Lichtblitz und einem abschließenden Zischen zurück.
 
 [["Wow."->Smoke III]]
-[["The transparency is kind of... eye catching?"->Smoke III]]
-[["That was **terrifying!**"->Smoke III]]
+[["Die Transparenz ist irgendwie ... ein Blickfang?"->Smoke III]]
+[["Das war **erschreckend!**"->Smoke III]]
 
 
 :: Smoke III
-You take a deep breath, watching the semi-transparent material covering your chest gently rise and fall.  Your nipples are hard, and clearly visible you note immediately.  The sensation is almost otherwordly, light pressure upon your body from to toe to throat, a lover's embrace you cannot escape.  Excepting the zipper between your legs, there is no point of entrance, no direct break in the experience.  Only smooth laminate, and the sweet scent of lingering rubber.
+Du atmest tief ein und beobachtest, wie das halbtransparente Material, das deine Brust bedeckt, sanft steigt und fällt. Deine Brustwarzen sind hart und deutlich sichtbar, wie du sofort feststellst. Die Empfindung ist fast jenseitig, leichter Druck auf deinen Körper vom Zeh bis zum Hals, die Umarmung eines Liebhabers, der du nicht entkommen kannst. Mit Ausnahme des Reißverschlusses zwischen deinen Beinen gibt es keinen Einstiegspunkt, keine direkte Unterbrechung der Erfahrung. Nur glattes Laminat und der süße Duft von verweilendem Gummi.
 
-Running a hand down the slick material reveals laminate to laminate contact to be almost frictionless.  It's almost too easy to forget your own hand as it glides along your hip.  The gentle *click* of the metal studded into your cuffs provide a more consistent narrative, as does the more authoritative snap of your heeled boot as you shift a bit in the Wardrobe's small confines.
+Wenn du mit einer Hand über das glatte Material fährst, ist die Berührung zwischen Laminat und Laminat nahezu reibungslos. Es ist fast zu leicht, deine eigene Hand zu vergessen, wenn sie über deine Hüfte gleitet. Das sanfte *Klicken* des Metalls an deinen Manschetten sorgt für eine beständige Erfahrung, ebenso wie das Respekt einflößende Klacken deines Absatzes, wenn du dich ein wenig in den bescheidenen Grenzen der Garderobe bewegst.
 
-A sudden light breaks your self examination as the Wardrobe's display flicks back into existence, a final sentence emerging upon it.
+Ein plötzliches Licht unterbricht deine Selbstprüfung, als das Display der Garderobe wieder zum Leben erwacht und ein letzter Satz darauf erscheint.
 
-*Your dressing order has now been completed.  If this machine is functioning under slave protocols, you may be held until a legally recognized owner or agent arrives to collect you.  Otherwise, the door will open shortly.  Watch your step, and enjoy...*
+*Ihre Kostüm Bestellung ist nun abgeschlossen. Wenn diese Maschine unter Sklaven Protokoll betreiben wird, können Sie so lange festgehalten werden, bis ein gesetzlich anerkannter Eigentümer oder Agent eintrifft, um Sie abzuholen. Andernfalls öffnet sich die Tür in Kürze. Achten Sie auf Ihren Weg und viel Spaß...*
 
-The doors open as promised, ushering you back out into the dim light of the far corridor.  Your path towards the Front Desk is now clear.
+Die Türen öffnen sich wie versprochen und führen dich zurück ins trübe Licht des Korridors. Dein Weg zur Rezeption ist jetzt frei.
 (set: $Smoke to true)
-[[Make your way there.->Wardrobe End]]
+[[Gehe dorthin.->Wardrobe End]]
