@@ -1,0 +1,66 @@
+:: Crop
+Du schreckst zurück, das ist ganz natürlich.
+
+"Oh, seien Sie doch nicht so", meint die Hausangestellte. "Sie sind so weit gekommen, und Sie haben das *verdient.* Außerdem stehen Sie technisch gesehen unter Sklavenrecht, bis Ihre Schulden beglichen sind. Bei Widerstand werde ich zusätzliche Gebühren erheben. Das bedeutet weitere Anwendungen der Reitgerte, und Sie haben bereits (print: $debt / 5), denen Sie sich unterziehen müssen. In Ordnung?"
+
+Sie wartet nicht auf eine Antwort, sondern steht stattdessen auf und verlässt ihren Schreibtisch. Erst da bemerkst du die Kette die, in der Ecke des Büros, von der Decke herabhängt. Natürlich wartet sie darauf, dass du dich zu ihr gesellst, bevor sie den Ring an deinem Armbinder greift. Du verlierst fast das Gleichgewicht, als sie den Ring anhebt und deine Arme nach oben und deinen Kopf nach unten zwingt. Es scheint ein Manöver zu sein, in dem sie sich recht gut auskennt, da sie den Ring schnell an der Kette einrasten lässt.
+
+Du bist jetzt vornübergebeugt, Arme zurück und hochgezogen. Die Absätze an deinen Stiefeln sorgen dafür, dass dein Hintern ordentlich zur Geltung kommt, dein knackiger Hintern und deine abgerundeten Oberschenkel im Licht glänzen. 
+
+"Ich werde die Reitgerte anwenden", erklärt sie. "Für jede 5 Credits, die Sie noch schulden, einmal, wie wir besprochen haben. Es wird Ihre Aufgabe sein, die Schläge laut mitzuzählen. Ich würde es bedauern, Ihnen zu viele... oder zu wenige zu geben. Verstanden?"
+
+Du bewegst dich leicht unfähig, dich wieder aufzurichten.
+(set: $Strike to 0)
+[["J-Ja..."->Strike Counter]]
+
+
+:: Strike Counter
+Die Sklavin zögert nicht, ihre Reitgerte schlägt mit erschütternder Kraft zu. Das strapazierfähige Laminat hat etwas nachgegeben, aber während die rechteckige Spitze das glänzende Material leckt, das deinen unteren Rücken bedeckt, entfaltet sich der Schmerz immer noch - scharf und berauschend. (set: $Strike to it +1) (set: $debt to it - 5)
+
+"(print: $debt / 5) übrig", zählt die Hausangestellte herunter, während du hochzählst.
+
+(if: $Strike is 2)[Deine Hüften schieben sich von selbst nach vorne und versuchen, dem Schlag der Reitgerte zu entkommen. Das führt nur dazu (if: $Blue is true)[das du einen Schritt nach vorne machst, blaues Laminat bietet wenig Schutz.] (if: $Smoke is true)[das du einen Schritt nach vorne machst, rauchklares Laminat bietet wenig Schutz.] (if: $Brand is true)[das du, in deinen Ballettabsätzen, einen Schritt nach vorne stolperst, Laminat bietet wenig Schutz.] (if: $Sec is true)[das du einen Schritt nach vorne machst, das dünne Material deines Sekretärinnenrocks bietet wenig Schutz.] (if: $Slave is true)[das sich deine Einführungen bewegen, beide Schwänze drücken begierig in deine angebotenen Löcher.]]
+
+(if: $Strike is 4)[Du stöhnst leicht, als die Reitgerte wieder zuschlägt, das konkurrierende Geräusch ist perfekt auf das plötzliche Auftauchen einer dritten Figur im Raum abgestimmt-- die Frau, an der du auf dem Flur vorbeigegangen bist. Wieder findet sich ein belustigtes Lächeln auf ihren hellen Lippen, als sie selbstbewusst hinübergeht und die anwesende Sklavin mit einem erhobenen Finger zum Schweigen bringt. Sie verlangt nicht viel, nur die Möglichkeit, ihre Laminatfinger zwischen deinen Beinen nach oben zu schieben und kurz am Reißverschluss zu reiben, der deine Fotze bedeckt.  Als Reaktion darauf zittern deine Knie wie von selbst, ein zweites-- hungrigeres-- Stöhnen entweicht. Und dann ist sie weg, durchquert den Rest des Raumes, um durch die Vordertür hinauszugehen, als die Hausangestellte neben dir eine neue Schlagzählung verlangt. Selbst dann bleibt das Gefühl der Berührung der Frau zurück...(set: $Fondled to true)]
+
+(if: $Strike is 6)[Die Sklavin variiert die Platzierung alle paar Schläge, manchmal oben auf dem Rücken, manchmal weiter unten in der Nähe der Oberschenkel. Wo auch immer sie trifft, es tut weh.]
+
+(if: $Strike is 11)[Während die Schläge andauern, bilden sich Tränen in deinen Augenwinkeln, dein Körper verkrampft sich jetzt, sobald du den Punktestand angibst.]
+
+(if: $Strike is 13)[Die Hausangestellte, die dich behandelt, hält inne und schlägt leicht mit der Gerte zwischen deine Beine an der Innenseite eines Oberschenkels entlang. "Arsch hoch", befiehlt sie. "Sie müssen zum erhalten bereit sein, nicht in Ihren Fesseln hängen."  
+
+Du stöhnst, hebst aber wie gefordert deinen Hintern. (if: $Slave is true)[Aus irgendeinem Grund fördert der Zwang, dich der Folter zu unterwerfen, nur den Schmerz deiner verstöpselten Fotze.]]
+
+(if: $Strike is 21)[Die Wahrnehmung besteht nicht mehr in scharfen Stichen, sondern in allgemeineren Empfindungen von einschießenden Schmerzen, während deine Bestrafung weitergeht. Du keuchst jetzt (if: $Brand is true)[, dein Korsett eng und ungemütlich](if: $Slave is true)[, dein Korsett eng und ungemütlich, deine Maske lässt dich atemlos zurück. Zwischen deinen Beinen jedoch baut sich immer noch *Lust* auf].]
+
+(if: $Strike is 30)[Wieder hält die Hausangestellte inne, diesmal um Luft zu holen, während dein Körper schmerzt. (if: $Slave is true)[Vielleicht ist es gut, dass sie das tut, denn in diesem Moment, in dem du zum Höhepunkt kommst, verstummt dein Verstand, während du hemmungslos stöhnst, eine nasse Schlampe, die unter der Folter kommt. Deine Beine knicken ein, dein Gewicht wird kurzzeitig allein von dem Armbinder gehalten, bis du wieder auf die Beine kommst. Hinter dir hält die Hausangestellte inne, fast... als hätte sie ein solches Ereignis erwartet? Was macht dieser Anzug mit dir?]]
+
+(if: $Strike > 31)[Es geht immer weiter, und weiter...]
+
+(if: $debt is > 0)[[["Bitte hören Sie auf, ich kann nicht!"->Strike Refuse]]]
+(if: $debt is > 0)[[["(print: $Strike)!"->Strike Counter]]]
+(if: $debt is <= 0)[[["Das ist... das ist alles, oder?"->Strike End]]]
+
+
+:: Strike Refuse
+Du zerrst an deinen Fesseln, unfähig, die Bestrafung zu ertragen.
+(set: $debt to it + 5)
+Hinter dir, den Arm bereit für einen weiteren Schlag, schüttelt die Hausangestellte den Kopf. "Ich habe Sie davor gewarnt. Sie haben keine andere Wahl und leisten Widerstand? Das bedeutet eine weitere Strafe, einen weiteren Hieb. Präsentieren Sie Ihren Hintern, und geben Sie mir eine neue Zählung."
+
+Du keuchst, aber du tust es.
+
+[["Es... Es tut mir leid! "(print: $Strike)!"->Strike Counter]]
+
+
+:: Strike End
+Selbst nach der Zählung verkrampft sich dein Körper beim Geräusch der Sklavin hinter dir, die nach vorne tritt. Statt eines weiteren scharfen Schlags gegen dein Hinterteil ist es jedoch ihre Hand, die sanft dein gequältes Hinterteil hinunterfährt. Laminat auf Laminat, ihre Berührung gleitet dahin, ein Schiff, das auf glatten Gewässern segelt.
+
+"Ja", murmelt sie schließlich. "Wir sind fertig."
+
+Nach oben greifend, löst sie deinen Armbinder-Ring von der Kette an der Decke, so dass du dich wieder aufrichten kannst.  Selbst die kleinste Bewegung bringt ein Echo der Bestrafung zurück in Richtung deiner Nervenenden.  Noch schlimmer ist es, als du ihr zurück zur Rezeption folgst, an der sie Platz nimmt.
+
+Vielleicht hast du deine Lektion gelernt?
+
+"Das Video, das wir von Ihrer Korrekturmaßnahme aufgenommen haben, wird für das Hotel sehr wertvoll sein, und wir hoffen, dass Sie sich daran als Lektion für die Zukunft erinnern.  Wollen wir jetzt über Ihre Abreise sprechen?"  Das Mädchen schaut zu dir auf, die Reitgerte ruht an der Seite.
+
+[["J-Ja."->Transport II]]

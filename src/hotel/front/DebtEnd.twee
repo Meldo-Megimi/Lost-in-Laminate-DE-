@@ -1,82 +1,80 @@
 :: Debt End
-"Right..." the servant muses, collecting herself.  She takes several moments to type into her computer, clearly cross-checking with the debt relief list you had just explored with her.  A minute's silence follows, (if: $Blue is true)[your gloved hands collecting before you, just below the bondage belt at your waist.] (if: $Smoke is true)[your gloved hands collecting before you, just below the bondage belt at your waist.] (if: $Brand is true)[and your quite happy to have the desk upon which to lean for support.] (if: $Sec is true)[and you use the time to adjust your peplum skirt, the laminate so soft and smooth in your bare hands.] (if: $Slave is true)[and you spend it trying to ignore your own hand, and its lingering desire to return to the space between your legs.  Even the smallest movement shifted those damned inserts.]
+"Richtig...", sinniert die Hausangestellte und sammelt sich. Sie nimmt sich einige Augenblicke Zeit, um in ihren Computer zu tippen, wobei sie die Schuldenerlassliste, die Sie gerade mit dir durchgegangen ist, eindeutig gegenüberstellt. Es folgt eine Schweigeminute, (if: $Blue is true)[deine behandschuhten Hände sammeln sich vor dir, direkt unterhalb des Fesselgurtes an deiner Taille.] (if: $Smoke is true)[deine behandschuhten Hände sammeln sich vor dir, direkt unterhalb des Fesselgurtes an deiner Taille.] (if: $Brand is true)[und du bist ganz froh, dass du den Schreibtisch hast, auf den du dich zur Entlastung stützen kannst.] (if: $Sec is true)[und du nutzt die Zeit, um deinen Schößchenrock zurechtzurücken, das Laminat so weich und glatt in deinen bloßen Händen.] (if: $Slave is true)[und du verbringst sie damit, deine eigene Hand und ihren anhaltenden Wunsch, in den Raum zwischen deinen Beinen zurückzukehren, zu ignorieren. Selbst die kleinste Bewegung verschiebt diese verdammten Einführungen.]
 
-With a flourished finger pressing down on her computer's INPUT button, the girl looks back up to you.  "Alright!  The Wardrobe Device is loaded with the debt relief measures we discussed.  Simply head back and allow it to scan you again. (if: $Level is 4)[It will perform everything except your punishment, return here for that.].  Afterward I can set you up with transport for wherever you are heading next.  Got that?"
+Mit einem ausgestreckten Finger, der auf die EINGABE-Taste ihres Computers drückt, schaut das Mädchen wieder zu dir auf.  "In Ordnung!  Das Garderobengerät ist mit den von uns besprochenen Schuldenerlassmaßnahmen ausgestattet.  Gehen Sie einfach zurück und lassen Sie sich erneut scannen. (if: $Level is 4)[Es wird alles ausführen, außer Ihrer Bestrafung, kehren Sie dafür hierher zurück]. Danach kann ich Sie für einen Transport dorthin vorbereiten, wo Sie als Nächstes hingehen möchten.  Haben Sie das verstanden?"
 
-[["Understood."->Debt End II]]
-[["I can't believe I have to do this."->Debt End IIB]]
-
-
-:: Debt End II
-The hallway is much as you left it, the shades of purple, the carpeted floor below.  This time you know exactly where you're going, and it takes only a moment to find yourself before the clean door.  Its still unoccupied, allowing you to open the portal and step back inside.  Again the display screen greets you, another flash of light announcing it had taken an ocular scan.  There the experience changes, the myraid choices from before replaced by a much more straightforward option:
-
-*You are about to submit to the (if: $Level is 1)[Level One] (if: $Level is 2)[Level Two] (if: $Level is 3)[Level Three] (if: $Level is 4)[Level Four] Debt Forgiveness program, as outlined in your initial lease agreement and discussed with this Hotel's owner, or his designated slave(s).  All adjustments made to you during this submission must be maintained for a period of at least twelve hours.*
-
-**DO YOU COMPLY?**
-
-[[Yes.->Debt End III]]
+[["Verstanden."->Debt End II]]
+[["Ich kann nicht glauben, dass ich das tun muss."->Debt End IIB]]
 
 
 :: Debt End IIB
-As you march sullenly back towards the glass door that led to the hotel's rooms, and the Wardrobe Device at the far back, the servant shakes her head.
+Als du verdrossen zu der Glastür zurückmarschierst, die zu den Zimmern des Hotels führt, und zu dem Garderobengerät ganz hinten, schüttelt die Hausangestellte den Kopf.
 
-"Believe me, ma'am-- this is much better then getting a Truant Officer involved."
+"Glauben Sie mir, Ma'am-- das ist viel besser, als eine Justizvollzugsbeamtin hinzuzuziehen."
 
-[["Sure it is..."->Debt End II]]
+[["Sicher ist es das..."->Debt End II]]
+
+
+:: Debt End II
+Der Flur ist noch so, wie du ihn verlassen hast, die Violetttöne, der Teppichboden darunter.  Dieses Mal weißt du genau, wohin du gehen musst, und es dauert nur einen Moment, bis du dich vor der glatten Tür wiederfindest.  Es ist noch unbesetzt, so dass du die Tür öffnen und wieder hineingehen kannst.  Wieder begrüßt dich der Bildschirm, ein weiterer Lichtblitz verkündet, dass ein Augenscan durchgeführt wurde.  Da ändert sich die Erfahrung, die bisherigen Auswahlmöglichkeiten werden durch eine viel einfachere Option ersetzt:
+
+*Sie sind im Begriff, sich der (if: $Level is 1)[Stufe Eins] (if: $Level is 2)[Stufe Zwei] (if: $Level is 3)[Stufe Drei] (if: $Level is 4)[Stufe Vier] des Schuldenerlassprogramms, wie in Ihrem ursprünglichen Vertrag dargelegt und mit dem Eigentümer dieses Hotels oder designierten Sklaven besprochen, zu unterwerfen. Alle Anpassungen, die während dieser Sitzung an Ihnen vorgenommen werden, müssen für einen Zeitraum von mindestens zwölf Stunden aufrechterhalten werden.*
+
+**SIND SIE EINVERSTANDEN?**
+
+[[Ja.->Debt End III]]
 
 
 :: Debt End III
-The various arms of the Wardrobe emerge en masse, repeating the procedure you have already undergone once.  Wrists, ankles, and throat are seized, although the presence of your clothing does make it a somewhat gentler experience this time around.
+Die verschiedenen Arme der Garderobe erscheinen massenhaft und wiederholen die Prozedur, die du bereits einmal durchlaufen hast.  Handgelenke, Knöchel und Hals werden ergriffen, obwohl die Anwesenheit deiner Kleidung es diesmal zu einer etwas sanfteren Erfahrung macht.
 
-Moving downward in a wave, the Wardrobe begins working on your promised hobble chain.  Instead of working solely in direct steel, it instead uses only a few strategically placed filiments to reinforce the hard-sealed laminate it uses otherwise.  (if: $Blue is true)[The presence of your ankle cuffs are integrated into the design, the metal loops there being used to anchor the chain itself that is finished with a chromed, silvery finish.] (if: $Smoke is true)[Lacking ankle cuffs, fresh ones are first printed for you, the black laminate matching those you already wore at your thighs. The chain between them is finished with a chromed, silvery look sure to catch the light as readily as your see-through catsuit.] (if: $Brand is true)[Lacking ankle cuffs, fresh ones are first printed for you, the red laminate used matching the design of the logos elsewhere on your body. The chain between them is finished with a white coloration, again coordinating with your adverts.] (if: $Sec is true)[Lacking ankle cuffs, fresh ones are first printed for you, the red laminate worked with slightly flared metal designs for the metal components, coordinating with the rest of your professional attire. The chain between them is finished with a chromed, silvery look sure to catch the light.] (if: $Slave is true)[Lacking ankle cuffs, fresh ones are first printed for you, in thick black laminate with heavy steel components to which the chain connects.  Undoubtedly following slave-ratings, the chain itself is quite heavy, and rendered fully in black.] 
+In einer Wellenbewegung abwärts fahrend, beginnt die Garderobe mit der Arbeit an deiner versprochenen Fußfessel.  Anstatt nur mit reinem Stahl zu arbeiten, verwendet es nur einige wenige, strategisch platzierte Elemente zur Verstärkung des hart versiegelten Laminats, das es sonst verwendet. (if: $Blue is true)[Das Vorhandensein deiner Fußfesseln ist in das Design integriert, die dortigen Metallschlaufen dienen zur Verankerung der Kette selbst, die mit einer verchromten, silberfarbenen Oberfläche versehen ist.] (if: $Smoke is true)[Da es keine Fußfesseln gibt, werden zunächst neue für dich gedruckt, wobei das schwarze Laminat zu denen passt, die du bereits an deinen Oberschenkeln trägst. Die Kette dazwischen ist mit einem verchromten, silberfarbenen Look versehen, der das Licht genauso gut einfängt wie dein durchsichtiger Catsuit.] (if: $Brand is true)[Da es keine Fußfesseln gibt, werden zunächst neue für dich gedruckt, wobei das rote Laminat passend zum Design des Logos an anderen Stellen am Körper verwendet wird. Die Kette dazwischen wird weiß eingefärbt, wiederum in Abstimmung mit deinen Anzeigen.] (if: $Sec is true)[Da es keine Fußfesseln gibt, werden zunächst neue für dich gedruckt, das rote Laminat wird mit leicht ausgestellten Metalldesigns für die Metallkomponenten bearbeitet, abgestimmt auf den Rest deiner professionellen Kleidung. Die Kette dazwischen ist mit einem verchromten, silberfarbenen Look versehen, der das Licht fängt.] (if: $Slave is true)[Da es keine Fußfesseln gibt, werden zunächst neue für dich gedruckt, in dickem schwarzem Laminat mit schweren Stahlteilen, mit denen die Kette verbunden wird.  Ohne Zweifel folgt die Kette den Sklaven-Bewertungen, sie ist ziemlich schwer und ganz in Schwarz gehalten.] 
 
 <img src="img/yh2Q6BK.png">
 
-(if: $Level is <= 1)[[[Well that was... painless.->Debt Final]]]
-(if: $Level is > 1)[[[Level Two begins...->Debt End IV]]]
+(if: $Level is <= 1)[[[Nun, das war... schmerzlos.->Debt Final]]]
+(if: $Level is > 1)[[[Stufe zwei beginnt...->Debt End IV]]]
 
 
 :: Debt End IV
-No opportunity for rest is given as the Wardrobe whirls, arms cycling upward as those gripped to your wrists suddenly jerk your arms back.  It isn't a gentle experience.  Given the larger print job, three of the device's appendages begin circling your arms, coating them in the laminate that is quickly flash-set into a tight layer.  Reinforcements are built into the area around your hands to prevent an escape, and so that a large ring can be emplaced-- which, once cooled an armature seizes, demonstrating just how easily you can now be controlled that way.  The final component is the portion that circles around your shoulders and upper chest, anchoring the binder and preventing it from being slipped off easily.
+Es gibt keine Gelegenheit, sich auszuruhen, während die Garderobe herumwirbelt und die Arme nach oben fahren, während diejenigen, die dich an den Handgelenken halten, plötzlich nach hinten ziehen. Das ist keine angenehme Erfahrung.  Angesichts des größeren Druckauftrags beginnen drei der Arme des Geräts um deine Arme zu kreisen und mit Laminat zu überziehen, das blitzschnell zu einer festen Schicht verdichtet wird. In den Bereich um deine Hände herum werden Verstärkungen eingebaut, um ein Ausbrechen zu verhindern und damit ein großer Ring platziert werden kann, der sich, sobald er abgekühlt ist, an einer Armatur befestigt wird, was zeigt, wie leicht du jetzt auf diese Weise kontrolliert werden kannst. Die letzte Komponente ist der Teil, der um deine Schultern und deinen oberen Brustkorb verläuft und den Binder verankert und verhindert, dass er leicht herunterrutscht.
 
-Already your shoulders whine with hints of pain, the position unpracticed.
+Deine Schultern wimmern bereits vor Schmerz, durch die ungewohnte Position.
 
 <img src="img/gh59YMk.png" width="30%" height="30%">
 
-(if: $Level is <= 2)[[[And I have to wear this for hours...->Debt Final]]]
-(if: $Level is > 2)[[[LEVEL THREE->Debt End V]]]
+(if: $Level is <= 2)[[[Und das muss ich stundenlang tragen...->Debt Final]]]
+(if: $Level is > 2)[[[STUFE DREI->Debt End V]]]
 
 
 :: Debt End V
-You're hobbled and bound, yet still the Wardrobe moves.  Perhaps you had not intended to rack up a debt as high as it had gotten.  How could you truly have known?  But Torei does not ask for apologies.  It demanded correction, this time of a more pemanent nature then mere bindings-- just as promised.
+Du hast eine Fußfessel und bist gefesselt, und trotzdem bewegt sich die Garderobe noch. Vielleicht hattest du nicht die Absicht, so hohe Schulden zu machen, wie sie entstanden sind. Wie hättest du das auch ahnen können? Aber Torei fragt nicht nach einer Entschuldigung. Es fordert eine Korrektur, diesmal von dauerhafterer Art als bloße Fesseln-- genau wie versprochen.
 
-The device holding onto your armbinder's ring pulls suddenly downward just as your legs are yanked forward.  You're suspended in the air now, back arched, breasts pressing against the laminate cups of your oufit as they're thrust out.  (if: $lave is true or $Brand is true)[Your corset makes the position painful in the extreme.]
+Das Gerät, das dich am Ring deines Armbinders festhält, zieht plötzlich nach unten, gerade als deine Beine nach vorne gezogen werden.  Du schwebst jetzt in der Luft, den Rücken gebeugt, die Brüste pressen gegen die Laminatschalen deines Kostüms, während sie nach außen gedrückt werden. (if: $lave is true or $Brand is true)[Dein Korsett macht die Position extrem schmerzhaft.]
 
-It's then that a new armature appears, this one new, at least to your eyes.  Instead of a gripping limb, or a painter-like nozzle, this has something much more sinister: a lancing needle.  Long, silvery... and move mechanically down, towards your breasts.  The protection offered by your outfit is momentarily vacated, solvants being applied that melt the material readily in a steam that fans suck away greedily.  With unnerving precision, the needle is positioned.  There is no fanfare, no warning-- it merely shifts suddenly, one moment waiting beside your nipple, the next pierced straight through it.  
+Dann erscheint ein neues Instrument, neu, zumindest in deinen Augen. Anstelle eines Greifarms oder einer maler-ähnlichen Düse hat dieses etwas viel Unheimlicheres: eine Stechkanüle. Lang, silbrig... und bewegt sich mechanisch nach unten, auf deine Brüste zu. Der Schutz, den dein Kostüm bietet, wird für einen Moment aufgehoben, indem Lösemittel aufgetragen wird, die das Material schnell in Rauch auflöst, den die Ventilatoren gierig absaugen. Mit nervtötender Präzision wird die Nadel positioniert. Es gibt keine Fanfare, keine Warnung-- sie bewegt sich nur plötzlich, wartet einen Moment neben deiner Brustwarze und sticht im nächsten Moment direkt durch sie hindurch.  
 
-[[You scream.->Debt End VI]]
+[[Du schreist.->Debt End VI]]
 
 
 :: Debt End VI
-The Wardrobe device doesn't much care for your reaction.  It does provide a quite fast acting healing agent, undoubtedly a Torean marvel of bioengineering that would have fascinated the Prospector that is your job title, but that seems less a kindness and more simple utilitarianism.  Once healed, a silvery barbell is inserted, your violation now marked by the small silver balls now framing the highlight of your chest.
+Das Garderobengerät interessiert sich nicht besonders für deine Reaktion. Es bietet ein recht schnell wirkendes Heilmittel, zweifellos ein toreanisches Wunderwerk der Biotechnik, das dich als Prospektor fasziniert hätte, aber das scheint weniger eine Freundlichkeit und mehr simples Zweckdenken zu sein. Sobald die Wunde geheilt ist, wird eine silberne Langhantel eingeführt, deine Vergehen werden nun durch die kleinen silbernen Kugeln markiert, die jetzt den Rand deiner Brust umrahmen.
 
-You hang limply as the procedure is repeated on your other nipple.  Afterward the nozzles return, reapplying the laminate of your suit.  Its as if they had never torn it apart, but the foreign sensations emanating from your chest are a constant reminder...
+Du hängst bei der Wiederholung des Eingriffs an deiner anderen Brustwarze schlapp in der Luft.  Danach kehren die Sprühdüsen zurück und tragen wieder das Laminat deines Kostüms auf.  Es ist, als hätten sie es nie geöffnet, aber die fremden Empfindungen, die von deiner Brust ausgehen, erinnern dich ständig daran...
 
 <img src="img/5744pPZ.png" width="30%" height="30%">
 
-[[How could they...->Debt Final]]
-[[It almost... feels good.->Debt Final]]
+[[Wie konnten sie...->Debt Final]]
+[[Das fühlt sich fast... gut an.->Debt Final]]
 
 
 :: Debt Final
 <img src="img/9MFJwF5.png" width="30%" height="30%">
 
-You emerge from the Wardrobe Device for a second time, once again transformed...
+Du kommst ein zweites Mal aus dem Garderobengerät heraus, erneut verwandelt...
 
-...and this time, not alone.  Another guest of the hotel had apparently just exited her room, a woman perhaps near your age (although Torei's medical technologies made it so difficult to tell.)  Her outfit is immaculate, all black laminate with poofed shoulders and tall thigh-high stilletos.  She wears the material, including  smartly fastened corset, with an ease you cannot imagine.  
+...und bist diesmal nicht allein. Ein anderer Gast des Hotels hat offenbar gerade ihr Zimmer verlassen, eine Frau, die vermutlich in deinem Alter ist (obwohl das aufgrund von Toreis medizinischer Technologie sehr schwer zu erkennen ist). Ihr Kostüm ist makellos, ganz aus schwarzem Laminat mit gepolsterten Schultern und hohen, schenkelhohen Stilletos. Sie trägt das Material, einschließlich des elegant befestigten Korsetts, mit einer Leichtigkeit, die du dir nicht vorstellen kannst.  
 
-Reflective, mirror-like glasses hide her gaze, but you cannot help but imagine her staring.  Ruby red lips curl into a smile as she pauses, closing her room's door but otherwise lingering.  After a long moment she gestures for you to pass, the gloved movement as smooth and cool as her half-veiled expression.
+Eine Reflektierende, spiegelnde Brille verbirgt ihren Blick, aber du kannst nicht anders, als dir vorzustellen, wie sie starrt. Rubinrote Lippen wölben sich zu einem Lächeln, während sie innehält und die Tür ihres Zimmers schließt, aber ansonsten verweilt. Nach einem langen Moment zeigt sie dir, dass du vorbeigehen sollst, wobei die Bewegung mit dem Handschuh so sanft und kühl ist wie ihr halb verschleierter Ausdruck.
 
-[[Just pass her... calmly->Hallway Pass]]
-
-
+[[Geh einfach an ihr vorbei... ruhig.->Hallway Pass]]

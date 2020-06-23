@@ -1,0 +1,37 @@
+:: Transport
+"Das Einzige, was wir jetzt noch zu besprechen haben, ist also Ihre Abreise", stellt sie fest. Das Geräusch von Schuhen mit Absätzen auf dem gefliesten Boden lenkt deine Aufmerksamkeit jedoch wieder auf den Flur, wo die Frau, die du vorhin flüchtig gesehen hast, auftaucht. Eine Hand ergreift die kleine Handtasche, die über ihre Schulter geschlungen ist, während die andere unter ihrer Brust kreuzt und eine nachdenkliche Haltung einnimmt, während sie beherzt durch das Foyer und durch die Vordertür hinausgeht.
+
+Die Hausangestellte hat ebenfalls eine Pause eingelegt, um zuzusehen, aber ihre Aufmerksamkeit kehrt zu dir zurück, kaum dass die Vordertür wieder geschlossen ist. "Wir sprachen über... Ihre Abreise, richtig?"
+
+[["Ja."->Transport II]]
+
+
+:: Transport II
+"Na dann", lächelt sie.  " Haben Sie schon ein Ziel im Kopf?"
+
+Trotz allem, was du seit dem Verlassen deines Zimmers durchgemacht hast, steht das Geheimnis deines Erwachens immer noch aus. Wurde dein Gedächtnis gewaltsam ausgelöscht oder hast du dich selbst einer solchen Prozedur unterzogen? Was könnte dich dazu bewegen, so etwas zu tun?
+
+Deine Beweise sind so dürftig wie die Mittel, die dir zur Verfügung stehen: drei dürftige Karten. Die Fahrstuhlkarte für den Weg nach oben läuft morgen Abend ab, aber sie verspricht dir eine klare Chance, dich für immer von Torei zu befreien-- eine Flucht vor der Demütigung, den Fesseln, dem Laminat, in das du so bereitwillig hineingeraten bist.
+
+Aber das würde bedeuten, das Rätsel aufzugeben, das die schwarze Karte und ihr Versprechen eines möglichen Deals, dein ursprünglicher Grund, überhaupt auf den Planeten zu kommen, war. Der Reichtum, der sich aus einer erfolgreichen Forschungsreise auf diesen Planeten ergeben würde, bliebe unerschlossen.
+
+Du könntest versuchen, beides zu erreichen, das Rendezvous der schwarzen Karte ist für heute Abend geplant, so dass du vielleicht einen Tag Zeit hast, um zum Aufzug zu gelangen. Aber deine dritte und letzte Karte, diejenige, die gleichzeitig als Ausweis dient, erinnert dich mit den fettgedruckten roten Buchstaben, die quer über die Oberseite gestempelt sind, daran... hier bist du zuerst ein Freischoss, und es lauern so viele Gefahren in den Straßen von Torei.
+
+[["Ich habe einen Platz im Weltraumlift, der auf mich wartet, dorthin fahre ich."->Transport III]]
+[["356 Cross Street, Grand Aekora. Ich habe hier noch Geschäfte zu erledigen."->Transport III]]
+[["Ich bin auf dem Weg zum Weltraumlift, aber auf dem Weg dorthin gibt es eine Zwischenstation. 356 Cross Street."->Transport III]]
+
+
+:: Transport III [Debt]
+(set: $debt to 0)
+Die Hausangestellte nickt, ihre Laminatkleidung glänzt, während sich ihre gefesselten Hände auf ihrem Schreibtisch treffen. "Nun, in diesem Fall müssen Sie sich in die Innenstadt von Grand Aekora begeben. Wir befinden uns jetzt am Stadtrand, aber wenn Sie einmal in der Innenstadt sind, können Sie *überall* hinkommen. Es ist ein ziemlicher Fußmarsch, besonders mit Fußfesselketten, (if: $Level is > 1)[mit einem Armbinder,](if: $Blue is true)[in diesen schwarzen Absätzen] (if: $Smoke is true)[in diesen schwarzen Absätzen] (if: $Brand is true)[in diesen Ballettabsätzen] (if: $Sec is true)[in diesen niedlichen Pumps, die Sie tragen.] (if: $Slave is true)[in Standard-Sklavenbekleidung]."
+
+Sie hat an deinem Kassenbeleg gearbeitet, den sie fragt, ob du ihn ausgedruckt haben möchtest. Du lehnst ab, während sie weitermacht. "Zum Glück ist nur die Straße runter ein Verkehrsknotenpunkt! Das Leinen-System ist in ein paar Stunden kostenlos, aber ich bin sicher, dass Sie das gern meiden möchten."
+
+Sie nennt keinen Grund, warum du das tun würdest, sondern umkreist die Rezeption, um dich zur Vordertür zu bringen.
+
+"Es gibt auch Kutschen, und natürlich die Zugstrecke. Diese nehmen Credits..." Sie schaut zu deinen Fesseln und zwinkert. "Aber lassen Sie uns nicht wieder damit anfangen. Sie sind ein einfallsreiches Mädchen, ich bin sicher, Sie schaffen das!"
+
+Die Tür zur Welt außerhalb, ein solider Lichtblock, ein Portal, das du jetzt passieren musst. Deine Begleiterin macht einen kunstvollen Knicks, während du vorbeigehst. "Danke, dass Sie im Hotel Diarch's Wahl übernachtet haben! Ich hoffe, es hat Ihnen gefallen... Mir auf jeden Fall."
+
+[[Tritt hinaus auf die Straßen von Torean.->PART TWO]]

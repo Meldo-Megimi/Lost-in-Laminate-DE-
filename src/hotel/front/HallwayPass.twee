@@ -1,0 +1,22 @@
+:: Hallway Pass
+Du versuchst, so selbstbewusst zu agieren, wie die Frau aussieht, der Effekt ist so ähnlich wie der eines Models auf einem Laufsteg, auch wenn es nur für eine Gruppe von einer Person ist.
+
+Deine Fußfesselkette macht beim ersten Schritt lautstark einen Knall, als sie sich straff zieht, der eingeschränkte Gang ist unnatürlich. Mehr als ein schlurfen kannst du nicht schaffen, doch es ist kaum würdevoll. (if: $Level is 2 or 3 or 4)[Zum ersten Mal realisiert du, wie hilflos der Armbinder dich macht, (if: $Blue or $Slave is true)[die Vorrichtung, die sich mit deinem Korsett verschworen hat, um deine Brust und deinen Hintern auszustrecken.](else:)[der Einfluss der Vorrichtung auf deine Arme, die deine Brust und deinen Hintern herausdrücken.] Sollte die Frau dich mit ihren mitternächtlich gekleideten Händen packen, ist es klar, dass du wenig Widerstand leisten könntest.] Doch sie bewegt sich nicht, sondern beobachtet nur, wie du vorbeigehst. (if: $Level is 3 or 4)[An der nähesten Stelle zwischen euch kippt sie jedoch ihre Brille nach unten und enthüllt strahlend graue Augen, die sich mit einem belustigten Lächeln auf deine Brustwarzenpiercings konzentrieren, die durch das dichte Laminat sichtbar sind.] (if: $Slave is true)[Ihr Interesse richtet sich auf dein Halsband, wobei sie vielleicht die sklavenbezogenen Maße deines Anzugs und deiner Fesseln zur Kenntnis nimmt. Auf dem breiten Haltungskragen ist kein Besitzer vermerkt, das konnte sie sicher sehen.]
+
+Sobald du vorbei bist, versuchst du, sie aus deinen Gedanken zu verdrängen und konzentrierst dich wieder auf den Durchgang vom Flur zum Empfang. Dort wartet die Hausangestellte erwartungsvoll.  
+
+"Herrlich!"
+
+(if: $Level is 1 or 2)[[["Wenn Sie das sagen."->Transport]]]
+(if: $Level is 3 or 4)[[[Sie haben mir nichts von den Piercings gesagt!->Trans Pierce]]]
+
+
+:: Trans Pierce
+"Ein Teil der Lektion", betont das Mädchen, immer noch hinter ihrem Schreibtisch. "ist die Überraschung! Glauben Sie mir, die sind wirklich nicht *so* schlimm."
+
+Auf ihrem eigenen Oberteil, dem violetten, durchsichtigen Laminat, sind die Stahlverzierungen an ihren Brustwarzen recht deutlich zu erkennen. Sie ist gewiss eine Expertin auf diesem Gebiet, aber ihre Begeisterung für... die toreanische Kultur übersteigt deine eigene vielleicht bei weitem.
+
+(if: $Level is 3)[[["Ich würde einfach nur gerne hier rauskommen."->Transport]]]
+(if: $Level is 4)[Die Hausangestellte kommt hinter ihrem Schreibtisch hervor, ein langes stabförmiges Instrument aus schwerem Laminat in ihren Händen.  "Da ist noch die Sache mit Ihrer Bestrafung, Ma'am."
+
+[[Oh nein.->Crop]]]
