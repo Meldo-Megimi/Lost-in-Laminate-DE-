@@ -108,17 +108,6 @@ Lost in Laminate
   }
 
 
-:: Offworlder Greet
-You continue your approach towards the man, seemingly alone in his masculinity and offworld textiles-- adrift in a sea of laminate clad women.  As you get closer you can see that most are pointedly avoiding him, his attempts to address anyone passing by being most often flately rejected.  
-
-"The Society does *good work*, you can donate, or we can help," you overhear, breaking through the crowd just as a woman in pristine white laminate makes a display of crumpling one of his brochures and tossing it over her shoulder.
-(set: $OffworlderCheck to true)
-To his credit, the man takes it in stride.  He's tall, well built, trending towards the rugged look you remember popular in the more swashbuckling vid series.  With the arms of his shirt rolled up you can see he's well muscled, giving a sense of physicality that is not matched by the disinterest of nearly everyone around him.
-
-[["Excuse me," you address him.  "Sir?"->Offworlder Greet 2]]
-(if: $PlayE is true)[[You remember Isabella's training.  He's male, in a public place, and you're a stranger about to negotiate from a position of weakness.  Greet him in the Torean fashion, with a reverence.->Offworlder Greet 2B]]
-
-
 :: Nun Greet
 <img src="img/u7Wnr7F.png">
 
@@ -1211,24 +1200,6 @@ You have: (print: $debt) Credits.
 [[For now you exit the garden, looking elsewhere for help.->TransitChecktoHub]]
 
 
-:: Offworlder Hub
-<img src="img/lXSBXLs.png">
-
-Michael breaks from his hawking of pamphlets, standing tall as he spots you on approach towards his corner.
-
-You have (print: $debt) credits.
-
-(if: $TruantQuest is true and $TruantEnd is false)[[["I've seen some posters about a runaway, Amadori.  Could I ask you some questions about that?"->OffTruantQ]]]
-(if: $Level is 3 or 4)[[["Can we talk about... my nipple piercings?"->OffNip]]](if: $Level is 2)[[["Can we talk about getting this damned armbinder off?"->OffArm]]](if: $Level is 1)[[["I've only got this hobble chain... could you remove that?"->OffHobble]]]
-(if: $debtSec is false)[[["How about that interview for 25 credits?"->OffInterview]]]
-(if: $debtSlave is false)[[["You're really offering 100 credits for a few pictures?  What's the catch?"->OffPhoto]]]
-(if: $Donate is false)[[["Donation collection?  I could do that."->OffDonate]]](if: $Donate is true and $DonateTrans is false)[[["I think I'm all done with collecting those donations, Michael."->OffDonateFail]]](if: $Donate is true and $DonateTrans is true and $DonateEnd is false)[[["Hey, I think I'm all ready to turn in those donations I've been collecting."->OffDonateEnd]]]
-(if: $Slave is true)[[["With everything you offer... can do you anything about this suit I'm wearing?"->OffRemoveSuit]]]
-[["Can I ask a question?  You're not at all... distracted, by the way we all dress here?"->OffAsk]]
-[["Any way you could get me a train pass?"->OffAskPass]]
-[[For now you step away, looking elsewhere for help.->TransitChecktoHub]]
-
-
 :: Get Slave 4B
 Given the intended production of a full scale regulation mask, the promised makeup is applied next.  Mechanical arms seize your head, holding it tight as nozzles approach your face.  A quick blast of air instinctively causes your eyes to close, and in that brief moment the Wardrobe does its work.  Your eyelids have been darkened and your eyelashes extended, producing an alluring effect.  And your lips are now a bright red coloration, an interesting detail given what comes next.
 
@@ -1285,67 +1256,6 @@ It's a heady combination, and soon you realize your time spent with your thought
 [[The streets are tight, the buildings high.  It's so easy to get turned around.->Street Hub]]
 
 
-:: Offworlder Greet 2
-Your greeting catches his attention immediately, perhaps the first attempt by someone *else* to initiate a conversation in some time.  Turning to you, his eyes cast quickly over your laminate body-- appraising your intentions, but for once not lewdly staring.
-
-"Good day!" He replies, beckoning you to come closer.  You can see a backpack resting against the wall nearby.  "Offworlder, right?  Please do not be alarmed, I am very much *not* Torean.  I'm not sure how long you've been on this planet, ma'am, or what you've been subjected to... but I can assure you, I am one of the few men on this planet who will not take advantage of your situation.  The Liberty Society is here to help."
-
-[["Liberty Society?"->Offworlder Greet 3]]
-
-
-:: Offworlder Greet 2B
-Breaking into the clear between the man and those passing by, you give him a proper Torean greeting.  (if: $Sec is true)[(if: $Level is 1)[Eyes down, you grab the bottom of your skirt, pulling it up.  Your slit is briefly exposed as you bend your knees, performing something akin to a curtsy as his eyes widen.  Holding the pose for a long moment, you smooth your skirt back down afterwards.]](if: $Brand is true or $Smoke is true or $Blue is true)[(if: $Level is 1)[Eyes down, you grab hold of your zipper, performing a smooth bow as you expose your slit to him briefly.]](if: $Slave is true)[(if: $Level is 1)[Eyes down, you kneel before him, folding your arms behind your back in due deferance.]](if: $Slave is true or $Brand is true or $Smoke is true or $Blue is true or $Sec is true)[(if: $Level is > 1)[Eyes down, you kneel before him, spreading your legs and pushing your hips forward, unable to do much else given your armbinder.]]
-
-"A reverence..." he seems to bite down on a comment, instead waving for you to abandon the posture.  "Please, please-- that is not necessary.  Unwanted, even.  Offworlder, right?  Please do not think you need to practice such abhorent customs in my presence, I am very much *not* Torean.  I'm not sure how long you've been on this planet, ma'am, or what you've been subjected to... but I can assure you, I am one of the few men on this planet who will not take advantage of your situation.  The Liberty Society is here to help.
-
-[["Liberty Society?"->Offworlder Greet 3]]
-
-
-:: Offworlder Greet 3
-It's hard to ignore how naturally tall he is, despite your heels helping the situation somewhat. (if: $Level is 1)[With your hobble chain, you couldn't escape him if you wanted.](if: $Level is > 1)[In your armbinder and hobble chain, he's just naturally masculine enough to do anything he wished with you.](if: $Sec is true)[And standing next to him, you feel for the first time just how feminine your laminate skirt and blouse are.]
-
-Michael doesn't seem to notice your staring, but nods enthusiastically.  "The Liberty Society, yes!  We are a coalition of individuals, interest groups, and corporate donors who all share a deep concern for the women of Torei-- both those born to the planet, and Offworlders like yourself!  You're a prime example of our cause, in fact!"
-
-[["I'm an example?"->Offworlder Greet 4]]
-
-
-:: Offworlder Greet 4
-"Very much so!"  Michael asserts.  You're getting the sense that he is just naturally this energetic.  "You're an offworlder, as I said, right?  I can tell... at least, for awhile.  After a few years, after you've been forced through the Ministry of Improvements, after so many lessons and punishments and tribulations... you will change.  Become Torean in thought.  You're already Torean in dress.  What is your situation?"
-
-You tell him-- a *bit*.  Yes, you're an offworlder here on business.  No, you haven't been on the planet for long.  And... yes, you did not exactly have a choice in everything you're wearing.
-
-"I hope I will not offend you ma'am," he continues, "but do you understand how your situation looks, to us in the Society?  You're young, vibrant, a sharp eyed prospector on the fringes of know space.  An adventurer... who has become a victim of your own gender, captured by this planet and its culture."
-
-He sweeps an arm down, indicating you in one bold movement.  "(if: $Blue is true)[Forced to give up your modesty, your body sealed into tight blue laminate.  Made into a creature of fetish and desire, being ruled by sex.  You're exposed-- and so nearly defenseless, ma'am.  A proud woman like you, consigned to wear a collar like some sort of pet?  A belt, cuffs so that you can be restrained?] (if: $Smoke is true)[Forced to give up your modesty, your body sealed into tight laminate through which anyone can see so readily!  You've been made into a creature of fetish and desire, being ruled by sex.  You're exposed-- and so nearly defenseless, ma'am.  A proud woman like you, consigned to wear a body harness, cuffs on your thighs like some sort of pet, ready to be restrained?] (if: $Brand is true)[Forced to give up your modesty, your body sealed into tight laminate that *advertises* your submission so blatantly!  Whatever you were before, you have been transformed into a creature of fetish and desire, ruled entirey by sex.  You're exposed-- and so nearly defenseless, ma'am.  A proud woman like you, consigned to remain on your toes for hours at a time?  To be corseted?  To have the name of slavers, this world's rich, branded upon your body?] (if: $Sec is true)[Forced to give up your modesty, your body sealed into tight laminate, a mockery of proper professional attire.  You're not ready for the workplace, no, you've been made into a creature of fetish and desire, ruled entirely by sex.  You're exposed-- and so nearly defenseless, ma'am.  Look at your skirt, the way you're perched on such shoes!  The expectation, and everyone knows it, is that you spend at least part of your days on your knees... are you proud of that?] (if: $Slave is true)[Forced to give up your modesty, your body sealed in tight laminate.  And that's not any oridinary outfit, ma'am.  I'm sure you *know* what it means to wear that particular standardized set.  Being treated as property, more then a proud woman?  To have something as simple as breathing regulated, forced into corsetry, and of course those inserts... I understand it's a terrible experience.]"  And of course, you're hobbled.  "(if: $Level is > 1)[Forced to wear an armbinder as well, unable to resist anything that is done to you, arms most certainly aching.](if: $Level is > 2)[ I see you've even had your nipples pierced... a small, but profound 'improvement', by Torean standards.]"
-
-He shakes his head.  "But... there must be something the Society can do for you?"
-
-[["There is, actually..."->Offworlder Greet 5]]
-
-
-:: Offworlder Greet 5
-You explain more of your situation, at least regarding your battered memory and desire to get into Grand Aekora proper.  A desire that would greatly helped by a financial contribution.  The male seems empathetic, but his smile turns a bit strained.
-
-"Getting downtown is a good idea, a high speed rail line can take you from there to the Way Up in a matter of moments.  Then you can ascend, and leave behind this planet."
-
-Michael shifts on his feet.  "But... the Liberty Society is primarily concerned with generating awareness.  We do not have the resources to provide assistance to *every* freewomb, or slave, who comes to us.  We triage cases, and some that we deal with are... nevermind."
-
-[["Then what can you do?"->Offworlder Greet 6]]
-[["That's not helpful at all."->Offworlder Greet 6]]
-
-
-:: Offworlder Greet 6
-"I can still help!" Michael asserts, raising both hands.  "While I cannot address the *exact* details of your situation, the Liberty Society does have several programs that could interest you."
-
-(if: $Level is 3 or 4)["Perhaps most immediately, we do provide financial assistance for the early removal of debt-related... adjustments, made to any woman.  Your nipple piercings, ma'am, would qualify.  Given their permanence, they would have to be our first concern.  Followed by your armbinder, and then that hobble chain.  Were it up to us this would be provided free of charge, our donations covering the early-release fees... but Torean law does not allow debt assumption of that sort.  You will need to pay for a *portion* of the cost yourself.  But it's very small!  50 credits for your, ah, chest-- 50 more to have your arms released, and a final 50 for the hobble chain!"](if: $Level is 2)["Perhaps most immediately, we do provide financial assistance for the early removal of debt-related... adjustments, made to any woman.  Your armbinder would qualify, at least.  That hobble chain too, but the armbinder would need to be first.   Were it up to us this would be provided free of charge, our donations covering the early-release fees... but Torean law does not allow debt assumption of that sort.  You will need to pay for a *portion* of the cost yourself.  But it's very small!  50 credits to have your arms released, and then another 50 for the hobble!"](if: $Level is 1)["Perhaps most immediately, we do provide financial assistance for the early removal of debt-related... adjustments, made to any woman.  Like your hobble chain.   Were it up to us this would be provided free of charge, our donations covering the early-release fees... but Torean law does not allow debt assumption of that sort.  You will need to pay for a *portion* of the cost yourself.  But it's very small!  Only 50 credits."]
-
-The man rests his hands on his hips.  "I could certainly provide financial assistance from my small personal stipend, if you were willing to help with some of our awareness campaigns-- there are three opportunities right there!  First, we're collecting interviews from freewombs such as yourself who are living on this planet.  I'd give you 25 credits for that.  Second, we're collecting pictures as well-- although given the nature of those I could pay quite a bit more... say 100 credits?  And there is one more, although it requires a bit of walking... and you are in those heels.  Are those comfortable?  Nevermind.  What it entails, anyway, is asking for donations from anyone of importance around here.  You would be given another 100 credits for that."
-
-He rubs his hands together.  "So-- what can I do for you?"
-
-[[Opportunities about!->Offworlder Hub]]
-
-
 :: OffNip
 For a moment, he looks to your chest, but quickly draws his gaze back up to meet your eyes.  "I'm deeply sorry you had to undergo the application of such things," Michael commiserates.  He sounds quite genuine.
 
@@ -1396,82 +1306,6 @@ He takes you by the shoulder, a raised hand directed over the nearest rooftop.  
 
 [["Sounds easy enough, I'm in."->OffDonateYes]]
 [["Actually... let me think about it.  Maybe later."->Offworlder Hub]]
-
-
-:: OffRemoveSuit
-He looks over your enclosure suit with more empathy then desire, despite the way it demonstrates your every curve-- for any curious onlooker.  "That suit you're wearing... it's a travesty, I must say that first.  Between inventive Masters and the Ministry of Improvements, *much* worse fates can be found here on Torei, but there is something to be said for the ubiquity and effectiveness of your particular uniform.  It's designed to remove your identity, to make you just another black masked *doll*.  To have you focus on your body, your breath, your... desire, and not much else."
-
-You have to agree with the effectiveness.  Were you given a bit of privacy, you're not sure if you could have resisted grinding your plugged cunt against the nearest solid thing.  Even then, in public like this, you find yourself constantly shifting your hips.  It's a lingering symptom Michael notices as well, but he only shakes his head slightly.
-
-"I can get you out of it early-- but there are... complications.  The first being cost.  The Society can pay for your early emancipation, but Aekoran law requires that you pay an attendant fine yourself-- it's *clearly* designed to make just this sort of thing more difficult.  200 Credits is not easy to scrape together, not for a slave suited woman.  But if you bring me that, I can take you to a wardrobe and get you changed in something... still laminate, but as professional as can be managed.  Skirt, blouse, heels... you're a woman on Torei, you best get used to heels."
-
-[["I don't have that many credits.  Perhaps we can explore this later.->Offworlder Hub]]
-(if: $debt is >= 200)[[["I've gotten my hands on the 200 credits.  I want out of this suit!"->RemoveSuit2]]]
-
-
-:: OffAsk
-"Of course I am," Michael replies, any hint of mirth you may have suspected not surfacing.  "I would have to be blind not to... I mean, look around you.  Look at yourself.  It is... very distracting."
-
-He looks out towards the other women walking past, a riot of colors and gloss.  "It would be so easy... you girls are all but *required* to give me whatever I desire.  The way it's expected that you perform reverence, the opportunities that come every night as your curfew starts... it's why the Society focuses on women exclusively.  Torei is not easy on you."
-
-The taller man sighs a bit, shaking off the malaise with a spirited display of focus.  "I manage by keeping myself seperate.  No laminate whatsoever, even if finding laundry for textiles is... difficult.  And I focus on our mission.  The Ministry of Truants is..."
-
-He smiles, looking away.  "Let's talk about something else."
-
-[["Sure..."->Offworlder Hub]]
-
-
-:: OffAskPass
-Michael works a hand along the collar of his jacket, adjusting it slightly.  "As I'm sure you're aware, such a pass is not required of me.  I arrived here by train, in fact.  We of the Society refuse to patronize the carriages, and our cause is so much more necessary here-- a bit further from the Way Up.  I'd love to try again in the Antipodes, but if you think the cause is difficult here-- imagine Ringdoms with archaic technology, where Offworlders are so rare they don't even think to *question* slavery..."
-
-Clearly its unthinkable to the man, and he brushes off any attempt to discuss the matter further.  Besides, he hadn't exactly answered your question.  "A pass, though.  I do have one, but it's reserved for someone else.  That's all I can say about it."
-
-[[He's quite intent on that last point.->Offworlder Hub]]
-
-
-:: RemoveSuit2 [Debt]
-"Really?"  He responds, somewhat incredulously.  "I mean... excellent!  That's great!  Please, follow me.  I'm sure you're eager to get out of that thing."
-(set: $Slave to false)(set: $Sec to true)(set: $debt to it - 200)(set: $TruantQuestPamph to true)
-
-You don't have to travel far-- Michael leads you down a nearby alley and through a door within.  You enter into what appears to be an office space of some sort, subdivided and rented out.  The Liberty Society's section is small, and currently deserted, but packed with supplies-- you get the clear impression Michael isn't its only member operating on Grand Aekora's outskirts.  Passing by several boxes of pamphlets much like the ones your escort had been handing out, you notice one of a different style, the name *Convent of Perception* written in stark letters along the top.
-
-Your attention turns towards the back of the domicile, however, where a familiar device awaits-- a wardrobe, this one appearing to be mobile.  Michael works the control panel as you step up, the door gliding open before you.  Within, a dozen different armatures await.
-
-[[Step forward.->Remove Suit 3]]
-
-
-:: Remove Suit 3
-You're seized as soon as you enter, the door snapping shut behind.  Much like the hotel's Wardrobe, this one has a drain in the bottom of the unit, its use revealed by the first stage of your re-dressing-- the removal.  Instead of peeling the laminate from your body, a simple solvant is applied by a spraying arm, and in mere moments the material is dripping off your body like so much wet paint.  
-
-Removing your plugs is a different matter-- that requires a pair of arms to seize them directly, but as you squirm in your restraints they're pulled free from your tortured cunt.  You take a deep breath, the first in some time, as you are no longer masked.  A brief, tantalizing taste of nudity follows... but not for long.  With a fresh whirl, the Wardrobe begins working on your new outfit as a ring descends from above.
-
-Thus your outfit is quiet literally printed on, first applying bright white but transitioning to an equally vibrant shade of red as it passes your waist and forms a stylish pencil skirt.  The ring descending bit by bit, rendering soft flesh into equally soft but so very *different* laminate.  Secondary arms follow it down, providing spot treatment along seams and friction points-- although often the effect is for merely aesthetic purposes.  Sometimes that takes the form of a second application of laminate, other times it lingers to produce something more substantial-- such as the small folded collar just beneath your chin, or the buttons that almost immediately strain to keep your bust constained by your bodice.
-
-You're given no time to rest as the base layer concludes, the ring rapidly ascending as other arms move into the space to begin work on your accessories.  The peplum skirt you saw pictured is thus formed, starting with the belt at your waist.  Small pre-forged rivets are sunk into the still molton laminate before it is sealed, as is the belt loop that is seated directly over your naval.  Still held in place, small arms flair the laminate that extends over your rear, achieving the look most of the galaxy would label as *slutty* but Torei saw as merely coquettish.
-
-The final componenent of your outfit comes with the sensation of your own feet rising, the sensation unequal and focused primarily at your heel.  Without the restraint arms you would have toppled over, but they hold you tight, tall heels being extruded into place.  More red laminate follows, coating your feet excepting the stylish hole at the very front.
-
-Almost as an afterthought, makeup is applied last.  Mechanical arms seize your head, holding it tight as nozzles approach your face.  A quick blast of air instinctively causes your eyes to close, and in that brief moment the Wardrobe does its work.  Your eyelids have been darkened, a crimson secondary coat added that flashed only when light slid across it.  Pores and blemishes have been rendered impotent as well, while your cheekbones have been highlighted.  And your lips are now a poignant, inviting red.
-
-(if: $Level is > 0)[The only remaining step is the reapplication of your bondage, the hobble chain at your ankles (if: $Level is > 1)[and armbinder behind you] being quickly build back up.]
-
-Then, with a final flash of white light and a conclusive hiss, the armatures withdraw.
-
-[[You emerge.->Remove Suit 4]]
-
-
-:: Remove Suit 4
-<img src="img/mEoSzB3.jpg" width="30%" height="30%">
-(set: $Status to 1)
-You step back out of the wardrobe, utterly transformed.  Once more you're allowed to breathe freely, regulation no longer being applied by mask and corset.  You've also been liberated from the consistent teasing of the infernal plugs, although curiously your tortured womanhood almost seems to ache from their absence.  Most importantly, though, you will no longer be recognized as little better then a slave-- the outfit you're now wearing instead at least approaches the Torean definition of *professional.*
-
-It's a change that Michael clearly approves of immediately, a fact he demonstrates by giving you an enthusiastic thumbs up.
-
-"Very good!  I wish we had more offworld textiles to give you, I know, but this will have to do.  I'm sure I don't have to remind you, but... do watch how you sit, ma'am.  That outfit does not come with panties."
-
-He gestures for you to follow, and leads you back out into the alley, and then the street beyond.  His corner is much as you had left it, except for the half-circle of passersby avoiding Michael's attempts to speak with them-- something he is quick to reconstitute, returning to his job.
-
-[[It feels good to feel the wind in your hair again.->Offworlder Hub]]
 
 
 :: OffHobble

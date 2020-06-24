@@ -1,0 +1,72 @@
+:: Offworlder Greet
+Du setzt deine Annäherung an den Mann fort, der mit seiner Männlichkeit und seiner Außenweltler-Kleidung scheinbar allein zu sein scheint-- treibend in einem Meer von in Laminat gekleideten Frauen. Als du näher kommst, kannst du sehen, dass die meisten ihm gezielt ausweichen, seine Versuche, jeden anzusprechen, der an ihm vorbeikommt, werden meist rundweg abgelehnt.
+
+"Die Organisation leistet *gute Arbeit*, Sie können Spenden oder wir können helfen," hörst du, während du durch die Menge trittst, gerade als eine Frau in makellosem weißen Laminat eine seiner Broschüren zerknüllt und über ihre Schulter wegwirft.
+(set: $OffworlderCheck to true)
+Zu seiner Verteidigung: Der Mann nimmt es gelassen hin. Er ist groß, gut gebaut und tendiert zu einem robusten Aussehen, das in den eher draufgängerischen Serien beliebt ist. Bei seinen hochgekrempelten Ärmeln siehst du, dass er muskulös ist, was ein Gefühl der Körperlichkeit vermittelt, das nicht mit dem Desinteresse fast aller Menschen um ihn herum zusammenpasst.
+
+[["Verzeihung", sprichst du ihn an. "Sir?"->Offworlder Greet 2]]
+(if: $PlayE is true)[[Du erinnerst dich an Isabellas Ausbildung. Er ist männlich, an einem öffentlichen Ort, und du bist eine Fremde, die aus einer Position der Schwäche heraus eine Beziehung aufbauen will. Grüße ihn in der Art der Toreaner, mit einer Reverenz.->Offworlder Greet 2B]]
+
+
+:: Offworlder Greet 2
+Deine Begrüßung erregt sofort seine Aufmerksamkeit, vielleicht der erste Versuch von jemand *anderem* seit einiger Zeit ein Gespräch zu beginnen. Er wendet sich dir zu und schaut schnell über deinen laminierten Körper-- er schätzt deine Absichten ein, aber ausnahmsweise mal ohne unzüchtiges Anstarren.
+
+"Guten Tag!" antwortet er und fordert dich auf, näher zu kommen. Du kannst einen Rucksack sehen, der in der Nähe an der Wand lehnt. "Außenweltlerin, nicht wahr? Bitte seien Sie nicht beunruhigt, ich bin sehr *nicht* Toreanisch. Ich bin mir nicht sicher, wie lange Sie schon auf diesem Planeten sind, Ma'am, oder was Sie durchgemacht haben... aber ich kann Ihnen versichern, daß ich einer der wenigen Männer auf diesem Planeten bin, die keinen Vorteil aus Ihrer Situation ziehen werden. Die Liberty Society ist hier, um zu helfen."
+
+[["Die Liberty Society?"->Offworlder Greet 3]]
+
+
+:: Offworlder Greet 2B
+Du trittst in die Lücke zwischen dem Mann und den Vorübergehenden und begrüßt ihn wie ein Toreaner. (if: $Sec is true)[(if: $Level is 1)[Mit gesenkten Augen packst du den unteren Teil deines Rocks und ziehst ihn hoch.  Dein Spalt wird kurz freigelegt, während du die Knie beugst, und du machst so etwas wie einen Knicks, während sich seine Augen weiten.  Du hältst die Pose für einen langen Moment, danach gleitest du deinen Rock wieder nach unten.]](if: $Brand is true or $Smoke is true or $Blue is true)[(if: $Level is 1)[Mit gesenkten Augen greifst du nach deinem Reißverschluss und verbeugst dich geschmeidig, während du ihm kurz deinen Spalt zeigst.]](if: $Slave is true)[(if: $Level is 1)[Mit gesenkten Augen kniest du vor ihm nieder und verschränkst deine Arme in gebührender Zurückhaltung hinter deinem Rücken.]](if: $Slave is true or $Brand is true or $Smoke is true or $Blue is true or $Sec is true)[(if: $Level is > 1)[Mit gesenkten Augen kniest du vor ihm nieder, spreizt deine Beine und drückst deine Hüften nach vorne, da du mit deinem Armbinder nicht viel anderes tun kannst.]]
+
+"Eine Reverenz..." er scheint sich einen Kommentar zu verkneifen, stattdessen winkt er dir zu, die Haltung aufzugeben. "Bitte, bitte, bitte-- das ist nicht nötig. Sogar unerwünscht. Außenweltlerin, richtig? Bitte denken Sie nicht, dass Sie solch abscheuliche Bräuche in meiner Gegenwart praktizieren müssen, ich bin sehr *nicht* Toreanisch. Ich bin mir nicht sicher, wie lange Sie schon auf diesem Planeten sind, Ma'am, oder was Sie durchgemacht haben... aber ich kann Ihnen versichern, daß ich einer der wenigen Männer auf diesem Planeten bin, die keinen Vorteil aus Ihrer Situation ziehen werden. Die Liberty Society ist hier, um zu helfen.
+
+[["Die Liberty Society?"->Offworlder Greet 3]]
+
+
+:: Offworlder Greet 3
+Es ist schwer zu ignorieren, wie groß er von Natur aus ist, trotz deiner Absätze, die in dieser Situation etwas helfen. (if: $Level is 1)[Mit deiner Fußfessel könntest du ihm nicht entkommen, wenn du es wolltest.](if: $Level is > 1)[In deinem Armbinder und deiner Fußfessel ist er von Natur aus männlich genug, um mit dir alles zu machen, was er möchte.](if: $Sec is true)[Und wenn du neben ihm stehst, spürst du zum ersten Mal, wie weiblich dein Laminat-Rock und Bluse sind.]
+
+Michael scheint dein Starren nicht zu bemerken, nickt aber begeistert. "Die Liberty Society, ja!  Wir sind eine Gruppe von Einzelpersonen, Interessengruppen und Firmenspendern, die alle eine tiefe Besorgnis für die Frauen von Torei teilen-- sowohl diejenigen, die auf diesem Planeten geboren wurden, als auch Außenweltlerinnen wie Sie!  Sie sind ein Paradebeispiel für unsere Sache, in der Tat!"
+
+[["Ich bin ein Beispiel?"->Offworlder Greet 4]]
+
+
+:: Offworlder Greet 4
+"Sogar sehr!" behauptet Michael. Du bekommst das Gefühl, dass er von Natur aus so energisch ist. "Sie sind eine Außenweltlerin, wie ich schon sagte, nicht wahr? Das kann ich erkennen... zumindest seit einer Weile. Nach ein paar Jahren, nachdem Sie durch das Ministerium für Verbesserungen gezwungen worden sind, nach so vielen Lektionen und Strafen und Drangsalein... werden Sie sich ändern. Werden Sie eine Toreanerin in Gedanken. In der Kleidung sind Sie bereits Toreanerin. Wie ist ihre Situation?"
+
+Du sagst ihm... ein *wenig*. Ja, du bist eine Außenweltlerin, die geschäftlich hier ist. Nein, du bist noch nicht lange auf dem Planeten. Und... ja, du hattest nicht wirklich eine Wahl bei allem, was du trägst.
+
+"Ich hoffe, ich werde Sie nicht kränken, Ma'am", fährt er fort, "aber verstehen Sie, wie Ihre Situation für uns in der Organisation aussieht? Sie sind jung, lebhaft, eine scharfsichtige Prospektorin am Rande des bekannten Weltraums. Eine Abenteurerin... die ein Opfer ihres eigenen Geschlechts geworden ist, gefangen von diesem Planeten und seiner Kultur".
+
+Er fährt mit einem Arm nach unten und verweist in einer einzigen schwungvollen Bewegung auf dich. (if: $Blue is true)["Gezwungen, Ihre Sittsamkeit aufzugeben, wurde Ihr Körper in engem blauen Laminat eingeschlossen. Zu einem Geschöpf des Fetischs und der Begierde gemacht, das vom Sex beherrscht wird. Sie sind entblößt und damit fast schutzlos, Ma'am. Eine stolze Frau wie Sie, die ein Halsband wie ein Haustier tragen muss? Einen Gürtel, Manschetten, damit Sie gefesselt werden können?"] (if: $Smoke is true)["Gezwungen, Ihre Sittsamkeit aufzugeben, Ihr Körper in engem Laminat eingeschlossen, durch das jeder so leicht sehen kann! Sie sind zu einem Geschöpf des Fetischs und der Begierde gemacht worden, das vom Sex beherrscht wird. Sie sind entblößt-- und damit fast schutzlos, Ma'am. Eine stolze Frau wie Sie, die ein Geschirr tragen muss, Manschetten an den Oberschenkeln wie eine Art Haustier, bereit, gefesselt zu werden?"] (if: $Brand is true)["Gezwungen, Ihre Sittsamkeit aufzugeben, ist Ihr Körper in enges Laminat eingeschlossen, das Ihre Unterwerfung so unverhohlen *vermarktet*! Was auch immer Sie vorher waren, Sie haben sich in ein Geschöpf des Fetischs und der Lust verwandelt, das ganz und gar vom Sex beherrscht wird. Sie sind entblößt-- und damit fast schutzlos, Ma'am. Eine stolze Frau wie Sie, der es aufgezwungen wird, stundenlang auf Ihren Zehenspitzen zu stehen? Um korsettiert zu werden? Damit der Name der Sklavenhändler, der Reichen dieser Welt, auf Ihrem Körper geschrieben steht?"] (if: $Sec is true)["Gezwungen, Ihre Sittsamkeit aufzugeben, Ihr Körper in engem Laminat eingeschlossen, eine Verhöhnung angemessener Berufskleidung. Sie sind nicht bereit für den Arbeitsplatz, nein, Sie wurden zu einem Geschöpf des Fetischs und der Lust gemacht, das ausschließlich vom Sex beherrscht wird. Sie sind entblößt-- und damit fast schutzlos, Ma'am. Sehen Sie sich Ihren Rock an, wie Sie auf solchen Schuhen sitzen! Die Erwartung, und jeder weiß das, ist, dass Sie zumindest einen Teil Ihrer Tage auf den Knien verbringen... sind Sie stolz darauf?"] (if: $Slave is true)["Gezwungen, Ihre Sittsamkeit aufzugeben, Ihr Körper in engem Laminat eingeschlossen. Und das ist kein gewöhnliches Kleidungsstück, Ma'am. Ich bin sicher, Sie *wissen*, was es bedeutet, dieses spezielle standardisierte Kostüm zu tragen. Als Eigentum behandelt zu werden, statt als stolze Frau? Etwas so Einfaches wie regulierte Atmung zu haben, in Korsetts gezwungen zu werden, und natürlich diese Einführungen... Ich verstehe, daß es eine schreckliche Erfahrung ist."]  Und natürlich hast du eine Fußfesselkette.  "(if: $Level is > 1)[Sie sind gezwungen, auch einen Armbinder zu tragen, können sich gegen alles, was Ihnen angetan wird, nicht wehren und die Arme schmerzen ganz sicher.](if: $Level is > 2)[ Ich sehe, Sie wurden sogar an den Brustwarzen gepierct... eine kleine, aber für toreanische Verhältnisse profunde 'Verbesserung'.]"
+
+Er schüttelt den Kopf. "Aber... es muss doch etwas geben, was die Gesellschaft für Sie tun kann?"
+
+[["Es gibt da tatsächlich..."->Offworlder Greet 5]]
+
+
+:: Offworlder Greet 5
+Du erklärst mehr von deiner Situation, zumindest was dein angeschlagenes Gedächtnis und deinen Wunsch betrifft, nach Grand Aekora zu kommen. Ein Wunsch, der durch einen finanziellen Beitrag sehr erleichtert würde. Der Mann scheint einfühlsam zu sein, aber sein Lächeln wird ein wenig angestrengt.
+
+"In die Innenstadt zu gehen ist eine gute Idee, eine Hochgeschwindigkeits-Eisenbahnlinie kann Sie von dort aus in wenigen Augenblicken zu dem Weg nach oben bringen. Dann können Sie aufsteigen und diesen Planeten hinter sich lassen."
+
+Michael wechselt von einem Fuß auf den anderen. "Aber... der Liberty Society geht es in erster Linie darum, Bewusstsein zu schaffen.  Wir haben nicht die Mittel, um *jedem* Freischoss oder Sklaven, der zu uns kommt, Hilfe zu leisten.  Wir teilen die Fälle ein, und einige, mit denen wir zu tun haben, sind ... egal."
+
+[["Was können Sie dann tun?"->Offworlder Greet 6]]
+[["Das ist überhaupt nicht hilfreich."->Offworlder Greet 6]]
+
+
+:: Offworlder Greet 6
+"Ich kann trotzdem helfen!" behauptet Michael und hebt beide Hände. "Ich kann zwar nicht auf die *genauen* Einzelheiten Ihrer Situation eingehen, aber die Liberty Society hat mehrere Programme, die Sie interessieren könnten."
+
+(if: $Level is 3 or 4)["Vielleicht am unmittelbarsten, wir bieten finanzielle Unterstützung für die frühzeitige Beseitigung von schuldbezogenen... Anpassungen, die bei jeder Frau vorgenommen werden. Ihre Brustwarzen-Piercings, Ma'am, wären geeignet. Angesichts ihrer Dauerhaftigkeit müssten sie unsere erste Sorge sein. Gefolgt von Ihrem Armbinder, und dann die Fußfesselkette. Wenn es nach uns ginge, würde dies kostenlos zur Verfügung gestellt, unsere Spenden würden die Gebühren für die vorzeitige Entlassung abdecken... aber das Toreanische Gesetz erlaubt keine Schuldenübernahme dieser Art. Sie müssen für einen *Teil* der Kosten selbst aufkommen. Aber das ist sehr wenig! 50 Credits für Ihre, äh, Brust - 50 weitere, um Ihre Arme freizugeben, und noch einmal 50 für die Fußfesselkette!"](if: $Level is 2)["Vielleicht am unmittelbarsten, wir bieten finanzielle Unterstützung für die frühzeitige Beseitigung von schuldbezogenen... Anpassungen, die bei jeder Frau vorgenommen werden.Ihr Armbinder würde sich zumindest qualifizieren. Die Fußfesselkette auch, aber der Armbinder müsste zuerst drankommen. Wenn es nach uns ginge, würde dies kostenlos zur Verfügung gestellt werden, wobei unsere Spenden die Gebühren für den vorzeitigen Schuldenerlass abdecken würden... aber das toreanische Gesetz lässt eine solche Schuldübernahme nicht zu. Sie müssen für einen *Teil* der Kosten selbst aufkommen.  Aber das ist sehr wenig! 50 Credits für die Freigabe Ihrer Arme, und dann noch einmal 50 für das Fußfesselkette!"](if: $Level is 1)["Vielleicht am unmittelbarsten, wir bieten finanzielle Unterstützung für die frühzeitige Beseitigung von schuldbezogenen... Anpassungen, die bei jeder Frau vorgenommen werden. Wie Ihre Fußfesselkette. Wenn es nach uns ginge, würde dies kostenlos erfolgen, unsere Spenden decken die Gebühren für den vorzeitigen Schuldenerlass ... aber das toreanische Gesetz lässt eine solche Schuldenübernahme nicht zu. Sie müssen für einen *Teil* der Kosten selbst aufkommen. Aber das ist sehr wenig! Nur 50 Credits."]
+
+Der Mann legt seine Hände an die Hüften. "Ich könnte sicherlich finanzielle Unterstützung aus meinem kleinen persönlichen Stipendium gewähren, wenn Sie bereit wären, bei einigen unserer Sensibilisierungskampagnen zu helfen-- es gibt gleich drei Möglichkeiten! Erstens sammeln wir Interviews von Freischössen wie Ihnen, die auf diesem Planeten leben. Ich würde Ihnen dafür 25 Credits geben. Zweitens sammeln wir auch Bilder-- obwohl ich angesichts der Art dieser Bilder etwas mehr bezahlen könnte... sagen wir 100 Credits? Und es gibt noch eine weitere, obwohl man dafür ein bisschen laufen muss... und Sie sind in diesen Absätzen. Sind die bequem? Vergessen Sie's. Es geht darum, alle wichtigen Leute hier in der Gegend um Spenden zu bitten. Dafür würden Sie weitere 100 Credits erhalten."
+
+Er reibt seine Hände aneinander. "Also-- was kann ich für Sie tun?"
+
+[[Möglichkeiten aufzeigen!->Offworlder Hub]]
+
+

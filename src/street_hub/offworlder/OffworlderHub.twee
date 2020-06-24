@@ -1,0 +1,38 @@
+:: Offworlder Hub
+<img src="img/lXSBXLs.png">
+
+Michael unterbricht das Verteilen von Broschüren und steht aufrecht, als er dich auf dem Weg in seine Ecke sieht.
+
+Du hast (print: $debt) Credits.
+
+(if: $TruantQuest is true and $TruantEnd is false)[[["Ich habe einige Poster über eine Ausreißerin, Amadori, gesehen. Darf ich dir dazu ein paar Fragen stellen?"->OffTruantQ]]]
+(if: $Level is 3 or 4)[[["Können wir über... meine Brustwarzen-Piercings sprechen?"->OffNip]]](if: $Level is 2)[[["Können wir darüber reden, wie ich diesen verdammten Armbinder loswerden kann?"->OffArm]]](if: $Level is 1)[[["Ich habe nur diese Fußfesselkette... könntest du die entfernen?"->OffHobble]]]
+(if: $debtSec is false)[[["Wie sieht es mit dem Interview für 25 Credits aus?"->OffInterview]]]
+(if: $debtSlave is false)[[["Du bietest wirklich 100 Credits für ein paar Bilder an? Wo ist der Haken?"->OffPhoto]]]
+(if: $Donate is false)[[["Spenden sammeln?  Das kann ich machen."->OffDonate]]](if: $Donate is true and $DonateTrans is false)[[["Ich denke, ich bin fertig mit dem Sammeln dieser Spenden, Michael."->OffDonateFail]]](if: $Donate is true and $DonateTrans is true and $DonateEnd is false)[[["Hey, ich glaube, ich bin bereit, die Spenden, die ich gesammelt habe, abzugeben."->OffDonateEnd]]]
+(if: $Slave is true)[[["Bei allem, was du anbietest... Kannst du etwas wegen des Kostüms tun, das ich trage?"->OffRemoveSuit]]]
+[["Kann ich eine Frage stellen? Bist du überhaupt nicht... abgelenkt, durch die Art, wie wir uns hier alle kleiden?"->OffAsk]]
+[["Könntest du mir einen Passierschein für die Bahn besorgen?"->OffAskPass]]
+[[Vorerst trittst du zurück und suchst anderswo nach Hilfe.->TransitChecktoHub]]
+
+
+:: OffAsk
+"Natürlich bin ich das," antwortet Michael, ohne einen Hauch von Heiterkeit, wie du vielleicht vermutet hast. "Ich müsste blind sein, um nicht... Ich meine, sehen Sie sich um. Sehen Sie sich an. Es ist... sehr ablenkend."
+
+Er blickt auf die anderen Frauen, die vorbeigehen, ein Tumult von Farben und Glitzern. "Es wäre so einfach... ihr Mädchen seid alle fast *verpflichtet*, mir alles zu geben, was ich mir wünsche. Die Art und Weise, wie man von euch erwartet, dass ihr Reverenz erweist, die Gelegenheiten, die sich jeden Abend bieten, wenn eure Ausgangssperre beginnt... das ist der Grund, warum sich die Gesellschaft ausschließlich auf Frauen konzentriert. Torei ist nicht einfach für Sie."
+
+Der große Mann seufzt ein wenig und schüttelt das Unwohlsein mit einer temperamentvollen Fokussierung ab. "Ich komme zurecht, indem ich mich fern halte. Überhaupt kein Laminat, auch wenn es schwierig ist, eine Wäscherei für Textilien zu finden. Und ich konzentriere mich auf unsere Mission. Das Ministerium für Schuldner ist..."
+
+Er lächelt und schaut weg. "Lassen Sie uns über etwas anderes reden."
+
+[["Sicher..."->Offworlder Hub]]
+
+
+:: OffAskPass
+Michael bewegt eine Hand entlang des Kragens seiner Jacke und korrigiert ihn leicht. "Wie Ihnen sicher bekannt ist, wird ein solcher Pass von mir nicht verlangt. Ich bin eigentlich mit dem Zug hierher gekommen. Wir von der Gesellschaft weigern uns, die Kutschen zu unterstützen, und unsere Sache ist hier so viel nötiger-- ein Stück weiter weg vom Weg nach oben. Ich würde es gerne noch einmal in den Antipoden versuchen, aber wenn Sie glauben, dass die Sache hier schwierig ist-- stellen Sie sich Ringdomänen mit archaischer Technologie vor, wo Außerweltliche so selten sind, dass sie nicht einmal daran denken, die Sklaverei *zu hinterfragen*..."
+
+Offensichtlich ist es für den Mann undenkbar, und er lehnt jeden Versuch ab, die Angelegenheit weiter zu diskutieren. Außerdem hatte er deine Frage nicht wirklich beantwortet. "Einen Passierschein. Ich habe einen, aber er ist für jemand anderen reserviert. Das ist alles, was ich dazu sagen kann."
+
+[[Bei diesem letzten Punkt ist er ziemlich verbissen.->Offworlder Hub]]
+
+

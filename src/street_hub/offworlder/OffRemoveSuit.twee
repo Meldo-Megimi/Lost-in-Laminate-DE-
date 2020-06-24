@@ -1,0 +1,54 @@
+:: OffRemoveSuit
+Er blickt mit mehr Einfühlungsvermögen als Verlangen über dein Ganzkörperkostüm, trotz der Art und Weise, wie es jede deiner Kurven zeigt-- für jeden neugierigen Betrachter. "Dieser Anzug, den Sie tragen... es ist eine Verhöhnung, das muss ich zuerst sagen. Zwischen erfinderischen Meistern und dem Ministerium für Verbesserungen gibt es *viel* schlimmere Schicksale hier auf Torei, aber es gibt etwas für die Allgegenwart und Effizienz ihrer spezifischen Bekleidung zu sagen. Sie wurde entworfen, um ihre Identität zu entfernen, um sie zu einer weiteren schwarz maskierten *Puppe* zu machen. Damit Sie sich auf Ihren Körper, Ihren Atem, Ihre... Begierde und nicht viel mehr konzentrieren."
+
+Der Effektivität musst du zustimmen. Hätte man dir ein bisschen Privatsphäre gegeben, weißt du nicht, ob du hättest widerstehen können, deine gestöpselte Fotze an dem nächsten festen Objekt zu reiben. Selbst in der Öffentlichkeit, findest du dich ständig dabei wieder, wie du deine Hüften bewegst. Das ist ein anhaltendes Symptom, das auch Michael bemerkt, aber er schüttelt nur leicht den Kopf.
+
+"Ich kann Sie frühzeitig da rausholen-- aber es gibt... Komplikationen. Das erste sind die Kosten. Die Organisation kann für Ihre vorzeitige Freisetzung aufkommen, aber das Gesetz von Aekoran verlangt, dass Sie selbst eine entsprechende Strafe zahlen-- es ist *offensichtlich* darauf ausgelegt, genau diese Art von Situation zu erschweren. 200 Credits sind nicht leicht aufzubringen, nicht für eine Frau, in einem Sklaven-Klassifiziertem Kostüm. Aber wenn Sie mir das Geld bringen, kann ich Sie zu einem Garderobengerät bringen und Ihnen etwas zum Wechseln anbieten... zwar immer noch aus Laminat, aber so professionell, wie es geht. Rock, Bluse, Absätze... Sie sind eine Frau auf Torei, gewöhnen Sie sich am besten an Absätze."
+
+[["Ich habe nicht so viele Credits. Vielleicht können wir das später besprechen."->Offworlder Hub]]
+(if: $debt is >= 200)[[["Ich habe die 200 Credits in die Hände bekommen. Ich will raus aus diesem Kostüm!"->RemoveSuit2]]]
+
+
+:: RemoveSuit2 [Debt]
+"Wirklich?" Antwortet er, etwas ungläubig. "Ich meine... ausgezeichnet! Das ist großartig! Bitte, folgen Sie mir. Ich bin sicher, Sie wollen unbedingt aus diesem Ding raus."
+(set: $Slave to false)(set: $Sec to true)(set: $debt to it - 200)(set: $TruantQuestPamph to true)
+
+Du brauchst nicht weit zu gehen-- Michael führt dich in eine nahe gelegene Gasse und durch eine Tür nach innen. Du betrittst eine Art Büroraum, der aufgeteilt und vermietet zu sein scheint. Die Abteilung der Liberty Society ist klein und zur Zeit verlassen, aber vollgestopft mit Material-- du hast den klaren Eindruck, dass Michael nicht ihr einziges Mitglied ist, das am Rande von Grand Aekora arbeitet. Als du an mehreren Schachteln mit Flugblättern vorbeikommst, die denen ähnlich sind, die von deinem Begleiter ausgeteilt wurden, bemerkst du einen in einem anderen Stil, nämlich den Namen *Kloster der Perzeption*, der in kräftigen Buchstaben entlang der Oberseite geschrieben steht.
+
+Deine Aufmerksamkeit richtet sich jedoch auf den hinteren Teil des Hauses, wo ein vertrautes Gerät auf dich wartet-- ein Garderobengerät, das scheinbar mobil ist. Michael bedient das Bedienfeld, während du vortrittst, die Tür gleitet vor dir auf. Darin warten ein Dutzend verschiedener Armaturen.
+
+[[Tritt hinein.->Remove Suit 3]]
+
+
+:: Remove Suit 3
+Sobald du eintrittst, wirst du gepackt und die Tür schnappt hinter dir zu. Ähnlich wie die Garderobe des Hotels hat auch diese einen Abfluss im unteren Teil des Gerätes, dessen Funktion durch die erste Phase Deines Umziehens-- dem Ausziehen, offenbart wird. Anstatt das Laminat von Deinem Körper abzuziehen, wird mit einem Sprüharm ein einfaches Lösemittel aufgetragen, und in wenigen Augenblicken tropft das Material von Deinem Körper ab wie nasse Farbe.  
+
+Das Entfernen deiner Stöpsel ist eine andere Sache-- das erfordert ein Paar Arme, um sie direkt zu packen, aber während du dich in deinen Fesseln windest, werden sie aus deiner gequälten Fotze herausgezogen. Du atmest tief ein, das erste Mal seit einiger Zeit, da du nicht mehr mit einer Maske versehen bist. Ein kurzer, verlockender Genuss von Nacktheit folgt... aber nicht lange. Mit einem frischen Wirbel beginnt die Garderobe mit der Arbeit an deinem neuen Kostüm, während ein Ring von oben herunterfährt.
+
+So wird dein Kostüm im wahrsten Sinne des Wortes aufgedruckt, zuerst wird helles Weiß auftragen, geht aber in einen lebendigen Rotton über, als es deine Taille passiert und einen stilvollen Bleistiftrock bildet. Der Ring senkt sich Stück für Stück und weiches Fleisch wird mit dem ebenso weichen, aber sehr unterschiedlichen Laminat überzogen. Sekundärarme folgen ihm nach unten und bieten eine Punktbehandlung entlang der Nähte und Reibungspunkte-- obwohl der Effekt häufig nur ästhetischen Zwecken dient. Manchmal erfolgt dies in Form einer zweiten Anwendung von Laminat, manchmal verweilt es, um etwas Wesentlicheres zu produzieren-- wie den kleinen gefalteten Kragen direkt unter deinem Kinn oder die Knöpfe, die sich fast sofort anspannen, um deine Brust durch dein Oberteil festzuhalten.
+
+Du bekommst keine Zeit zum Ausruhen, als die Basisschicht fertig ist. Der Ring steigt schnell auf, während sich die anderen Arme in dem Raum bewegen, um mit der Arbeit an deinem Zubehör zu beginnen. Der Schößchenrock, den du auf dem Bild gesehen hast, wird so geformt, beginnend mit dem Gürtel an deiner Taille. Kleine vorgeschmiedete Nieten werden vor dem Versiegeln in das noch flüssige Laminat eingelassen, ebenso wie die Gürtelschlaufe, die direkt über deinem Nabel sitzt. Immer noch an Ort und Stelle gehalten, formen kleine Arme das Laminat, das sich über deinen Rücken erstreckt, und erzielen den Look, den die meisten in der Galaxie als *nuttig* bezeichnen würden, aber auf Torei bezeichet man ihn nur als kokett.
+
+TDie letzte Komponente deines Kostüms kommt mit dem Gefühl, dass deine Füße hochgehoben werden, das Gefühl ist unterschiedlich und hauptsächlich auf deine Fersen konzentriert. Ohne die Haltearme wärst du umgefallen, aber sie halten dich fest, hohe Absätze werden extrudiert. Es folgt weiteres rotes Laminat, das deine Füße mit Ausnahme eines eleganten Lochs ganz vorne beschichtet.
+
+Fast wie eine nachträgliche Idee wird das Make-up zuletzt aufgetragen. Mechanische Arme ergreifen deinen Kopf und halten ihn fest, während sich Düsen deinem Gesicht nähern. Ein kurzer Luftstoß lässt dich instinktiv die Augen schließen, und in diesem kurzen Moment erledigt die Garderobe ihre Arbeit. Deine Augenlider sind abgedunkelt, und eine purpurrote 2. Schicht wurde aufgetragen, die nur aufblitzt, wenn Licht darüber gleitet. Poren und Schönheitsfehler wurden ebenfalls abgeschwächt, während deine Wangenknochen hervorgehoben wurden. Und deine Lippen sind jetzt ein ergreifendes, einladendes Rot.
+
+(if: $Level is > 0)[Der einzige verbleibende Schritt ist die erneute Anbringung deiner Fesseln, wobei die Fußfesselkette an deinen Knöcheln (if: $Level is > 1)[und der Armbinder hinter dir] schnell wieder hergestellt sind.]
+
+Dann ziehen sich die Instrumente mit einem letzten weißen Lichtblitz und einem abschließenden Zischen zurück.
+
+[[Du kommst heraus.->Remove Suit 4]]
+
+
+:: Remove Suit 4
+<img src="img/mEoSzB3.jpg" width="30%" height="30%">
+(set: $Status to 1)
+Du trittst völlig verwandelt aus dem Garderobengerät heraus. Du darfst wieder frei atmen, ohne dass Maske und Korsett die Regulierung übernehmen. Du wurdest auch von den ständigen Reizungen der infernalischen Stöpsel befreit, obwohl seltsamerweise deine gequälte Weiblichkeit fast zu schmerzen scheint, weil sie fehlen. Am wichtigsten ist jedoch, dass du nicht mehr länger als wenig besser als eine Sklavin anerkannt wirst-- das Kostüm, das du anstelle dessen jetzt trägst, kommt zumindest der toreanischen Definition von *professionell* nahe.
+
+Es ist eine Veränderung, die Michael sofort klar billigt, was er beweist, indem er dir enthusiastisch den Daumen nach oben zeigt.
+
+"Sehr gut! Ich wünschte, wir hätten mehr außerweltliche Textilien, die wir Ihnen geben könnten, ich weiß, aber das wird reichen müssen. Ich bin sicher, ich muss Sie nicht daran erinnern, aber... passen Sie auf, wie Sie sitzen, Ma'am. Dieses kostüm wird nicht mit Höschen geliefert."
+
+Er winkt, dass du ihm folgst, und führt dich wieder hinaus in die Gasse und dann auf die Straße zurück. Seine Ecke ist genau so, wie du sie verlassen hast, mit Ausnahme des Halbkreises von Passanten, die Michaels Versuchen, mit ihnen zu sprechen, ausweichen-- etwas, das er schnell wieder herstellt, indem er an seinen Arbeitsplatz zurückkehrt.
+
+[[Es fühlt sich gut an, wieder den Wind in deinen Haaren zu spüren.->Offworlder Hub]]

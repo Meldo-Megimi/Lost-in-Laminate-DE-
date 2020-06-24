@@ -13,3 +13,4 @@ slave protocols ->  Sklaven Protokoll
                 Ministerium für Gebärmütter
                 Ministerium für Verbesserungen
 Ministry of Truants ->  Ministerium für Schuldner
+Convent of Perception -> Kloster der Perzeption
