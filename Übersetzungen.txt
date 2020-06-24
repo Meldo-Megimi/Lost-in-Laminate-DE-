@@ -2,10 +2,10 @@ prospector      ->  Prospektor
 Ringdoms        ->  Ringdomänen
 Wardrobe devices->  Garderobengeräte
 Offworlder      ->  Aussenweltler
-Freewomb        ->  Freischoss
+Freewomb        ->  Freischoss, Freischösse
 Way Up          ->  Weg nach oben
 Mem-Burn        ->  Mem-Burn
-TRUANT OFFICER  ->  Justizvollzugsbeamte
+TRUANT OFFICER  ->  Blau-Polizistin, Blau-Polizei,  (Justizvollzugsbeamte)
 SLAVE CODE      ->  SKLAVENCODE
 Diarch's Choice ->  Diarch's Wahl
 Slave Rated     ->  Sklaven-Klassifiziert

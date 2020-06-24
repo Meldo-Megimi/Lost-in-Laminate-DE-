@@ -1,0 +1,52 @@
+:: Transport Hub Intro [Tags]
+Ein Zug sitzt untätig auf einem großen Bahnsteig, hoch über der Straße, die vor ihm endet, und verzweigt sich in beide Richtungen.  Um ihn zu erreichen, muss man eine Rampe hinaufgehen, die, wie du feststellst, weit weniger steil ist als die, die man im Allgemeinen in der Galaxie jenseits von Torei sieht - ging man davon aus, dass die Kunden auf hohen Absätzen laufen würden?
+(set: $FreeLead to false)(set: $Strike to 0)(set: $TruantFound to false)(set: $TrainPass to false)(set: $IsSlave to false)(set: $debtShower to false)(set: $IsSlave to false)(set: $IsabellaCheck to false)(set: $NunCheck to false)(set: $OffworlderCheck to false)(set: $Donate to false)(set: $DonateTrans to false)(set: $debtSec to false)(set: $debtSlave to false)(set: $debtBrand to false)(set: $NunFinePaid to false)(set: $NunHave to false)(set: $TruantQuest to false)(set: $NunPaidSelf to false)(set: $NunEnd1 to false)(set: $NunEnd2 to false)(set: $DonateIsabella to false)(set: $DonateTruant to false)(set: $DonateEuphoria to false)(set: $DonateDahlia to false)(set: $DonateEnd to false)(set: $TruantQuest to false)(set: $TruantQuestEnd to false)(set: $TruantQAccept to false)(set: $TruantOffer to false)(set: $ElizabethLoc to false)(set: $TruantQuestPamph to false)(set: $TruantQuestCarr to false)(set: $Quinn to false)(set: $QuinnQ1 to false)(set: $QuinnQ2 to false)(set: $TruantQFound to false)(set: $TruantQLie to false)(set: $TruantQLieNo to false)(set: $Daemon to false)(set: $Pierced to false)(set: $TruantStat to 0)(set: $NunPaidFine to false)
+Wie auch immer, wenn man oben ankommt, siehst du eine Menschenmenge von beträchtlicher Größe, die in drei getrennte Schlangen aufgeteilt ist. Jede dieser Schlangen ist hilfreich gekennzeichnet und sogar farblich koordiniert, indem Linien auf den Bahnsteig gemalt sind, die darauf hinweisen, wo man auf Dienstleistungen warten kann, oder wo man einsteigen muss.
+
+Weniger als ein Dutzend, zwei von ihnen Männer in engem Laminat, sitzen auf Bänken vor einer Station, die mit *Kutschen* gekennzeichnet ist.  Eine größere Gruppe steht in einer Reihe oder sitzt in der Nähe des Bereichs, der mit *Zug Einstieg* markiert ist.  Die letzte und bei weitem größte Gruppe steht in einer Reihe für etwas, das nur mit *Die Leine* gekennzeichnet ist.
+(if: $GoldCheat is true)[(colour: yellow)[CREDIT CHEAT ACTIVATED](set: $debt to it + 10000)]
+Alle drei Möglichkeiten zu prüfen, scheint jedenfalls eine gute Idee zu sein.
+(set: $TransportCheck to 0)
+[[Beginnen wir mit der Kutsche.->Carriage Hub]]
+[[Züge müssen schneller sein, fangen wir dort an.->Train Hub]]
+[[Die Leine?  Das scheint das beliebteste zu sein, fangen wir damit an.->Lead Hub]]
+
+
+:: Carriage Hub
+Es gibt überhaupt keine Schlange für die Kutsche, nur eine Handvoll wartender Passagiere, die in der Nähe warten. Einer der Männer, den du vorhin gesehen hast, hat ein Mädchen im Sekretärinnenkostüm (if: $Sec is true)[ähnlich wie dein eigenes] auf dem Knie, er hat sich vorbeugt und flüstert ihr ins Ohr. Ihre Lippen sind leuchtend rot bemalt und bilden derzeit ein einladendes "O", da sie eindeutig versucht, nicht zu stöhnen. Es scheint, dass seine Hand unter ihrem Rock steckt.
+
+(if: $Sec is true or $Blue is true or $Smoke is true)[Als du dich dem Kutschenstand selbst näherst, triffst du auf eine Frau in einer engen, leuchtend blauen Bedienstetenuniform. Sie trägt die Livree von *Grand Aekoran Transportmittel*. Sie lächelt, als du sie fragst, wie viel eine Fahrkarte kosten würde. 600 Credits lautet ihre Antwort, eine ansehnliche Summe, wenn man bedenkt, dass du im Augenblick genau nichts hast.]
+(if: $Brand is true)[Als du dich dem Kutschenstand selbst näherst, triffst du auf eine Frau in einer engen, leuchtend blauen Bedienstetenuniform. Sie trägt die Livree von *Grand Aekoran Transportmittel*. Ihr Lächeln verblasst ein wenig bei deiner Annäherung, ihre Augen laufen über dein gebrandetes Kostüm. Auf die Frage, wie viel ein Ticket kostet, teilt sie dir mit, dass es 600 Credits kosten würde-- und schlägt dann eine billigere Wahl vor, wenn du deine Finanzen nicht selbst verwalten kannst.]
+(if: $Slave is true)[Als du dich dem Kutschenstand selbst näherst, triffst du auf eine Frau in einer engen, leuchtend blauen Bedienstetenuniform. Sie trägt die Livree von *Grand Aekoran Transportmittel*. Ihr Lächeln verschwindet, sobald sie deine Annäherung bemerkt. "Wir transportieren keine Sklaven", erklärt sie prompt. Als du ihr deinen mit Freischoss gekennzeichneten Ausweis zeigst, bringt das wenig. "Unsere exklusiven Dienstleistungen werden niemandem angeboten, der ein Sklaven-Klassifiziertes Kostüm trägt. Bitte treten Sie zurück, oder ich *werde* die Blau-Polizei rufen."]
+(set: $TransportCheck to it + 1)
+[[Du trittst zurück, um deine anderen Möglichkeiten zu prüfen.->Transport Hub Intro II]]
+
+
+:: Train Hub [Debt]
+Die Schlangen für den Zug sind nicht sehr lang, aber du musst dich nicht einmal zu ihnen gesellen, um Informationen zu erhalten-- mehrere große Kioske sind in der Nähe des Eingangs aufgestellt, deren helle Digitalanzeigen jeden dazu auffordern, sich zu nähern um mehr zu erfahren.  Du nimmst einen der Automaten in Anspruch und nimmst sein Angebot an.
+(set: $TransportCheck to it + 1)
+(if: $Blue is true or $Smoke is true or $Sec is true or $Brand is true)[Eine animierte Version einer jungen rothaarigen Frau, die dich im Namen von *Trans Torean Bahn* begrüßt, führt dich durch die verschiedenen Dienste. Anscheinend sind die Schienen ein übliches Transportmittel so nahe am Weg nach oben, und die Trans Torean Bahn bedient fast ein Dutzend verschiedener benachbarter Ringdomänen. Fahrkarten nach Grand Aekora, deinem Reiseziel, kosten 400 Credits.
+
+Es wird jedoch darauf hingewiesen, dass ein Freischoss wie du von einer Escort-Person begleitet werden muss, die entweder männlich ist oder im Besitz eines gültigen Freischoss Bahn Passes ist. Du hast das Gefühl, dass solche Pässe selten sind, da die animierte Frau dir einen guten Tag wünscht, aber nicht bevor sie auf ihr Halsband zeigt, um dich daran zu erinnern, dass alle weiteren Fragen an einen Sklaven von Trans-Torean gerichtet werden können.] 
+(if: $Slave is true)[Die helle, fröhliche Begrüßungsanzeige von *Trans Torean Bahn* endet abrupt, sobald du vortrittst. An seiner Stelle blinkt ein sehr einfacher Warnbildschirm vor dir auf:
+
+*Standardisiertes Sklaven-Klassifiziertes Kostüm erkannt. Fahrkartenverkauf und weitere Unterstützung sind nicht verfügbar. Bahnreisen sind für alle Sklaven strengstens verboten. Die Benutzung dieses Kiosks ist für alle Sklaven strengstens verboten. Ihrem Konto wurde als Strafe eine Gebühr von 10 Credits gemäß den Aekoran Sklaven-Codes (Abschnitt 395, Absatz 8) belastet. Treten Sie jetzt zurück, oder es werden weitere korrigierende Maßnahmen genehmigt.* (set: $debt to it - 10)]
+
+[[Ach, Scheiße. Tritt zurück und erwäge deine anderen Möglichkeiten.->Transport Hub Intro II]]
+
+
+:: Lead Hub
+Was *Die Leine* genau bedeutet, ist dir nicht ganz klar, aber die Schlange dafür ist bei weitem die längste. Alle sind Frauen, und du bemerkst eine zweite Schlange mit einigen wenigen, die in dem vollen Sklaven-Klassifizierten Kostüm gekleidet sind, (if: $Blue is true or $Smoke is true or $Sec is true or $Brand is true)[das du im Garderobengerät sahst. Einheitlich schwarz, mit streng atmungsregulierenden Masken, engen Korsetts und hohen Stiefeln, kannst du dir vorstellen, dass das Kostüm nicht besonders bequem zu tragen ist.](if: $Slave is true)[der auch du ausgesetzt bist. Wenn du die am nächsten stehende genau beobachtest, kannst du sehen, wie sich ihre Hüften hin- und herbewegen. Es ist nicht schwer, sich die Dildos vorzustellen, die zweifellos in ihr eingeschlossen sind, ein Gedankengang, der deiner eigenen Fotze Schmerzen bereitet. Wenn du so tief einatmest, wie es dein Korsett und deine Maske erlauben, wird dir zumindest klar, dass es für diejenigen, die ein Sklaven-Klassifiziertes Kostüm tragen, einen separaten Dienst geben muss.]
+(set: $TransportCheck to it + 1)
+Über der Menschenmenge zeigt ein großes Schild an, was du suchst: Regeln und Kosten. Sklaven dürfen kostenlos reisen(if: $Slave is true)[ (Du bist nicht qualifiziert, da ein Besitzer als notwendig erwähnt wird)]. Ein Freischoss wie Du darf ebenfalls kostenlos reisen, aber nur zu bestimmten Zeiten-- anscheinend früh am Morgen oder für einige Stunden vor Einbruch der Dunkelheit. Du nimmst an, du könntest zwar eine Weile auf diese freie Zeit warten, aber das könnte dich gefährlich aus dem Zeitplan werfen. Tatsächlich ist auch der Kauf einer Fahrkarte zum Preis von 200 Credits möglich.
+
+[[Zumindest ist es relativ billig? Tritt einen Schritt zurück, um zu überlegen.->Transport Hub Intro II]]
+
+
+:: Transport Hub Intro II
+Ohne einen Credit auf deinen Namen und nichts von Wert in deinem Besitz wird es schwierig sein, in die Innenstadt zu gelangen. Dennoch scheint es eine gute Idee zu sein, alle deine Möglichkeiten zu prüfen, und sei es nur, um sich ein Ziel zu setzen. Es muss einen Weg geben, auf Torei schnell etwas Geld zu verdienen.
+
+[[Wie sieht es mit den Kutschen aus?->Carriage Hub]]
+[[Der Zug ist doch immer eine Möglichkeit.->Train Hub]]
+[[Was ist mit 'Die Leine'?->Lead Hub]]
+(if: $TransportCheck is >= 3)[Wenn du dich umdrehst, kommst du zu einem nahe gelegenen Geländer, von der erhöhten Plattform aus hast du einen guten Blick auf die nahe gelegenen Straßen. Du musst ein paar Credits auftreiben, und durch die wimmelnde Menschenmenge erkennst du tatsächlich [[ein paar potenzielle Gelegenheiten.->Street Hub]]]

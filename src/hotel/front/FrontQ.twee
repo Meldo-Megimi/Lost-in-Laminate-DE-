@@ -21,7 +21,7 @@ Wenn jemand weiß, was dir passiert ist, dann ist es wahrscheinlich diese Frau. 
 
 
 :: "Is there anything you can tell me about this elevator ticket?"
-Du gibst ihr das Ticket, aber sie hält die Hand in höflicher Ablehnung hoch. "Das Reisen an Bord des Wegs nach oben ist Sklaven strengstens verboten, Ma'am. Ebenso entsprechende Utensilien. Der Besitz einer Fahrkarte, auch nur für einige Augenblicke, wäre ein schweres Vergehen meinerseits. Ich würde es lieber nicht riskieren, dass ein Justizvollzugsbeamter hereinspaziert, wenn das in Ordnung ist? Sie brauchen mir nur die Bestätigungsnummer oben vorzulesen".
+Du gibst ihr das Ticket, aber sie hält die Hand in höflicher Ablehnung hoch. "Das Reisen an Bord des Wegs nach oben ist Sklaven strengstens verboten, Ma'am. Ebenso entsprechende Utensilien. Der Besitz einer Fahrkarte, auch nur für einige Augenblicke, wäre ein schweres Vergehen meinerseits. Ich würde es lieber nicht riskieren, dass eine Blau-Polizistin hereinspaziert, wenn das in Ordnung ist? Sie brauchen mir nur die Bestätigungsnummer oben vorzulesen".
 
 Du tust es, und sie wiederholt es, um sicherzustellen, dass ihre Dateneingabe korrekt war. Das ist sie.
 
@@ -45,7 +45,7 @@ Sie scheint auf eine Antwort zu warten, aber du bist dir nicht sicher, ob du üb
 
 Schließlich macht sie einfach weiter. "Nun, wir haben, Ma'am. Es gibt *jede Menge*. Viel zu viele, als daß ich sie durchgehen könnte. Gewöhnlich rate ich Freischoss-Gästen wie Ihnen, Ihren Ausweis immer bei sich zu tragen und bei Reisen nach Einbruch der Dunkelheit vorsichtig zu sein. Sie sind sehr streng, was die Ausgangssperre betrifft, und es ist wirklich am besten, wenn Sie einfach versuchen, die Beamten gänzlich zu meiden."
 
-Wieder zeigt sie auf dein Kostüm. "(if: $Blue is true)[Wenn Sie ihnen nicht ausweichen, deshalb haben Sie Manschetten an diesem Anzug.] (if: $Smoke is true)[Wenn Sie ihnen nicht ausweichen, sind diese Oberschenkelmanschetten nicht die einzigen, die Sie tragen werden.] (if: $Brand is true)[Ich würde nicht empfehlen, unter normalen Umständen vor ihnen wegzulaufen, aber mit Ihren Absätzen? Halten Sie einfach die Augen unten, Ma'am.] (if: $Sec is true)[Das Kostüm, für das Sie sich entschieden haben, ist vielleicht sogar das beste, um sich anzupassen. Toreanisch, aber offensichtlich mit einer Agentur. Justizvollzugsbeamte ignorieren Sie vielleicht.] (if: $Slave is true)[Wenn Sie das tragen, *werden* Sie von ihnen angehalten werden. Sklavengesetze sind viel strenger, und obwohl Sie ein Freischoss sind, werden sie das nicht wissen, bis sie Ihre Identifikationskarte überprüft haben.]"
+Wieder zeigt sie auf dein Kostüm. "(if: $Blue is true)[Wenn Sie ihnen nicht ausweichen, deshalb haben Sie Manschetten an diesem Anzug.] (if: $Smoke is true)[Wenn Sie ihnen nicht ausweichen, sind diese Oberschenkelmanschetten nicht die einzigen, die Sie tragen werden.] (if: $Brand is true)[Ich würde nicht empfehlen, unter normalen Umständen vor ihnen wegzulaufen, aber mit Ihren Absätzen? Halten Sie einfach die Augen unten, Ma'am.] (if: $Sec is true)[Das Kostüm, für das Sie sich entschieden haben, ist vielleicht sogar das beste, um sich anzupassen. Toreanisch, aber offensichtlich mit einer Agentur. Die Blau-Polizei ignoriert Sie vielleicht.] (if: $Slave is true)[Wenn Sie das tragen, *werden* Sie von ihnen angehalten werden. Sklavengesetze sind viel strenger, und obwohl Sie ein Freischoss sind, werden sie das nicht wissen, bis sie Ihre Identifikationskarte überprüft haben.]"
 
 [["Danke für den Ratschlag."->Front Q]]
 

@@ -1,0 +1,41 @@
+:: Street Hub
+<img src="img/hsGWqat.jpg"30%">
+
+Du bist jetzt nur noch eine laminatumhüllte Frau unter vielen. Der gelegentlich vorbeikommende Mann ruft mehr Aufmerksamkeit hervor, während diejenigen deines Geschlechts immer darauf achten, ihnen aus dem Weg zu gehen. Du konzentrierst dich darauf, Credits zu beschaffen, während du dich an die Möglichkeiten erinnerst, die du gesehen hast, als du die erhöhte Plattform des Verkehrsknotenpunktes herunterkamst.
+
+Einer der massiven Stützpfeiler ist mit einer Reihe von Plakaten versehen, von denen einige Werbung für Geschäfte in der Nähe machen während andere Ankündigungen der Stadt machen.  Vor allem eine Anzeige, die eine entlaufene Sklavin zeigt, scheint neu zu sein.  *Ellia Amadori*, heißt es da.  *Belohnung für die Gefangennahme ausgesetzt.* (if: $TruantQuest is true)[Es ist die Frau, nach der die Blau-Polizei sucht.]
+
+(if: $OffworlderCheck is false)[In der nähe einer besonders belebten Kreuzung trägt ein Mann etwas ganz Außergewöhnliches-- Hose und Mantel, ohne einen Hauch von Laminat! Er ruft in die Menge und versucht, irgendeine Art von Flugblättern zu verteilen. Du bist dir nicht sicher, worum es dabei geht, aber er ist ganz offensichtlich ein Außenweltler wie du.](if: $OffworlderCheck is true)[Der Außenweltler Michael ist immer noch dabei, sich Fremden in Hinblick auf seine Organisation zu nähern. Es hat nicht den Anschein, dass er viel Erfolg hat.]
+
+(if: $IsabellaCheck is false)[Auf einer Bank in der Nähe des Verkehrsknotenpunkts sitzt eine bekannte Frau, die durch eine verspiegelte Brille Passanten beobachtet, wobei sie mittels eines rechteckigen Geräts raucht. Ihre schwarze Laminatkleidung hat einen aggressiven, verwegenen Stil-- und du erkennst sie als die Frau, an der du im Flur des Hotels vorbeigegangen bist. Vielleicht ist sie von der wohltätigen Sorte?](if: $IsabellaCheck is true)[Die toreanische Herrin Isabella bleibt in der Nähe.  Mit ihrer verspiegelten Brille blickt sie in die Welt hinaus, während sie mit einem Fuß ihrer gekreuzten Beine wippt, ihre stahlbeschlagene Sohle ist sogar von hier aus zu hören.]
+
+(if: $NunCheck is false)[Die Gebäudereihen werden von einem kleinen, eingezäunten Grundstück durchbrochen, mit seltsamen... du kannst sie kaum *Bäume* nennen. Sie erheben sich stammartig und bilden darüber ein bedrückendes, Licht absorbierendes Vordach, aber ihre tiefvioletten Äste sind eher wie eingefrorene Laminatwellen. Aus irgendeinem Grund fühlst du... einen Ruf, den Ort zu erkunden.](if: $NunCheck is true)[Das Tor zum Kloster und zu Schwester Euphoria ist nach wie vor offen, obgleich die verhüllte Schwester selbst in der Einsamkeit ihres Gartens verschwunden ist.]
+
+Du hast derzeit: (print: $debt) Credits.
+
+(if: $Quinn is true and $TruantQFound is false)[[[Du versuchst, deinen Weg nach Quinnette Way zu finden, der Adresse, von der die Kutsche diese seltsame Abholung machen soll.->TransitCheckFromHub]]]
+(if: $TruantFound is true)[[[Die Blau-Polizistin, die du zuvor getroffen hast, wartet in der Nähe ihres Polizeiautos, dem einzigen Fahrzeug, das du auf diesen Straßen gesehen hast.->TransitCheckFromHub]]]
+(if: $OffworlderCheck is false)[[[Der Außenweltler, sicherlich könnte er helfen.->Offworlder Greet]]](if: $OffworlderCheck is true)[[Kehr zurück zu Michael, von der Liberty Society. Du musst noch einmal mit ihm sprechen.->TransitCheckFromHub]]
+(if: $IsabellaCheck is false)[[[Die mysteriöse Frau aus dem Hotel, zumindest kennst du sie...->Isabella Greet]]](if: $IsabellaCheck is true)[[[Isabella, die toreanische Herrin aus dem Hotel->TransitCheckFromHub]]]
+(if: $NunCheck is false)[[[Du möchtes den seltsamen Garten und seine so genannten Bäume erkunden.->Nun Greet]]](if: $NunCheck is true)[[[Schwester Euphoria, die unter den Bäumen betet.->TransitCheckFromHub]]]
+[[Gehe wieder die Rampe zum Verkehrsknotenpunkt hinauf, du willst die Situation für eine Reise noch einmal überprüfen.->Transport Hub III]]
+[[Die Straßen hier haben alle möglichen Attraktionen-- du beschließt, einfach etwas herumzulaufen, um zu sehen, wohin dich das führt.->TransitCheckFromHub]]
+(if: $debt is >= 200)[[[Du hast genug für die Leine zusammen!  Du könntest jetzt gehen, aber es könnten noch bessere Transportmittel zur Verfügung stehen.->Transport Hub III]]]
+(if: $debt is >= 400)[[[Jetzt hast du genug Credits für ein Zugticket-- wenn du auch die erforderliche Genehmigung besorgt hast.->Transport Hub III]]]
+(if: $debt is >= 600)[[[Du bist vielleicht nicht reich, aber du hast genug, um stilvoll mit der Kutsche zu reisen. Gehe jetzt zum Verkehrsknotenpunkt.->Transport Hub III]]]
+(if: $FreeLead is true)[[[Du denkst, es ist spät genug dass der kostenlose Leinen-Dienst jetzt verfügbar ist.->Transport Hub III]]]
+
+
+:: TransitCheckFromHub [Travel-Checks]
+(set: $Strike to it +1)
+
+Du gehst die Toreanischen Straßen entlang und versuchst (if: $Slave is true)[die berauschende Unruhe deiner Einlagen,](if: $Blue is true)[das leise Klirren deiner unzähligen Manschetten,] (if: $Smoke is true)[die Art und Weise, wie jeder Passant so leicht durch deinen Catsuit hindurchsehen kann,] (if: $Brand is true)[die Aufmerksamkeit, die die Anzeigen und Absätze deines Kostüms erregen,] (if: $Sec is true)[die Art und Weise, wie deine Brust so kühn gegen deine Laminatbluse drückt,] (if: $Level is 2)[die Schmerzen in deinen Schultern durch deinen straffen Armbinder] (if: $Level is 3 or 4)[das süße Gefühl, des Metalls, das deine Brustwarzen durchbohrt] zu ignorieren.
+
+(if: $Strike is 2)[[[Dein Weg auf dem Bürgersteig wird durch eine Menschenmenge blockiert. Eine Art Kontrollpunkt wartet vor dir, ohne einen anderen Weg vorbei.  Es dauert einige Zeit, bis die Schlange vor dir abgearbeitet ist, aber sobald du vorne angekommen bist, ergreift dich eine harte Hand!->Truant Greet]]](else-if: $Strike is 4)[[[Als du deinen Weg fortsetzt, hörst du jedoch plötzlich eine Stimme von hinten. "He, du, Mädchen!"->Strike4Start]]](else-if: $Strike is 6)[[[Während du den Bürgersteig entlanggehst, fällt dir etwas auf...->Strike6Start]]](else-if: $Strike is 8)[[[Dein Rundgang wird durch den Anblick einer Frau unterbrochen, die aus der Menge herausragt...->Strike8Start]]](else-if: $Strike is 10)[[[Der Weg vor dir biegt ab, und du stehst vor einer kleinen Menschenmenge...->Strike10Start]]](else-if: $Strike is 12)[[[Während du deinen Weg fortsetzt, fällt dir etwas auf...->Strike12Start]]](else-if: $Strike is 14)[[[Dein Weg ist durch eine Art Schlange blockiert...->Strike14Start]]](else-if: $Strike is 16)[[[Plötzlich hältst du inne, ein faszinierender Anblick fällt dir ins Auge...->Strike16Start]]](else-if: $Strike is 18)[[[Während du inmitten anderer Freischösse herumläufst, siehst du dich um...->Strike18Start]]](else-if: $Strike is 20)[[[Auf deinem Weg durch die Straßen von Torean bekommst du das befremdliche Gefühl, verfolgt zu werden...->Strike20Start]]](else:)[Du gehst weiter auf deinem Weg, in Richtung... 
+
+[[...was zu einer Schleife wird, und kehrst in den Bereich nahe der Verkehrsplattform zurück.->Street Hub]]
+(if: $Quinn is true and $TruantQFound is false)[[[Quinnette Way, auf der Suche nach der entlaufenen Sklavin.->Quinn Start]]]
+(if: $NunCheck is true)[[[Schwester Euphoria, in der Nähe des Klosters->Nun Hub]]]
+(if: $IsabellaCheck is true)[[[Isabella, auf ihrer Bank.->Isabella Hub]]]
+(if: $OffworlderCheck is true)[[[Michael, an seiner gewohnten Ecke.->Offworlder Hub]]]
+(if: $TruantFound is true)[[[der Blau-Polizistin.->Truant Hub]]]]

@@ -1,0 +1,24 @@
+:: Transport Hub III [Isabella-Special]
+Du gehst den Aufstieg zurück nach oben zu dem Verkehrsknotenpunkt, der sich über die lokalen Straßenblöcke erhebt. Die verschiedenen Schlangen, die du vorher gesehen hast, haben sich etwas verändert, aber das meiste ist noch so, wie du es verlassen hast.
+
+Mehrere flackernde Anzeigen erinnern an die Reisekosten.
+
+**Die Leine:** (text-style: "blink")[200 Credits]
+**Die Bahn:** (text-style: "blink")[400 Credits]
+**Die Kutsche:** (text-style: "blink")[600 Credits]
+
+Du hast (print: $debt) Credits.
+
+(if: $TrainPass is false)[Du hast nicht den für den Zug erforderlichen Passierschein.](if: $TrainPass is true)[Du hast den erforderlichen Passierschein, um den Zug als Freischoss zu benutzen.]
+(if: $FreeLead is false)[Die Leine ist noch nicht kostenlos, wird es aber sein, wenn du lange genug wartest.](if: $FreeLead is true)[Die Dämmerung naht. Die Leine ist nun für jeden Freischoss kostenlos.]
+
+[[Du bist zufrieden und gehst wieder die Rampe hinunter zu den Toreanischen Straßen.->Street Hub]]
+(if: $NunPick is true and $NunHave is false)[[[Du bist hier, um Schwester Dahlia abzuholen und zu den Sklavenbuchten nahe der Rückseite der Plattform zu gehen.->TransPickup]]]
+(if: $TruantQuestCarr is true and $Quinn is false)[[[Einer Spur folgend, näherst du dich dem Kutschenstand wegen der entlaufenen Sklavin Amadori.->TruantQTrans]]]
+(if: $ElizabethLoc is true and $TruantQLie is false and  $TruantQLieNo is false)[[[Michael sagte dir, du sollst mit seiner Partnerin Elizabeth sprechen, die du auf einer roten Bank findest...->TruantQLiz]]]
+(if: $Donate is true and $DonateTrans is false)[[[Du bist hier, um den Spendenstand der Liberty Society zu betreiben.->DonateTran]]]
+
+(if: $Strike is > 1)[(if: $debt is >= 200 and $FreeLead is false)[[[Du näherst dich der Schlange für die Leine, endlich bereit zum Aufbruch.->LeaveLead]]]
+(if: $debt is >= 400)[[[Du näherst dich der Schlange für den Zug, der endlich abfahrbereit ist.->LeaveTrain]]]
+(if: $debt is >= 600)[[[Du näherst dich der Schlange für die Waggons, endlich abfahrbereit.->LeaveCarriage]]]
+(if: $FreeLead is true)[[[Du näherst dich der Schlange für die Leine, in der Absicht, die freie Variante zu wählen.->LeaveLeadFree]]]](else:)[Die Schlangen für die Transportmöglichkeiten sind im Moment ziemlich lang, du solltest ein bisschen länger stöbern.]
