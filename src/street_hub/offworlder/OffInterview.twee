@@ -1,129 +1,127 @@
 :: OffInterview
-His enthusiasm for the topic is immediate.  "Ah, so you're interested in the interview?  Great!  Or perhaps you're justing looking for more details?  Well-- the Society publishes a quarterly report on our work here, planetside.  Mission goals and achievements, financial spending, that sort of thing.  But we also have a section reserved for what we call *the voices of Torei*.  Testamonies from the Torean-born, or freewombs like yourself.  Anyone who has been subjected to the horrors of Torean culture!  Wait here."
+Seine Begeisterung für das Thema ist offensichtlich. "Ah, Sie sind also an dem Interview interessiert? Das ist großartig! Oder suchen Sie vielleicht einfach nur nach mehr Informationen? Nun-- die Organisation veröffentlicht einen vierteljährlichen Bericht über ihre Arbeit hier auf dem Planeten. Ziele und Erfolge, finanzielle Aufwendungen und so weiter. Aber wir haben auch einen Abschnitt reserviert für das, was wir *die Stimmen von Torei* nennen. Testamonien von Toreanern, oder Freischössen wie Sie selbst. Jeder, der den Schrecken der torerischen Kultur ausgesetzt war! Bitte warten Sie hier."
 
-Moving to his backpack, he pulls forth a small recording device and a datapad of some sort.  Tapping a button, he peforms a quick microphone check, the machine repeating his words with a second press.  Clearly working as intended, he approaches you again.  "So, let me explain how this works-- it's really simple.  I will ask you a few questions, and you will answer the questions truthfully.  And I mean that-- don't say what you think the Society wants to hear, speak from your heart.  That's important, we categorize every *voice* added to our archives based on their views, I can tell you where you will be placed afterward."
+Er geht zu seinem Rucksack und holt ein kleines Aufnahmegerät und eine Art Datenpad hervor. Auf einen Knopf drückend, führt er einen schnellen Mikrofon-Check durch, wobei das Gerät seine Worte beim zweiten Drücken wiederholt. Offensichtlich arbeitet alles wie beabsichtigt und er kommt wieder auf dich zu. "Also, lassen Sie mich erklären, wie das funktioniert-- es ist wirklich einfach.Ich werde Ihnen ein paar Fragen stellen, und Sie beantworten die Fragen wahrheitsgemäß. Und ich meine das ernst-- sagen Sie nicht, was Ihrer Meinung nach die Organisation hören möchte, sprechen Sie aus Ihrem Herzen. Das ist wichtig, wir klassifizieren jede *Stimme*, die unserem Archiv hinzugefügt wird, auf der Grundlage ihrer Ansichten, ich kann Ihnen dann mitteilen, wie Sie eingestuft wurden."
 
-He smiles, awfully handsome in the afternoon light.  "So-- how does that sound?  Pretty easy, right?  And then you will get your 25 credits.  I only wish I was authorized to give you more."
+Er lächelt, unheimlich gut aussehend im Nachmittagslicht. "Also, wie klingt das? Ziemlich einfach, oder? Und dann bekommen Sie Ihre 25 Credits. Ich wünschte nur, ich wäre berechtigt, Ihnen mehr zu geben."
 
-[["Is this anonymous?  Will my name be attached, I mean?"->OffInterviewPreQ]]
-[["This sounds like something I can do.  Give me the first question."->OffInterviewQ1]]
-[["I'll have to rethink this, Michael.  Maybe later."->Offworlder Hub]]
+[["Ist dies anonym? Ich meine, wird mein Name erwähnt werden?"->OffInterviewPreQ]]
+[["Das klingt nach etwas, das ich tun kann. Stellen Sie mir die erste Frage."->OffInterviewQ1]]
+[["Ich muss das noch einmal überdenken, Michael. Vielleicht später."->Offworlder Hub]]
 
 
 :: OffInterviewPreQ
-"Ah," he replies, nodding.  "I understand your concern-- it certainly cannot be dignifying to speak publically about what you have undergone.  This *is* a public statement, however, with your identity made clear.  If you perfer we not do this, I would of course understand."
+"Ah," antwortet er und nickt. "Ich verstehe Ihre Besorgnis-- es ist sicherlich nicht würdevoll, öffentlich über das zu sprechen, was Sie durchgemacht haben. Jedoch *ist* dies eine öffentliche Erklärung, in der Ihre Identität deutlich gemacht wird. Wenn Sie meinen, wir sollten das nicht tun, würde ich das natürlich verstehen.
 
-[["No, I'm fine with this.  As your first question."->OffInterviewQ1]]
-[["On second thought, I'm not sure I want to do this."->Offworlder Hub]]
+[["Nein, ich komme damit zurecht. Also, Ihre erste Frage."->OffInterviewQ1]]
+[["Wenn ich es mir recht überlege, bin ich mir nicht sicher, ob ich das tun will."->Offworlder Hub]]
 
 
 :: OffInterviewQ1
-"Excellent, just... excellent!  Alright!  Please remember: do not be afraid to answer these questions truthfully.  Our data is greatly improved by answers that speak to your true views, and our supports abroad prefer those as well.  Okay?  Here we go."
+"Ausgezeichnet, einfach... ausgezeichnet! Sehr gut! Bitte denken Sie daran: Scheuen Sie sich nicht, diese Fragen wahrheitsgemäß zu beantworten. Unsere Daten werden durch Antworten, die Ihren wahren Ansichten entsprechen, erheblich verbessert, und unsere Unterstützer im Ausland bevorzugen diese ebenfalls. Einverstanden? Los geht's."
 (set: $debtSec to true)
-He looks to the datapad, holding the microphone in the space between you and him.  "This first one is very easy: Torei is perhaps best known for the widespread use of *laminate*.  Given that you are wearing the material right now, what are your thoughts on it?"
+Er schaut auf das Datenpad und hält das Mikrofon in den Raum zwischen euch beiden. "Diese erste ist sehr einfach: Torei ist vielleicht am besten bekannt für die weitverbreitete Verwendung von *Laminat*. Wenn man bedenkt, dass Sie das Material jetzt gerade tragen, was denken Sie darüber?"
 (set: $PlayCheck to 0)(set: $ring to 0)
-(link: "If I could wear anything else, I would.  I hate it.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview2")]
-(link: "It's not something I would recommend, but... it's not as bad as I expected.")[(set: $ring to it - 1)(goto: "Interview2")]
-(link: "I think... I like it.")[(set: $PlayCheck to it + 1)(goto: "Interview2")]
-(link: "It's so tight and glossy, I... feel empowered by it.")[(set: $PlayCheck to it + 1)(goto: "Interview2")]
-(link: "I love how it puts me on display, how I'm not allowed anything else.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview2")]
+(link: "Wenn ich etwas anderes tragen könnte, würde ich es tun. Ich hasse es.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview2")]
+(link: "Es ist nichts, was ich empfehlen würde, aber... es ist nicht so schlimm, wie ich erwartet habe.")[(set: $ring to it - 1)(goto: "Interview2")]
+(link: "Ich denke... es gefällt mir.")[(set: $PlayCheck to it + 1)(goto: "Interview2")]
+(link: "Es ist so eng und glänzend, dass ich... mich dadurch ermutigt fühle.")[(set: $PlayCheck to it + 1)(goto: "Interview2")]
+(link: "Ich liebe es, wie es mich zur Schau stellt, wie mir nichts anderes zugestanden wird.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview2")]
 
 
 :: Interview2
-"Good, alright-- another question: prior to this interview, you mentioned having been in rather intensive bondage.  Physical restraint is another common facet of Torean culture-- how do you feel about that?"
+"Gut, in Ordnung-- eine weitere Frage: Vor diesem Interview erwähnten Sie, dass Sie in ziemlich intensiven Fesseln waren. Körperliche Fesselung ist eine weitere gemeinsame Facette der toreanischen Kultur-- was halten Sie davon?"
 
-(link: "I feel like every other sane person: that it's a terrible thing to inflict upon a person.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview3")]
-(link: "Honestly, I try to avoid it at all times.  But it's just something we have to put up with here, as women.")[(set: $ring to it - 1)(goto: "Interview3")]
-(link: "I hate it... and I... I like the feeling, alright?")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview3")]
-(link: "It feels... good, but that doesn't make it right.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview3")]
-(link: "It can be a lot of fun, actually.")[(set: $PlayCheck to it + 1)(goto: "Interview3")]
-(link: "It's... natural.  Most of us, we're at our best in bondage!")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview3")]
+(link: "Ich fühle wie jeder andere gesunde Mensch: Es ist schrecklich, so etwas einem Menschen anzutun.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview3")]
+(link: "Ehrlich gesagt, ich versuche es immer zu verhindern. Aber das ist etwas, womit wir uns hier als Frauen einfach abfinden müssen.")[(set: $ring to it - 1)(goto: "Interview3")]
+(link: "Ich hasse es... und ich... Ich mag das Gefühl, ok?")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview3")]
+(link: "Es fühlt sich... gut an, aber das macht es nicht richtig.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview3")]
+(link: "Es kann sogar sehr viel Spaß machen.")[(set: $PlayCheck to it + 1)(goto: "Interview3")]
+(link: "Es ist... natürlich. Die meisten von uns, wir sind am besten in Fesseln!")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview3")]
 
 
 :: Interview3
-"My interviewee today is an offworlder, as I'm sure the background file on this recording will indicate.  Thus she is a freewomb by this planet's horrendous terminology.  Ma'am, what would you say to any woman thinking about traveling to Torei, as a freewomb?"
+"Meine heutige Interviewpartnerin ist eine Außenweltlerin, wie die Hintergrunddatei zu dieser Aufnahme sicher erkennen lässt. Sie ist also ein Freischoss der schrecklichen Terminologie dieses Planeten nach. Ma'am, was würden Sie einer Frau sagen, die darüber nachdenkt, als Freischoss nach Torei zu reisen?"
 
-(link: "Don't.  Stay as far away as possible, and donate to groups like the Liberty Society as often as you can.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview4")]
-(link: "It's obviously an embarrassing thing to have stamped on your ID card, I wouldn't recommend it.")[(set: $ring to it - 1)(goto: "Interview4")]
-(link: "It's not proper to say, but... I don't know, maybe they're onto something here. Come try it out.")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview4")]
-(link: "Torei is something special.  Strange, but worth a trip.")[(set: $PlayCheck to it 1)(goto: "Interview4")]
-(link: "Come down the Way Up, and you will find a role that fits you.  I certainly have.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview4")]
+(link: "Lassen Sie es.  Bleiben Sie so weit weg wie möglich weg, und spenden Sie so oft wie möglich für Organisationen wie die Liberty Society.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview4")]
+(link: "Es ist selbstverständlich eine peinliche Sache, sowas auf dem Ausweis stehen zu haben, ich würde es nicht empfehlen.")[(set: $ring to it - 1)(goto: "Interview4")]
+(link: "Es ist nicht richtig, das zu sagen, aber... Ich weiß nicht, vielleicht sind sie hier etwas auf der Spur. Komm, probier es aus.")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview4")]
+(link: "Torei ist etwas Besonderes. Seltsam, aber eine Reise wert.")[(set: $PlayCheck to it 1)(goto: "Interview4")]
+(link: "Kommen Sie den Weg nach oben herunter, und Sie werden eine Rolle finden, die zu Ihnen passt. Ich habe es auf jeden Fall.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview4")]
 
 
 :: Interview4
-"Let's try something else-- what we call a *Torean decision.*  These are scenarios constructed to resemble what women actually are forced to consider, here on Torei-- and to demonstrate the indignities forced upon them."
+"Versuchen wir etwas anderes-- etwas, das wir eine *toreanische Entscheidung* nennen. Dies sind Szenarien, die so konstruiert sind, dass sie dem ähneln, was Frauen hier auf Torei tatsächlich zu bedenken gezwungen sind-- und um die ihnen aufgezwungenen Demütigungen zu demonstrieren."
 
-Michael clears his throat.  "Ma'am, consider you are enslaved by a wealthy landowner here on Torei.  Your Governess-- for those listening to this recording, please check the included vocabulary guide for definitions-- is looking to move you into a new role.  Which would you prefer?"
+Michael räuspert sich. "Ma'am, nehmen Sie bitte an, dass Sie hier auf Torei von einem wohlhabenden Gutsherren versklavt sind. Ihre Gouvernante-- für diejenigen, die sich diese Aufnahme anhören, lesen Sie bitte den beigefügten Wortschatzführer für Definitionen-- möchte Sie in eine neue Rolle versetzen. Welche würden Sie vorziehen?"
 
-(link: "None.  I know I'll get punished, but I don't care.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview5")]
-(link: "Something that lets me keep my dignity, relatively.  Receptionist, at my owner's business, perhaps?  I met one today who only had wrist cuffs and a semi-transparent blouse.")[(set: $ring to it - 1)(goto: "Interview5")]
-(link: "Maybe a truant officer.")[(set: $PlayCheck to it + 1)(goto: "Interview5")]
-(link: "Concubine, my specialty is pleasure.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview5")]
+(link: "Keine.  Ich weiß, dass ich dafür bestraft würde, aber das ist mir egal.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview5")]
+(link: "Etwas, das mir erlaubt, meine Würde einigermaßen zu bewahren. Empfangsdame, vielleicht im Geschäft meines Besitzers? Ich traf heute eine, die nur Handgelenksmanschetten und eine halbtransparente Bluse hatte.")[(set: $ring to it - 1)(goto: "Interview5")]
+(link: "Vielleicht eine Blau-Polizistin.")[(set: $PlayCheck to it + 1)(goto: "Interview5")]
+(link: "Konkubine, meine Spezialität ist das Vergnügen.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview5")]
 
 
 :: Interview5
-"Let's try another *Torean decision.*  You're walking down a street, ma'am, and find another freewomb bound outside a local Ministry of Truants office.  In some Ringdoms on this planet, public exposure is a common punishment for misdemeanors such as petty theft.  What do you do with her?"
+"Versuchen wir es mit einer weiteren *Toreanischen Entscheidung*. Sie gehen eine Straße entlang, Ma'am, und finden vor dem Büro des örtlichen Ministeriums für Schuldner einen anderen Freischoss gefesselt. In einigen Ringdomänen auf diesem Planeten ist die öffentliche Bloßstellung eine übliche Strafe für Vergehen wie Bagatelldiebstahl. Was machen Sie mit ihr?"
 
-(link: "I do whatever I can to free her.  Escaping the Ministry of Truants is supposed to be difficult... but she should be given the chance.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview6")]
-(link: "I ignore her, like most other people passing by would.")[(set: $ring to it - 1)(goto: "Interview6")]
-(link: "I'm angry someone can do that to her... but Toreans are really good at binding women...")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview6")]
-(link: "I go inside to plead for her case-- a proper session with a riding crop would be far quicker, and the freewomb could set to earning credits for her fines, afterward.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview6")]
-(link: "Maybe play with her a bit, that is the point after all.")[(set: $PlayCheck to it + 1)(goto: "Interview6")]
-(link: "Steal something small myself, I'd like to join her up there!")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview6")]
+(link: "Ich mache alles, was ich kann, um sie zu befreien. Die Flucht vor dem Ministerium für Schuldner soll schwierig sein... aber man sollte ihr die Chance dazu geben.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview6")]
+(link: "Ich ignoriere sie, wie die meisten anderen Passanten auch.")[(set: $ring to it - 1)(goto: "Interview6")]
+(link: "Ich bin wütend, dass ihr das jemand antun kann... aber Toreaner sind wirklich gut darin, Frauen zu fesseln...")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview6")]
+(link: "Ich gehe hinein, um für ihren Fall zu plädieren-- eine anständige Sitzung mit einer Reitgerte wäre viel schneller, und der Freischoss könnte sich danach darauf einstellen, Credits für ihre Geldstrafen zu verdienen.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview6")]
+(link: "Vielleicht ein bisschen mit ihr spielen, darum geht es schließlich.")[(set: $PlayCheck to it + 1)(goto: "Interview6")]
+(link: "Ich würde selber etwas Kleines stehlen, ich würde ihr gerne Gesellschaft leisten!")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview6")]
 
 
 :: Interview6
-"The Ministry of Improvements is a staple of Torean culture-- and very indicative of the corruptive influence of Torean society.  Gifted with medical advancements most colonies abroad can only dream of, it is primarily used here for the so called *improvement* of physical features.  Often of a sexual nature.  Ma'am, would you ever consider visting such a place?"
+"Das Ministerium für Verbesserungen ist ein Grundpfeiler der toreanischen Kultur-- und sehr bezeichnend für den korrupten Einfluss der toreanischen Gesellschaft. Ausgestattet mit medizinischen Errungenschaften, von denen die meisten Kolonien im Außenbereich nur träumen können, wird es hier in erster Linie für die so genannte *Verbesserung* der physischen Eigenschaften genutzt. Oftmals sexueller Natur. Ma'am, würden Sie jemals in Betracht ziehen, einen solchen Ort zu besuchen?"
 
-(link: "Not a chance.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview7")]
-(link: "No... but others can do as they like.")[(set: $ring to it - 1)(goto: "Interview7")]
-(link: "I wouldn't like, but if that's what I was told to do...")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview7")]
-(link: "I would!  But I would use it solely for its medical capabilities, nothing beyond that.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview7")]
-(link: "Yes I would-- many freewombs use that Ministry to improve their chances of getting a collar, or for other things I guess.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview7")]
+(link: "Auf keinen Fall.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview7")]
+(link: "Nein... aber andere können tun, was sie wollen.")[(set: $ring to it - 1)(goto: "Interview7")]
+(link: "Das würde mir nicht gefallen, aber wenn es das ist, was mir befohlen wird...")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview7")]
+(link: "Das würde ich! Aber ich würde es ausschließlich für seine medizinischen Fähigkeiten nutzen, nichts darüber hinaus.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview7")]
+(link: "Ja, das würde ich-- viele Freischösse nutzen dieses Ministerium, um ihre Chancen auf ein Halsband zu verbessern, oder für andere Dinge, nehme ich an.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview7")]
 
 
 :: Interview7
-"Torei was originally formed and made into a habital planet by two of its three AI-- Mazos and Dahom.  They also bred the strain of humanity that now derives from this planet, and are known for their cruelty.  Ma'am, what are you views on the AIs?"
+"Torei wurde ursprünglich von zwei seiner drei KIs-- Mazos und Dahom, geformt und zu einem bewohnbaren Planeten gemacht. Sie züchteten auch den Stamm der Menschheit, der heute von diesem Planeten stammt, und sind für ihre Grausamkeit bekannt. Ma'am, wie denken Sie über die KIs?"
 
-(link: "They're disturbing, and untrustworthy.  Dealing with them should be avoided at all costs.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview8")]
-(link: "Everyone hates them, and I do too.")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview8")]
-(link: "If they came for me, I would do whatever it takes to fight them.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview8")]
-(link: "I remember... rumors of things they do to those under their control... it's fascinating, fascinating and terrifying...")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview8")]
+(link: "Sie sind beunruhigend und nicht vertrauenswürdig. Der Umgang mit ihnen sollte unter allen Umständen vermieden werden.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview8")]
+(link: "Jeder hasst sie, und ich auch.")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview8")]
+(link: "Wenn sie mich holen wollten, würde ich alles tun, was nötig ist, um sie zu bekämpfen.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview8")]
+(link: "Ich erinnere mich... Gerüchte über Dinge, die sie denjenigen unter ihrer Kontrolle antun... es ist faszinierend, faszinierend und erschreckend...")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview8")]
 
 
 :: Interview8
-Michael checks the device at his wrist, a time keeping unit of some sort.  "Alright, one last question as we wrap this up.  Ma'am, could you describe your experience on Torei thus far-- in one word?"
+Michael überprüft das Gerät an seinem Handgelenk, eine Art Uhr. "Gut, eine letzte Frage, bevor wir das hier abschließen. Ma'am, könnten Sie Ihre bisherigen Erfahrungen auf Torei beschreiben-- mit einem Wort?"
 
-(link: "Horrific.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "InterviewEND")]
-(link: "Bad.")[(set: $ring to it - 1)(goto: "InterviewEND")]
-(link: "...surprising.")[(set: $PlayCheck to it + 1)(goto: "InterviewEND")]
-(link: "Wonderful.")[(set: $PlayCheck to it 1)(set: $ring to it + 1)(goto: "InterviewEND")]
+(link: "Grauenhaft.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "InterviewEND")]
+(link: "Übel.")[(set: $ring to it - 1)(goto: "InterviewEND")]
+(link: "...überraschend.")[(set: $PlayCheck to it + 1)(goto: "InterviewEND")]
+(link: "Wundervoll.")[(set: $PlayCheck to it 1)(set: $ring to it + 1)(goto: "InterviewEND")]
 
 
 :: InterviewEND [Debt]
-Double tapping the small recording device, your interviewer ends its capture.  "Very good!"  He concludes, enthusiastically.  "Not that hard, right?  Your 25 credits will be added to your account... any moment now.  This interview will be taken by the next courier out of system-- it's just cheaper to bundle recordings like that together, and move somewhere less out of the way then Torei before broadcasting it to headquarters."
+Durch doppeltes Antippen des kleinen Aufnahmegeräts beendet dein Interviewer die Aufnahme. "Sehr gut!" fasst er mit Begeisterung zusammen. "Nicht so schwer, oder? Ihre 25 Credits werden Ihrem Konto gutgeschrieben... jeden Moment. Dieses Interview wird vom nächsten Kurier aus dem System mitgenommen-- es ist einfach billiger, solche Aufnahmen zu bündeln und sich irgendwo hin zu bewegen, wo man weniger abseits liegt als Torei, bevor man es zum Hauptquartier sendet."
 (set: $debt to it + 25)
-He taps the top of his datapad.  "Want to hear what your category will be, though?"
+Er tippt auf die Oberseite seines Datapads. "Wollen Sie wissen, was Ihre Kategorie sein wird?"
 
-[["Sure, what's my category?->InterviewENDYES]]
-[["I'd... rather not know, let's just call it good there."->Offworlder Hub]]
+[["Klar, was ist meine Kategorie?"->InterviewENDYES]]
+[["Ich würde es... lieber nicht wissen, lassen Sie es einfach gut sein."->Offworlder Hub]]
 
 
 :: InterviewENDYES
-"Well, we grade these by two scores.  They're automatically generated, and honestly I'm not fully supportive of the system... but it's what we do.  The first checks what we refer to as your *personal approval* of Torei and its culture."  
+"Nun, wir bewerten sie nach zwei Kriterien. Sie werden automatisch erstellt, und ehrlich gesagt unterstütze ich das System nicht voll und ganz... aber das ist es, was wir tun. Der erste bewertet, was wir als Ihre *persönliche Zustimmung* zu Torei und seiner Kultur bezeichnen."  
 
-(if: $PlayCheck is < -4)["You came in with very low personal approval, ma'am.  That's *great* to see, for obvious reasons.  Can you imagine someone actually liking what happens to women here?"]
-(if: $PlayCheck is -4 or -3 or -2)["You came back with moderately low levels of personal approval, ma'am.  I would recommend being more obviously outraged at the situation here, but obviously that's your decision to make."]
-(if: $PlayCheck is -1 or 0 or 1)["Your score came back as relatively neutral, with regards to personal approval.  What it *doesn't* tell me is if that's because you're feeling conflicted, or if you're not articulating your views clearly.  Just something to consider."]
-(if: $PlayCheck is 2 or 3 or 4)["Your score came back as indicating moderate approval of Torean culture, ma'am.  I have to ask... you're not liking ths, right?  The things they do to you?  Nevermind... just, think about it."]
-(if: $PlayCheck is > 4)["Your score come back as indicating exceptional personal approval of Torean culture, ma'am.  That's... honestly a bit distressing, if I'm being perfectly honest.  There are advocates for Torei out there... but most of those are male.  Women like yourself end up in a collar, thinking like that."]
+(if: $PlayCheck is < -4)["Sie kommen mit sehr geringer persönlicher Zustimmung daher, Ma'am. Das ist *großartig* zu hören, aus offensichtlichen Gründen. Können Sie sich vorstellen, dass es jemandem tatsächlich gefällt, was hier mit den Frauen passiert?"]
+(if: $PlayCheck is -4 or -3 or -2)["Sie kommen mit einer vergleichsweise geringen persönlichen Zustimmung daher, Ma'am. Ich würde empfehlen, noch deutlicher über die Situation hier empört zu sein, aber das ist offensichtlich Ihre Entscheidung."]
+(if: $PlayCheck is -1 or 0 or 1)["Ihr Ergebnis fiel relativ neutral aus, was die persönliche Zustimmung betrifft. Was es mir *nicht* sagt, ist, ob es daran liegt, dass Sie sich im Konflikt befinden, oder ob Sie Ihre Ansichten nicht klar artikulieren. Einfach etwas zum Nachdenken."]
+(if: $PlayCheck is 2 or 3 or 4)["Ihre Bewertung ergab, dass Sie die toreanische Kultur eher zurückhaltend befürworten, Ma'am. Ich muss das fragen... Sie mögen sie nicht, oder? Die Dinge, die sie Ihnen antun? Vergessen Sie es... denken Sie darüber nach."]
+(if: $PlayCheck is > 4)["Ihre Bewertung zeigt eine außergewöhnliche persönliche Zustimmung zur toreanischen Kultur, Ma'am. Das ist... ehrlich gesagt, ein bisschen beunruhigend, wenn ich ganz ehrlich bin. Es gibt Fürsprecher für Torei da draußen... aber die meisten sind männlich. Frauen wie Sie enden am Ende mit einem Halsband, wenn sie so denken."]
 
-Michael moves his finger down his pad, obviously reading off a list.  "The second score grades-- I mean indicates, yeah, that's better... it indicates your level of *defiance* to Torean social norms."
+Michael streicht mit dem Finger über sein Pad und liest offensichtlich von einer Liste ab. "Der zweite Wert-- ich meine, er zeigt an, ja, das ist besser... er zeigt Ihren Grad der *Verachtung* gegenüber den sozialen Normen der Toreaner an."
 
-(if: $ring is < -4)["You came in as extremely defiant, when it comes to Torean norms and expectations!  You're positively lion-like, I must say.  Great job!"](if: $ring is -4 or -3 or -2)["You came in with relatively high levels of defiance towards Torean norms and expectations.  That's pretty average, its usually only former slaves who rank higher."](if: $ring is -1 or 0 or 1)["You came in with very average defiance scores.  I'm not really sure what to tell you that you don't already know yourself.  Just be careful with that sort of thinking."](if: $ring is 2 or 3 or 4)[You came in with relatively low levels of defiance towrds Torean norms and expectations, ma'am.  I've got some great books, if you would ever want to challenge your... very Torean viewpoint?"](if: $ring is > 4)[You came in as extremely receptive to Torean social norms and expectations, ma'am.  I feel... I must remind you this will be available on our public-facing archives, at some point.  It's not exactly a progressive viewpoint...]
+(if: $ring is < -4)["Sie haben sich als äußerst aufsässig erwiesen, wenn es um die Normen und Erwartungen der Toreaner geht! Sie sind geradezu wie ein Löwe, muss ich sagen. Großartige Arbeit!"](if: $ring is -4 or -3 or -2)["Sie haben sich den Normen und Erwartungen der Toreaner in relativ hohem Maße widersetzt. Das ist ziemlicher Durchschnitt, normalerweise sind es nur ehemalige Sklavinnen und Sklaven, die einen höheren Wert haben."](if: $ring is -1 or 0 or 1)["Sie haben mit sehr durchschnittlichen Werten für die Missachtung der Regeln geantwortet. Ich weiß nicht so recht, was ich Ihnen sagen soll, das Sie selbst nicht schon wissen. Seien Sie einfach vorsichtig mit dieser Art des Denkens."](if: $ring is 2 or 3 or 4)["Sie haben sich den Normen und Erwartungen der Toreaner relativ wenig widersetzt, Ma'am. Ich habe einige großartige Bücher, falls Sie jemals Ihren... sehr toreanischen Standpunkt in Frage stellen wollen?"](if: $ring is > 4)["Sie haben sich als äußerst empfänglich für die gesellschaftlichen Normen und Erwartungen der Toreaner gezeigt, Ma'am. Ich finde... Ich muss Sie daran erinnern, dass dies in unseren öffentlich zugänglichen Archiven irgendwann einmal verfügbar sein wird. Es ist nicht gerade eine fortschrittliche Sichtweise..."]
 
-(if: $PlayCheck is > 4 and $ring is > 4)[He looks to you with something approaching sadness.  "I'm sorry to inform you of this, ma'am, but you will be labeled in our system as a *willing submissive* given your scores."](if: $PlayCheck is < 4 and $ring is < 4)[He looks to you earnestly.  "You should really consider working with the Liberty Society, once your current situation is cleared up.  We always need more advocates, especially those that have firsthand experience."(set: $TruantOffer to true)]
+(if: $PlayCheck is > 4 and $ring is > 4)[Er blickt mit einer fast traurigen Miene auf Sie. "Es tut mir leid, Ihnen dies mitteilen zu müssen, Ma'am, aber Sie werden in unserem System als *freiwillig unterwürfig* angesichts Ihrer Punktzahl gekennzeichnet."](if: $PlayCheck is < 4 and $ring is < 4)[Er schaut Sie ernsthaft an. "Sie sollten wirklich erwägen, mit der Liberty Society zusammenzuarbeiten, sobald sich Ihre derzeitige Situation geklärt hat. Wir brauchen immer zusätzliche Fürsprecher, vor allem solche, die Erfahrungen aus erster Hand haben."(set: $TruantOffer to true)]
 
-Well, perhaps you have a little clearer view of yourself.  Or, at the very least you have 25 more credits.  [[You give Michael some space as he steps away.->Offworlder Hub]]
-
-
+Nun, vielleicht hast du eine etwas klarere Vorstellung von dir selbst. Oder zumindest hast du 25 Credits mehr. [[Du gibst Michael etwas Raum, während er sich entfernt.->Offworlder Hub]]
