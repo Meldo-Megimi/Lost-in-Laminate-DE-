@@ -1,0 +1,15 @@
+:: OffHobble
+Michael nickt und reibt seine Hände aneinander. "Auf jeden Fall. Bei Kostümen müssen wir in der Regel zu einem Garderobengerät gehen, um etwas entfernen zu lassen. Aber Zubehör? Das kann ich Ihnen im Handumdrehen abnehmen. Ich wette, das würde sich *sehr* gut anfühlen, hm? Da jeder Schritt so eingeschränkt ist, könnte ich mir vorstellen, dass man leicht umfallen kann. Und vergessen Sie das Rennen oder alles andere, was mehr als Schrittgeschwindigkeit erfordert."
+
+Er geht zu seinem Rucksack und kehrt mit einer besonders robusten Schere zurück. "Sie müssen natürlich immer noch die 50 Credits Gebühren bezahlen."
+
+[["Ich habe nicht so viele Credits.  Vielleicht können wir das später besprechen."->Offworlder Hub]]
+(if: $debt is >= 50)[[["Ich habe die 50 Credits. Nehmen Sie mir das Ding ab!"->RemoveHobble2]]]
+
+
+:: RemoveHobble2 [Debt]
+Es erfordert etwas Anstrengung von Michaels Seite, aber mit einem plötzlichen Knacken gelingt es ihm, die zwischen deinen Beinen gespannte Laminatschnur zu durchtrennen.  Das Entfernen der restlichen Komponenten ist ganz einfach, und nach ein paar präziseren Schnitten fallen die letzten Teile weg.  Michael entsorgt sie in einer nahegelegenen Recyclinganlage, und du streckst zum ersten Mal seit einiger Zeit wieder die Beine aus.
+(set: $Level to 0)(set: $debt to it - 50)
+"Ich freue mich, Ihnen behilflich sein zu können, Ma'am." Michael lächelt und kehrt zu seinen Broschüren zurück. "Lassen Sie mich wissen, wenn Sie noch etwas von mir oder der Liberty Society brauchen."
+
+[[Wenn du einfach nur normale Kleidung finden könntest, wärst du völlig frei von toreanischen Einflüssen.->Offworlder Hub]]

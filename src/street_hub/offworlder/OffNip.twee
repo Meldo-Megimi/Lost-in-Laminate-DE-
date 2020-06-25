@@ -1,0 +1,26 @@
+:: OffNip
+Für einen Moment schaut er zu deiner Brust, zieht den Blick aber schnell wieder nach oben, um deinen Augen zu begegnen. "Es tut mir zutiefst leid, dass Sie sich dieser Behandlung unterziehen mussten", bedauert Michael. Er klingt ziemlich aufrichtig.
+
+"Wenn Sie in der Lage sind, die geringe Gebühr von 50 Credits zu bezahlen, kann ich diese für Sie entfernen lassen. Und selbst wenn Sie die Credits im Moment nicht haben, möchte ich Ihnen sagen, dass es keine Schande ist, *sowas* zu tragen. Auf Torei ist es für Frauen-- Sklavinnen und Freischösse gleichermaßen-- durchaus üblich, daß sie irgendwann auf diese Weise *verbessert* werden, wie ein Toreaner erklären würde. Und so wie die Dinge liegen, sind sie... relativ unerheblich.  Die Organisation hat-- wenn Sie entschuldigen, daß ich den Toreanischen Ausdruck verwende-- *Schmerzludern* geholfen bei weit mehr als dem, was Sie ertragen müssen."
+
+[["Ich habe nicht so viele Credits. Vielleicht können wir das später besprechen."->Offworlder Hub]]
+(if: $debt is >= 50)[[["Ich habe die 50 Credits gleich hier. Ich will das loswerden!"->RemoveNip2]]]
+
+
+:: RemoveNip2 [Debt]
+"Gut, gut!" Er klatscht in die Hände. "Das können wir aber nicht hier machen, nicht wenn Ihr Laminat so im Weg ist. Dazu ist ein Garderobengerät erforderlich, aber wir haben eins in der Nähe. Bitte, folgen Sie mir."
+(set: $debt to it - 50)(set: $Level to 2)(set: $TruantQuestPamph to true)
+
+Du brauchst nicht weit zu gehen-- Michael führt dich in eine nahe gelegene Gasse und durch eine Tür nach innen. Du betrittst eine Art Büroraum, der aufgeteilt und vermietet zu sein scheint. Die Abteilung der Liberty Society ist klein und zur Zeit verlassen, aber vollgestopft mit Material-- du hast den klaren Eindruck, dass Michael nicht ihr einziges Mitglied ist, das am Rande von Grand Aekora arbeitet. Als du an mehreren Schachteln mit Flugblättern vorbeikommst, die denen ähnlich sind, die von deinem Begleiter ausgeteilt wurden, bemerkst du einen in einem anderen Stil, nämlich den Namen *Kloster der Perzeption*, der in kräftigen Buchstaben entlang der Oberseite geschrieben steht.
+
+Deine Aufmerksamkeit richtet sich jedoch auf den hinteren Teil des Hauses, wo ein vertrautes Gerät auf dich wartet-- ein Garderobengerät, das scheinbar mobil ist. Michael bedient das Bedienfeld, während du vortrittst, die Tür gleitet vor dir auf. Darin warten ein Dutzend verschiedener Armaturen.
+
+[[Step forward.->RemoveNip3]]
+
+
+:: RemoveNip3
+Das Garderobengerät mag zwar mobil sein, aber es ist genauso effektiv wie das, das du im Hotel über sich ergehen lassen musstest. Das an deiner Brust anliegende Laminat wird von einem Lösungsmittel entfernt, das das Material präzise auflöst und dich für einen Moment oben ohne zurücklässt, während ein Laser den in deiner Brust eingebetteten Stahl durchtrennt. Danach wird ein Heilmittel aufgetragen, das deine Brustwarzen reparieren soll, da sie jetzt nicht mehr durchstochen sind. Darüber hinaus musst du lediglich darauf warten, dass die Garderobe das Laminat auf deiner Brust reproduziert-- und schon bist du frei und kommst zu Michael, der erwartungsvoll wartet.
+
+Wieder schaut er dir auf die Brust, nur um besser darüber nachzudenken. "Ist alles... gut?" fragt er, und schaut weg. "Wenn das so ist, können wir uns wieder zurück begeben. Und... vielleicht besprechen, wie wir Ihnen Armbinder loswerden können? Das wäre jetzt möglich."
+
+[["Alles *ist* gut. Gehen wir."->Offworlder Hub]]

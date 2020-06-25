@@ -1,0 +1,15 @@
+:: OffArm
+Michael nickt und reibt seine Hände aneinander. "Auf jeden Fall. Bei Kostümen müssen wir in der Regel zu einem Garderobengerät gehen, um etwas entfernen zu lassen. Aber Zubehör? Das kann ich Ihnen im Handumdrehen abnehmen. Ich wette, das würde sich *sehr* gut anfühlen, hm? Das sieht besonders eng aus, ich kann mir nicht vorstellen, wie sich Ihre Schultern anfühlen müssen. Ich hoffe, dass niemand versucht hat, Sie auszunutzen, mit so festgeschnürten Armen ist es so schwer, *irgendwas* zu tun."
+
+Er geht zu seinem Rucksack und kehrt mit einer besonders robusten Schere zurück. "Sie müssen natürlich immer noch die 50 Credits Gebühren bezahlen."
+
+[["Ich habe nicht so viele Credits.  Vielleicht können wir das später besprechen."->Offworlder Hub]]
+(if: $debt is >= 50)[[["Ich habe hier die 50 Credits. Nehmen Sie das Ding von mir runter!"->RemoveArm2]]]
+
+
+:: RemoveArm2 [Debt]
+Wie versprochen, macht die Schere kurzen Prozess mit deinem Armbinder. Er beginnt direkt hinter deiner linken Schulter, schiebt das Blatt unter das Laminat und arbeitet es dann nach oben. Die Muskeln und Sehnen, die aus der erzwungenen Position hinter deinem Rücken befreit werden, verspannen sich beinahe angesichts der plötzlichen Freiheit, aber schon jetzt spürst du, wie die heftigen Schmerzen in deinen Armen schließlich ihren Höhepunkt erreichen und anfangen, allmählich nachzulassen.
+(set: $Level to 1)(set: $debt to it - 50)
+Michael lächelt, als er die Laminatreste in eine nahegelegene Recyclinganlage wirft. " Großartig! Denken Sie daran-- wir können uns jetzt um die Fußfesselkette kümmern, wenn Sie weitere 50 Credits haben. Falls nicht, machen Sie sich keine Sorgen, ich werde den ganzen Tag hier sein."
+
+[[Du bewegst einen deiner Arme in einem langsamen Kreis. Verdammt, das fühlt sich gut an.->Offworlder Hub]]

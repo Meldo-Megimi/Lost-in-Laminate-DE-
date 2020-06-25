@@ -1,0 +1,28 @@
+:: OffTruantQ
+Michael blinzelt und schaut kurz über seine Schulter, bevor er seinen Blick wieder auf dich richtet.
+
+"Amadori? Ich kann Ihnen nicht wirklich etwas sagen. Einer Sklavin zu helfen, die versucht, den schrecklichen Bedingungen, denen sie normalerweise ausgesetzt ist, zu entkommen, ist in den meisten Ringdomänen, auch in dieser, ein... sehr schweres Verbrechen. Die Liberty Society betont, wie wichtig es ist, sich nicht an solchen Aktivitäten zu beteiligen."
+
+Das klingt wie etwas, das er einstudiert hat.
+
+(if: $TruantQuestPamph is true)[[["Es hat wahrscheinlich nichts damit zu tun, aber was ist mit den Broschüren in Ihrem Hauptquartier? Ich habe sie gesehen, als wir dort waren, für das örtliche Kloster?"->OffTruantQConvent]]]
+
+(if: $TruantOffer is true)[[["Als ich das Interview mit Ihnen geführt habe, sagten Sie, dass mein Ergebnis darauf hindeute, dass ich mit der Organisation zusammenarbeiten sollte. Sind Sie sicher, dass Sie mir nichts sagen können?"->OffTruantQOffer]]]
+
+[["Nun, ich denke, ich verstehe."->Offworlder Hub]]
+
+
+:: OffTruantQConvent
+"Broschüren für das Kloster?" fragt er, etwas ändert sich an seinem Ausdruck. Er begräbt es schnell mit einem leichten Lächeln. "Ach das? Eigentlich gibt es nichts dazu zu sagen, meine Partnerin, die in dieser Gegend arbeitet, bekommt jedes Mal eine, wenn sie an diesem Ort vorbeikommt. Das Kloster ist auf Frauen ausgerichtet, wurde mir gesagt. Ich bin sicher, sie geben sie jedem."
+
+[["Wenn Sie das sagen."->Offworlder Hub]]
+
+
+:: OffTruantQOffer
+"Sie *haben* in unserem Test außergewöhnlich gut abgeschnitten, wegen Ihrer Missbilligung der lokalen toreanischen Kultur..."
+
+Michael schaut dich wieder an, als ob er versucht, etwas aus deinem Ausdruck zu erkennen. Es ist ein langer Moment, aber einer, der schließlich mit einer Schlussfolgerung endet. Er winkt dir zu, näher zu kommen.
+
+"Schauen Sie", flüstert er und hält Ihnen eine Broschüre hin, als ob er es Ihnen erklären würde. "Mehr kann ich nicht sagen, nicht hier. Aber meine Partnerin, Elizabeth, kann es. Wenn Sie *wirklich* helfen wollen, müssen Sie mit ihr reden. Sie befindet sich oben auf der Transportplattform, halten Sie ausschau nach der roten Bank. Alles klar? Jetzt fragen Sie mich nicht mehr danach."
+(set: $ElizabethLoc to true)
+[[[Eine Spur! Und es klingt, als sei die Organisation daran beteiligt. Du solltest dich auf den Weg zur Transportplattform machen, wenn du die Zeit dazu hast.->Offworlder Hub]]]

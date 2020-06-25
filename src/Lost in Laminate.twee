@@ -246,16 +246,6 @@ She lifts a gloved hand, forefinger rubbing against her thumb.  "And I will give
 [["I'm having second thoughts, let me... reconsider."->Isabella Hub]]
 
 
-:: TransitChecktoHub [Travel-Checks]
-(set: $Strike to it +1)
-
-(if: $Blue is true)[You're a glossy blue doll among so many other women as you step away and consider your options.] (if: $Smoke is true)[The streets are full of other women, but few wear transparent laminate.  Eyes naturally drift towards your womanhood, that black strip the only modesty you're allowed as you step away and consider your options.] (if: $Brand is true)[Your wide hips and tight corset draw looks, but its the adverts on your suit where eyes linger. Among so much laminate you still stand out.  At least you're getting the hang of your boots, as you step away and consider your options.] (if: $Sec is true)[Your prim, professional attire helps you cut through the crowds.  Those in the full black, mask, and collar of a slave even given you deference.  Smiling, your candy red pumps snap against the concrete as you step away and consider your options.] (if: $Slave is true)[Among so many brightly colored woman, your black laminate uniform stands out distinctly.  As you step away to consider your options, you fight to suppress the moan that comes with the shifting of your plugs.  A passerby slaps your ass with a smile, your collar and uniform making you an easy target.]
-
-(if: $Strike is 2)[[[Your passage along the sidewalk is halted by a slowing in the crowd.  Some sort of checkpoint awaits, ahead, without another means of passing.  It takes some time for the queue before you to be processed, but as soon as you reach the front a harsh hand grabs you!->Truant Greet]]](if: $Strike is 4)[[[As you continue on your way, however, a voice suddenly calls out from behind.  "Hey, you, girl!"->Strike4Start]]](if: $Strike is 6)[[[Making your way along the sidewalk, something catches your eye...->Strike6Start]]](if: $Strike is 8)[[[Your walk is interrupted by the sight of a woman standing out from the crowd...->Strike8Start]]](if: $Strike is 10)[[[The path before you turns, and a small crowd confronts you...->Strike10Start]]](if: $Strike is 12)[[[As you continue on your way, something catches your eye...->Strike12Start]]](if: $Strike is 14)[[[Your path forward is blocked by a line, of sorts...->Strike14Start]]](if: $Strike is 16)[[[Suddenly you pause, an intriguing sight catching your eye...->Strike16Start]]](if: $Strike is 18)[[[Walking among your fellow freewombs, you find your eyes drifting...->Strike18Start]]](if: $Strike is 20)[[[As you make your way along the Torean streets, you get the strange sense of being followed...->Strike20Start]]]
-
-(if: $Strike is 1 or 3 or 5 or 7 or 9 or 11 or 13 or 15 or 17 or 19)[[[Continue on your way.->Street Hub]]](if: $Strike is > 20)[[[Continue on your way.->Street Hub]]]
-
-
 :: IsPlayE
 "Etiquette..." the midnight clad woman purrs, turning to eye you with amusment.  "Do you understand what that even truly means, on Torei?  I suspect you're (if: $Slave is true)[learning quite rapidly, in that slave suit.](else:)[picking it up piece by piece so far.]  But you *could* do with a proper lesson on the basics.  Torean culture expects many things of you, just because you're female.  A mindset, in fact, that offworlders struggle with.  Thus... etiquette.  Internalizing our culture takes time, but anyone can be shown how to perform a proper Torean reverence.  Such things is what we will play with."
 
@@ -1256,36 +1246,6 @@ It's a heady combination, and soon you realize your time spent with your thought
 [[The streets are tight, the buildings high.  It's so easy to get turned around.->Street Hub]]
 
 
-:: OffNip
-For a moment, he looks to your chest, but quickly draws his gaze back up to meet your eyes.  "I'm deeply sorry you had to undergo the application of such things," Michael commiserates.  He sounds quite genuine.
-
-"If you're capable of paying that small 50 credit fee, I can get those removed for you.  And even if you don't have the credits right now, I want you to know there is no shame in being outfitted with... *them.*  On Torei, it's a very common thing for women-- slaves and Freewombs alike-- to eventually be *improved*, as a Torean would declare, in such a way.  And as things go, they're... relatively minor.  The Society has helped-- if you will excuse my using the Torean term-- *painslut* with far more then what you're enduring."
-
-[["I don't have that many credits.  Perhaps we can explore this later.->Offworlder Hub]]
-(if: $debt is >= 50)[[["I've got 50 credits right here.  I want them out!"->RemoveNip2]]]
-
-
-:: OffArm
-Michael nods, rubbing his hands together.  "Absolutely.  With outfits, we generally have to go to a wardrobe to have something removed.  But accessories?  I can cut that off you in just a few moments.  I bet that would feel *quite* good, huh?  That looks to be a particularly strict one, I cannot imagine how your shoulders must be feeling.  I hope no one has tried to take advantage of you either, with your arms pinned like that it's so hard to do *anything.*"
-
-Going to his backpack, he returns with a particularly heavy-duty looking set of shears.  "You will still need to pay that 50 credit fee, of course."
-
-[["I don't have that many credits.  Perhaps we can explore this later.->Offworlder Hub]]
-(if: $debt is >= 50)[[["I've got 50 credits right here.  Get this thing off of me!"->RemoveArm2]]]
-
-
-:: OffInterview
-His enthusiasm for the topic is immediate.  "Ah, so you're interested in the interview?  Great!  Or perhaps you're justing looking for more details?  Well-- the Society publishes a quarterly report on our work here, planetside.  Mission goals and achievements, financial spending, that sort of thing.  But we also have a section reserved for what we call *the voices of Torei*.  Testamonies from the Torean-born, or freewombs like yourself.  Anyone who has been subjected to the horrors of Torean culture!  Wait here."
-
-Moving to his backpack, he pulls forth a small recording device and a datapad of some sort.  Tapping a button, he peforms a quick microphone check, the machine repeating his words with a second press.  Clearly working as intended, he approaches you again.  "So, let me explain how this works-- it's really simple.  I will ask you a few questions, and you will answer the questions truthfully.  And I mean that-- don't say what you think the Society wants to hear, speak from your heart.  That's important, we categorize every *voice* added to our archives based on their views, I can tell you where you will be placed afterward."
-
-He smiles, awfully handsome in the afternoon light.  "So-- how does that sound?  Pretty easy, right?  And then you will get your 25 credits.  I only wish I was authorized to give you more."
-
-[["Is this anonymous?  Will my name be attached, I mean?"->OffInterviewPreQ]]
-[["This sounds like something I can do.  Give me the first question."->OffInterviewQ1]]
-[["I'll have to rethink this, Michael.  Maybe later."->Offworlder Hub]]
-
-
 :: OffPhoto
 "No catch!" Michael assures you, but you can read something else in his eyes.  A *'but'* was coming, and it doesn't take long.
 
@@ -1306,167 +1266,6 @@ He takes you by the shoulder, a raised hand directed over the nearest rooftop.  
 
 [["Sounds easy enough, I'm in."->OffDonateYes]]
 [["Actually... let me think about it.  Maybe later."->Offworlder Hub]]
-
-
-:: OffHobble
-Michael nods, rubbing his hands together.  "Absolutely.  With outfits, we generally have to go to a wardrobe to have something removed.  But accessories?  I can cut that off you in just a few moments.  I bet that would feel *quite* good, huh?  Having every step restricted like that, I would imagine it must be easy to fall over.  And forget about running, or anything else that requires more then walking speed."
-
-Going to his backpack, he returns with a particularly heavy-duty looking set of shears.  "You will still need to pay that 50 credit fee, of course."
-
-[["I don't have that many credits.  Perhaps we can explore this later.->Offworlder Hub]]
-(if: $debt is >= 50)[[["I've got 50 credits right here.  Get this thing off of me!"->RemoveHobble2]]]
-
-
-:: RemoveArm2 [Debt]
-As promised, the shears make short work of your armbinder.  Starting just behind your left shoulder, he slides the blade beneath the laminate, then works it upward.  The muscles and tendons that are freed from the enforced position behind your back nearly spasm from the sudden liberty, but already you can feel the harsh ache in your arms finally peak and begin to start coming down.
-(set: $Level to 1)(set: $debt to it - 50)
-Michael is all smiles, as he tosses the laminant remains in a nearby recycling chute.  "Great!  Remember-- we can address that hobble chain now, if you have another 50 credits.  If not, don't worry, I'll be here all day."
-
-[[You work one of your arms in a slow circle.  Damn, that feels good.->Offworlder Hub]]
-
-
-:: RemoveHobble2 [Debt]
-It takes a bit of effort on Michael's part, but with a sudden snap he manages to cut through the laminate cord strung between your legs.  Removing the rest of the components is simple enough, and after a few more precise cuts the last bits fall away.  Michael disposes of them in a nearby recycling bin and you, for the first time in awhile, stretch your legs.
-(set: $Level to 0)(set: $debt to it - 50)
-"Happy to be of service, ma'am."  Michael smiles, returning to his pamphlets.  "Let me know if you need anything else from me, or the Liberty Society."
-
-[[If you could just find some regular clothes, you would be wholly free of Torean influence.->Offworlder Hub]]
-
-
-:: RemoveNip2 [Debt]
-"Great, great!"  He claps his hands together.  "We can't do that here, though, not with your laminate in the way like that.  This is will require a Wardrobe device, but we have one nearby.  Please-- follow me."
-(set: $debt to it - 50)(set: $Level to 2)(set: $TruantQuestPamph to true)
-
-You don't have to travel far-- Michael leads you down a nearby alley and through a door within.  You enter into what appears to be an office space of some sort, subdivided and rented out.  The Liberty Society's section is small, and currently deserted, but packed with supplies-- you get the clear impression Michael isn't its only member operating on Grand Aekora's outskirts.  Passing by several boxes of pamphlets much like the ones your escort had been handing out, you notice one of a different style, the name *Convent of Perception* written in stark letters along the top.
-
-Your attention turns towards the back of the domicile, however, where a familiar device awaits-- a wardrobe, this one appearing to be mobile.  Michael works the control panel as you step up, the door gliding open before you.  Within, a dozen different armatures await.
-
-[[Step forward.->RemoveNip3]]
-
-
-:: RemoveNip3
-The Wardrobe Device may be mobile, but it's just as effective as the one you endured in the hotel.  The laminate clinging to your chest is removed by a solvant that precisely dissolves the material, momentarily leaving you topless as lasers cut the steel embedded in your chest.  A healing solution is applied afterward, intended to repair your nipples now that they're no longer studded.  Beyond that, you merely must wait for the suit to reproduce the laminate across your chest-- and you're free, emerging to Michael waiting expectantly.  
-
-Again he looks to your chest, only to think better of it.  "Everything is... good?"  He asks, glancing away.  "If so, we can make our way back up.  And... maybe discuss getting that armbinder off of you?  That's an option now."
-
-[["Everything *is* good.  Let's go."->Offworlder Hub]]
-
-
-:: OffInterviewPreQ
-"Ah," he replies, nodding.  "I understand your concern-- it certainly cannot be dignifying to speak publically about what you have undergone.  This *is* a public statement, however, with your identity made clear.  If you perfer we not do this, I would of course understand."
-
-[["No, I'm fine with this.  As your first question."->OffInterviewQ1]]
-[["On second thought, I'm not sure I want to do this."->Offworlder Hub]]
-
-
-:: OffInterviewQ1
-"Excellent, just... excellent!  Alright!  Please remember: do not be afraid to answer these questions truthfully.  Our data is greatly improved by answers that speak to your true views, and our supports abroad prefer those as well.  Okay?  Here we go."
-(set: $debtSec to true)
-He looks to the datapad, holding the microphone in the space between you and him.  "This first one is very easy: Torei is perhaps best known for the widespread use of *laminate*.  Given that you are wearing the material right now, what are your thoughts on it?"
-(set: $PlayCheck to 0)(set: $ring to 0)
-(link: "If I could wear anything else, I would.  I hate it.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview2")]
-(link: "It's not something I would recommend, but... it's not as bad as I expected.")[(set: $ring to it - 1)(goto: "Interview2")]
-(link: "I think... I like it.")[(set: $PlayCheck to it + 1)(goto: "Interview2")]
-(link: "It's so tight and glossy, I... feel empowered by it.")[(set: $PlayCheck to it + 1)(goto: "Interview2")]
-(link: "I love how it puts me on display, how I'm not allowed anything else.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview2")]
-
-
-:: Interview2
-"Good, alright-- another question: prior to this interview, you mentioned having been in rather intensive bondage.  Physical restraint is another common facet of Torean culture-- how do you feel about that?"
-
-(link: "I feel like every other sane person: that it's a terrible thing to inflict upon a person.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview3")]
-(link: "Honestly, I try to avoid it at all times.  But it's just something we have to put up with here, as women.")[(set: $ring to it - 1)(goto: "Interview3")]
-(link: "I hate it... and I... I like the feeling, alright?")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview3")]
-(link: "It feels... good, but that doesn't make it right.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview3")]
-(link: "It can be a lot of fun, actually.")[(set: $PlayCheck to it + 1)(goto: "Interview3")]
-(link: "It's... natural.  Most of us, we're at our best in bondage!")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview3")]
-
-
-:: Interview3
-"My interviewee today is an offworlder, as I'm sure the background file on this recording will indicate.  Thus she is a freewomb by this planet's horrendous terminology.  Ma'am, what would you say to any woman thinking about traveling to Torei, as a freewomb?"
-
-(link: "Don't.  Stay as far away as possible, and donate to groups like the Liberty Society as often as you can.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview4")]
-(link: "It's obviously an embarrassing thing to have stamped on your ID card, I wouldn't recommend it.")[(set: $ring to it - 1)(goto: "Interview4")]
-(link: "It's not proper to say, but... I don't know, maybe they're onto something here. Come try it out.")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview4")]
-(link: "Torei is something special.  Strange, but worth a trip.")[(set: $PlayCheck to it 1)(goto: "Interview4")]
-(link: "Come down the Way Up, and you will find a role that fits you.  I certainly have.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview4")]
-
-
-:: Interview4
-"Let's try something else-- what we call a *Torean decision.*  These are scenarios constructed to resemble what women actually are forced to consider, here on Torei-- and to demonstrate the indignities forced upon them."
-
-Michael clears his throat.  "Ma'am, consider you are enslaved by a wealthy landowner here on Torei.  Your Governess-- for those listening to this recording, please check the included vocabulary guide for definitions-- is looking to move you into a new role.  Which would you prefer?"
-
-(link: "None.  I know I'll get punished, but I don't care.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview5")]
-(link: "Something that lets me keep my dignity, relatively.  Receptionist, at my owner's business, perhaps?  I met one today who only had wrist cuffs and a semi-transparent blouse.")[(set: $ring to it - 1)(goto: "Interview5")]
-(link: "Maybe a truant officer.")[(set: $PlayCheck to it + 1)(goto: "Interview5")]
-(link: "Concubine, my specialty is pleasure.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview5")]
-
-
-:: Interview5
-"Let's try another *Torean decision.*  You're walking down a street, ma'am, and find another freewomb bound outside a local Ministry of Truants office.  In some Ringdoms on this planet, public exposure is a common punishment for misdemeanors such as petty theft.  What do you do with her?"
-
-(link: "I do whatever I can to free her.  Escaping the Ministry of Truants is supposed to be difficult... but she should be given the chance.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview6")]
-(link: "I ignore her, like most other people passing by would.")[(set: $ring to it - 1)(goto: "Interview6")]
-(link: "I'm angry someone can do that to her... but Toreans are really good at binding women...")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview6")]
-(link: "I go inside to plead for her case-- a proper session with a riding crop would be far quicker, and the freewomb could set to earning credits for her fines, afterward.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview6")]
-(link: "Maybe play with her a bit, that is the point after all.")[(set: $PlayCheck to it + 1)(goto: "Interview6")]
-(link: "Steal something small myself, I'd like to join her up there!")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview6")]
-
-
-:: Interview6
-"The Ministry of Improvements is a staple of Torean culture-- and very indicative of the corruptive influence of Torean society.  Gifted with medical advancements most colonies abroad can only dream of, it is primarily used here for the so called *improvement* of physical features.  Often of a sexual nature.  Ma'am, would you ever consider visting such a place?"
-
-(link: "Not a chance.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview7")]
-(link: "No... but others can do as they like.")[(set: $ring to it - 1)(goto: "Interview7")]
-(link: "I wouldn't like, but if that's what I was told to do...")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview7")]
-(link: "I would!  But I would use it solely for its medical capabilities, nothing beyond that.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview7")]
-(link: "Yes I would-- many freewombs use that Ministry to improve their chances of getting a collar, or for other things I guess.")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview7")]
-
-
-:: Interview7
-"Torei was originally formed and made into a habital planet by two of its three AI-- Mazos and Dahom.  They also bred the strain of humanity that now derives from this planet, and are known for their cruelty.  Ma'am, what are you views on the AIs?"
-
-(link: "They're disturbing, and untrustworthy.  Dealing with them should be avoided at all costs.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "Interview8")]
-(link: "Everyone hates them, and I do too.")[(set: $PlayCheck to it - 1)(set: $ring to it + 1)(goto: "Interview8")]
-(link: "If they came for me, I would do whatever it takes to fight them.")[(set: $PlayCheck to it + 1)(set: $ring to it - 1)(goto: "Interview8")]
-(link: "I remember... rumors of things they do to those under their control... it's fascinating, fascinating and terrifying...")[(set: $PlayCheck to it + 1)(set: $ring to it + 1)(goto: "Interview8")]
-
-
-:: Interview8
-Michael checks the device at his wrist, a time keeping unit of some sort.  "Alright, one last question as we wrap this up.  Ma'am, could you describe your experience on Torei thus far-- in one word?"
-
-(link: "Horrific.")[(set: $PlayCheck to it - 1)(set: $ring to it - 1)(goto: "InterviewEND")]
-(link: "Bad.")[(set: $ring to it - 1)(goto: "InterviewEND")]
-(link: "...surprising.")[(set: $PlayCheck to it + 1)(goto: "InterviewEND")]
-(link: "Wonderful.")[(set: $PlayCheck to it 1)(set: $ring to it + 1)(goto: "InterviewEND")]
-
-
-:: InterviewEND [Debt]
-Double tapping the small recording device, your interviewer ends its capture.  "Very good!"  He concludes, enthusiastically.  "Not that hard, right?  Your 25 credits will be added to your account... any moment now.  This interview will be taken by the next courier out of system-- it's just cheaper to bundle recordings like that together, and move somewhere less out of the way then Torei before broadcasting it to headquarters."
-(set: $debt to it + 25)
-He taps the top of his datapad.  "Want to hear what your category will be, though?"
-
-[["Sure, what's my category?->InterviewENDYES]]
-[["I'd... rather not know, let's just call it good there."->Offworlder Hub]]
-
-
-:: InterviewENDYES
-"Well, we grade these by two scores.  They're automatically generated, and honestly I'm not fully supportive of the system... but it's what we do.  The first checks what we refer to as your *personal approval* of Torei and its culture."  
-
-(if: $PlayCheck is < -4)["You came in with very low personal approval, ma'am.  That's *great* to see, for obvious reasons.  Can you imagine someone actually liking what happens to women here?"]
-(if: $PlayCheck is -4 or -3 or -2)["You came back with moderately low levels of personal approval, ma'am.  I would recommend being more obviously outraged at the situation here, but obviously that's your decision to make."]
-(if: $PlayCheck is -1 or 0 or 1)["Your score came back as relatively neutral, with regards to personal approval.  What it *doesn't* tell me is if that's because you're feeling conflicted, or if you're not articulating your views clearly.  Just something to consider."]
-(if: $PlayCheck is 2 or 3 or 4)["Your score came back as indicating moderate approval of Torean culture, ma'am.  I have to ask... you're not liking ths, right?  The things they do to you?  Nevermind... just, think about it."]
-(if: $PlayCheck is > 4)["Your score come back as indicating exceptional personal approval of Torean culture, ma'am.  That's... honestly a bit distressing, if I'm being perfectly honest.  There are advocates for Torei out there... but most of those are male.  Women like yourself end up in a collar, thinking like that."]
-
-Michael moves his finger down his pad, obviously reading off a list.  "The second score grades-- I mean indicates, yeah, that's better... it indicates your level of *defiance* to Torean social norms."
-
-(if: $ring is < -4)["You came in as extremely defiant, when it comes to Torean norms and expectations!  You're positively lion-like, I must say.  Great job!"](if: $ring is -4 or -3 or -2)["You came in with relatively high levels of defiance towards Torean norms and expectations.  That's pretty average, its usually only former slaves who rank higher."](if: $ring is -1 or 0 or 1)["You came in with very average defiance scores.  I'm not really sure what to tell you that you don't already know yourself.  Just be careful with that sort of thinking."](if: $ring is 2 or 3 or 4)[You came in with relatively low levels of defiance towrds Torean norms and expectations, ma'am.  I've got some great books, if you would ever want to challenge your... very Torean viewpoint?"](if: $ring is > 4)[You came in as extremely receptive to Torean social norms and expectations, ma'am.  I feel... I must remind you this will be available on our public-facing archives, at some point.  It's not exactly a progressive viewpoint...]
-
-(if: $PlayCheck is > 4 and $ring is > 4)[He looks to you with something approaching sadness.  "I'm sorry to inform you of this, ma'am, but you will be labeled in our system as a *willing submissive* given your scores."](if: $PlayCheck is < 4 and $ring is < 4)[He looks to you earnestly.  "You should really consider working with the Liberty Society, once your current situation is cleared up.  We always need more advocates, especially those that have firsthand experience."(set: $TruantOffer to true)]
-
-Well, perhaps you have a little clearer view of yourself.  Or, at the very least you have 25 more credits.  [[You give Michael some space as he steps away.->Offworlder Hub]]
 
 
 :: OffPhoto 2
@@ -3463,36 +3262,6 @@ Again stepping away from those passing as you approach, Michael rubs his hands t
 He turns from you, looking to the passing crowds.  "I should probably return to my work.  If you need anything else, just let me know."
 
 [["Sure."->Offworlder Hub]]
-
-
-:: OffTruantQ
-Michael blinks, glancing over his shoulder for a moment before returning his gaze to you.
-
-"Amadori?  I couldn't really tell you anything.  Aiding or abetting a slave attempting to escape the horrific conditions they are usually subjected to is a... very serious offense in most Ringdoms, including this one.  The Liberty Society impresses upon us the importance of not engaging in such activity."
-
-It sounds like something he has practiced.
-
-(if: $TruantQuestPamph is true)[[["It's probably unrelated, but what is up with the pamphlets in your headquarters?  I saw them while we were in there, for the local Convent?"->OffTruantQConvent]]]
-
-(if: $TruantOffer is true)[[["When I did that interview you had, you said my score indicated I should work with the Society.  You're sure you can't tell me anything?"->OffTruantQOffer]]]
-
-[["Well, I suppose I understand."->Offworlder Hub]]
-
-
-:: OffTruantQConvent
-"Pamphlets for the Convent?" He asks, something rising in his expression.  He buries it quickly with an easy smile.  "Oh that?  Nothing really to say, my partner working in this area is given one everytime she passes that place.  The Convent is orientated towards women, I'm told.  I'm sure they give those to everyone."
-
-[["If you say so."->Offworlder Hub]]
-
-
-:: OffTruantQOffer
-"You *did* score exceptionally on our test, for disapproval with local Torean culture..."
-
-Michael looks at you again, as if trying to discern something from your expression.  It's a long moment, but one that finally passes with a conclusion having been made.  He gestures for you to come closer.
-
-"Look," he whispers, holding a pamphlet out as if explaining it to you.  "I can't say more, not here.  But my parter, Elizabeth, can.  If you *really* want to help you need to talk to her.  She will be up on the Transport Platform, look for the red bench.  Alright?  Now you need to not ask me about this again."
-(set: $ElizabethLoc to true)
-[[[A lead!  And it sounds like the Society is involved.  You should make your way to the Transport Platform when you have the time.->Offworlder Hub]]]
 
 
 :: TruantQuestHub
