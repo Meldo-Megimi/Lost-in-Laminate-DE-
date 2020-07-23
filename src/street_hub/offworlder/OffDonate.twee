@@ -1,0 +1,56 @@
+:: OffDonate
+Der Außenweltler hebt eine Hand an sein Kinn und erwägt offenbar dein Angebot. Er überlegt nicht lange.
+
+"Ja, ich denke, das können Sie. In Ordnung, das funktioniert folgendermaßen. Alles, was Sie tun müssen, ist, Ihren natürlichen Charme einzusetzen", er hält inne und betrachtet dein ganzes Laminat-Ensemble. "Ich meine, *reden* Sie mit den Leuten und bitten Sie sie um Spenden für die Gesellschaft. Normalerweise funktioniert es am besten, wenn Sie eine persönliche Beziehung zu jemandem haben, Sie wissen schon, dass Sie schon einmal etwas anderes mit ihm gemacht haben. Versuchen Sie das, erkunden Sie ein bisschen, sehen Sie mal wie weit Sie kommen."
+
+Er fasst dich an der Schulter, eine erhobene Hand, die über das nächste Dach gerichtet ist. In der Ferne ragt die Transportplattform über fast alles andere im Bezirk. "Dann gibt es noch eine weitere Stelle, die Sie aufsuchen sollten. Oben auf der Plattform haben wir die Genehmigung für einen kleinen Stand, für Werbung oder Ausbildung oder was immer wir wollen. Heute wird es eine Spendensammlung sein, die Sie leiten. Die Literatur und die Schilder verkaufen die Idee größtenteils selbst, aber wenn jemand Fragen hat, soll er sich einfach an unsere Hotline wenden. Klingt das gut? Am Ende kommen Sie zu mir zurück, und Sie erhalten einen Anteil von dem, was Sie gesammelt haben. Nennen Sie es einen Anreiz für gute Arbeit!"
+
+[["Klingt einfach, ich bin dabei."->OffDonateYes]]
+[["Eigentlich... lassen Sie mich darüber nachdenken. Vielleicht später."->Offworlder Hub]]
+
+
+:: OffDonateYes
+"Großartig!" antwortet Michael und klatscht dir auf den Rücken. "Das ist einfach großartig! In Ordnung, wie ich schon sagte, Sie können versuchen, jeden, der Ihnen gefällt, für Einzelspenden anzusprechen, aber Sie *müssen* zur Transportplattform und zu unserem Stand dort gehen, bevor ich Ihre Arbeit als erledigt betrachte. In Ordnung? Klingt das gut? Ja? Dann sehen wir uns wieder, wenn Sie fertig sind!"
+(set: $Donate to true)
+[[Sounds like you have some walking to do.->Offworlder Hub]]
+
+
+:: OffDonateFail
+"Äh... sind Sie sicher?" fragt der Mann und sieht dich fragend an.  "Denn Sie haben unseren Stand auf der Transportplattform definitiv noch nicht besetzt, und das müssen Sie tun, bevor Sie etwas abgeben können. Ich wette, von dort wird der Grossteil der Spenden kommen, da oben ist so viel los."
+
+Er zeigt auf die Plattform in der Ferne.  "Also machen Sie das erst einmal, wie wir es besprochen haben."
+
+[["Hoppla. Ha, das tut mir leid. Das werde ich tun."->Offworlder Hub]]
+
+
+:: OffDonateEnd
+Der Mann lächelt, eine Hand findet deine Schulter. "Hey, schön zu hören! Wie ist es gelaufen?"
+
+Als du ihm erklärst, dass es überraschend ereignislos war, nickt er einfach. "Bei einer solchen Arbeit kann man sich nicht viel Ärger einhandeln, würde ich denken. Wenn du die Klips in meinen Rucksack stecken kannst, können wir deine Bezahlung regeln."
+
+Er kehrt kurz zurück, um denen, die vorbeigehen, seine Broschüren zu überreichen, und lässt dich an der Wand der Ecke allein-- so dass sich plötzlich eine Möglichkeit ergibt. Michael hat sich noch nicht die Mühe gemacht, die Spenden zu zählen, und sein Rücken ist ganz und gar von dir abgewandt. Behalte ein paar Clips für dich, sagen wir... im Wert von 75 Credits, es scheint unwahrscheinlich, dass man es bemerken würde.
+
+Manche würden das *Stehlen* nennen, aber bist du nicht genau die Art von Mensch, der die Liberty Society hätte aktiver helfen sollen?
+
+[[Nimm dir ein bisschen etwas Extra.->OffDonateEndSteal]]
+[[Nein, das wäre falsch.->OffDonateEndGood]]
+
+
+:: OffDonateEndSteal [Debt]
+Es ist einfach genug, ein paar Clips für dich zu behalten. Diese 75 Credits könnten sich schließlich als sehr hilfreich für deine Ziele erweisen.
+(set: $debt to it + 75)
+Nachdem du sie abgesondert hast, kehrst du auf Michaels Seite zurück.
+
+[["Alles erledigt."->OffDonateEndGood]]
+
+
+:: OffDonateEndGood [Debt]
+Michael entfernt sich wieder von denen, die vorbeigehen, während du dich näherst, und reibt seine Hände aneinander. "Es lief also gut. Haben Sie gewissermaßen irgendwelche zusätzlichen Credits bekommen? Haben Sie jemanden jenseits der Transportplattform gefunden, der bereit war, eine Spende zu leisten?
+(set: $DonateEnd to true)(set: $debt to it + 100)(if: $DonateTruant is true)[(set: $debt to it + 25)]
+(if: $DonateIsabella is true or $DonateEuphoria is true or $DonateDahlia is true)[Du erwähnst kurz deine gescheiterten Versuche, auf die Michael einen verständnisvollen Blick wirft. "Ich habe es verstanden", erklärt er. "Glauben Sie mir, wir wissen, wie schwer es ist, Unterstützung auf diesem Planeten zu finden. Torei ist eine schwer zu knackende Nuss."]
+
+(if: $DonateTruant is true)[Zumindest gab es die Blau-Polizistin, und du erwähnst ihre überraschende Spende. "Wirklich?" fragt Michael und streichelt sein Kinn. "Ehrlich gesagt, das hätte ich nie vermutet. Ich bin mir nicht sicher, ob ich ihre Argumentation dafür voll und ganz unterstütze... aber hey, wir nehmen jede Hilfe an, wenn wir sie bekommen können. Auch wenn die Quelle so unerwartet ist wie das Ministerium für Schuldner. Gute Arbeit! Ich gebe 25 Credits extra für die Laufarbeit dazu. Das bringt deine Gesamtsumme auf... 125 Credits, für gute Arbeit."](else:)["Nun, wie versprochen, erhalten Sie einen Teil des Erlöses. Sagen wir... 100 Credits? Das scheint fair. Wenn Sie andere zum Spenden gefunden hätten, hätte ich vielleicht einen Bonus hinzugefügt, aber 100 Credits helfen sicherlich. Stimmt's?"]
+
+Er wendet sich von dir ab und schaut auf die vorbeiziehende Menge. "Ich sollte wohl zu meiner Arbeit zurückkehren. Wenn Sie noch etwas brauchen, lassen Sie es mich einfach wissen."
+
+[["Natürlich."->Offworlder Hub]]

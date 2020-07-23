@@ -117,83 +117,6 @@ The eerie 'forest' is set apart from the road by a simple wrought-iron fence, ri
 [[Enter.->NunGreet2]]
 
 
-:: Isabella Greet
-<img src="img/9MFJwF5.png" width="30%" height="30%">
-
-Several benches line the wall that doubled as the raised platfrom for the transport hub above, and most of them are full-- except for one, at which the woman you saw in the hotel is seated alone.  Her glossy laminated legs are crossed, one over the other so that a sharp stiletto flashes in the light at your approach.  The inset of her black boots are chromed steel.
-
-She takes a long pull from some manner of electronic cigarette, the tip bright red.  Exhaling crimson smoke, you catch a cinnamon scent.  Her eyes are hidden by mirrored glasses and she doesn't turn to regard you, but you're given a command nevertheless.
-
-"On your knees, slave."
-(set: $IsabellaCheck to true)
-[[You remain standing.  "I am not a slave."->IsGreetRefuse]]
-[[Your instincts compel.  You kneel before her.->IsGreetAck]]
-
-
-:: IsGreetRefuse
-She takes another long drag of her cigarette, twin embers reflected in her glasses.  Several moments pass in silence as she holds it in, savoring the flavor.  Release follows, red smoke rising from equally red lips as she finally turns to regard you directly.
-
-"(if: $Slave is true or $Blue is true)[Yet you have that collar.  Show me your ID."  She takes the card you provide, sliding down her glasses to inspect the FREEWOMB stamped across the top.  A smile forms. "Consider me surprised.  Just enjoying being restrained like that, hm?"](else:)[It never hurts to check.  You would be surprised at how many go down, despite what their ID may say."]
-
-(if: $Fondled is true)[She smirks.  "And you *are* that woman I passed on the way out of the hotel.  The one strung up, undergoing punishment.  The one I touched, *barely* and who moaned like a wet slut."](else:)[Her gloved fingers tap against the top board of the bench, her arm stretched out upon it.  "My name is Isabella Naram-Sin.  You're the girl from the hotel.  What exactly can I do for you?"]
-
-(if: $Fondled is true)[[["I... well, you..."->Fondled II]]](else:)[[["I... have a request."->IsRequest]]]
-
-
-:: IsGreetAck
-Her tone is sharp, but not harsh.  Commanding, but not shrill.  You find yourself unable to resist.  On the sidewalk of a public street, as strangers pass by, you kneel to the woman before you.
-
-"Knees spread(if: $Level is 1)[, hands behind your back], she continues.  You comply.  
-
-"Eyes down." Several nearby women are clearly looking your way, you realize as you look down at the pavement.
-
-The woman doesn't care, but she does stand, running an obsidian glove along your head. (if: $Blue is true or $Smoke is true or $Sec is true or $Brand is true)[Her fingers pull through your hair, petting gently.](if: $Slave is true)[Her fingers run against the smooth laminate of your hood, as your breath for once catches in your throat and not your mask.]  Stepping forward, she plants one long leg between your spread knees, the shiny material of her catsuit running up before your face, to the meeting of her legs.  You're looking at the ground though, as ordered.  
-
-"Good girl.  Now show me your ID."  She takes your small card once offered.  The image it bore of a bright, smiling traveler in a fashionable cotton dress is quite the juxtaposition to the laminated woman kneeling at her feet.  The card is returned to you.
-
-"Freewomb?  Interesting.  Liberty can be such a burden, can it not?"  She steps back and returns to her seat, indicating that you are allowed to rise.
-
-(if: $Fondled is true)[She smirks.  "And you *are* that woman I passed on the way out of the hotel.  The one strung up, undergoing punishment.  The one I touched, *barely* and who moaned like a wet slut."](else:)[Her gloved fingers tap against the top board of the bench, her arm stretched out upon it.  "My name is Isabella Naram-Sin.  You're the girl from the hotel.  What exactly can I do for you?"]
-
-(if: $Fondled is true)[[["I... well, you..."->Fondled II]]](else:)[[["I... have a request."->IsRequest]]]
-
-
-:: Fondled II
-You remember the experience vividly.  Your armbinder pulled up behind you, rear raised for punishment-- and then her approach, all black laminate and confidence.  The hand between your legs, teasing out more pleasure then you ever thought possible from so simple a touch.  (if: $Blue is true or $Smoke is true or $Brand is true and $Level is >= 2)[Perhaps its best your armbinder is locked in place, the urge to touch that zipper between your legs would have been overwhelming.](if: $Sec is true and $Level is >= 2)[Perhaps its best your armbinder is locked in place, the urge to run a hand up your own skirt is overwelming.](if: $Slave is true and $Level is >= 2)[Your armbinder prevents the overwelming desire to play with the zipper between your legs, but your aching cunt suckles greedily on the plug buried in it nevertheless.](else:)[Only the strongest effort keeps you from reaching down, to play with the cunt she had so briefly teased.]
-
-It's only then you realize how awkwardly you're standing before her, silent, face flushed.  Isabella smirks.
-
-[["I had... have a request.->IsRequest]]
-
-
-:: IsRequest
-You sense Isabella would respond best to the truth, and offer it as best you can.  It is not easy, your situation being as bizarre as it is shameful.  Or perhaps memory loss and laminate locks are normal on Torei?  At the very least she doesn't seem perturbed, but listens quietly, smoking that cinnamon device.  As you finish she remains silent for a time long enough to worry you.  But she does eventually turn her head, your own glossy reflection visible in her glasses.  You get the feeling she's... *intrigued*.
-
-"I don't do charity," she states matter-of-factly.  "But... I am open to you earning a few credits."
-
-She crosses her legs again, wipe hips and full thighs hard to ignore.
-
-"And perhaps I could get help with your need of a train pass."
-
-[["What do you mean, 'earn'?"->IsPresent]]
-
-
-:: IsPresent
-"My family owns half this Ringdom.  I could pay for your every restraint to be removed and any transit ticket you desire.  But I won't.  Here on Torei, girls like you need to learn to earn their keep."
-
-(if: $Level is 1)[Isabella exhales another bit of smoke, her bright red lips forming into a luscious 'O'.  "The Hotel we both stayed at has the right idea with that hobble chain.  But let's go further.  Have you ever been in public with your arms restrained?  It's quite the learning experience to be so helpless.  Chest thrust out, arms pulled back, anyone passing by could touch your tits.  Your ass.  Some do.  Submit to an armbinder, and I'll give you... let's say 25 credits."]
-
-"(if: $Level is 1)[Go with the armbinder, and I'll add another offer afterward.](if: $Level is 1 or 2)[You might think you're deep into Torean culture now, with all that laminate... its transient.  Passing.  Peel the laminate off, leave this world, and you will have so little to remember us by.  Let's change that.  Just a bit.  I'd like to see you with your nipples pierced.  Submit to that, and I'll give you(if: $Level is 1)[ another] 25 credits."](if: $Level is 3 or 4)[Normally I would offer to add a few bits to your outfit, but you're already in a binder.  And yes, I see those nipple piercings as well.  I won't reward you if you are already being such a good girl... that's *expected* of you."]
-
-"I could offer you a chance to earn some extra credits in the proper Torean fashion," Isabella notes with amusement.  "You still have your body, and your dignity.  I could play with those.  A little pleasure, or perhaps a little etiquette?  I won't tell you what's involved, where is the fun in that-- but I will give you up to 50 credits each, depending on how well you do."
-
-Her steel-shod heel taps a few times on the pavement.  "I even have a Freewomb Rail Pass.  "(if: $Slave is true)[You're aware the train and carriages won't allow you aboard in that uniform, yes?  There is a way I would... perhaps have a pass for you, in a manner of speaking.  Otherwise your only option is the Lead, or to find a way out of that suit."  She openly scoffs at that idea.](else:)[But that would take an entirely different sort of commitment from you."]
-
-Isabella Naram-Sin looks away, back towards the passing crowds.  "So there are your choices.  Are they good ones?"  She smiles, before raising her cigarette to her lips.
-(set: $PlayP to false)(set: $PlayE to false)
-[[She certainly is full of ideas.->Isabella Hub]]
-
-
 :: Isabella Hub
 <img src="img/9MFJwF5.png" width="30%" height="30%">
 
@@ -1244,17 +1167,6 @@ You emerge from your most recent encounter, so many thoughts still on your mind.
 It's a heady combination, and soon you realize your time spent with your thoughts has compromised your sense of direction.  You're lost, with only the Transport Platform's looming presence to guide you.  Returning to the streets near it will let you set out again, if you like.
 
 [[The streets are tight, the buildings high.  It's so easy to get turned around.->Street Hub]]
-
-
-:: OffDonate
-Your fellow offworlder raises a hand to his chin, apparently considering your offer.  He doesn't consider long.
-
-"Yeah, I think you can.  Alright, here is how this works.  All you need to do is use your natural charm--" he pauses, eyeing your full laminate ensemble.  "I mean *talk* to people, and ask for donations to the Society.  Usually it works best if you have a personal connection with someone, you know, that you've done something else with them before.  So try that, explore a bit, see you can approach."
-
-He takes you by the shoulder, a raised hand directed over the nearest rooftop.  In the distance the Transport Platform looms over most everything else in the district.  "Then there is one other spot I'd want you to hit.  Up on the Platform we have a permit for a small stand, for marketing or education or whatever we like.  Today it will be donation collection, with you heading it.  The literature and the signs mostly sell the idea themselves, but if anyone has any questions just encourage them to contact our hotline.  Sound good?  At the end, you come back to me, and you get a cut of whatever you collected.  Call it an incentive for good work!"
-
-[["Sounds easy enough, I'm in."->OffDonateYes]]
-[["Actually... let me think about it.  Maybe later."->Offworlder Hub]]
 
 
 :: TruantSlave
@@ -2833,33 +2745,6 @@ You lower your gaze to the floor.
 [["I do.  I am."->NunRevFinal10]]
 
 
-:: OffDonateYes
-"Great!" Michael responds, clapping you on the back.  "That's just great!  Alright, like I said, you can try approaching anyone you like for individual donations, but you *have* to get to the Transport Platform and our stand there before I'd consider your work complete.  Alright?  Sound good?  Yeah?  Then I'll see you again whenever you finish!"
-(set: $Donate to true)
-[[Sounds like you have some walking to do.->Offworlder Hub]]
-
-
-:: OffDonateFail
-"Uh... are you sure?" The man asks, looking at you abit quizzically.  "Because you definitely haven't manned our station on the Transport Platform, and you need to do that before you can turn anything in.  I bet that's where the majority of donations are going to come from anyway, it's so busy up there."
-
-Her points to the Platform in the distance.  "So go do that first, like we talked about."
-
-[["Oops.  Ha, sorry about that.  I will do that."->Offworlder Hub]]
-
-
-:: OffDonateEnd
-The man smiles, a hand finding your shoulder.  "Hey, great to hear!  How did it go?"
-
-When you explain it was surprisingly uneventful, he simply nods.  "Can't get into much trouble doing work like that, I would think.  If you could stick the clips into my backpack, we can your payment squared away."
-
-He returns briefly to offering his pamphlets to those who pass, leaving you alone along the corner's wall-- where a choice suddenly presents itself.  Michael has not made an effort yet to count the donations, and his back is decidedly turned away from you.  Keeping a few clips for yourself, say... 75 credits worth, seems unlikely to be noticed.
-
-Some would call that *stealing*, but are you not exactly the sort the Liberty Society should have been more actively helping?
-
-[[Take a bit extra off the top.->OffDonateEndSteal]]
-[[No, that would be wrong.->OffDonateEndGood]]
-
-
 :: DonateIsabella
 The Torean Mistress tips her head down, looking over her mirrored glasses.  "By Mazos, don't tell me you're associated with those..."
 
@@ -2969,26 +2854,6 @@ Euphoria acknowledges your question with a nod, her hood making the small moveme
 
 [["I understand.  This is the path I wish to walk."->NunRevFinal4]]
 [["I must... I must reconsider..."->Nun Hub]]
-
-
-:: OffDonateEndSteal [Debt]
-Keeping a few clips for yourself is a simple enough thing.  These 75 credits could prove very helpful to your goals, after all.
-(set: $debt to it + 75)
-Secreting them, you return to Michael's side.
-
-[["All done."->OffDonateEndGood]]
-
-
-:: OffDonateEndGood [Debt]
-Again stepping away from those passing as you approach, Michael rubs his hands together.  "So, it went well. Did you manage any extra credit, so to speak?  Find anyone beyond the Transport Platform willing to make a donation?
-(set: $DonateEnd to true)(set: $debt to it + 100)(if: $DonateTruant is true)[(set: $debt to it + 25)]
-(if: $DonateIsabella is true or $DonateEuphoria is true or $DonateDahlia is true)[You mention briefly your failed attempts, to which Michael gives an understanding look.  "I get it," he explains.  "Believe me, we know how hard it is to dredge up support on this planet.  Torei is a touch nut to crack."]
-
-(if: $DonateTruant is true)[There was the Truant Officer, at least, and you do mention her surprising donation.  "Really?"  Michael asks, stroking his chin.  "Honestly, never would have guessed.  I'm not sure that I fully support her reasoning for doing so... but hey, we take help when we can get it.  Even if the source is as unexpected as the Ministry of Truants.  Great job!  I'll toss in an extra 25 credits for the legwork.  That will bring your total to... 125 credits, for a good job well done."](else:)["Well ass promised, you will get a cut of the proceeds.  Let's call it... 100 credits?  That seems fair.  If you had found others to donate, I might haved added a bonus, but 100 credits certainly helps.  Right?"]
-
-He turns from you, looking to the passing crowds.  "I should probably return to my work.  If you need anything else, just let me know."
-
-[["Sure."->Offworlder Hub]]
 
 
 :: TruantQuestHub
