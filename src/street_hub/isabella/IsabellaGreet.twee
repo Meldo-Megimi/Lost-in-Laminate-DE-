@@ -1,62 +1,62 @@
 :: Isabella Greet
 <img src="img/9MFJwF5.png" width="30%" height="30%">
 
-Several benches line the wall that doubled as the raised platfrom for the transport hub above, and most of them are full-- except for one, at which the woman you saw in the hotel is seated alone.  Her glossy laminated legs are crossed, one over the other so that a sharp stiletto flashes in the light at your approach.  The inset of her black boots are chromed steel.
+Mehrere Bänke säumen die Wand, die gleichzeitig als erhöhte Plattform für den darüber liegenden Verkehrsknotenpunkt fungiert, und die meisten von ihnen sind voll besetzt-- bis auf eine, auf der die Frau, die du im Hotel gesehen hast, allein sitzt. Ihre glänzend laminierten Beine sind übereinander geschlagen, so dass bei deiner Annäherung ein scharfes Stilett im Licht aufblitzt. Die Einlage ihrer schwarzen Stiefel besteht aus verchromtem Stahl.
 
-She takes a long pull from some manner of electronic cigarette, the tip bright red.  Exhaling crimson smoke, you catch a cinnamon scent.  Her eyes are hidden by mirrored glasses and she doesn't turn to regard you, but you're given a command nevertheless.
+Sie zieht lange an einer Art elektronischer Zigarette, deren Spitze leuchtend rot ist. Als sie du karminroten Rauch ausstößt, riechst du etwas wie Zimt. Ihre Augen sind durch eine verspiegelte Brille verdeckt, und sie dreht sich nicht um, um dich zu betrachten, aber du bekommst trotzdem einen Befehl.
 
-"On your knees, slave."
+"Auf die Knie, Sklavin."
 (set: $IsabellaCheck to true)
-[[You remain standing.  "I am not a slave."->IsGreetRefuse]]
-[[Your instincts compel.  You kneel before her.->IsGreetAck]]
+[[Du bleibst stehen. "Ich bin keine Sklavin."->IsGreetRefuse]]
+[[Dein Instinkt zwingt dich dazu. Du kniest vor ihr nieder.->IsGreetAck]]
 
 
 :: IsGreetRefuse
-She takes another long drag of her cigarette, twin embers reflected in her glasses.  Several moments pass in silence as she holds it in, savoring the flavor.  Release follows, red smoke rising from equally red lips as she finally turns to regard you directly.
+Sie zieht noch einmal lange an ihrer Zigarette, wobei sich in ihrer Brille die Glut doppelt spiegelt. Mehrere Momente vergehen in Stille, während sie die Zigarette festhält und den Geschmack genießt. Es folgt die Freigabe, roter Rauch steigt aus den ebenso roten Lippen auf, als sie sich schließlich umdreht, um dich direkt zu betrachten.
 
-"(if: $Slave is true or $Blue is true)[Yet you have that collar.  Show me your ID."  She takes the card you provide, sliding down her glasses to inspect the FREEWOMB stamped across the top.  A smile forms. "Consider me surprised.  Just enjoying being restrained like that, hm?"](else:)[It never hurts to check.  You would be surprised at how many go down, despite what their ID may say."]
+"(if: $Slave is true or $Blue is true)[Und doch hast du dieses Halsband. Zeig mir deinen Ausweis." Sie nimmt die Karte, die du ihr gibst, schiebt ihre Brille hinunter und betrachtet den Freischoss, der auf der Oberseite gestempelt ist. Ein Lächeln bildet sich. " Sie sehen mich überrascht. Du genießt es einfach, so gefesselt zu sein, hm?"](else:)[Es schadet nie, das zu überprüfen. Du wärst überrascht, wie viele untergehen, ungeachtet dessen, was ihr Ausweis aussagt."]
 
-(if: $Fondled is true)[She smirks.  "And you *are* that woman I passed on the way out of the hotel.  The one strung up, undergoing punishment.  The one I touched, *barely* and who moaned like a wet slut."](else:)[Her gloved fingers tap against the top board of the bench, her arm stretched out upon it.  "My name is Isabella Naram-Sin.  You're the girl from the hotel.  What exactly can I do for you?"]
+(if: $Fondled is true)[Sie lächelt. "Und du *bist* die Frau, an der ich auf dem Weg aus dem Hotel vorbeikam.  Die, die gefesselt und bestraft wurde. Die ich *kaum* berührt habe und die wie ein nasses Flittchen gestöhnt hat."](else:)[Ihre behandschuhten Finger klopfen gegen das oberste Brett der Bank, ihr Arm ist darauf ausgestreckt. "Mein Name ist Isabella Naram-Sin. Du bist das Mädchen aus dem Hotel. Was genau kann ich für dich tun?"]
 
-(if: $Fondled is true)[[["I... well, you..."->Fondled II]]](else:)[[["I... have a request."->IsRequest]]]
+(if: $Fondled is true)[[["Ich... naja, du..."->Fondled II]]](else:)[[["Ich... habe eine Bitte."->IsRequest]]]
 
 
 :: IsGreetAck
-Her tone is sharp, but not harsh.  Commanding, but not shrill.  You find yourself unable to resist.  On the sidewalk of a public street, as strangers pass by, you kneel to the woman before you.
+Ihr Ton ist scharf, aber nicht hart. Kommandierend, aber nicht schrill. Du bist unfähig, ihr zu widerstehen. Auf dem Bürgersteig einer öffentlichen Straße kniest du, während Fremde vorbeigehen, vor der Frau vor dir nieder.
 
-"Knees spread(if: $Level is 1)[, hands behind your back], she continues.  You comply.  
+"Knie gespreizt(if: $Level is 1)[, Hände hinter dem Rücken]", fährt sie fort. Du fügst dich.
 
-"Eyes down." Several nearby women are clearly looking your way, you realize as you look down at the pavement.
+"Augen nach unten." Mehrere Frauen in der Nähe schauen eindeutig in deine Richtung, was du bemerkst, als du auf den Bürgersteig schaust.
 
-The woman doesn't care, but she does stand, running an obsidian glove along your head. (if: $Blue is true or $Smoke is true or $Sec is true or $Brand is true)[Her fingers pull through your hair, petting gently.](if: $Slave is true)[Her fingers run against the smooth laminate of your hood, as your breath for once catches in your throat and not your mask.]  Stepping forward, she plants one long leg between your spread knees, the shiny material of her catsuit running up before your face, to the meeting of her legs.  You're looking at the ground though, as ordered.  
+Der Frau ist das egal, aber sie steht auf und fährt mit einem Obsidianhandschuh an deinem Kopf entlang. (if: $Blue is true or $Smoke is true or $Sec is true or $Brand is true)[Ihre Finger fahren durch dein Haar und streicheln es sanft.](if: $Slave is true)[Ihre Finger fahren gegen das glatte Laminat deiner Kapuze, als dein Atem einmal in deinem Hals und nicht in deiner Maske hängen bleibt.] Sie schreitet vorwärts und platziert ein langes Bein zwischen deine gespreizten Knie, wobei der glänzende Stoff ihres Catsuits vor deinem Gesicht nach oben läuft, bis zum Zusammentreffen ihrer Beine. Du schaust jedoch auf den Boden, wie befohlen. 
 
-"Good girl.  Now show me your ID."  She takes your small card once offered.  The image it bore of a bright, smiling traveler in a fashionable cotton dress is quite the juxtaposition to the laminated woman kneeling at her feet.  The card is returned to you.
+"Braves Mädchen. Jetzt zeig mir deinen Ausweis." Sie nimmt deine kleine Karte, sobald du sie ihr angeboten hast. Das darin gezeigte Bild einer strahlenden, lächelnden Reisenden in einem modischen Baumwollkleid ist eine ziemliche Überraschung im Vergleich zu der laminierten Frau, die zu ihren Füßen kniet. Du bekommst die Karte zurück.
 
-"Freewomb?  Interesting.  Liberty can be such a burden, can it not?"  She steps back and returns to her seat, indicating that you are allowed to rise.
+"Freischoss? Interessant. Freiheit kann eine solche Last sein, nicht wahr?" Sie tritt zurück und kehrt zu ihrem Platz zurück und zeigt an, dass du dich erheben darfst.
 
-(if: $Fondled is true)[She smirks.  "And you *are* that woman I passed on the way out of the hotel.  The one strung up, undergoing punishment.  The one I touched, *barely* and who moaned like a wet slut."](else:)[Her gloved fingers tap against the top board of the bench, her arm stretched out upon it.  "My name is Isabella Naram-Sin.  You're the girl from the hotel.  What exactly can I do for you?"]
+(if: $Fondled is true)[Sie lächelt. "Und du *bist* die Frau, an der ich auf dem Weg aus dem Hotel vorbeikam.  Die, die gefesselt und bestraft wurde. Die ich *kaum* berührt habe und die wie ein nasses Flittchen gestöhnt hat."](else:)[Ihre behandschuhten Finger klopfen gegen das oberste Brett der Bank, ihr Arm ist darauf ausgestreckt. "Mein Name ist Isabella Naram-Sin. Du bist das Mädchen aus dem Hotel. Was genau kann ich für dich tun?"]
 
-(if: $Fondled is true)[[["I... well, you..."->Fondled II]]](else:)[[["I... have a request."->IsRequest]]]
+(if: $Fondled is true)[[["Ich... naja, du..."->Fondled II]]](else:)[[["Ich... habe eine Bitte."->IsRequest]]]
 
 
 :: Fondled II
-You remember the experience vividly.  Your armbinder pulled up behind you, rear raised for punishment-- and then her approach, all black laminate and confidence.  The hand between your legs, teasing out more pleasure then you ever thought possible from so simple a touch.  (if: $Blue is true or $Smoke is true or $Brand is true and $Level is >= 2)[Perhaps its best your armbinder is locked in place, the urge to touch that zipper between your legs would have been overwhelming.](if: $Sec is true and $Level is >= 2)[Perhaps its best your armbinder is locked in place, the urge to run a hand up your own skirt is overwelming.](if: $Slave is true and $Level is >= 2)[Your armbinder prevents the overwelming desire to play with the zipper between your legs, but your aching cunt suckles greedily on the plug buried in it nevertheless.](else:)[Only the strongest effort keeps you from reaching down, to play with the cunt she had so briefly teased.]
+Du erinnerst dich lebhaft an das Erlebnis. Dein Armbinder wurde hinter dir hochgezogen, dein Hintern zur Bestrafung gereckt-- und dann ihre Annäherung, komplett in schwarzem Laminat und voller Selbstvertrauen. Ihre Hand zwischen deinen Beinen, die aus einer so einfachen Berührung mehr Vergnügen herauslockte, als du je für möglich gehalten hättest. (if: $Blue is true or $Smoke is true or $Brand is true and $Level is >= 2)[Vielleicht ist es das Beste, dass dein Armbinder verriegelt ist, denn der Drang, den Reißverschluss zwischen deinen Beinen zu berühren, wäre sonst wohl überwältigend gewesen.](if: $Sec is true and $Level is >= 2)[Vielleicht ist es das Beste, dass dein Armbinder verriegelt ist, denn der Drang, eine Hand unter den eigenen Rock zu schieben, ist überwältigend.](if: $Slave is true and $Level is >= 2)[Dein Armbinder hindert deine unbändige Lust am Spielen mit dem Reißverschluss zwischen deinen Beinen, aber deine schmerzende Fotze saugt trotzdem gierig an dem darin vergrabenen Stöpsel.](else:)[Nur mit größter Mühe hinderst du dich daran, nach unten zu greifen, um mit deiner Fotze zu spielen, die sie so kurz geneckt hat.]
 
-It's only then you realize how awkwardly you're standing before her, silent, face flushed.  Isabella smirks.
+Erst dann merkst du, wie unbeholfen du vor ihr stehst, stumm, mit errötetem Gesicht. Isabella schmunzelt.
 
-[["I had... have a request.->IsRequest]]
+[["Ich... habe eine Bitte."->IsRequest]]
 
 
 :: IsRequest
-You sense Isabella would respond best to the truth, and offer it as best you can.  It is not easy, your situation being as bizarre as it is shameful.  Or perhaps memory loss and laminate locks are normal on Torei?  At the very least she doesn't seem perturbed, but listens quietly, smoking that cinnamon device.  As you finish she remains silent for a time long enough to worry you.  But she does eventually turn her head, your own glossy reflection visible in her glasses.  You get the feeling she's... *intrigued*.
+Du ahnst, dass Isabella am besten auf die Wahrheit reagieren würde, und schilderst sie so gut du kannst. Es ist nicht leicht, denn deine Situation ist ebenso bizarr wie beschämend. Oder sind Gedächtnisverlust und Laminatschlösser auf Torei vielleicht normal? Zumindest scheint sie nicht beunruhigt zu sein, sondern hört ruhig zu, während sie dieses Zimtgerät raucht. Als du fertig bist, schweigt sie eine Zeit lang, die ausreicht, um dich zu beunruhigen. Aber schließlich dreht sie ihren Kopf, dein eigenes glänzendes Spiegelbild ist in ihrer Brille sichtbar. Du hast das Gefühl, sie ist... *beeindruckt*.
 
-"I don't do charity," she states matter-of-factly.  "But... I am open to you earning a few credits."
+"Ich bin kein Wohltätigkeitsverein", stellt sie nüchtern fest. "Aber... ich bin durchaus geneigt, daß du dir ein paar Credits verdienst."
 
-She crosses her legs again, wipe hips and full thighs hard to ignore.
+Sie kreuzt wieder ihre Beine, wischt über ihre Hüften und vollen Oberschenkel, was schwer zu ignorieren ist.
 
-"And perhaps I could get help with your need of a train pass."
+"Und vielleicht könnte ich dir dabei helfen, eine Zugfahrkarte zu bekommen."
 
-[["What do you mean, 'earn'?"->IsPresent]]
+[["Was meinen Sie mit 'verdienen'?"->IsPresent]]
 
 
 :: IsPresent
