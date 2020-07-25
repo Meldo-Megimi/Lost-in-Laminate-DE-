@@ -29,7 +29,7 @@ Lost in Laminate
 		"Travel-Checks": "orange",
 		"Variables": "green"
 	},
-	"zoom": 0.6
+	"zoom": 1
 }
 
 
@@ -10381,9 +10381,9 @@ He seems to recognize the confusion that forms across your face (if: $Slave is t
 
 
 :: VIP5
-Stepping inside the suite reveals it to be sumptuously decorate in dark hues, the most dramatic being laminate material hanging in ridges from a center point in the ceiling to places along the walls-- creating a massive faux-chandelier which reflects the light from sconces set into the walls.  
+Stepping inside the suite reveals it to be sumptuously decorated in dark hues, the most dramatic being laminate material hanging in ridges from a center point in the ceiling to places along the walls-- creating a massive faux-chandelier which reflects the light from sconces carefully placed.  
 
-So too are you able to look over the man properly, his attire also laminate, a smart suitcoat and tailored trousers rendered in dark grey.  His tie is half undone however, a bit of dishevelment that's matched by the parlor you've entered into.  A sitting room can be seen through a doorframe to your left, and before you another door stands closed, but its within this small parlor itself it appears the man had been waiting for you.
+So too are you able to look over the man properly, his attire also laminate, a smart suitcoat and tailored trousers rendered in dark grey.  His tie is half undone however, a bit of dishevelment that's matched by the parlor you've entered into.  A sitting room can be seen through a doorframe to your left, and before you another door stands closed, but its within this small antechamber itself that it appears the man had been waiting for you.
 
 Rubbing his hands together, he smiles widely.  "So-- you're here!"
 
@@ -10421,7 +10421,7 @@ The man pauses, perhaps for the first time recognizing signs of something more s
 
 Silently you stand in the center of the room, trying to understand what he meant.  Was he the contact?  Or had he just been a messenger?  What was going on here?
 
-It's only then that you noticed the suitcase near the door you had entered through, it's entire front opened-- revealing a set of restraints, clearly position for someone to be folded up and locked inside.
+It's only then that you noticed the suitcase near the door you had entered through, it's entire front opened-- revealing a set of restraints, clearly positioned for someone to be folded up and locked inside.
 
 [["Explain the suitcase.  Now."->VIPSuitcase]]
 [["Are you the person I'm here to meet, or not!?"->VIPMeet]]
@@ -10432,7 +10432,7 @@ The man pauses, perhaps for the first time recognizing signs of something more s
 
 Silently you stand in the center of the room, trying to understand what he meant.  Was he the contact?  Or had he just been a messenger?  What was going on here?
 
-It's only then that you noticed the suitcase near the door you had entered through, it's entire front opened-- revealing a set of restraints, clearly position for someone to be folded up and locked inside.
+It's only then that you noticed the suitcase near the door you had entered through, it's entire front opened-- revealing a set of restraints, clearly positioned for someone to be folded up and locked inside.
 
 [["Explain the suitcase.  Now."->VIPSuitcase]]
 [["Are you the person I'm here to meet, or not!?"->VIPMeet]]
@@ -10443,7 +10443,7 @@ The man pauses, perhaps for the first time recognizing signs of something more s
 
 Silently you stand in the center of the room, trying to understand what he meant.  Was he the contact?  Or had he just been a messenger?  What was going on here?
 
-It's only then that you noticed the suitcase near the door you had entered through, it's entire front opened-- revealing a set of restraints, clearly position for someone to be folded up and locked inside.
+It's only then that you noticed the suitcase near the door you had entered through, it's entire front opened-- revealing a set of restraints, clearly positioned for someone to be folded up and locked inside.
 
 [["Explain the suitcase.  Now."->VIPSuitcase]]
 [["Are you the person I'm here to meet, or not!?"->VIPMeet]]
@@ -10454,6 +10454,8 @@ He looks to the suitcase, then gives a disarming smile.
 
 "Why, that's how I brought it in here.  Just as it wanted."
 
+A cold shiver runs up your spine.
+
 [["What did you bring?"->VIPDae]]
 
 
@@ -10462,17 +10464,19 @@ He looks to the suitcase that had caught your attention, then gives a disarming 
 
 "Not really I suppose, but that's how I brought it in here.  Just as it wanted."
 
+A cold shiver runs up your spine.
+
 [["What did you bring?"->VIPDae]]
 
 
 :: VIPDae
 He blinks.  "The Emissary."
 
-*Daemon*
+*Daemon.*
 
 "It's just through the door, with its offer.  Just as I promised when I delivered to you the Black Card, at that hotel you were staying at.  Just as I promised when I called you, to come back to Torei."
 
-*His words send you reeling.  Your deal* **was** *with a Daemon, even if this man was serving as a middle-man of sorts.  Turning towards the door he had indicated, the closed one that presumably led to a bedroom, its almost like you can sense it.  A slice of divinity, if the AIs were Gods, puppeting a human body like a laminate marionette-- so very close now.  Waiting for you.  With an offer.*
+*His words send you reeling.  Your deal* **was** *with a Daemon, even if this stranger was serving as a middle-man of sorts.  Turning towards the door he had indicated, the closed one that presumably led to a bedroom, its almost like you can sense it.  A slice of divinity, if the AIs were Gods, puppeting a human body like a laminate marionette-- so very close now.  Waiting for you.  With an offer.*
 
 You break from the reverie to find your hand upon the door, all but ready to push it open.
 
@@ -10482,7 +10486,7 @@ You break from the reverie to find your hand upon the door, all but ready to pus
 :: VIPDae2
 <img src="img/rFMXUfL.jpg" width="30%" height="30%">
 
-The Daemon, the Emissary, waits for you in the center of the room.  (if: $Daemon is true)[You saw it before, in that alleyway back on the streets, and its much the same as you had glimpsed there.] Its body is uniformly covered in black laminate, stripping it of any individuality or sense of self.  There is no discernable face, only the glossy material remains, stretched so tightly across a male frame as evidenced by narrow hips and wide shoulders. Even so that masculinity is *intense*, as if the Daemon condensed it, adding potency as everything else was stripped away.  In that wake of simplified existance you feel your own curvaceous body all the more readily.  The swell of your breasts, the smooth run from hip to waist, your pert rear-- the other side of Daemon's equation.
+The Daemon, the Emissary, waits for you in the center of the room.  (if: $Daemon is true)[You saw it before, in that alleyway back on the streets, and its much the same as you had glimpsed there.] Its body is uniformly covered in black laminate, stripping it of any individuality or sense of self.  There is no discernable face, only the glossy material remains, stretched so tightly across a male frame as evidenced by narrow hips and wide shoulders. Even so that masculinity is *intense*, as if the Daemon condensed it, adding potency as everything else was stripped away.  In that wake of simplified existance you feel your own curvaceous body all the more readily.  The swell of your breasts, the smooth run from hip to waist, your pert rear-- the other side of the Daemon's equation.
 
 It reaches out its hand.
 
@@ -10514,7 +10518,7 @@ That damnable resolve that had driven you here does not break under the strain, 
 
 To take it would be to give yourself to the AI.  Inscrutable, unknowable, as harsh and alien as any being in this universe could be.  It would take your body, your liberty, your every waking moment.  But in return?  The potential for bliss unending, delivered by an immortal AI with untold millennia of experience in the arts of sensuality.  Free of conflict and worry, of responsibilities and dilemma.
 
-To refuse it would be to set sail upon entirely unknown waters, knowledge of the depths scrubbed away by the Mem-Burn.  Perhaps there will reefs ahead an you will founder, to sink anyway.  Or maybe-- just maybe-- you could still make it to the Way Up.  Escape Torei.  Break from the grasp of artifical divinities and mortal Truant officers alike.
+To refuse it would be to set sail upon entirely unknown waters, knowledge of the depths scrubbed away by the Mem-Burn.  Perhaps there will be reefs ahead on which you will founder, to sink anyway.  Or maybe-- just maybe-- you could still make it to the Way Up.  Escape Torei.  Break free from the grasp of artifical divinities and mortal Truant officers alike.
 
 The choice is yours.
 
@@ -10522,7 +10526,7 @@ The choice is yours.
 [[Refuse the helmet.->VIPRefuse]]
 
 
-:: VIPTake
+:: VIPTake [End-Count]
 <img src="img/RgEruqK.png" width="30%" height="30%">
 
 You accept.  Gods help you, you take the helmet into your hands.  (if: $Slave is true)[From behind you feel the Daemon removing your breath regulating mask, then slowly peeling away your hood-- giving you a brief taste of freedom even as you lift the helmet.]  Slowly, ever so slowly, you bring it up towards your waiting face.  How could it this easy, to give up everything?  But it is.  Damn it all, it's as easy as pressing the helmet to your face.  Closer and closer, until finally-- with glorious finality, you feel the impossibly soft laminate of the AI's construction for the very first time.  It envelopes your lips, your nose, your chin-- then your entire head in its cool embrace.  You're blinded, gagged, deaf, helpless, even as you feel the Daemon moving the back portion into place to complete the seal.
@@ -10530,7 +10534,7 @@ You accept.  Gods help you, you take the helmet into your hands.  (if: $Slave is
 Afterward he presses against you, masculinity and femininity joining in rapturous union that takes the form of a simple embrace.  Even this first experience feels so strange, so wonderful, so terrifying-- and its only just begun.
 
 You're *Lost in Laminate*, and couldn't be happier.
-
+(set: $Ending to 1)
 [[Twelve Hours Later.->VIPTake2]]
 
 
@@ -10602,7 +10606,7 @@ The only other option would be something far more... dramatic.  Turning to your 
 
 They have you now.
 (set: $DaemonEnd to true)(set: $Status to 4)
-Your Isolation Laminate is as perfect as you had been lead to believe.  Moreso even.  The experience of wearing it, in its entirety, is beyond description.  And that was *before* the pleasure cycles had started.  You lost count of your orgasms somewhere in the twenties, and that had been hours ago when it had directed you to the bed.  Now you're utterly lost to the rapture, to its pleasure.  Sometimes the male joins you, but other times he's absent from the room.  You're not sure why.  It's not your concern.  It never should have been.
+Your Isolation Laminate is as perfect as you had been lead to believe.  Moreso even.  The experience of wearing it, in its entirety, is beyond description.  And that was *before* the pleasure cycles had started.  You lost count of your orgasms somewhere in the twenties, and that had been hours ago when it had directed you to the bed.  Now you're utterly lost to the rapture, to its pleasure.  Sometimes the male joins you, but other times he's absent from the room.  You're not sure why.  It's not your concern.  (colour: purple)[It never should have been.]
 
 Is the absence of ecstasy a feeling?  Already you cannot imagine it, but look upon it like a nightmare, horrific and unreal.  Only the shame remains, and that grows dimmer with each sensation that emanates from your tortured, rapturous cunt.  The thought of your womanhood sends your hands downward, playing across your encapsulated breasts, down along your strictly corseted waist, to the meeting of your thighs.  You cannot enter yourself, *They* have already claimed you, but the suit rewards your promiscuity nevertheless.  Pleasure atop pleasure.  Writhing, moaning, you cum again.
 
@@ -10618,9 +10622,9 @@ You emerge out into daylight, the warmth of it upon your obsidian skin so very w
 
 The crowds along the sidewalks part as you pass, their whispered words allowed to reach your ears.
 
-*"Daemon..."*
+(colour: purple)[*"Daemon..."*]
 
-[[Six months later.->VIPTake4]]
+[[Six months later.->DaeEx]]
 
 
 :: VIPTake4 [End-Count]
@@ -18146,10 +18150,14 @@ You're displayed fully, forced to pose and expose yourself as prospective buyers
 [[Come now, kitty...->CatEnd3]]
 
 
-:: ConcEnd2
-Lost in Laminate is still in active development, and this particular scene is uncompleted.  You will now be moved to the end of the game.
+:: ConcEnd2 [End-Count]
+Your training continues, eventually culminating in your promised auction.  Leaving the Celeste Academy for the first time in months you're taking back into Grand Aekora, where you had once roamed freely.  Now however you walk the streets in a slave coffle, trained chattel among so many marching towards the Prime Markets at the center of the city.  Torei's largest auction houses are as grand as you had imagined, multiple stages running all day and night, the stage and time one was sold upon depending on their role and value.  You eventually are brought up upon one of the larger stages, just outside of peak time-- a highly valued slot.  (if: $CorSlave is true)[
+
+Just ahead of you Corinth is first put through her paces center stage, her uniform that of a maid, her listing indicating she was to be a soubrette.  A *Mistress Royallis* eventually puts in the winning bid, and just like that your friend has a new owner.  Torean culture could rarely be considered efficient by galactic standards, but here in the great slave markets of Aekora everything progresses quickly.  And it's your turn next.]
+
+You're displayed fully, forced to pose and expose yourself as prospective buyers request.  When the auction bell is finally rung you pass from the Academy's ownership... and into familiar hands.
 (set: $Ending to 20)
-[[Onward!->Ending]]
+[[Things end as they begun.->HotelEnd3]]
 
 
 :: DaeEnd2
@@ -18167,9 +18175,7 @@ Led from the stage you're stored for several days until you're stripped entirely
 :: CorEnd2 [End-Count]
 Your training continues, eventually culminating in your promised auction.  Leaving the Celeste Academy for the first time in months you're taken back into Grand Aekora, where you had once roamed freely.  Now however you walk the streets in a slave coffle, one slave among so many marching towards the Prime Markets at the center of the city.  Torei's largest auction markets are as grand as you had imagined, multiple stages running all day and night, the stage and time one was sold upon depending on their role and value.  You eventually are brought up upon a smaller stage early in the morning, a time reserved for the more common stock.
 
-You're displayed fully, forced to pose and expose yourself as prospective buyers request.  Just *who* purchased you isn’t exactly clear however, the bright lights upon you making it impossible to see much of the crowd.  All you hear is a final call for bids, a dramatic pause, and then the final symbolic snap of the auctionmaster’s whip to signal a fresh sale.
-
-Just *who* purchased you isn’t exactly clear however, the bright lights upon you making it impossible to see much of the crowd.  All you hear is a final call for bids, a dramatic pause, and then the final symbolic snap of the Auctionmaster’s whip to signal a fresh sale.  
+You're displayed fully, forced to pose and expose yourself as prospective buyers request.  Just *who* purchased you isn’t exactly clear however, the bright lights upon you making it impossible to see much of the crowd.  All you hear is a final call for bids, a dramatic pause, and then the final symbolic snap of the auctionmaster’s whip to signal a fresh sale. 
 
 Much of the rest of the morning and afternoon is filled with administrative duties, although that is handled by the myriad of secretarial slaves who served the market.  In the meantime you’re kept in a common cell with about a dozen other recently sold slaves, milling about, utterly ignored.  That indifference only breaks upon the arrival of a Master or Mistress to finally collect their property, as one by one your cellmates are led out.  You’re one of the last, but upon hearing your name you snap up to your feet for your first glimpse of your new owner.
 (set: $Ending to 26)(set: $Strike to 0)
@@ -18177,9 +18183,15 @@ Much of the rest of the morning and afternoon is filled with administrative duti
 
 
 :: DollEnd2
-Lost in Laminate is still in active development, and this particular scene is uncompleted.  You will now be moved to the end of the game.
+Your training continues, for far longer than any of the other disciplines.  Where your former classmates still come together, spending common time with each other despite their disperate areas of study, you and the mere handful of other Dolls in training are kept permanently sequestered.  Liberty and choice are stripped from you, replaced by constant and all consuming bondage.  When you are not training you are kept to a cage or perhaps leashed to a wall, and soon you're wearing your gag more than speaking.  Eventually the students you had arrived with leave, graduating to auction, but you persist.  (if: $CorSlave is true)[Corinth lasts longer than most, her training as a soubrette nearly as prestigious as your own, but even she eventually leaves-- sold to a Mistress Royallis, you hear the Headmistress say.]
+
+Days become weeks, passing into months, and throughout it all you are thoroughly broken.  A Doll does not resist, a Doll does not even process the *possibility* of resistance.  You submit, unconditionally, and in turn are rewarded with pleasure *or* pain.  The choice is your superior's alone, and while you do not take to it right away-- none do, one by one you and your fellow Dolls are thoroughly broken to whip and collar.  You're not merely wearing laminate, Torei's trademark material becomes your entire existence.  Why had you ever worn anything else?  Why had your owner allowed you?
+
+You've always had an owner, right?  *No?*  You come to pity your old self too.
+
+When graduation does eventually come it is not followed by an auction that you need attend.  Celeste Academy's Dolls are too valuable for that, and the quality of your sort are known throughout Torei.  Instead of further training, one day your superiors come and explain you have been purchased.  It as as simple as that, and soon you're being boxed up for shipment.
 (set: $Ending to 21)
-[[Onward!->Ending]]
+[[They lock you in tightly, a sensation you've come to love.->DollEnd3]]
 
 
 :: WifeEnd2
@@ -18219,7 +18231,7 @@ You're displayed fully, forced to pose and expose yourself as prospective buyers
 
 
 :: DaeEnd3
-They take their time, placing something heavy upon the floor, unzipping it with that distinctive rasp of steel teeth being run down by an equally steel zipper.  Then?  Silence, long enough you begin to wonder if you've been left alone... only to be met, as if on cue, but footsteps before you.  Hands land upon the side of your head, removing your blindfold to reveal...
+They take their time, placing something heavy upon the floor, unzipping it with that distinctive rasp of steel teeth being run down by an equally steel zipper.  Then?  Silence, long enough you begin to wonder if you've been left alone... only to be met, as if on cue, by footsteps before you.  Hands land upon the side of your head, removing your blindfold to reveal...
 
 A man.  A **familiar** man.  Young and wearing glasses, you've been through so much but you have not forgotten *that* face.  You met him before, in the VIP room in Club Lush, behind the very door you had thought would lead to your promised deal, your very reason for being on Torei.  
 
@@ -18260,7 +18272,7 @@ Afterward he presses against you, masculinity and femininity joining in rapturou
 [[Twelve Hours Later.->DaeEnd6]]
 
 
-:: DaeEnd6
+:: DaeEnd6 [End-Count]
 <img src="img/Dw2IHpb.png" width="30%" height="30%">
 
 They have you now.
@@ -18268,20 +18280,8 @@ They have you now.
 Your Isolation Laminate is as perfect as you had been lead to believe.  Moreso even.  The experience of wearing it, in its entirety, is beyond description.  And that was *before* the pleasure cycles had started.  You lost count of your orgasms somewhere in the twenties, and that had been hours ago when it had directed you to the bed.  Now you're utterly lost to the rapture, to its pleasure.  Sometimes the male joins you, but other times he's absent from the room.  You're not sure why.  It's not your concern.  It never should have been.
 
 Is the absence of ecstasy a feeling?  Already you cannot imagine it, but look upon it like a nightmare, horrific and unreal.  Only the shame remains, and that grows dimmer with each sensation that emanates from your tortured, rapturous cunt.  The thought of your womanhood sends your hands downward, playing across your encapsulated breasts, down along your strictly corseted waist, to the meeting of your thighs.  You cannot enter yourself, *They* have already claimed you, but the suit rewards your promiscuity nevertheless.  Pleasure atop pleasure.  Writhing, moaning, you cum again.
-
-[[And again... and again...->DaeEnd7]]
-
-
-:: DaeEnd7 [End-Count]
-<img src="img/F4Lv8oM.jpg" width="30%" height="30%">
-
-She was taking to her Isolation Laminate well, just as you had imagined.  An offworlder, well traveled and curious, a story similar to your own.  Perhaps that was why you had been directed to offer the Black Card, to meet with her in this dimly lit warehouse.  To make an offer, a deal, one she had accepted.  And thus They would have another to question, to examine, to learn more of the galaxy you and she had traveled so extensively.
-
-But motives hardly matter.  Instead you're directed to submit, and of course you do.  You would further her pleasure, quicken the transition. Thus they command. Kneeling atop the bags that served as her bed, your black laminate bodies press together and she rouses, eagerly embracing you. 
-
-Soon you're cumming in unison with the other Daemon.
 (set: $Ending to 25)
-[[Pleasure, unending...->Ending]]
+(link:"And again... and again...")[(go-to:"VIPTake3")]
 
 
 :: GovEnd3
@@ -18585,7 +18585,7 @@ It is quite embarrassing to be reminded how easy it was to lock you up, however.
 
 “…bring him immediately here, upon his arrival.  Standard protocols and prepare my good signing portfolio.  I’m confident we will close the matter this afternoon.”
 
-You recognize the voice as much as the tone, moments before she steps into view.  Alexandra Royallis, Torean-born and raised, proprietor of Royallis Markets—Aekora’s largest chain of food markets—and your owner.  Her outfit today is of the usual sort, professional by Toreans standards, which meant laminate from her stilettos to the flared collars of the blue undershirt that provides a lick of color to the otherwise black ensemble.  Behind and to her left (if: $CorSlave is true)[Corinth follows, taking notes upon a glassboard.  She too had been purchased by Alexandra, but served as a soubrette, somewhere between main (which her uniform suggested) and personal secretary.](else:)[her soubrette follows, another slave that served in a role somewhere between maid and personal secretary.]
+You recognize the voice as much as the tone, moments before she steps into view.  Alexandra Royallis, Torean-born and raised, proprietor of Royallis Markets—Aekora’s largest chain of food markets—and your owner.  Her outfit today is of the usual sort, professional by Toreans standards, which meant laminate from her stilettos to the flared collars of the blue undershirt that provides a lick of color to the otherwise black ensemble.  Behind and to her left (if: $CorSlave is true)[Corinth follows, taking notes upon a glassboard.  She too had been purchased by Alexandra, but served as a soubrette, somewhere between maid (which her uniform suggested) and personal secretary.](else:)[her soubrette follows, another slave that served in a role somewhere between maid and personal secretary.]
 
 Your Mistress could be a busy woman, she often started her days before you awoke, but she notices now that you’re awake.  Gesturing for (if: $CorSlave is true)[Corinth to continue on her duties, your fellow slave meets your gaze just long enough to wink and smile, before she exits.](else:)[the soubrette to continue with her duties, your fellow slave curtsies in acknowledgement, then exits the room.]  Alexandra meanwhile approaches your cage, a gloved hand running along the top bars.
 
@@ -21198,5 +21198,457 @@ End Cut
 End Cut
 
 [[Ending]]
+
+
+:: HotelEnd3
+"Hey," you had drifted off, the somewhat impatient voice breaks through.  "Are you paying attention?"
+
+[["What?  Yes, of course."->HotelReg]]
+[["Huh?  Sorry I was... thinking."->HotelReg]]
+[["Yes Mistress!"->HotelMiss]]
+
+
+:: HotelReg
+<img src="img/G0lGB6M.png" width="55%" height="55%">
+
+"You really need to pay more attention," Tess replies, with amusement.  "Its been a few months, and you *still* daydream?"
+
+You blink in response, remembering exactly where you are: the Diarch's Choice.  The entryway and front desk are exactly as you recall from your first visit, now so long ago.  Clean white styling is offset by bits of violet design and decor, while the light streaming in from the front door paints a bright square upon the hardened laminate floor.  In fact you stood right here, where you are now, after waking up with a memory shot through with holes and a deal to make.  
+
+Glancing down, you see how things have changed.  You're uniformed now of course, wearing the same livery as Tess-- a semi-transparent laminate dress, violet with black shoulders upon which small letters are printed: *Property of Diarch's Choice Hotel.*  Your collar reinforced that fact, a heavy steel band pulled tight around your throat.  Further down your dress hugs your thighs and hips sharply, a pencil skirt forming.  From that emerges your stockings, black, their connection via garters to the belt beneath your dress nevertheless revealed by the transparency of the latter.  Half-gloves and a set of stiletto heels complete the ensemble.
+
+Its quite the compelling uniform, but in truth you are well acquainted with it by now.  You have been with the Hotel since they purchased you at auction, after all, sheer chance bringing you back to the very place you had once locked yourself to the bed to prevent your staying on Torei.  How things--
+
+"Hey!"  Tess interrupts again, eyes narrowing.  "You were doing it again!"
+
+[["Sorry, sorry-- I'm listening."->Hotel4]]
+[["Paying attention now, I swear it."->Hotel4]]
+
+
+:: HotelMiss
+<img src="img/G0lGB6M.png" width="55%" height="55%">
+
+"I'm not your Mistress," Tess replies, with amusement.  "Its been a few months, and you *still* daydream?"
+
+You blink in response, remembering exactly where you are: the Diarch's Choice.  The entryway and front desk are exactly as you recall from your first visit, now so long ago.  Clean white styling is offset by bits of violet design and decor, while the light streaming in from the front door paints a bright square upon the hardened laminate floor.  In fact you stood right here, where you are now, after waking up with a memory shot through with holes and a deal to make.  
+
+Glancing down, you see how things have changed.  You're uniformed now of course, wearing the same livery as Tess-- a semi-transparent laminate dress, violet with black shoulders upon which small letters are printed: *Property of Diarch's Choice Hotel.*  Your collar reinforced that fact, a heavy steel band pulled tight around your throat.  Further down your dress hugs your thighs and hips sharply, a pencil skirt forming.  From that emerges your stockings, black, their connection via garters to the belt beneath your dress nevertheless revealed by the transparency of the latter.  Half-gloves and a set of stiletto heels complete the ensemble.
+
+Its quite the compelling uniform, but in truth you are well acquainted with it by now.  You have been with the Hotel since they purchased you at auction, after all, sheer chance bringing you back to the very place you had once locked yourself to the bed to prevent your staying on Torei.  How things--
+
+"Hey!"  Tess interrupts again, eyes narrowing.  "You were doing it again!"
+
+[["Sorry, sorry-- I'm listening."->Hotel4]]
+[["Paying attention now, I swear it."->Hotel4]]
+
+
+:: Hotel4
+You had met Tess during your first visit to the Hotel, but had only come to learn her name upon being assigned to the same shift as her.  Your Master owned four slaves to maintain Diarch's Choice, two each for the day and night shifts.
+
+"Alright," your fellow slave sighs.  "Let me start again, just to be safe.  We were discussing our duties, for the day?  I will be manning the Front Desk, of course."  As the more experienced slave, that expected.  You were always given the more menial work, which Tess addresses next.
+
+"You will be on call, as always, but we do have two rooms that need cleaning.  Room 3 was checked out completely, you just need to prep that one for someone else to rent it.  Room 6 also needs cleaning, but Master Alphono rented it for the week.  He left a note he will be out today, so you need only to spruce it up."
+
+[["Will our Master be around today?"->HotelMaster]]
+[["Rooms 3 and 6, got it."->Hotel5]]
+
+
+:: HotelMaster
+"No," Tess replies, reaching up to adjust her collar a bit.  "Or at least, he did not warn me he would.  You know how he is, only stopping in occasionally-- he trusts us.  But I'm sure if we keep up our good work he will reward us next time he stops in!"
+
+She's enthusiastic about the prospect.  "So we need to keep up on our daily tasks, keep the Hotel running!  And that means..."
+
+[["Rooms 3 and 6 need cleaning, got it.->Hotel5]]
+
+
+:: Hotel5
+"Good girl," Tess purrs, then laughs.  "Now get going, those rooms aren't going to clean themselves!"
+
+As you step back from the counter Tess settles into her seat, sitting primly.  Back straight, chest pressed invitingly forward, its the same sort of posture you've been trained to keep.  A proper Torean Hotel made sure its slaves were as desirable as its rooms, after all.  
+
+Brushing a bit of your hair from your eyes, blonde to match Tess and your Master's other slaves, you look about the lobby.  Columns at all four corners rise to meet a recessed ceiling above, while below the marble floor is marked with the light from outside.  Its still early morning, before most of the day's new arrivals would be coming for rooms.  
+
+Besides the door to the world outside there is only one other, the glass panel and portal that led to the Hotel's rooms and amenities.  Pursing your violet-painted lips, you turn that way, heels snapping sharply against the floor as you set off.
+
+The only question is where you start:
+
+[[Start with Room 3->Room3]]
+[[Start with Room 4->Room4]]
+
+
+:: Room3
+Double-click this passage to edit it.
+
+
+:: Room4
+Double-click this passage to edit it.
+
+
+:: DollEnd3
+<img src="img/LHncakj.jpg" width="30%" height="30%">
+
+As always, one of the Academy's Wardrobe Devices had dressed you for shipment.  Violet laminate is the base of it, running from neck to toes and designed intentionally to be semi-transparent.  Your accessories, corset, collar, and boots are darker to provide a pleasing contrast, the black nevertheless gleaming as you're lowered into your waiting box.  An armbinder circles your shoulders and holds your arms behind you, rendering you properly helpless, but it is the shipping box's padding that truly immobilizes you.  Printed in further laminate to match your exact measurements, it embraces your legs and hips, your waist and shoulders, and even has a larger indention for your bound arms.  A ballgag completes your ensemble, while your blonde hair is carefully arranged around your head.
+
+Several shipping straps follow, at ankles, knees, waist, and throat.  Beside you several accessories are provided, the particulars differing based upon the buyer's preference.  In your case they prove to be a vibrating wand, a blindfold, and most importantly a Wardrobe data chit preloaded with hundreds of other coordinated Doll outfits-- all of which slot neatly into compartments printed into the padding for just their use.
+
+[[The last piece is your box's lid.->DollEnd4]]
+
+
+:: DollEnd4
+<img src="img/GJatby9.png" width="30%" height="30%">
+
+Sliding the lid into place, Headmistress Vallis herself flicks the mag-locks closed one by one.  You're a captive audience to it all as you peer out from the plastic viewport within the lid, intended not for your own use but to display you for both the curious and of course your new owner.  A violet ribbon, matching your catsuit, is tied into a neat bow as the finishing touch.
+
+"There we are," the Headmistress concludes, looking over her handiwork once more before brushing gloved hands together.  Only then does she lean in, her crimson lips pulled into a sharp smile.  "Comfortable, Doll?  I hope so.  You've been purchased by..." her eyes flick to the shipping labeled hooked to the side of your box.  "...Master Tenyon, of Arendesh Ringdom.  Do you know where that is?  Almost certainly not.  Well, its not quite Antipodal, but it is quite far from the Way Up, or Aekora.  It used to take a good two months, but with the new high speed line you will reach there by train, in about... three weeks."
+
+She taps her fingers against the viewport of your box.  "The supplements we gave you are slow-burning, you won't be hungry during the trip at least.  And your body will produce no waste to concern you.  But I know how our Dolls are, you're not worried about that.  No, you're just thinking with your cunt... and yes, we planned for that too."
+
+She pulls forth a glass device, tapping a few quick keys.  Your body, or more accurately the piercings at your clit and nipples installed by the Ministry of Improvements during your training answer readily.  A slight tingle is followed by the direct stimulation of your most sensitive of sensual hotspots, and almost immediately you wriggle happily in your bondage.
+
+"I see you're feeling it," the Headmistress notes, sounding warm-- a rare tone from the strict authoritarian.  The hand that had been tapping your box now caresses it slowly as she meets your eyes one last time.  "Goodbye, Doll.  Remember you represent Celeste Academy at its best.  Serve Master Tenyon well... and enjoy your new life.  The porters will be here in the morning to collect you."
+
+And with that she leaves, flicking off the light to the room as she goes.  You're left in darkness, with only your body's eager sensations to occupy you.  The tight pull of laminate, the strict corset at your waist, the unyielding bondage-- and of course the tickling purr of your stim array, all of it to be maintained throughout your three week trip to your new home.
+
+[[You moan into your gag, happily lost in laminate.->DollEnd5]]
+
+
+:: DollEnd5
+Double-click this passage to edit it.
+
+
+:: DaeEx
+<img src="img/FQWhjCH.png" width="30%" height="30%">
+
+*Where are you?*
+
+**Who** *are you?*
+
+You remember, but only barely.  Its so hard now, and you have so little reason to.  Such things get in the way of the sensations, the all encompassing, all consuming ways in which your Isolation Laminate made you feel.  And it is yours now, more than it had ever been.  Somewhere a chronometer ticks over, noting the passage of time, but you merely are aware-- somewhat-- that it has been months since you first entered that mask, this suit.  You need not remove it, you *cannot*.  
+
+**Would you even still want to?**
+
+You feel a twinge of discomfort at that thought.  A scent is pushed into your mask, something tangy, metallic.  Three blue triangles form on your mask's inner HUD.  Consciously you cannot comprehend what any of it meant, you've long given up trying, yet somehow you've learned to understand.  (colour: purple)[To obey.]
+
+So you begin walking again, a figure of gleaming black surrounded by total darkness.  Your heels snap against the smooth rock beneath, echoing into eternity.  A tunnel.  Torei's terraforming continued, shepherded by the same AIs that owned you now, and this had once been a means to their far future end.  You pass by another Daemon, female, legs spread and back arched upon the ground as it experiences an ecstasy only your kind can understand.  
+
+Join her.
+[[Keep walking...->DaeEx2]]
+(click-replace: "Join her.")[(colour: purple)[///%Walk, slave.%///]]
+
+
+:: DaeEx2
+<img src="img/F9Rgi0u.jpg" width="30%" height="30%">
+
+(colour: purple)[Bliss eternal.]
+
+There are four of you, beneath the blistering sun.  Each of you have three holes, three inserts.  All are in use.  Together you squirm entwined, legs and arms together, breasts to rear to waist, mask to mask.  Your laminate gleams as it glides effortlessly against your fellow Daemons, a thigh between your legs allowing you to press your hips forward, humping slowly, instructed to draw out the sensations.  A moan escapes you but is lost to your mask, to the cock inserted down your throat.  You no longer have a gag reflex, a quirk only offworlders had to be cured of anyway.  
+
+Are you being rewarded?  You think so.  Of the others you have not an inkling, and little reason to care.  You were directed here, to converge, in the depths of the Badlands.  There are no buildings, no people, only unfinished work.  Vaguely beyond your mask, before another Daemon presses her cunt to it, you can see the rock formations surrounding you.  Rain rarely visited here, and only desperate humans sought refuge in such a wasteland.
+
+But you are not human, not while in your Isolation Laminate.  Humans thought and fought, spoke and argued, made decisions.  (colour: purple)[You only obey.]
+
+[[You twist, and press your hand between another's legs...->DaeEx3]]
+[[You shift your shoulders, sliding your breasts against another...->DaeEx3]]
+You reach down, teasing yourself.
+(click-replace: "You reach down, teasing yourself.")[(colour: purple)[///%Please them, Slave.%///]]
+
+
+:: DaeEx3
+Its snowing now.  And you've been walking again.  How long now?  How long?  (colour: purple)[It doesn't matter.]  You're here.  Beyond the temperate Ringdoms, beyond the waning lichen outlands, beyond the Badlands... you've been heading towards them.  Towards it.  You're not sure which, (colour: purple)[it doesn't matter.]  But you've made it.
+
+[[You're home.->DaeEx4]]
+
+
+:: DaeEx4
+<img src="img/0cLwQRu.png" width="50%" height="50%">
+
+One of Torei's creators.  Its almost absent Gods.  The AIs, Mazos and Dahom.
+
+The ziggurat that rises before you gleams as readily beneath the stars as any laminate, a subtle warmth melting the snow to reveal where earth became... something else.  You no longer have the faculties to investigate, but you sense it is not metal, nor one of the myriad forms of laminate.  The AI are something else entirely, massive as they are ancient.  
+
+You have not been brought here to speak with them, of course.  They do not talk, they do not even think as you do-- although your conditioning is pushing you in that direction, allowing you to grasp at strands in a tapestry of design and intent you are utterly incapable of truly fathoming.  
+
+Upon entering the suit you now wear, you earned their attention however.  You've become a part of their greater whole, a cog in an endless machine.  (colour: purple)[You will be used.]
+
+How?
+Examine the nearest flashing light.
+Continue forward.
+(click-replace: "How?")[(colour: purple)[///%Obey, Slave.%///]](click-replace: "Examine the nearest flashing light.")[(colour: purple)[///%Obey, Slave.%///]](click-replace: "Continue forward.")[A panel opens at your approach, a yawning mouth.  Within there is only darkness, a stark contrast to your glossy suit's reflections from the stars above.
+
+[[Enter.]]]
+
+
+:: Enter.
+You awaken, and *everything* is wrong.
+
+You are not compelled, or instructed.  Your holes, cunt and rear and mouth, are empty.  You are... you blink rapidly, breath catching in your throat... you are *naked?*
+
+Panicked, you try to sit up but cannot.  You may not be bound, but a clear barrier is just a few inches above you.  Glass, you recognize.  You're in a glass tube.  Barely larger than your prone self, rounded like a vial.  The only break in the smooth glass is a more metallic panel just below your head, to which a chain is attached within the vial itself.  Your eyes follow it down to find it linked to your throat, to the thin band of metal that encircles it.  A collar.  *Your* collar.  In the slight reflection of the glass you can see it is bare metal, except for a set of symbols set into the bottom edge.  They glow, a sickly sort of yellow.
+
+Your reflection also reveals the source of a sensation you had only begun to notice-- you're in... water?  Some sort of liquid, pitch black but thin, running like water.  It fills the bottom half of the vial, covering your shoulders but not rising to cover your head or breasts.
+(set: $Strike to 0)
+[[Look outside your vial.->LookVial]]
+[[Push against the glass, try to break it!->BreakVial]]
+[[Scream for help!->ScreamVial]]
+
+
+:: LookVial
+Your vial is not the only one.  *Far* from it.  Looking out you see dozens, hundreds maybe, held horizontally to the walls much like your own.  They flow in a strange pattern until you notice the room itself is irregular in shape, as if bulges in the walls emerged at odd angles.  Perhaps half of the vials are occupied, all of them with women (and the occasional man) in a state of nudity much like your own.  Some can be seen beating against the glass, others struggle in different ways, but many are simply still.  Sleeping, perhaps.  Or resigned.
+(set: $Strike to it + 2)
+The nearest vial holds another woman, her short cut hair a bright red.  Somewhere in the spiraling mass that is your own confusion, you recognize that as strange.  Why?  It takes you a moment to parse the information.  Toreans were not naturally ginger.  Was she another offworlder, much like you?  Your own hair of course is...
+
+Its only then that you realize your head has been shaved bald.  When had that happened?  *What is going on?!*
+
+(if: $Strike is > 2)[[[Suddenly your vial moves!->VialMove]]](else:)[
+[[Push against the glass, try to break it!->BreakVial]]
+[[Scream for help!->ScreamVial]]]
+
+
+:: BreakVial
+Without much space to maneuver you cannot achieve much windup, and the glass of your vial looks quite think indeed.  Balling your fists you nevertheless try to pound against your strange cage.  Its not very surprising when you achieve little, even the echo of your impacts sounding far away, muted somehow.  Something *does* change, however.
+
+Images project along the curved surface of the vial, flicking so quickly you can barely perceive what you're shown.  An inverted triangle, white on a field of black.  A forest, unlike anything you've ever seen on Torei.  Then black, black, more black, now broken by waves of light.  Smooth, glossy, you recognize it even as the camera pans out: laminate.  A daemon, writhing in glorious euphoria.  Then walking, now on its knees, hips thrusting silently.  
+
+The strange images keep coming, and you settle back into the black liquid of your vial, strangely calmed.
+(set: $Strike to it + 1)
+(if: $Strike is > 2)[[[Suddenly your vial moves!->VialMove]]](else:)[
+[[Touch yourself.->TouchVial]]
+[[Look outside your vial.->LookVial]]]
+
+
+:: ScreamVial
+Your scream is primal, fueled by an almost feral sense of fear and apprehension.  Yet the sound that emerges is strangely deadened, as if your vial consumes most of it, allowing only a faint echo to linger afterward.  For a moment you think it almost a wasted effort, the tortured confusion that came before rational thought took over-- until a response, of sorts, comes.
+
+Images project along the curved surface of the vial, flicking so quickly you can barely perceive what you're shown.  An inverted triangle, white on a field of black.  A forest, unlike anything you've ever seen on Torei.  Then black, black, more black, now broken by waves of light.  Smooth, glossy, you recognize it even as the camera pans out: laminate.  A daemon, writhing in glorious euphoria.  Then walking, now on its knees, hips thrusting silently.  
+
+The strange images keep coming, and you settle back into the black liquid of your vial, strangely calmed.
+(set: $Strike to it + 1)
+(if: $Strike is > 2)[[[Suddenly your vial moves!->VialMove]]](else:)[
+[[Touch yourself.->TouchVial]]
+[[Look outside your vial.->LookVial]]]
+
+
+:: VialMove
+With a pneumatic hiss, the armature upon which your vial rested, one among so many, moves.  The chain running from your collar to the panel of metal set into the glass jingles quietly as your strange enclosure shifts, sloshing the black liquid, then turns vertical.  That black liquid runs down, filling the vial to your knees as the entire apparatus moves.  Outwardly first, then down, towards the floor.  Just what it intended is made suddenly clear when the glass upon which you are now standing unceremoniously gives way, shifting to the side upon a seam you had not seen.
+
+You drop the foot or so left to the ground, unsteady legs giving way as you end up upon your knees.  Black liquid pours down around you, splashing momentarily but draining quickly *through* the floor.  Small holes, pores almost, pepper the otherwise white floor material.  It has a bit of give as well, unlike anything you've ever experienced before.  The strange floor is almost put to use again as a wave of queasiness runs through you, but you swallow hard, holding it down.
+
+Looking up, you find yourself on a small platform.  Much like the rest of the room, the floor curves and bends in an irregular manner, but the platform upon which you kneel is flat.  Before you can observe further however, a glinting hint of light draws your eyes upward.  There you find the metal portion of the vial slid out upon your release, following a slot along the floor.  Your leash, and thus collar, remain chained to it-- and with only moments to spare you move forward before it would have tugged you.The chain is too short for you to stand, so that you must crawl.
+
+[[You're led towards a wall panel that suddenly shifts aside.->InsideAI]]
+
+
+:: TouchVial
+Your half-filled vial would have made it difficult to raise your hands above your head, but with them already at your sides shifting a hand to the meeting of your thighs is easy enough.  To your surprise you find yourself wet and aching, as if starved for attention.  You move to address that need immediately, pressing your fingers to your lower lips, but it takes only moments for frustration to begin to build.
+
+This... is a pale imitation of what you *need.*  Even shifting your efforts, leaning more heavily upon direct stimulation of your clit produces little of the ecstasy you *knew* was possible... from your time in the Isolation Laminate.  How could you ever compare with such an experience?  That's a question that lands particularly hard, despite the jumble of other questions floating inside your mind.  
+
+You've supped from a nectar too sweet for any human hand, any ministration of your own, to equal.
+
+(set: $Strike to it + 1)
+(if: $Strike is > 2)[[[Suddenly your vial moves!->VialMove]]](else:)[
+[[Look outside your vial.->LookVial]]]
+
+
+:: InsideAI
+It is difficult to call what you enter a *hallway*.  It clearly was not designed for human use.  The ceiling bends and undulates, the walls shift at incomprehensible angles for unknowable reasons.  At a fork one side becomes dramatically smaller, impassable.  Twice you pass under vents discharging some manner of violet gas, whatever it was terribly cold, you're glad you are not stopped beneath it.  The only consistency comes in the color, a uniform black from which everything is built.  
+
+And through it all you crawl, naked and head shaved, pulled along by the chain running to the slot in the floor.  You have no doubt you would be forcibly pulled if you attempted to stop.
+
+[[Another fork approaches.->InsideAI2]]
+
+
+:: InsideAI2
+<img src="img/nC8CvwZ.jpg" width="50%" height="50%">
+
+Fresh light suddenly intrudes, replacing the dingy gloom that otherwise prevailed.  And you're not alone.  
+
+The passage widens to reveal a Daemon in full regalia, standing with its hand upon a clear panel.  Without eyes to see it peers out at a scene utterly foreign to Torei-- lush green foliage, trees and running water.  It stretches out for quite awhile, hills rising in the distance.  *Where are you?*  In that moment you think perhaps you have been transported, brought to some strange new world, but looking to the sky reveals it to be a stark white-- almost artificially so.  Some manner of... biodome, perhaps?  Or perhaps the window was merely a screen, a projection producing a synthetic image.
+
+Either way, neither your leash nor the Daemon pay your interest any mind.  The former keeps moving, and the latter remains in place as you continue on.
+
+[[Behind you the bright light grows ever dimmer.->InsideAI3]]
+
+
+:: InsideAI3
+How long have you been crawling?  Long enough for your hands and knees to have grown sore, you realize.  Was the AI truly so large?  How far did it extend underground?  You've never really considered the prospect.  Or perhaps you had?  You still cannot recall what happened before that fate day, waking on that hotel bed.  Afterward you had been so concerned with your deal, maybe even leaving... and afterward there had been only your suit.  Submission.  
+
+Before you can consider that line of thought further, however, your leash suddenly pivots sharply left.  A chunk, and that is how best the irregular piece of wall could be described, moves aside for you to pass through.  And then you're nearly blinded by the stark white light that emerges.  You're forced to close your eyes even as you crawl into the room, but you feel your lead halting even as you slowly try to blink away the painful brightness.
+
+What you eventually find is a pristine white room, separated in two by a set of bars running from ceiling to floor.  Your side is empty, even the entrance you had used is now gone, but the other side is occupied-- by a Daemon.  Sleek black laminate covers it from head to toe, as always, but this one is reclined in a chair, its arms locked into a straitjacket.  Its legs are spread by padded extensions, while heavy laminate straps scattered about secure it firmly in place.
+
+It writhes in that bondage, muffled moans escaping it.  You stand, finding your leash has disconnected from the floor, and approach the bars.  Something... something is wrong.  Its so hard to think here, after all that has happened, after all you've seen and experienced.  But... you... *know* that voice.  Did Daemons even make sounds?  You don't remember ever hearing them.  But you've heard this one before, of course you have... its...
+
+[[You.->AITrip]]
+
+
+:: AITrip
+<img src="img/scf6kDr.png" width="50%" height="50%">
+
+It can't be.  And yet the more you stare at it, listen to it, you become more certain.  That Daemon is *you*, as you have been since you entered that mask... so long ago.  How many hours or even days did you spend, with only your own muffled moans as company?
+
+Bewildered you lean against the bars separating you from... yourself, and find that you can slide your arm between the alabaster metal.  This was no projection.  Further confusion floods your mind, and as if on cue haptic displays suddenly engage.
+
+You step back, startled, to see a pair of shapes projected before you, as if floating above the bars.  Another round of recognition chills you as your realize they're the same sort a Daemon's mask projected inside, for reasons unknown.  Yet these you *can* make out, if only by staring at them.  Then the strange lines, the overlapping shapes within the larger more clearly defined shapes collect into... not words, but something you somehow understand.
+
+To your left, in the square: **RELEASE.**
+To your right, in the triangle: (colour: purple)[**OBEY.**]
+
+[[You reach up, and press your hand against RELEASE...->AIRelease]]
+[[You reach up, and press your hand against OBEY...->AIObey]]
+
+
+:: AIRelease
+With a trembling hand, you press **RELEASE.**
+
+Your choice is answered by an immediate hiss to your side.  Turning, you find another opening has been revealed.  From the bright white room you are greeted by a darkened tunnel, shaped almost like a pipe, running upward.  Towards the surface.  Towards... release?
+
+You look back to the struggling, moaning figure strapped to the chair.  You've been through a lot, you must have been mistaken.  How could that be you?  An impossibility.  You need not stay, even if the second haptic button remains.
+
+(colour: purple)[OBEY.]
+
+[[Leave the room, enter the tunnel.->AIRelease2]]
+[[You reach up, and press your hand against OBEY...->AIObey]]
+
+
+:: AIObey
+As soon as your fingertips find the haptic button it flashes, and darkness descends.  A total blackness, the sort that only being within a structure without windows, without the barest hint of non-artificial light could induce.  You can see nothing, yet you feel... different.   Immediately different.  A (colour: purple)[familiar] sensation overwhelms you, from toes to head.  
+(set: $Strike to 0)
+"No..."
+"What is going on...?!"
+[[It feels so good...->IntheChair]]
+(click-replace: "No...")[(set: $Strike to 1)(colour: purple)["Mmmmmghh!"]](click-replace: "What is going on...?!")[(set: $Strike to 1)(colour: purple)["Mmmmmghh!"]]
+
+
+:: AIRelease2
+Walking up the tunnel, you try to parse what had just occurred.  It all made sense now, didn't it?  When you first met the Daemon in that hotel room, it had not tried to compel you, but had *offered* you the helmet.  The AIs, Mazos and Dahom... they must valued consent.  Of course!  Why wouldn't they let you leave?  Why would you ever want to stay?
+
+You pause, thinking back to... that Daemon who had been so like you.  To the pleasure it had been so clearly being subjected to.  Blinded, deafened, made helpless before the very God you still stood within.  You can remember every moment of your previous encapsulation in exquisite detail now, every carefully tuned sensation fed into your strictly bound body, every blissful tweak of your own sensuality.  It had been (colour: purple)[bliss.]  And now that was lost to you.
+
+You pause, a hand landing upon the smooth stone of the tunnel.  Turning back, glancing the way you had come, you can still see the light of that bright room you had just left.  You almost expect to see a Daemon there, beckoning, but only your own thoughts greet you.  You should have better reasons to persist in your escape.  Liberty and freedom and dignity-- but in that moment they seem but shadows compared to that all consuming light.  Even when you close your eyes the sensation lingers, figments dancing upon your eyelids.  
+
+[[Turn back... return to the Daemon...->AIObeyLate]]
+[[NO!  Run, run up the rest of the tunnel!->AIRelease3]]
+
+
+:: AIObeyLate
+You're drawn back down, into that gleaming white pit of a room.  Inescapably.  Each staccato inhalation marks your confusion, your fear, yet the sheer panic slides slowly away as you reach up.  Bit by bit.  To that set of symbols you could not read, yet knew what they say:
+
+(colour: purple)[OBEY]
+
+As soon as your fingertips find the haptic button it flashes, and darkness descends.  A total blackness, the sort that only being within a structure without windows, without the barest hint of non-artificial light could induce.  You can see nothing, yet you feel... different.   Immediately different.  A (colour: purple)[familiar] sensation overwhelms you, from toes to head.  
+(set: $Strike to 0)
+"No..."
+"What is going on...?!"
+[[It feels so good...->IntheChair]]
+(click-replace: "No...")[(set: $Strike to 1)(colour: purple)["Mmmmmghh!"]](click-replace: "What is going on...?!")[(set: $Strike to 1)(colour: purple)["Mmmmmghh!"]]
+
+
+:: AIRelease3
+Your bare feet slam against the strangely smooth tunnel, panicked gasps wracking your chest.  Release.  You were offered release, you've taken, and now you feel that if you do not seize it with both hands you will never have the will to do so again.  Its a powerful fear, shoveling away any rational thought to reveal the primal creature within you.  Fight or flight, the primordial responses.  The latter drives you to an ancient looking door at the top of the tunnel, so different from the strange architecture you've witnessed so far.  
+
+You shove the errant thought aside and pull hard on a rusted release mechanism, straining for only a moment before it gives way.  With a yelp the door swings open and you stumble through.  A gust of wind bitter cold greets you, the strange metal of the ziggurat beneath you, the polar sky above. You're out!  Free!
+
+Celebration must wait as you return to your feet, running nude except for your collar.  Some instinctual urge drives you off the ziggurat as if a whip was being worked upon your flank, pushing you into the freezing snow beyond.  There mere feet from the edge of the metallic construction you collapse, panting, the humid warmth of the AI's domain draining off you rapidly.  You shiver for the first time, frosted breath emerging as you gasp for air.  You will freeze do death out here without clothing or gear, you recognize, yet you linger on your knees.  Something has caught your eye.  
+
+Is there something beneath the snow?
+
+[[You dig at it, slowly.->AIRelease4]]
+
+
+:: AIRelease4
+Even without the frigid wind that blows across your bare back you hold your breath, hands trembling.  You need not dig far, perhaps half a foot, before your fingernails brush up against something hard.  Fear blossoms in your chest, an iron weight upon your heart, for reasons you cannot explain.  You're scared, terrified, and yet you widen your excavation, brushing more snow away...
+
+...to reveal ice beneath.  Water, the most valuable of resources here on Torei.  Glancing up, you only now notice how the land nearest the ziggurat is flattened, far more so than the small hills that rise some ways off.  You must be on a frozen reservoir, you realize, a useful way for the AI to keep such a powerful terraforming material where it could not be stolen.  
+
+The rigid anxiety that had gripped you releasing all at once.  You laugh, despite the cold.  What had pushed you to such a precipice of fear in the first place?  
+
+Collecting your hands beneath your breasts, you shiver further, the smile that had emerged across your lips sliding away bit by bit.  By chance you look down to the ice again, then incline your head to the left, removing the hole you had dug from your own shadow.
+
+[[Something looks back at you from the ice.->AIRelease5]]
+
+
+:: AIRelease5
+<img src="img/RFI2Vpi.png" width="50%" height="50%">
+
+(colour: purple)[A Daemon.]  Beneath the ice you think for a split second, but no.  Its a reflection.  *Your* reflection.
+
+You try to scream but find yourself unable, your Isolation Laminate kept your mouth closed around a laminate phallus after all.  Even the grunted sound you do manage is lost to the wind, although you no longer feel its polar bite.  Panic has once more flooded your system, but your (colour: purple)[Master] had ensured you cannot hurt yourself.  Trying to reach up, to rip the mask from your face, you find your arms bound.  A glance down reveals a straitjacket holding your arms securely.
+
+[[And then everything goes dark.->IntheChair]]
+
+
+:: IntheChair
+<img src="img/scf6kDr.png" width="50%" height="50%">
+
+You have no means of knowing if your vision returns with lights being engaged, or if your Isolation Laminate merely pierces the dark.  Either way, you are allowed to look once more upon a room and scene you so easily recognize.  The clinically clean walls, the smooth floor, all of it a blinding white.  Even the bars that portion the space into halves are white, only your suit and the chair upon which you are strapped stand in contrast.  
+
+(colour: purple)[You are the Daemon in the chair.]
+
+Your silent Master, Mazos or Dahom you have never been told, as always remains silent.  There is no commentary on what you had seen and experienced.  Had it been a dream?  A hallucination?  How long have have you been within the AI's hallowed halls, maze-like corridors winding in madness deep into the heart of Torei itself?  You will never know, and in truth, it is no longer your purpose to care.  Squirming against your bondage, the straps and straitjacket, there is only the pleasure your holes are allowed.  Inserts all but eternally purring, keeping you forever on the edge of ecstasy, your concerns begin to drop away one by one. Perhaps you've always been here.  Certainly you always (colour: purple)[obey.]  
+
+Eventually you are moved to a position before a door, barely wider than your shoulders.  Your dim senses note there are dozens, hundreds-- perhaps *thousands* of identical such doors stretching in all directions around you, walls and ceilings, even the floor beneath your feet.  The AI's architecture conformed to no human expectations.
+
+[[The door opens.->Dealer]]
+
+
+:: Dealer
+To call it a room would be far too grandiose, even a 'chamber' suggested more than what waits you: a shallow alcove, the matte laminate padding within shaped into a form you can only expect matches your measurements exactly.  (colour: purple)[Your cell.]  Turning around, you do not hesitate to take the step back and into your allotted place.
+
+Restraints emerge immediately from carefully placed slots, laminate bands sliding around your ankles, waist, wrists, and throat.  Pulling tight, they immobilize you as the door slides back down into place.  Had it not also been built with your measurements in mind it would not have closed, but as it is it almost seems to seal around you completely.  A quiet click is all that announces the door locking shut.
+
+You do not yet know it, but within your cell you will stay for the next three months, four weeks, and a day-- until somewhere in the vast machinery of thought that was the AI you belong to, a singular logic gate flips over.  Zero becomes one, and new instructions are dispensed.
+
+[[You will obey, and be of use.->Dealer2]]
+
+
+:: Dealer2
+<img src="img/c4EU7Do.jpg" width="50%" height="50%">
+
+Even here, far from the Way Up and the steady stream of offworlders who came down and spread forth upon Torei, their influence could still be felt.  The Badlands supported little in the way of life, the great bands of land between equator and poles still low in priority for Mazos and Dahom.  But this village subsisted, clinging like a forgotten flowerbud to a rockface that provided shade most of the day.  Its people called it Red Harbor, and therein lay the oddity.  *Harbor* was a wholly foreign word to Torei, a planet without oceans or lakes.  
+
+Undoubtedly one of the founders had brought the word with them during their flight here, along with whatever few implements and tools they had managed to leave with.  For this was a village, a tribe, of runaways-- fleeing the slavery that defined the planet.  A free settlement, if an eternally threatened one.  Mere survival out here could be difficult.  Duststorms capable of ripping a building from its foundations emerged from the pole, raging towards the far off equator.  Thus the rocky shelf that anchored the South of the settlement, providing protection.  That solved one of the major needs, but not the other: *water.*
+
+Toreans were born and bred to subsist on far less water than offworlders, but some here had once come from the elevator, and in any case none could do without.  
+
+[[And that is why you stood in the lam-canvas tent of their leader, looking from its raised position down upon the village.->Dealer3]]
+
+
+:: Dealer3
+Your hand, seamlessly covered in black laminate, is pressed against the white wall.  From it patterns emerge, negotiating with the Chief that kneels behind you in supplication.  She called you (colour: purple)[Emissary], treated you with reverence, but still the message you had been sent to deliver strikes her hard.
+
+"Two others," she pleads.  "Whichever two you like."
+
+You sense the refusal you deliever, but she's insistent.  "Three then.  *Please.*  If the aquifer here stays dry, we will perish.  It must be refilled... but not like this."
+
+You turn your laminate covered head, looking down upon her without eyes to truly see.  The terms will not be changed.
+
+The Chief sighs, pressing her head to the ground in dismay once more before she rises.  At your side she is shorter, your heels give an advantage in height, but strong.  Determined.  "I submit to the terms."
+
+You withdraw your hand from the wall as the holographic symbols dissolve, then return your gaze to the window just as the Chief raises her voice to call out.  "Daughter!  Come here, child."
+
+[[A blonde haired youth turns from her work, and walks your way.->Dealer4]]
+
+
+:: Dealer4
+She is just past her majority, and Badlands bred.  Besides the windswept plateaus and blistering desert, besides Red Harbor, she knew little.  But she knows enough to sink to her knees upon seeing you, worshipped as your kind are by these people.  The Ringdoms were far away and more likely to enslave these people then assist them, runaways that so many of them are.  So they turned to the only other power for help.  The AI, and thus you, as (colour: purple)[Emissary.]
+
+Mother guides daughter to her feet as you observe, speaking quietly, intensely.  Warnings, no doubt.  They may deal with your (colour: purple)[Master], but they never trusted.  You can see the fear in the girl's eyes as her mother clasps her once more on the shoulder, then turns to leave.  
+
+[[You're left alone with her, as the daughter removes her clothes.->Dealer5]]
+
+
+:: Dealer5
+<img src="img/HmP2EeN.png" width="30%" height="30%">
+
+She trembles at your touch, almost awestruck by how tender it proves to be.  So many thought your kind to be cruel, and you *could* be.  But not always.
+
+Stepping up behind you pull the daughter closer, until her pale flesh meets the utter black of your Isolation Laminate.  She coos at the sensation of your all but frictionless fingertips running along her bared skin, tracing her shoulders as you slowly work downwards.  At her waist your hands separate, one hand following the curve of her rear while the other slips around her hips, to the meeting of her tights.
+
+"Please, don't..." her words are bitten off by an equally pinched moan as you enter her, your fingers working with precision and deft skill.  Gently you guide her towards her Mother's bed, and is there you keep her, utilizing the hardpoints built into the furniture upon her.  She is without improvement, and could never take the sort of sensations you have been trained to endure, but you do give her a taste.  A tantalizing, yet ever so fleeting demonstration of what your kind could do.
+
+She climaxes again and again, sometimes pleading for you to stop, other times begging for more.  Eventually its exhaustion that ends her time with you, and its with the coming dawn that you finally rise from her side.  You leave her there, asleep and chained spread-eagle upon the bed, but not before stopping at the roughly hewn table nearby.  There you produce a rectangle of pure black, glossy as your suit, upon which words are embossed.  A Black Card.  An invitation.  An adventure, for it would require the daughter to travel far.  North, across the Badlands, through the lichen farms, into the Ringdoms proper.  To one called Aekora, to a hotel by the name of *Diarch's Choice...*
+
+[[As you leave Red Harbor, your inserts pulse with rewarding bliss.->Ending]]
 
 
