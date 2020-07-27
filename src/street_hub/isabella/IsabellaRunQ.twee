@@ -1,0 +1,17 @@
+:: IsabellaRunQ
+"Nein," antwortet Isabella einfach, eine nach oben gerichtete Handfläche, die vage in die Umgebung gestikuliert. "Aber ich wohne nicht hier in der Nähe, und Ausreißer sind in dieser Ringdomäne nicht gerade selten. Wir haben die Märkte, und Sklaven laufen oft weg, wenn sie mit dem Auktionsblock konfrontiert werden".
+
+Sie schaut zu dir.  "Du suchst nach dem Mädchen, nicht wahr?"
+
+[["Natürlich nicht!"->IsabellaRunQ2]]
+[["Woher wissen Sie das?"->IsabellaRunQ2]]
+
+
+:: IsabellaRunQ2
+Sie zuckt mit den Achseln, schwarzes Laminat hebt und senkt sich, während Wellen von Reflexionen auf dem Material glitzern. "Kopfgeldjagd ist ehrliche Arbeit, und du *brauchst* Credits. Aber du bist nicht gerade Jäger-Material..."
+
+Isabella scheint dich für einen Moment zu prüfen, als stünde sie kurz davor, sich weiter zu diesem Thema zu äußern. (if: $PlayP is false)[Doch am Ende schüttelt sie den Kopf. "Ich könnte wetten, dass du unmittelbar mit einem Beamten zusammenarbeitest. Und ich traue ihnen nicht, was bedeutet, dass ich dir nicht traue. Nicht, bis sich deine Zunge als mehr als nur ein versilbertes Instrument erweist."](if: $PlayP is true)[Am Ende lächeln ihre knallroten Lippen. "Ich weiß, dass du mit einer Blau-Polizistin zusammenarbeitest, und ich traue ihnen kein bisschen. Aber du?  Du warst zwischen meinen Beinen. Ich gebe dir wohl einen kleinen Rat."
+
+Sie zeigt nach oben und leicht nach hinten, die wuchtige Masse der Transportplattform erhebt sich über euch beide. "Wenn eine Sklavin auf der Flucht ist, muss sie das Gebiet verlassen. Die Leine kann sie nicht nehmen, die Blau-Polizei ist da überall. Den Zug kann sie nicht nehmen, sie besitzt keinen Passierschein. Aber wenn die Sklavin aus reichen Verhältnissen kommt?  Dann wäre es nicht schwer, etwas zu stehlen und eine Kutsche zu nehmen. Wenn man bedenkt, wie teuer sie sind, stellen sie nicht viele Fragen. Geh hoch zur Transportplattform, und frage dort."(set: $TruantQuestCarr to true)]
+
+(if: $PlayP is false)[[Wenn du ihr Vertrauen gewinnst, könntest du es vielleicht noch einmal versuchen.->Isabella Hub]](if: $PlayP is true)[[Eine gute Spur, der du nur bis zur Transportplattform folgen musst.->Isabella Hub]]

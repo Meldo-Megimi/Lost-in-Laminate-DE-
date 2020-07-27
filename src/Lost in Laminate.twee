@@ -117,47 +117,6 @@ The eerie 'forest' is set apart from the road by a simple wrought-iron fence, ri
 [[Enter.->NunGreet2]]
 
 
-:: Isabella Hub
-<img src="img/9MFJwF5.png" width="30%" height="30%">
-
-Isabella sits patiently, her mirrored glasses watching others pass on the street.
-
-(if: $PlayE is true)[You remember your etiquette lesson, and recognize she is your social superior.  Thus you greet her with a reverence, spreading your legs and (if: $Sec is true)[(if: $Level is 1)[lifting your skirt, briefly exposing your womanhood as you lower your eyes and bow.]](if: $Slave is true or $Brand is true or $Blue is true or $Smoke is true)[lowering your eyes, head bowed, presenting your catsuit's zipper by kneeling before her.]  Isabella's placid expression shifts into a slight smile.]
-
-You have (print: $debt) credits.
-
-(if: $TruantQuest is true and $TruantQuestCarr is false)[[["Have you heard anything about that runaway slave, Amadori?"->IsabellaRunQ]]]
-(if: $Level is 1)[[["I wanted to talk about getting that armbinder." (+25 Credits)->IsArm]]]
-(if: $Level is 2)[[["You mentioned... wanting me to get piercings?"->IsPierce]]]
-(if: $PlayP is false)[[["I'd... like to play, as you said.  Pleasure."->IsPlayP]]]
-(if: $PlayE is false)[[["I'd... like to play, as you said.  Etiquette."->IsPlayE]]]
-(if: $IsSlave is false and $debtShower is false)[[["You mentioned you had a Train Pass?"->IsSlavePathREFUTE]]]
-(if: $IsSlave is false and $debtShower is false and $PlayE is true and $PlayP is true)[[["Now that we've played... you mentioned a train pass?"->IsSlavePath]]]
-(if: $debtShower is true and $Slave is false)[["I want... that slave suit, as we discussed."->GetSlave]]
-(if: $Slave is true and $debtShower is true and $Strike is > 10)[["I'm ready to commit, Isabella.  Really.  I want to be your slave."->Slave Commit]]
-(if: $Donate is true and $DonateEnd is false and $DonateIsabella is false)[[["Isabella, could I speak to you about the Liberty Society?->DonateIsabella]]]
-[["Did you say your family owns half this city?"->IsAsk]]
-[[For now you step away, looking elsewhere for help.->TransitChecktoHub]]
-
-
-:: IsArm
-"Of course you do," Isabella smirks.  "Terms are pretty straightforward.  There is a Wardrobe Device just around the corner.  We'll walk over there, and I'll set everything up.  In a few minutes you can have your arms tightly bound in laminate behind your back.  It's not comfortable, and you will have to deal with a certain feeling of... helplessness.  But that's part of the fun."
-
-She lifts a gloved hand, forefinger rubbing against her thumb.  "And I will give you 25 credits for being such a good girl."
-
-[[You do need to earn that money.  "I'll submit."->IsArm 2]]
-[["I'm not ready for that, I have to think about it."->Isabella Hub]]
-
-
-:: IsPierce
-"I thought you might say that," Isabella muses, turning to look your way.  Her lips are so very bright red, shining as she smiles.  "Terms on this one are simple enough.  We take a walk around the corner, there is a Wardrobe machine.  I'll set everything up-- there will be a fee for removing and then reapplying the laminate over your chest, but I can handle that.  It's for a good cause.
-
-"I'll give you 25 credits, and the Wardrobe will give you nice set of piercings through those tits of yours.  It will hurt, but this is Torei, we can heal that.  The sensitivity, however?  That will be permanent.  Every step forward will see your laminate tugging ever so slightly on them... you good with that?"
-
-[["I'm good with that, I think."->IsPierce 2]]
-[["I'm not ready for that, I have to think about it."->Isabella Hub]]
-
-
 :: IsPlayP
 "Pleasure," she repeats, the word rolling across her bright red lips.  "Sure, we can play with that.  But don't think I'm going to treat you easier because you're some offworlder.  We will do it right here, in public, the Torean way.  That means your submission, via verbal contract, for the duration of our agreed upon contract.  Let's say... an hour?"
 
@@ -178,14 +137,6 @@ Isabella adjusts her glasses slightly.  "We will discuss and demonstrate, and th
 [["I'm having second thoughts, let me... reconsider."->Isabella Hub]]
 
 
-:: IsAsk
-Isabella nods, adjusting the fall of her ponytail afterward.  "I know you can't remember much, but you must have heard of the Diarchs, right?  Diarchy means rule of two.  Technically any man or freewomb can be elected to each Diarch's chair.  In reality, they always come from the two same families.  One of them, the Naram-Sin, is mine."
-
-She taps her electronic cigarette, despite the lack of ash.  Perhaps its an old habit.  "It's a big family, though.  I've only met my family's Diarch once.  Anyway, you're not here to talk about politics.  Let's talk about something *fun.*"
-
-[["Fun.  Right..."->Isabella Hub]]
-
-
 :: IsSlavePath
 "I do," Isabella replies, a gust of wind blowing the scent of cinnamon from her direction.  "But that is not a topic I would broach with you lightly.  Certainly there must be other options available for you.  Other sources of a pass, perhaps.  The Lead, certainly."
 
@@ -200,75 +151,6 @@ You barely get a glimpse of a uniformed woman behind you, pulling you deeper int
 
 (if: $Slave is true)[[[You're led towards those wearing the full black slave ensemble such as yourself, alongside a few collared women.->TruantSlave]]]
 (if: $Blue is true or $Smoke is true or $Brand is true or $Sec is true)[[[You're led towards the freewombs.->TruantReg]]]
-
-
-:: IsArm 2
-"That's what I like to hear."
-
-Rising in a flourish of black laminate, Isabella leads you around the corner of the raised transit platform.  A large opening leads down into an area excavated beneath, a sign over which reads *Pubic Facilities*.  Those facilities turn out to be several bathrooms, one marked for Men, one for Freewombs, and one for Slaves-- and a row of Wardrobe Devices.  Changing outfits after or just prior to a trip seems to be common.
-
-Isabella selects an open Wardrobe for you, using her own credentials to bring up a far more extensive catalog of options then you had seen at the Hotel.  Selecting a (if: $Blue is true)[black] (if: $Smoke is true)[black] (if: $Brand is true)[black] (if: $Sec is true)[red] (if: $Slave is true)[black] armbinder design, she pays for the choice before indicating the now opened doors with a flourish.  "Your bondage awaits."
-
-[[Step in.->IsArm 3]]
-
-
-:: IsArm 3 [Debt]
-A tiled room, a simply display before you.  You remember this, and you remember what comes next as the door behind you closes and arms seize your wrists, ankles, and throat. The Wardrobe whirls, arms cycling upward as those gripped to your wrists suddenly jerk your arms back.  It isn't a gentle experience.  Given the larger print job, three of the device's appendages begin circling your arms, coating them in the laminate that is quickly flash-set into a tight layer.  Reinforcements are built into the area around your hands to prevent an escape, and so that a large ring can be emplaced-- which, once cooled an armature seizes, demonstrating just how easily you can now be controlled that way.  The final component is the portion that circles around your shoulders and upper chest, anchoring the binder and preventing it from being slipped off easily.
-(set: $debt to it + 25) (set: $Level to 2)
-Already your shoulders whine with hints of pain, the position unpracticed.
-
-<img src="img/gh59YMk.png" width="30%" height="30%">
-
-You emerge to find Isabella waiting, her glasses resting on her forehead so that she can given the Wardrobe's work a discerning look over.  She tugs on the laminate covering your shoulders, and the outline of your elbows.  Whatever she finds apparently meets her standards as she reaches up, dropping her glasses back into place.
-
-Stepping forward she reaches out, one hand finding your (if: $Brand is true or $Slave is true)[tightly corseted] waist, corralling you as her other hand explores one of your shiny(if: $Blue is true)[blue] (if: $Smoke is true)[smoky] (if: $Brand is true)[logo adorned] (if: $Sec is true)[white] (if: $Slave is true)[black] breasts.  Her fingers almost immediately hardened your nipple, a trick that only furthers the sharp bit of pain when she pinches it slightly.  
-
-"See how nice this is?" She asks.  "Helpless."
-
-As if to underscore that point she releases you, but not without a rude slap of your ass.  "You earned those 25 credits," she laughs, following you back up and around the corner to her bench.
-
-[[She retakes her seat as you adjust to your new armbinder.->Isabella Hub]]
-
-
-:: IsPierce 2
-"That's what I like to hear."
-
-Rising in a flourish of black laminate, Isabella leads you around the corner of the raised transit platform.  A large opening leads down into an area excavated beneath, a sign over which reads *Pubic Facilities*.  Those facilities turn out to be several bathrooms, one marked for Men, one for Freewombs, and one for Slaves-- and a row of Wardrobe Devices.  Changing outfits after or just prior to a trip seems to be common.
-
-Isabella selects an open Wardrobe for you, using her own credentials to bring up a far more extensive catalog of options then you had seen at the Hotel.  Selecting silvered piercings described as *Torean Standard*, she indicates the now opened door.
-
-"So few women on this planet remain unpierced for long.  Its nothing to be ashamed of."
-
-[[Step in.->IsPierce 3]]
-
-
-:: IsPierce 3
-You're hobbled and bound, and the Wardrobe knows it.  The customary arms grab at your wrists, ankles, and throat-- but another also seizes the ring set in your armbinder.  You're left imagining what for, or at least until it demonstrates.
-
-The device holding onto your armbinder's ring pulls suddenly downward just as your legs are yanked forward.  You're suspended in the air now, back arched, breasts pressing against the laminate cups of your oufit as they're thrust out.  (if: $lave is true or $Brand is true)[Your corset makes the position painful in the extreme.]
-
-It's then that a new armature appears, this one new, at least to your eyes.  Instead of a gripping limb, or a painter-like nozzle, this has something much more sinister: a lancing needle.  Long, silvery... and move mechanically down, towards your breasts.  The protection offered by your outfit is momentarily vacated, solvants being applied that melt the material readily in a steam that fans suck away greedily.  With unnerving precision, the needle is positioned.  There is no fanfare, no warning-- it merely shifts suddenly, one moment waiting beside your nipple, the next pierced straight through it.  
-
-The Wardrobe device doesn't much care for your reaction.  It does provide a quite fast acting healing agent, undoubtedly a Torean marvel of bioengineering that would have fascinated the Prospector that is your job title, but that seems less a kindness and more simple utilitarianism.  Once healed, a silvery barbell is inserted, your violation now marked by the small silver balls now framing the highlight of your chest.
-
-You hang limply as the procedure is repeated on your other nipple.  Afterward the nozzles return, reapplying the laminate of your suit.  Its as if they had never torn it apart, but the foreign sensations emanating from your chest are a constant reminder...
-
-<img src="img/5744pPZ.png" width="30%" height="30%">
-
-[[Stumble out.->IsPierce4]]
-
-
-:: IsPierce4 [Debt]
-Isabella awaits, her glasses up on her forehead so she can take a better look.  She certainly cares little for your sense of privacy, stepping forward immediately, one hand finding your (if: $Brand is true or $Slave is true)[tightly corseted] waist, corralling you as her other hand explores one of your shiny(if: $Blue is true)[blue] (if: $Smoke is true)[smoky] (if: $Brand is true)[logo adorned] (if: $Sec is true)[white] (if: $Slave is true)[black] breasts.  Finding your nipple, her own laminated fingers pull at the bit of steel now piercing it.  To your surprise, it almost feels as good as it hurts, eliciting a moan you fail to hold back.
-(set: $Level to 3)(set: $debt to it + 25)
-
-"Good girl," she nevertheless rewards you, standing momentarily hip to hip with her arm still around you.  "Feel that?  Stick your chest out.  Those are *permanent*.  Isn't it wonderful?"
-
-Her grin remains as she releases you, then leads the way back up to the street and around the corner.  Finding her bench, she returns to it.  
-
-"You're not a Torean girl until you've got those," Isabella notes as she brings out her cigarette again.  "Was there something else?"
-
-[[She does have other opportunities.->Isabella Hub]]
 
 
 :: IsPlayP 2
@@ -2862,25 +2744,6 @@ Nikaido kicks a heeled boot out, a simple gesture to indicate that you should pr
 [["Can I get some basic details about the runaway again?"->TruantExplainHub]]
 (if: $TruantQLie is true or $TruantQLieNo is true)[[["I think I wrap this investigation up, Officer.  I know what happened to Amadori."->TruantQuestTurn]]]
 [["That's all about the runaway for now, Officer."->Truant Hub]]
-
-
-:: IsabellaRunQ
-"No," Isabella replies simple, an upward palm gesturing vaguely to the surrounding area.  "But I don't live near here, and runaways aren't exactly rare in this Ringdom.  We have the markets, and slaves will often run when faced with the auction block."
-
-She looks to you.  "You're looking for the girl, aren't you?"
-
-[["Of course not!"->IsabellaRunQ2]]
-[["How did you know?"->IsabellaRunQ2]]
-
-
-:: IsabellaRunQ2
-She shrugs, black laminate rising and falling as waves of reflections glisten on the material.  "Bounty hunting is honest work, and you *do* need credits.  But you're not exactly Hunter material..."
-
-Isabella seems to consider you for a moment, as if on the verge of speaking further on the issue.  (if: $PlayP is false)[In the end, however, she shakes her head.  "I would bet you're working with an Officer directly, then.  And I don't trust them, which means I don't trust you.  Not until that tongue of yours proves itself to be something more then just a silvered instrument."](if: $PlayP is true)[In the end, her bright red lips smile.  "I know you're working with a Truant Officer, and I don't trust them one bit.  But you?  You've been between my legs.  I suppose I give you a little bit of advice."
-
-She points upward and slightly back, the Transport Platform's massive bulk rising above you both.  "If a slave is on the run, they need to leave the area.  Can't take the Lead, Truant Officers are all over that.  Can't take the train, they wouldn't have a pass.  But if the slave comes from rich circumstances?  Wouldn't be hard to steal a bit, and take a carriage.  Given how expensive they are, they don't ask many questions.  Go up to the Transport Platform, try asking there."(set: $TruantQuestCarr to true)]
-
-(if: $PlayP is false)[[Perhaps if you win her trust, you could try again.->Isabella Hub]](if: $PlayP is true)[[A good lead, one you need only follow to the Transport Platform.->Isabella Hub]]
 
 
 :: NunTruantQHub

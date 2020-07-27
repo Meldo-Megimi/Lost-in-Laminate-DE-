@@ -1,0 +1,35 @@
+:: IsArm
+"Natürlich tust du das", schmunzelt Isabella. "Die Bedingungen sind ziemlich einfach. Gleich um die Ecke steht ein Garderobengerät. Wir gehen dorthin, und ich bereite alles vor. In ein paar Minuten kannst du deine Arme hinter deinem Rücken fest in Laminat gefesselt haben. Das ist unbequem, und du wirst mit einem gewissen Gefühl der... Hilflosigkeit konfrontiert werden. Aber das ist Teil des Spaßes."
+
+Sie hebt eine behandschuhte Hand, der Zeigefinger reibt an ihrem Daumen. "Und ich gebe dir 25 Credits dafür, dass du so ein braves Ding bist."
+
+[[Du brauchst das Geld wirklich. "Ich werde mich unterwerfen."->IsArm 2]]
+[["Dazu bin ich noch nicht bereit, ich muss darüber nachdenken".->Isabella Hub]]
+
+
+:: IsArm 2
+"Das höre ich gern."
+
+Isabella steht in einer Pracht aus schwarzem Laminat auf und führt dich um die Ecke der erhöhten Transitplattform. Eine große Aussparung führt hinunter in einen darunter liegenden Bereich, über dem ein Schild mit der Aufschrift *Öffentliche Einrichtungen* angebracht ist. Diese Einrichtungen stellen sich als mehrere Badezimmer heraus, eines für Männer, eines für Freischösse und eines für Sklavinnen-- und eine Reihe von Garderobengeräten. Es scheint üblich zu sein, nach oder kurz vor einer Reise die Kleidung zu wechseln.
+
+Isabella wählt ein offenes Garderobengerät für dich aus, wobei sie ihre eigenen Zugangsdaten verwendet, um einen wesentlich umfangreicheren Katalog von Optionen aufzurufen, als du ihn im Hotel gesehen hast. Sie wählt ein (if: $Blue is true)[schwarzes] (if: $Smoke is true)[schwarzes] (if: $Brand is true)[schwarzes] (if: $Sec is true)[rotes] (if: $Slave is true)[schwarzes] Armbinder-Design und bezahlt für die Wahl, bevor sie die nun geöffneten Türen mit großem Überschwang zeigt. "Deine Fesselung wartet."
+
+[[Tritt ein.->IsArm 3]]
+
+
+:: IsArm 3 [Debt]
+Ein gekachelter Raum, eine einfache Anzeige vor dir. Du erinnerst dich daran, und du erinnerst dich, was als nächstes kommt, wenn sich die Tür hinter dir schließt und die Arme deine Handgelenke, Knöchel und deinen Hals ergreifen. Die Garderobe wirbelt, die Arme schwingen nach oben, während die an deinen Handgelenken plötzlich deine Arme zurückziehen  Es ist keine angenehme Erfahrung. Angesichts des größeren Druckauftrags beginnen drei Zubehörteile des Geräts deine Arme zu umkreisen und ummanteln sie mit Laminat, das blitzschnell zu einer festen Schicht verdichtet wird. In den Bereich um deine Hände herum werden Verstärkungen eingebaut, um ein Ausbrechen zu verhindern und damit ein großer Ring platziert werden kann-- der, sobald er abgekühlt ist, von einem Rotor erfasst wird, was zeigt, wie leicht du jetzt auf diese Weise kontrolliert werden kannst. Die letzte Komponente ist der Teil, der um deine Schultern und deinen oberen Brustkorb kreist und den Binder fixiert und verhindert, dass er leicht abrutscht.
+(set: $debt to it + 25) (set: $Level to 2)
+Schon jetzt jammern deine Schultern vor Schmerz von der ungewohnten Stellung.
+
+<img src="img/gh59YMk.png" width="30%" height="30%">
+
+Du kommst heraus und findest Isabella wartend vor, ihre Brille auf die Stirn gelegt, so dass sie die Arbeit der Garderobe mit kritischem Blick betrachten kann. Sie zerrt an dem Laminat, das deine Schultern bedeckt, und an den Umrissen deiner Ellbogen. Was auch immer sie herausfindet, es scheint ihren Anforderungen zu entsprechen, denn sie greift nach oben und lässt ihre Brille wieder auf ihren Platz fallen.
+
+Sie tritt vor, streckt ihre Hand aus, greift nach deiner (if: $Brand is true or $Slave is true)[eng korsettierten] Taille und hält dich fest, während ihre andere Hand eine deiner glänzenden (if: $Blue is true)[blauen] (if: $Smoke is true)[rauchigen] (if: $Brand is true)[mit einem Logo geschmückten] (if: $Sec is true)[weißen] (if: $Slave is true)[schwarzen] Brüste erforscht. Ihre Finger lassen fast sofort deine Brustwarze verhärten, ein Trick, der den scharfen Schmerz nur noch verstärkt, wenn sie sie leicht zwickt.
+
+"Siehst du, wie schön das ist?" fragt sie. "Hilflos."
+
+Als ob sie diesen Punkt unterstreichen wollte, lässt sie dich frei, aber nicht ohne einen rüden Klaps auf deinen Arsch. "Diese 25 Credits hast du dir verdient", lacht sie und folgt dir nach hinten und um die Ecke zu ihrer Bank.
+
+[[Sie nimmt ihren Platz wieder ein, während du dich auf deinen neuen Armbinder einstellst.->Isabella Hub]]

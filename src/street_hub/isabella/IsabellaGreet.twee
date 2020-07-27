@@ -18,7 +18,7 @@ Sie zieht noch einmal lange an ihrer Zigarette, wobei sich in ihrer Brille die G
 
 (if: $Fondled is true)[Sie lächelt. "Und du *bist* die Frau, an der ich auf dem Weg aus dem Hotel vorbeikam.  Die, die gefesselt und bestraft wurde. Die ich *kaum* berührt habe und die wie ein nasses Flittchen gestöhnt hat."](else:)[Ihre behandschuhten Finger klopfen gegen das oberste Brett der Bank, ihr Arm ist darauf ausgestreckt. "Mein Name ist Isabella Naram-Sin. Du bist das Mädchen aus dem Hotel. Was genau kann ich für dich tun?"]
 
-(if: $Fondled is true)[[["Ich... naja, du..."->Fondled II]]](else:)[[["Ich... habe eine Bitte."->IsRequest]]]
+(if: $Fondled is true)[[["Ich... naja, Sie..."->Fondled II]]](else:)[[["Ich... habe eine Bitte."->IsRequest]]]
 
 
 :: IsGreetAck
@@ -36,7 +36,7 @@ Der Frau ist das egal, aber sie steht auf und fährt mit einem Obsidianhandschuh
 
 (if: $Fondled is true)[Sie lächelt. "Und du *bist* die Frau, an der ich auf dem Weg aus dem Hotel vorbeikam.  Die, die gefesselt und bestraft wurde. Die ich *kaum* berührt habe und die wie ein nasses Flittchen gestöhnt hat."](else:)[Ihre behandschuhten Finger klopfen gegen das oberste Brett der Bank, ihr Arm ist darauf ausgestreckt. "Mein Name ist Isabella Naram-Sin. Du bist das Mädchen aus dem Hotel. Was genau kann ich für dich tun?"]
 
-(if: $Fondled is true)[[["Ich... naja, du..."->Fondled II]]](else:)[[["Ich... habe eine Bitte."->IsRequest]]]
+(if: $Fondled is true)[[["Ich... naja, Sie..."->Fondled II]]](else:)[[["Ich... habe eine Bitte."->IsRequest]]]
 
 
 :: Fondled II
@@ -60,18 +60,18 @@ Sie kreuzt wieder ihre Beine, wischt über ihre Hüften und vollen Oberschenkel,
 
 
 :: IsPresent
-"My family owns half this Ringdom.  I could pay for your every restraint to be removed and any transit ticket you desire.  But I won't.  Here on Torei, girls like you need to learn to earn their keep."
+"Meine Familie besitzt die Hälfte dieser Ringdomäne. Ich könnte für die Entfernung all deiner Fesseln und jedes Transitticket bezahlen, das du dir wünschst. Aber das werde ich nicht tun. Hier auf Torei müssen Frauen wie du lernen sich ihren Lebensunterhalt zu verdienen."
 
-(if: $Level is 1)[Isabella exhales another bit of smoke, her bright red lips forming into a luscious 'O'.  "The Hotel we both stayed at has the right idea with that hobble chain.  But let's go further.  Have you ever been in public with your arms restrained?  It's quite the learning experience to be so helpless.  Chest thrust out, arms pulled back, anyone passing by could touch your tits.  Your ass.  Some do.  Submit to an armbinder, and I'll give you... let's say 25 credits."]
+(if: $Level is 1)[Isabella bläst wieder ein wenig Rauch aus, ihre leuchtend roten Lippen formen sich zu einem herrlichen "O". "Das Hotel, in dem wir beide übernachteten, hat mit dieser Fußfesselkette die richtige Idee. Aber lasst uns noch weiter gehen. Bist du jemals mit gefesselten Armen in der Öffentlichkeit gewesen? Es ist eine ziemlich lehrreiche Erfahrung, so hilflos zu sein. Brust herausgestreckt, Arme nach hinten gezogen, jeder, der vorbeikommt, könnte deine Brüste berühren. Deinen Hintern. Manche tun das. "Unterwirf dich einem Armbinder, und ich gebe dir... sagen wir 25 Credits."]
 
-"(if: $Level is 1)[Go with the armbinder, and I'll add another offer afterward.](if: $Level is 1 or 2)[You might think you're deep into Torean culture now, with all that laminate... its transient.  Passing.  Peel the laminate off, leave this world, and you will have so little to remember us by.  Let's change that.  Just a bit.  I'd like to see you with your nipples pierced.  Submit to that, and I'll give you(if: $Level is 1)[ another] 25 credits."](if: $Level is 3 or 4)[Normally I would offer to add a few bits to your outfit, but you're already in a binder.  And yes, I see those nipple piercings as well.  I won't reward you if you are already being such a good girl... that's *expected* of you."]
+"(if: $Level is 1)[Lege den Armbinder an, und ich werde dir danach ein weiteres Angebot machen.](if: $Level is 1 or 2)[Du denkst vielleicht, dass du jetzt tief in der toreanischen Kultur steckst, mit all dem Laminat... es ist nur temporär. Vorübergehend. Wenn du das Laminat abnimmst, diese Welt verlässt, hast du so wenig, um dich an uns zu erinnern. Das sollten wir ändern. Nur ein bisschen. Ich würde dich gerne mit gepiercten Brustwarzen sehen. Wenn du dich dem unterwirfst, bekommst du(if: $Level is 1)[ weitere] 25 Credits."](if: $Level is 3 or 4)[Normalerweise würde ich dir anbieten, dein Kostüm ein wenig aufzuwerten, aber du steckst bereits in einem Armbinder. Und ja, ich sehe auch deine Brustwarzen-Piercings. Ich werde dich nicht belohnen, wenn du schon so ein braves Mädchen bist... das *erwartet* man von dir."]
 
-"I could offer you a chance to earn some extra credits in the proper Torean fashion," Isabella notes with amusement.  "You still have your body, and your dignity.  I could play with those.  A little pleasure, or perhaps a little etiquette?  I won't tell you what's involved, where is the fun in that-- but I will give you up to 50 credits each, depending on how well you do."
+"Ich könnte dir die Chance bieten, dir auf echte toreanische Art und Weise einige zusätzliche Credits zu verdienen", stellt Isabella amüsiert fest. "Du hast immer noch deinen Körper und deine Würde. Damit könnte ich spielen. Ein wenig Vergnügen oder vielleicht ein wenig Etikette? Ich werde dir nicht sagen, was damit verbunden ist, wo der Spaß dabei liegt-- aber ich gebe dir bis zu 50 Credits pro Spiel, je nachdem, wie gut du dich machst."
 
-Her steel-shod heel taps a few times on the pavement.  "I even have a Freewomb Rail Pass.  "(if: $Slave is true)[You're aware the train and carriages won't allow you aboard in that uniform, yes?  There is a way I would... perhaps have a pass for you, in a manner of speaking.  Otherwise your only option is the Lead, or to find a way out of that suit."  She openly scoffs at that idea.](else:)[But that would take an entirely different sort of commitment from you."]
+Ihre stahlbeschlagene Ferse klopft ein paar Mal auf den Bürgersteig. "Ich habe sogar eine Freischoss Bahnkarte. (if: $Slave is true)[Dir ist bekannt, dass der Zug und die Kutschen dich in diesem Kostüm nicht mitfahren lassen, ja? Es gibt eine Möglichkeit, dass ich... vielleicht einen Pass für dich hätte, gewissermaßen. Sonst bleibt dir nur die Leine oder du musst einen Ausweg aus diesem Kostüm finden." Sie verspottet diese Idee unverhohlen.](else:)[Aber das würde eine ganz andere Art von Verpflichtung von dir erfordern."]
 
-Isabella Naram-Sin looks away, back towards the passing crowds.  "So there are your choices.  Are they good ones?"  She smiles, before raising her cigarette to her lips.
+Isabella Naram-Sin schaut weg, zurück in Richtung der vorbeiziehenden Menge. "Das sind also deine Wahlmöglichkeiten. Sind sie gut?" Sie lächelt, bevor sie die Zigarette an ihre Lippen hebt.
 (set: $PlayP to false)(set: $PlayE to false)
-[[She certainly is full of ideas.->Isabella Hub]]
+[[Sie ist wirklich voller Ideen.->Isabella Hub]]
 
 

@@ -10,6 +10,7 @@ SLAVE CODE      ->  SKLAVENCODE
 Diarch's Choice ->  Diarch's Wahl
 Slave Rated     ->  Sklaven-Klassifiziert
 slave protocols ->  Sklaven Protokoll
+hobble chain    ->  Fußfesselkette 
                 Ministerium für Gebärmütter
                 Ministerium für Verbesserungen
 Ministry of Truants ->  Ministerium für Schuldner

@@ -1,0 +1,48 @@
+:: IsPierce
+"Ich dachte mir schon, dass du das sagen würdest", sinniert Isabella und dreht sich um, um in deine Richtung zu schauen. Ihre Lippen sind so unglaublich leuchtend rot, strahlend, wenn sie lächelt. "Die Bedingungen hierfür sind ganz einfach. Wir machen einen Spaziergang um die Ecke, dort steht ein Garderobengerät. Ich bereite alles vor-- es wird eine Gebühr für das Entfernen und erneute Anbringen des Laminats über deiner Brust anfallen, aber das erledige ich. Es ist für einen guten Zweck.
+
+"Ich gebe dir 25 Credits, und das Garderobengerät wird dir ein paar schöne Piercings durch deine Titten verpassen. Es wird wehtun, aber das ist Torei, wir können das heilen. Aber die Empfindlichkeit? Das wird dauerhaft sein. Bei jedem Schritt vorwärts wird dein Laminat leicht an ihnen reiben... kannst du damit umgehen?"
+
+[["Damit kann ich umgehen, denke ich."->IsPierce 2]]
+[["Dazu bin ich noch nicht bereit, ich muss darüber nachdenken".->Isabella Hub]]
+
+
+:: IsPierce 2
+"Das ist, was ich hören wollte."
+
+Isabella steht in einer Pracht aus schwarzem Laminat auf und führt dich um die Ecke der erhöhten Transitplattform. Eine große Aussparung führt hinunter in einen darunter liegenden Bereich, über dem ein Schild mit der Aufschrift *Öffentliche Einrichtungen* angebracht ist. Diese Einrichtungen stellen sich als mehrere Badezimmer heraus, eines für Männer, eines für Freischösse und eines für Sklavinnen-- und eine Reihe von Garderobengeräten. Es scheint üblich zu sein, nach oder kurz vor einer Reise die Kleidung zu wechseln.
+
+Isabella wählt ein offenes Garderobengerät für dich aus, wobei sie ihre eigenen Zugangsdaten verwendet, um einen wesentlich umfangreicheren Katalog von Optionen aufzurufen, als du ihn im Hotel gesehen hast. Sie wählt versilberte Piercings, die als *Torean Standard* beschrieben werden, und zeigt auf die nun geöffnete Tür.
+
+"Sehr wenige Frauen auf diesem Planeten bleiben für lange Zeit ohne Piercing. Es ist nichts, wofür man sich schämen müsste."
+
+[[Tritt ein.->IsPierce 3]]
+
+
+:: IsPierce 3
+Du hast eine Fußfesselkette und bist gefesselt, und die Garderobe weiß das. Die üblichen Arme greifen nach deinen Handgelenken, Knöcheln und deinem Hals-- aber ein anderer greift auch nach dem Ring in deinem Armbinder. Es bleibt dir überlassen, dir vorzustellen, wofür, oder zumindest bis es sich zeigt.
+
+Das Gerät, das den Ring deines Armbinders festhält, zieht plötzlich nach unten, gerade als deine Beine nach vorne gezogen werden. Du hängst jetzt in der Luft, mit gewölbtem Rücken, deine Brüste drücken gegen die Laminatkörbchen deines Kostüms, während sie herausgedrückt werden. (if: $lave is true or $Brand is true)[Dein Korsett macht die Position extrem schmerzhaft.]
+
+Dann erscheint eine neue Armatur, neu zumindest für deine Augen. Anstelle eines Greifarms oder einer Malerdüse hat diese etwas viel Unheimlicheres: eine Stechkanüle. Lang, silbrig... und bewegt sich mechanisch nach unten, auf deine Brüste zu. Den Schutz, den deine Kleidung bietet, wird kurzzeitig aufgehoben, wobei Lösungsmittel aufgetragen werden, die das Material schnell in Dampf auflösen, den die Ventilatoren gierig absaugen. Mit zermürbender Präzision wird die Nadel positioniert. Es gibt keine Fanfare, keine Warnung-- sie bewegt sich nur plötzlich, einen Moment wartet sie neben deiner Brustwarze, im nächsten Moment sticht sie direkt durch sie hindurch. 
+
+Das Garderobengerät interessiert sich nicht besonders für deine Reaktion. Es liefert ein recht schnell wirkendes Heilmittel, zweifellos ein toreanisches Wunderwerk der Biotechnik, das den Prospector, der du bist, fasziniert hätte, aber das scheint weniger eine Freundlichkeit und mehr ein einfacher Nutzen zu sein. Sobald sie geheilt ist, wird eine silberne Hantel eingesetzt, deine Misshandlung wird nun durch die kleinen silbernen Kugeln markiert, die jetzt den Abschluss deiner Brust bilden.
+
+Bei der Wiederholung des Eingriffs an deiner anderen Brustwarze hängst du schlaff herum. Danach kehren die Düsen zurück und tragen das Laminat deines Kostüms erneut auf. Es ist, als hätten sie ihn nie geöffnet, aber die fremden Empfindungen, die von deiner Brust ausgehen, erinnern dich ständig daran...
+
+<img src="img/5744pPZ.png" width="30%" height="30%">
+
+[[Stolpere hinaus.->IsPierce4]]
+
+
+:: IsPierce4 [Debt]
+Isabella wartet mit der Brille auf der Stirn, um dich besser betrachten zu können. Sie kümmert sich natürlich wenig um deinen Sinn für Privatsphäre und tritt sogleich vor, streckt ihre Hand aus, greift nach deiner (if: $Brand is true or $Slave is true)[eng korsettierten] Taille und hält dich fest, während ihre andere Hand eine deiner glänzenden (if: $Blue is true)[blauen] (if: $Smoke is true)[rauchigen] (if: $Brand is true)[mit einem Logo geschmückten] (if: $Sec is true)[weißen] (if: $Slave is true)[schwarzen] Brüste erforscht. Nachdem sie deine Brustwarze gefunden hat, zieht sie mit ihren laminierten Fingern an dem Stahlstück, das den Nippel jetzt durchstochen hat. Zu deiner Überraschung fühlt es sich fast so gut an, wie es weh tut, und entlockt dir ein Stöhnen, das du nicht zurückhalten kannst.
+(set: $Level to 3)(set: $debt to it + 25)
+
+"Braves Ding", belohnt sie dich dennoch, indem sie kurzzeitig Hüfte an Hüfte steht und ihren Arm noch immer um dich gelegt hat. "Fühlst du das? Streck deine Brust heraus. Das ist *permanent*. Ist das nicht wunderbar?"
+
+Ihr Grinsen bleibt, während sie dich loslässt, dann führt sie dich wieder auf die Straße und um die Ecke. Sie findet ihre Bank und kehrt zu ihr zurück. 
+
+"Du bist keine Toreanerin, solange du die nicht hast", erklärt Isabella, während sie ihre Zigarette wieder hervorholt. "War sonst noch etwas?"
+
+[[Sie hat noch andere Angebote.->Isabella Hub]]

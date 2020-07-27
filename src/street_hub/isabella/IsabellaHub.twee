@@ -1,0 +1,29 @@
+:: Isabella Hub
+<img src="img/9MFJwF5.png" width="30%" height="30%">
+
+Isabella sitzt geduldig da, mit ihrer verspiegelten Brille, und schaut zu, wie die Leute auf der Straße vorbeigehen.
+
+(if: $PlayE is true)[Du erinnerst dich an deine Etikette-Lektion und erkennst sie als gesellschaftliche Überlegene an.  So grüßt du sie mit Ehrfurcht, spreizt deine Beine und (if: $Sec is true)[(if: $Level is 1)[hebst deinen Rock an, legt kurz deine Weiblichkeit bloß, während du den Blick senkst und dich verbeugst.]](if: $Slave is true or $Brand is true or $Blue is true or $Smoke is true)[senkst den Blick, neigst den Kopf und präsentierst den Reißverschluss deines Catsuits, indem du vor ihr niederkniest.] Isabellas gelassener Gesichtsausdruck verwandelt sich in ein leichtes Lächeln.]
+
+Du hast (print: $debt) credits.
+
+(if: $TruantQuest is true and $TruantQuestCarr is false)[[["Haben Sie etwas über die entlaufene Sklavin Amadori gehört?"->IsabellaRunQ]]]
+(if: $Level is 1)[[["Ich möchte über den Erhalt des Armbinders sprechen." (+25 Credits)->IsArm]]]
+(if: $Level is 2)[[[" Sie erwähnten... dass Sie wollen, dass ich mir Piercings stechen lasse?"->IsPierce]]]
+(if: $PlayP is false)[[["Ich würde... gerne spielen, wie Sie sagten. Vergnügen."->IsPlayP]]]
+(if: $PlayE is false)[[["Ich würde... gerne spielen, wie Sie sagten. Etikette."->IsPlayE]]]
+(if: $IsSlave is false and $debtShower is false)[[["Sie erwähnten, dass Sie einen Zugfahrschein haben?"->IsSlavePathREFUTE]]]
+(if: $IsSlave is false and $debtShower is false and $PlayE is true and $PlayP is true)[[["Nun, da wir gespielt haben... Sie erwähnten eine Zugfahrkarte?"->IsSlavePath]]]
+(if: $debtShower is true and $Slave is false)[["Ich will... dieses Sklavenkostüm, das wir besprochen haben."->GetSlave]]
+(if: $Slave is true and $debtShower is true and $Strike is > 10)[["Ich bin bereit, mich zu übergeben, Isabella. Wirklich. Ich möchte Eure Sklavin sein."->Slave Commit]]
+(if: $Donate is true and $DonateEnd is false and $DonateIsabella is false)[[["Isabella, könnte ich mit Ihnen über die Liberty Society sprechen?"->DonateIsabella]]]
+[["Sagten Sie, Ihrer Familie gehöre die Hälfte dieser Stadt?"->IsAsk]]
+[[Vorerst gehst du weg und suchst woanders nach Hilfe.->TransitChecktoHub]]
+
+
+:: IsAsk
+Isabella nickt und richtet danach den Fall ihres Pferdeschwanzes nach. "Ich weiß, du kannst dich nicht an viel erinnern, aber du musst doch von den Diarchs gehört haben, oder? Diarchie bedeutet die Herrschaft der Zwei. Technisch gesehen kann jeder Mann oder Freischoss in den Platz eines Diarchen gewählt werden. In Wirklichkeit stammen sie aber immer aus denselben zwei Familien. Eine von ihnen, die Naram-Sin, ist meine."
+
+Sie klopft ihre elektronische Zigarette ab, trotz des Mangels an Asche. Vielleicht ist es eine alte Gewohnheit. "Aber es ist eine große Familie. Ich habe den Diarch meiner Familie nur einmal getroffen. Wie auch immer, du bist nicht hier, um über Politik zu reden.  Reden wir über etwas *Spaßiges*.
+
+[["Spaß.  Genau..."->Isabella Hub]]
